@@ -59,7 +59,7 @@ const Profile = styled.div`
   display: flex;
   align-items: center;  
   p{
-    marign-right: 20px;
+    margin-right: 20px !important;
   }
   img{
     width: 35px;
