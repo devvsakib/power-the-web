@@ -15,7 +15,7 @@ function Header() {
       </NavMenu>
       <Profile>
       <p>Profile</p>
-        <img src='https://play-lh.googleusercontent.com/IeNJWoKYx1waOhfWF6TiuSiWBLfqLb18lmZYXSgsH1fvb8v1IYiZr5aYWe0Gxu-pVZX3' />
+        <img src='https://img.i-scmp.com/cdn-cgi/image/fit=contain,width=425,format=auto/sites/default/files/styles/768x768/public/d8/images/methode/2020/04/15/2240ae0e-7eda-11ea-8736-98edddd9b5ca_image_hires_181558.JPG?itok=PvxUXTaV&v=1586945766' />
       </Profile>
     </Container>
   )
@@ -33,10 +33,11 @@ const Container = styled.div`
   text-transform: uppercase;
   font-size: 12px;
   @media (max-width: 375px){
-    height:50px;
+    height:45px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    padding-bottom: 0;
+
   }
   letter-spacing: 1px
   `
