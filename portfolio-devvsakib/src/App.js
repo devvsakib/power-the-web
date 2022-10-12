@@ -1,8 +1,15 @@
 import React from 'react'
+import Header from './components/Header/Header'
+import HeroSection from './components/HeroSection/Hero'
+import Rand from './components/rand/Rand'
 
 function App() {
     return (
-        <div><h1>Hello</h1></div>
+        <>
+            <Header />
+            <HeroSection />
+            <Rand />
+        </>
     )
 }
 

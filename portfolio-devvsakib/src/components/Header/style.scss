@@ -1,0 +1,185 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 25px;
+
+    .btns {
+        padding: 2px 25px;
+        cursor: pointer;
+        border: none;
+        background-color: orange;
+        color: rgb(3, 3, 3);
+        font-weight: 600;
+        font-size: 1rem;
+        border-radius: 5px;
+    }
+}
+
+
+.logo {
+    font-weight: 700;
+    display: flex;
+    align-content: center;
+    width: 150px;
+    cursor: pointer;
+    flex: 1;
+
+    .logo-icon {
+        margin-top: -3px;
+        font-size: 2rem;
+    }
+
+    a {
+        color: white;
+        font-size: 1.2rem;
+        margin-left: 5px;
+
+    }
+}
+
+.menuContainer {
+    width: 300px;
+
+
+    ul {
+        display: flex;
+        justify-content: flex-end;
+        position: relative;
+
+        :last-child {
+            margin-left: 8px;
+        }
+
+        li {
+            &::after {
+                content: '';
+                position: absolute;
+                bottom: 0;
+                top: -3px;
+                left: -8px;
+                background-color: rgb(0, 0, 0);
+                height: 100%;
+                width: 5px;
+                transform: scale(0);
+                transition: transform 350ms ease-in-out;
+            }
+
+            a {
+                color: white;
+                font-weight: 600;
+                padding-bottom: 5px;
+                position: relative;
+
+                &::after {
+                    content: '';
+                    position: absolute;
+                    bottom: 0;
+                    top: -3px;
+                    left: -8px;
+                    background-color: rgb(0, 0, 0);
+                    height: 100%;
+                    width: 5px;
+                    transform: scaleY(0);
+                    transition: transform 350ms ease-in-out;
+                }
+
+                &:hover::after {
+                    // transform-origin: left 5px -3px;
+
+                    transform: scaleY(1);
+                    border-radius: 0 0 50px 50px;
+                    background-color: rgb(184, 167, 231);
+
+                }
+            }
+        }
+    }
+}
+
+#menuIcon {
+    display: none;
+    flex: 2;
+}
+
+@media (max-width: 576px) {
+    .container {
+        // display: flex;
+
+        justify-content: space-between;
+        flex-wrap: wrap;
+        position: relative;
+
+        // 
+        // 
+        // 
+        .leftImg {
+            img {
+                left: -110px;
+            }
+
+            h3 {
+                left: -110px;
+
+                &::after {
+                    content: "Holo";
+                    font-size: 13px;
+                    padding-left: 0;
+                    text-align: center;
+                    line-height: 80px;
+                    height: 80px;
+                    width: 80px;
+                }
+            }
+        }
+
+        // 
+        // 
+        // 
+        #menuIcon {
+            display: inline-block;
+            cursor: pointer;
+        }
+
+
+        .menuContainer {
+            text-align: end;
+            display: block;
+            position: absolute;
+            width: 100%;
+            top: calc(50px - 1px);
+            left: 0;
+            z-index: 9999;
+            .hide {
+                display: none;
+            }
+
+            ul {
+                display: block;
+                text-align: center;
+                overflow: hidden;
+
+                li {
+                    width: 100%;
+
+                    a {
+                        margin-left: 0;
+                        padding: 25px 0;
+                        display: block;
+                        background-color: tomato;
+                        transition: all 350ms ease-in-out;
+
+                        &:hover {
+                            background-color: gray;
+                            color: red;
+                        }
+                    }
+
+                    &:last-child {
+                        margin-left: 0px;
+                        border-radius: 10px !important;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,8 +1,7 @@
-import React from 'react'
+import { React, useState } from 'react'
 import styled from 'styled-components'
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
-import { useState } from 'react'
 
 function Header() {
     const [burgerOpen, setBurgerStatus] = useState(false);
