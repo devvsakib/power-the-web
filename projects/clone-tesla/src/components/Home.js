@@ -7,15 +7,11 @@ function Home() {
     return (
             
         <Container>
-            {/* <video autoPlay loop muted> */}
-            {/* <source src='/images/performance_video_desktop.mp4' type="video/mp4" /> */}
-            {/* </video> */}
+            
             <Section
                 title="Cybertruck"
                 description="BETTER UTILITY THAN A TRUCK WITH MORE PERFORMANCE THAN A SPORTS CAR"
-                // bgvdo={bgvdo}
-                
-                bgimg="performance_video_desktop.mp4"
+                bgimg="cybertruck.jpg"
                 leftBtn="Custom Order"
             />
             <Section
