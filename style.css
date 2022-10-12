@@ -1,0 +1,17 @@
+.main-container{
+    background-color:  white;
+    color: black;
+    width: 100vw;
+    height: calc( 100vh - 42px);
+    display: grid;
+    place-items: center;
+    text-transform: uppercase;
+    text-align: center;
+}
+h1{
+    font-weight: 700;
+}
+span{
+    color: red;
+    font-weight: 600;
+}
