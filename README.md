@@ -34,6 +34,17 @@ git add . git commit -m "Your commit Message" git push origin branch-name
 - Make a pull request.
 - Star the repository.
 
+### Adding Projects
+If you want to add your project in repository, you are welcome. Please add your project in "PROJECTS" folder and make sure to name your folder as your project.
+<br>
+Ex:
+<br>
+we have a react projects in "PROJECTS" folder
+<br>
+and we named it "clone-tesla"
+<br><br>
+So, people will know what project it is.
+
 ### NOTE
 
 - Make Sure you commit your changes in a new branch.
