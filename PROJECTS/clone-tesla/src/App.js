@@ -1,4 +1,4 @@
-import '~/assets/App.css';
+import '~/assets/styles/App.css';
 import Header from './components/Header';
 import Home from './components/Home'
 
