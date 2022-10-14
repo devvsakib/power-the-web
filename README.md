@@ -43,7 +43,7 @@ we have a react projects in "PROJECTS" folder
 <br>
 and we named it "clone-tesla"
 <br><br>
-So, people will know what project it is. Don't make sure you added your github name and link as comment in your file
+So, people will know what project it is. Make sure you added your github name and link as comment in your file
 
 ### NOTE
 
