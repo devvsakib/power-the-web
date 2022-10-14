@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link type="image/x-icon" rel="shortcut icon" href="./images/clippy.png" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="./images/new.png" type="image/png" class="bg-img" />
+    <title>Work Day Scheduler</title>
+  </head>
+
+<body>
+  <header class="jumbotron">
+    <h1 class="display-3">Work Day Scheduler</h1>
+    <p class="lead">A simple calendar app for scheduling your work day</p>
+    <p id="currentDay" class="lead"></p>
+    <p class="lead"><button class="btn btn-danger" id="darkMode">Enable Dark Mode</button> </p>
+  </header>
+
+  <div class="container">
+    <div class="row justify-content-md-center">
+      <div class="col-xs-12 col-md-12 pb-2 pt-3 datePicker">
+        <div class="row">
+          <div class="col-md-2 mb-2">
+            <button type="button" class="btn btn-warning" style="width: 100%" id="dayEarlier">
+              &lt;
+            </button>
+          </div>
+          <div class="col-md-8 mb-2">
+            <div style="background-color: yellow; width: 100%" class="btn" id="dayPicked"></div>
+          </div>
+          <div class="col-md-2 mb-2">
+            <button type="button" class="btn btn-warning" style="width: 100%" id="dayLater">
+              &gt;
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row mb-3" id="timeBlocks"></div>
+
+    <footer>
+      <div class="btn_back"> <a href="#" class="goToTop"><button type="button" class="btn btn-primary btn-lg">Back to
+            top</button></a>
+      </div>
+    </footer>
+  </div>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.25.1/moment-with-locales.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
