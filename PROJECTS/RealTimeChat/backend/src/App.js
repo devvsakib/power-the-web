@@ -1,5 +1,8 @@
 import express from 'express'
 
+import { createServer } from 'http'
+import { Server } from 'socket.io'
+
 // Middleware
 import cors from 'cors'
 import compression from 'compression'
@@ -10,7 +13,14 @@ import LogHttpRequest from './Middlewares/LogHttpRequest'
 // Router
 import NoMatchRouter from './Routes/NoMatch'
 
+// Listeners
+import MainListener from './Listeners'
+
 const app = express()
+
+const server = createServer(app)
+
+const io = new Server(server)
 
 // Middleware
 app.use(compression())
@@ -23,8 +33,9 @@ app.use(cors())
 
 app.use(LogHttpRequest)
 
-// Router
+io.on('connection', MainListener)
 
+// Router
 app.use('*', NoMatchRouter)
 
 export default app
