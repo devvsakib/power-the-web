@@ -38,4 +38,4 @@ io.on('connection', MainListener)
 // Router
 app.use('*', NoMatchRouter)
 
-export default app
+export default server
