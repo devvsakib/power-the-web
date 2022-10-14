@@ -1,0 +1,64 @@
+body{
+  font-family:'Fredoka One', cursive;
+  font-family: 'Space Mono', monospace;
+}
+h3 {
+  background-color: #d3d3d3;
+  border-radius: 5px;
+  text-align: center;
+  width: 100%;
+}
+
+.label,
+.create,
+.delete {
+  width: 100%;
+}
+
+.jumbotron {
+  text-align: center;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.6) 0%,
+      rgba(0, 0, 0, 0.6) 100%
+    ),
+    url(https://placeimg.com/1000/481/nature);
+  background-attachment: static;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  color: white;
+  border-radius: 0;
+  border-bottom: 10px solid black;
+}
+
+.todos {
+  border-top: 1px solid white;
+}
+
+.datePicker,
+.timeBlock {
+  border-radius: 5px;
+
+}
+
+
+#dayEarlier,
+#dayPicked,
+#dayLater {
+  font-size: 2em;
+  font-weight: bold;
+  align-items: center;
+  border-radius: 50px;
+
+}
+#dayEarlier,
+#dayLater {
+  font-weight: bold;
+}
+
+.btn-primary{
+  font-weight: bold;
+}
+
