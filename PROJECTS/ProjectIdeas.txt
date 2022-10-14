@@ -10,4 +10,14 @@ Ideas For ReactJs
 - calculator
 - Weather App
 - Clock 
--
+- Resume Builder Web App
+- App Clones 
+- Markdown Editor
+- DSA Tracker App
+- Productivity App
+- Entertainment App
+- Dating App
+- Expense Tracking Application/Money Tracker
+- Quiz Application
+- Sleeping Tracker App
+- Fitness App/Workout Tracker
