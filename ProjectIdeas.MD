@@ -1,5 +1,6 @@
 # Add some ideas if you have any
 Ideas For ReactJs
+- Counter app (Done #16)
 - eCommerce App
 - Keeper App
 - Social Media App
@@ -7,7 +8,7 @@ Ideas For ReactJs
 - ToDo List
 - Real Time Chat box
 - Music Player
-- calculator
+- calculator (Done #17)
 - Weather App
 - Clock 
 - Resume Builder Web App
