@@ -38,6 +38,7 @@
 		"dotenv": "^16.0.2",
 		"express": "^4.17.2",
 		"helmet": "^6.0.0",
+		"socket.io": "^4.5.2",
 		"winston": "^3.8.2",
 		"winston-daily-rotate-file": "^4.7.1"
 	},
