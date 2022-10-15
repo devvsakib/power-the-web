@@ -1,6 +1,6 @@
 import { FC, useEffect, useState } from 'react'
 
-import type { Props, IMessages, IUsers, IMessage } from './Types'
+import type { Props, IMessages, IUsers, IMessage, IUser } from './Types'
 
 import {
 	Container,
@@ -28,11 +28,27 @@ const Chat: FC<Props> = ({ socket, username }) => {
 		})
 
 		socket.once('users:history', (messages: IUsers) => {
-			SetUsers([{ id: socket.id, username }, ...messages])
+			SetUsers([
+				{ id: socket.id, username, disconected: false },
+				...messages.map((user: IUser) => ({
+					...user,
+					disconnected: false,
+				})),
+			])
 		})
 
 		socket.on('message:receive', (message: IMessage) => {
 			SetMessages(prev => [...prev, message])
+		})
+
+		socket.on('users:disconnect', ({ id }: { id: string }) => {
+			SetUsers(prev =>
+				prev.map(user => {
+					if (user.id === id) return { ...user, disconected: true }
+
+					return user
+				})
+			)
 		})
 
 		return () => {
@@ -44,11 +60,14 @@ const Chat: FC<Props> = ({ socket, username }) => {
 		<Container>
 			<UsersStyled>
 				<h3>Users</h3>
-				{Users.map(({ id, username }) => (
-					<User me={id === socket.id} key={id}>
-						{username}
-					</User>
-				))}
+				{Users.map(
+					({ id, username, disconected }) =>
+						!disconected && (
+							<User me={id === socket.id} key={id}>
+								{username}
+							</User>
+						)
+				)}
 			</UsersStyled>
 			<ChatBox>
 				<MessagesStyled>

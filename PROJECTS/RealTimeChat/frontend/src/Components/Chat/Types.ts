@@ -24,6 +24,7 @@ export type IMessages = IMessage[]
 export interface IUser {
 	id: string
 	username: string
+	disconected: boolean
 }
 
 export type IUsers = IUser[]
