@@ -51,6 +51,10 @@ const Chat: FC<Props> = ({ socket, username }) => {
 			)
 		})
 
+		socket.on('users:new', ({ id, username }: IUser) => {
+			SetUsers(prev => [...prev, { id, username, disconected: false }])
+		})
+
 		return () => {
 			socket.off()
 		}
