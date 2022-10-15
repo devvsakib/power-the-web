@@ -1,4 +1,4 @@
-import { FC, useState } from 'react'
+import { FC, useEffect, useState } from 'react'
 
 import type { Props } from './Types'
 
@@ -19,6 +19,14 @@ import {
 
 const Chat: FC<Props> = ({ socket }) => {
 	const [Text, SetText] = useState('')
+
+	useEffect(() => {
+		socket.on('message:history', (...data) => console.log(...data))
+
+		return () => {
+			socket.off()
+		}
+	}, [socket])
 
 	return (
 		<Container>
