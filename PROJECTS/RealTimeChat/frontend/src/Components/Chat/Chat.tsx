@@ -22,7 +22,7 @@ const Chat: FC<Props> = ({ socket }) => {
 	const [Messages, SetMessages] = useState<IMessages>([])
 
 	useEffect(() => {
-		socket.once('message:history', messages => {
+		socket.once('message:history', (messages: IMessages) => {
 			SetMessages(messages)
 		})
 
@@ -41,12 +41,14 @@ const Chat: FC<Props> = ({ socket }) => {
 			</Users>
 			<ChatBox>
 				<MessagesStyled>
-					<Message mine>
-						<MessageWrapper>
-							<MessageSender>A</MessageSender>
-							<MessageText>Hello1</MessageText>
-						</MessageWrapper>
-					</Message>
+					{Messages.map(({ sender, message, id }) => (
+						<Message mine={sender === socket.id} key={id}>
+							<MessageWrapper>
+								<MessageSender>{sender}</MessageSender>
+								<MessageText>{message}</MessageText>
+							</MessageWrapper>
+						</Message>
+					))}
 				</MessagesStyled>
 				<InputContainer>
 					<Input
