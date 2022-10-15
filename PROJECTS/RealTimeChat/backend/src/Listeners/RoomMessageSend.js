@@ -9,7 +9,7 @@ const RoomMessageSend = (socket, message, callback) => {
 
 	callback({ id })
 
-	socket.broadcast.emit('message:receive', { sender: socket.id, message })
+	socket.broadcast.emit('message:receive', { sender: socket.id, message, id })
 }
 
 export default RoomMessageSend
