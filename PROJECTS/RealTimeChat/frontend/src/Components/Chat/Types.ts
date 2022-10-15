@@ -7,3 +7,11 @@ export interface Props {
 export interface MessageProps {
 	mine: boolean
 }
+
+export interface IMessage {
+	sender: string
+	message: string
+	id: string
+}
+
+export type IMessages = IMessage[]

@@ -1,13 +1,13 @@
 import { FC, useEffect, useState } from 'react'
 
-import type { Props } from './Types'
+import type { Props, IMessages } from './Types'
 
 import {
 	Container,
 	Users,
 	User,
 	ChatBox,
-	Messages,
+	MessagesStyled,
 	Message,
 	Input,
 	InputContainer,
@@ -19,9 +19,12 @@ import {
 
 const Chat: FC<Props> = ({ socket }) => {
 	const [Text, SetText] = useState('')
+	const [Messages, SetMessages] = useState<IMessages>([])
 
 	useEffect(() => {
-		socket.on('message:history', (...data) => console.log(...data))
+		socket.once('message:history', messages => {
+			SetMessages(messages)
+		})
 
 		return () => {
 			socket.off()
@@ -37,14 +40,14 @@ const Chat: FC<Props> = ({ socket }) => {
 				<User>C</User>
 			</Users>
 			<ChatBox>
-				<Messages>
+				<MessagesStyled>
 					<Message mine>
 						<MessageWrapper>
 							<MessageSender>A</MessageSender>
 							<MessageText>Hello1</MessageText>
 						</MessageWrapper>
 					</Message>
-				</Messages>
+				</MessagesStyled>
 				<InputContainer>
 					<Input
 						placeholder='text'

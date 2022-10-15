@@ -3,6 +3,7 @@ import { FC, useState, useEffect } from 'react'
 // eslint-disable-next-line import/no-named-as-default
 import io, { Socket } from 'socket.io-client'
 
+// eslint-disable-next-line import/no-unresolved
 import Chat from 'Components/Chat/Chat'
 
 import { Button, Container, InnerContainer, Input } from './AppStyles'
@@ -31,7 +32,7 @@ const App: FC = () => {
 		() => () => {
 			Socket?.disconnect()
 		},
-		[]
+		[Socket]
 	)
 
 	if (IsConnected && Socket) return <Chat socket={Socket} />

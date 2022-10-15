@@ -42,7 +42,7 @@ export const ChatBox = styled.div`
 	height: 100%;
 `
 
-export const Messages = styled.div`
+export const MessagesStyled = styled.div`
 	height: 90%;
 	width: 100%;
 
