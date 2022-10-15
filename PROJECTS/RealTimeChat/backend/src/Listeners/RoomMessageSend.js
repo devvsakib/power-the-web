@@ -7,7 +7,7 @@ const RoomMessageSend = (socket, message, callback) => {
 
 	AddMessage(socket.id, id, message)
 
-	callback({ id })
+	if (callback) callback({ id })
 
 	socket.broadcast.emit('message:receive', { sender: socket.id, message, id })
 }
