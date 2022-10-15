@@ -59,7 +59,7 @@ const Chat: FC<Props> = ({ socket, username }) => {
 				</MessagesStyled>
 				<InputContainer>
 					<Input
-						placeholder='text'
+						placeholder='Text'
 						onChange={event => SetText(event.target.value)}
 						value={Text}
 					/>
