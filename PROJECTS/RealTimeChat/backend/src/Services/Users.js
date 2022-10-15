@@ -9,3 +9,5 @@ export const AddUser = (id, username) => {
 
 	return true
 }
+
+export const GetUsers = () => users

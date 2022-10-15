@@ -1,4 +1,4 @@
-import { AddUser } from '../Services/Users'
+import { AddUser, GetUsers } from '../Services/Users'
 import { GetMessages } from '../Services/Messages'
 
 import RoomMessageSendListener from './RoomMessageSend'
@@ -9,6 +9,7 @@ const MainListener = socket => {
 	socket.broadcast.emit('users:new', { id: socket.id, username })
 
 	socket.emit('message:history', GetMessages())
+	socket.emit('users:history', GetUsers())
 
 	AddUser(socket.id, username)
 
