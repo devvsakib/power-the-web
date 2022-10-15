@@ -16,7 +16,7 @@ export const InnerContainer = styled.div`
 
 	border: 3px solid black;
 
-	width: clamp(30%, 30%, 80%);
+	min-width: 30%;
 	height: 150px;
 
 	border-radius: 15px;
