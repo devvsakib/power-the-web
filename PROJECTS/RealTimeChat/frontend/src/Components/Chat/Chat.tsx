@@ -1,6 +1,6 @@
 import { FC, useEffect, useState } from 'react'
 
-import type { Props, IMessages, IUsers } from './Types'
+import type { Props, IMessages, IUsers, IMessage } from './Types'
 
 import {
 	Container,
@@ -29,6 +29,10 @@ const Chat: FC<Props> = ({ socket, username }) => {
 
 		socket.once('users:history', (messages: IUsers) => {
 			SetUsers([{ id: socket.id, username }, ...messages])
+		})
+
+		socket.on('message:receive', (message: IMessage) => {
+			SetMessages(prev => [...prev, message])
 		})
 
 		return () => {
