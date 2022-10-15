@@ -8,6 +8,10 @@ export const Container = styled.div`
 
 	display: flex;
 	flex-direction: row;
+
+	@media only screen and (max-width: 512px) {
+		flex-direction: column;
+	}
 `
 
 export const Users = styled.div`
@@ -21,8 +25,11 @@ export const Users = styled.div`
 
 	align-items: center;
 
-	&:first-child {
-		margin-bottom: 10px;
+	@media only screen and (max-width: 512px) {
+		height: 30%;
+		width: 100%;
+		border-right: none;
+		border-bottom: 1px solid black;
 	}
 `
 
@@ -31,6 +38,10 @@ export const User = styled.div<Partial<UserProps>>`
 	padding: 10px 20px;
 	width: 100%;
 	border-right: none;
+
+	@media only screen and (max-width: 512px) {
+		border-right: 1px solid black;
+	}
 
 	&:not(:last-child) {
 		border-bottom: none;
@@ -49,6 +60,11 @@ export const User = styled.div<Partial<UserProps>>`
 export const ChatBox = styled.div`
 	width: 80%;
 	height: 100%;
+
+	@media only screen and (max-width: 512px) {
+		width: 100%;
+		height: 70%;
+	}
 `
 
 export const MessagesStyled = styled.div`
@@ -140,6 +156,10 @@ export const Button = styled.button`
 	padding: 10px 20px;
 
 	cursor: pointer;
+
+	@media only screen and (max-width: 512px) {
+		padding: 5px 10px;
+	}
 `
 
 export const Input = styled.input`
