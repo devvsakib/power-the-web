@@ -15,7 +15,7 @@ export const GetUsers = () => users
 export const RemoveUser = id => {
 	const index = users.findIndex(user => user.id === id)
 
-	if (!index) return false
+	if (index < 0) return false
 
 	users.splice(index, 1)
 
