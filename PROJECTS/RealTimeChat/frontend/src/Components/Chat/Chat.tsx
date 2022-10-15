@@ -25,6 +25,10 @@ const Chat: FC<Props> = ({ socket, username }) => {
 	const LastMessageRef = useRef<HTMLDivElement>(null)
 
 	useEffect(() => {
+		if (Notification.permission !== 'granted') {
+			Notification.requestPermission()
+		}
+
 		socket.once('message:history', (messages: IMessages) => {
 			SetMessages(messages)
 		})
@@ -41,6 +45,14 @@ const Chat: FC<Props> = ({ socket, username }) => {
 
 		socket.on('message:receive', (message: IMessage) => {
 			SetMessages(prev => [...prev, message])
+
+			const sender: string =
+				Users.find(user => user.id === message.sender)?.username ??
+				'Not Found'
+
+			new Notification(`New message by ${sender}`, {
+				body: message.message.substring(0, 100),
+			})
 		})
 
 		socket.on('users:disconnect', ({ id }: { id: string }) => {
@@ -60,7 +72,7 @@ const Chat: FC<Props> = ({ socket, username }) => {
 		return () => {
 			socket.off()
 		}
-	}, [socket, username])
+	}, [Users, socket, username])
 
 	useEffect(() => {
 		LastMessageRef.current?.scrollIntoView({ behavior: 'smooth' })
