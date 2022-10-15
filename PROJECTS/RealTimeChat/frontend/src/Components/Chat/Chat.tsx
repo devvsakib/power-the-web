@@ -1,4 +1,4 @@
-import { FC } from 'react'
+import { FC, useState } from 'react'
 
 import type { Props } from './Types'
 
@@ -18,6 +18,8 @@ import {
 } from './Styles'
 
 const Chat: FC<Props> = ({ socket }) => {
+	const [Text, SetText] = useState('')
+
 	return (
 		<Container>
 			<Users>
@@ -34,183 +36,13 @@ const Chat: FC<Props> = ({ socket }) => {
 							<MessageText>Hello1</MessageText>
 						</MessageWrapper>
 					</Message>
-					<Message>
-						<MessageWrapper>
-							<MessageSender>A</MessageSender>
-							<MessageText>Hello2</MessageText>
-						</MessageWrapper>
-					</Message>
-					<Message mine>
-						<MessageWrapper>
-							<MessageSender>A</MessageSender>
-							<MessageText>Hello1</MessageText>
-						</MessageWrapper>
-					</Message>
-					<Message>
-						<MessageWrapper>
-							<MessageSender>A</MessageSender>
-							<MessageText>Hello2</MessageText>
-						</MessageWrapper>
-					</Message>
-					<Message mine>
-						<MessageWrapper>
-							<MessageSender>A</MessageSender>
-							<MessageText>Hello1</MessageText>
-						</MessageWrapper>
-					</Message>
-					<Message>
-						<MessageWrapper>
-							<MessageSender>A</MessageSender>
-							<MessageText>Hello2</MessageText>
-						</MessageWrapper>
-					</Message>
-					<Message mine>
-						<MessageWrapper>
-							<MessageSender>A</MessageSender>
-							<MessageText>Hello1</MessageText>
-						</MessageWrapper>
-					</Message>
-					<Message>
-						<MessageWrapper>
-							<MessageSender>A</MessageSender>
-							<MessageText>Hello2</MessageText>
-						</MessageWrapper>
-					</Message>
-					<Message mine>
-						<MessageWrapper>
-							<MessageSender>A</MessageSender>
-							<MessageText>Hello1</MessageText>
-						</MessageWrapper>
-					</Message>
-					<Message>
-						<MessageWrapper>
-							<MessageSender>A</MessageSender>
-							<MessageText>Hello2</MessageText>
-						</MessageWrapper>
-					</Message>
-					<Message mine>
-						<MessageWrapper>
-							<MessageSender>A</MessageSender>
-							<MessageText>Hello1</MessageText>
-						</MessageWrapper>
-					</Message>
-					<Message>
-						<MessageWrapper>
-							<MessageSender>A</MessageSender>
-							<MessageText>Hello2</MessageText>
-						</MessageWrapper>
-					</Message>
-					<Message mine>
-						<MessageWrapper>
-							<MessageSender>A</MessageSender>
-							<MessageText>Hello1</MessageText>
-						</MessageWrapper>
-					</Message>
-					<Message>
-						<MessageWrapper>
-							<MessageSender>A</MessageSender>
-							<MessageText>Hello2</MessageText>
-						</MessageWrapper>
-					</Message>
-					<Message mine>
-						<MessageWrapper>
-							<MessageSender>A</MessageSender>
-							<MessageText>Hello1</MessageText>
-						</MessageWrapper>
-					</Message>
-					<Message>
-						<MessageWrapper>
-							<MessageSender>A</MessageSender>
-							<MessageText>Hello2</MessageText>
-						</MessageWrapper>
-					</Message>
-					<Message mine>
-						<MessageWrapper>
-							<MessageSender>A</MessageSender>
-							<MessageText>Hello1</MessageText>
-						</MessageWrapper>
-					</Message>
-					<Message>
-						<MessageWrapper>
-							<MessageSender>A</MessageSender>
-							<MessageText>Hello2</MessageText>
-						</MessageWrapper>
-					</Message>
-					<Message mine>
-						<MessageWrapper>
-							<MessageSender>A</MessageSender>
-							<MessageText>Hello1</MessageText>
-						</MessageWrapper>
-					</Message>
-					<Message>
-						<MessageWrapper>
-							<MessageSender>A</MessageSender>
-							<MessageText>Hello2</MessageText>
-						</MessageWrapper>
-					</Message>
-					<Message mine>
-						<MessageWrapper>
-							<MessageSender>A</MessageSender>
-							<MessageText>Hello1</MessageText>
-						</MessageWrapper>
-					</Message>
-					<Message>
-						<MessageWrapper>
-							<MessageSender>A</MessageSender>
-							<MessageText>Hello2</MessageText>
-						</MessageWrapper>
-					</Message>
-					<Message mine>
-						<MessageWrapper>
-							<MessageSender>A</MessageSender>
-							<MessageText>Hello1</MessageText>
-						</MessageWrapper>
-					</Message>
-					<Message>
-						<MessageWrapper>
-							<MessageSender>A</MessageSender>
-							<MessageText>Hello2</MessageText>
-						</MessageWrapper>
-					</Message>
-					<Message mine>
-						<MessageWrapper>
-							<MessageSender>A</MessageSender>
-							<MessageText>Hello1</MessageText>
-						</MessageWrapper>
-					</Message>
-					<Message>
-						<MessageWrapper>
-							<MessageSender>A</MessageSender>
-							<MessageText>Hello2</MessageText>
-						</MessageWrapper>
-					</Message>
-					<Message mine>
-						<MessageWrapper>
-							<MessageSender>A</MessageSender>
-							<MessageText>Hello1</MessageText>
-						</MessageWrapper>
-					</Message>
-					<Message>
-						<MessageWrapper>
-							<MessageSender>A</MessageSender>
-							<MessageText>Hello2</MessageText>
-						</MessageWrapper>
-					</Message>
-					<Message mine>
-						<MessageWrapper>
-							<MessageSender>A</MessageSender>
-							<MessageText>Hello1</MessageText>
-						</MessageWrapper>
-					</Message>
-					<Message>
-						<MessageWrapper>
-							<MessageSender>A</MessageSender>
-							<MessageText>Hello2</MessageText>
-						</MessageWrapper>
-					</Message>
 				</Messages>
 				<InputContainer>
-					<Input />
+					<Input
+						placeholder='text'
+						onChange={event => SetText(event.target.value)}
+						value={Text}
+					/>
 					<Button>Send</Button>
 				</InputContainer>
 			</ChatBox>
