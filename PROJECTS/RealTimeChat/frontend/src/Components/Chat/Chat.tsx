@@ -51,7 +51,12 @@ const Chat: FC<Props> = ({ socket, username }) => {
 					{Messages.map(({ sender, message, id }) => (
 						<Message mine={sender === socket.id} key={id}>
 							<MessageWrapper>
-								<MessageSender>{sender}</MessageSender>
+								<MessageSender>
+									{
+										Users.find(user => user.id === sender)
+											?.username
+									}
+								</MessageSender>
 								<MessageText>{message}</MessageText>
 							</MessageWrapper>
 						</Message>
