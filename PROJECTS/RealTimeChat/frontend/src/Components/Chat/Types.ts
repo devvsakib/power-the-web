@@ -2,10 +2,15 @@ import { Socket } from 'socket.io-client'
 
 export interface Props {
 	socket: Socket
+	username: string
 }
 
 export interface MessageProps {
 	mine: boolean
+}
+
+export interface UserProps {
+	me: boolean
 }
 
 export interface IMessage {
@@ -15,3 +20,10 @@ export interface IMessage {
 }
 
 export type IMessages = IMessage[]
+
+export interface IUser {
+	id: string
+	username: string
+}
+
+export type IUsers = IUser[]

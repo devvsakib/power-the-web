@@ -1,6 +1,6 @@
 import styled, { css } from 'styled-components'
 
-import type { MessageProps } from './Types'
+import type { MessageProps, UserProps } from './Types'
 
 export const Container = styled.div`
 	width: 100vw;
@@ -26,7 +26,7 @@ export const Users = styled.div`
 	}
 `
 
-export const User = styled.div`
+export const User = styled.div<UserProps>`
 	border: 1px solid black;
 	padding: 10px 20px;
 	width: 100%;
@@ -35,6 +35,15 @@ export const User = styled.div`
 	&:not(:last-child) {
 		border-bottom: none;
 	}
+
+	${({ me }) =>
+		me
+			? css`
+					background-color: #00ff00;
+			  `
+			: css`
+					background-color: #e6e6e6;
+			  `}
 `
 
 export const ChatBox = styled.div`

@@ -35,7 +35,8 @@ const App: FC = () => {
 		[Socket]
 	)
 
-	if (IsConnected && Socket) return <Chat socket={Socket} />
+	if (IsConnected && Socket)
+		return <Chat socket={Socket} username={Username} />
 
 	return (
 		<Container>
