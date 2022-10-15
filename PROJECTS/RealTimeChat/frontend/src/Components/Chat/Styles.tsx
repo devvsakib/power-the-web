@@ -116,7 +116,9 @@ export const MessageSender = styled.p`
 	font-size: 12px;
 `
 
-export const MessageText = styled.p``
+export const MessageText = styled.p`
+	word-break: break-all;
+`
 
 export const MessageWrapper = styled.div`
 	width: fit-content;
