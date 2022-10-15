@@ -25,6 +25,23 @@ export const Users = styled.div`
 
 	align-items: center;
 
+	overflow-y: scroll;
+
+	scrollbar-width: thin;
+	scrollbar-color: #888888 #f1f1f1;
+
+	&::-webkit-scrollbar {
+		width: 10px;
+	}
+
+	&::-webkit-scrollbar-track {
+		background: #f1f1f1;
+	}
+
+	&::-webkit-scrollbar-thumb {
+		background: #888888;
+	}
+
 	@media only screen and (max-width: 512px) {
 		height: 30%;
 		width: 100%;
