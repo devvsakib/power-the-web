@@ -1,12 +1,16 @@
 import { FC, useState } from 'react'
 
 // eslint-disable-next-line import/no-named-as-default
-import io from 'socket.io-client'
+import io, { Socket } from 'socket.io-client'
 
 import { Button, Container, InnerContainer, Input } from './AppStyles'
 
 const App: FC = () => {
 	const [Username, SetUsername] = useState('')
+
+	const [IsConnected, SetIsConnected] = useState(false)
+
+	const [Socket, SetSocket] = useState<Socket | null>(null)
 
 	const Connect = () => {
 		if (Username.length < 3) return alert('Username minimum length is 3')
@@ -17,7 +21,8 @@ const App: FC = () => {
 			},
 		})
 
-		console.log({ connection })
+		SetIsConnected(true)
+		SetSocket(connection)
 	}
 
 	return (
