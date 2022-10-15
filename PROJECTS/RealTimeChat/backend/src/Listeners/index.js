@@ -1,4 +1,4 @@
-import { AddUser, GetUsers } from '../Services/Users'
+import { AddUser, GetUsers, RemoveUser } from '../Services/Users'
 import { GetMessages } from '../Services/Messages'
 
 import RoomMessageSendListener from './RoomMessageSend'
@@ -19,6 +19,8 @@ const MainListener = socket => {
 
 	socket.on('disconnect', () => {
 		socket.broadcast.emit('users:disconnect', { id: socket.id })
+
+		RemoveUser(socket.id)
 	})
 }
 

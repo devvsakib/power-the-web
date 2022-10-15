@@ -11,3 +11,13 @@ export const AddUser = (id, username) => {
 }
 
 export const GetUsers = () => users
+
+export const RemoveUser = id => {
+	const index = users.findIndex(user => user.id === id)
+
+	if (!index) return false
+
+	users.splice(index, 1)
+
+	return true
+}
