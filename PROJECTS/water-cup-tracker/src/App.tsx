@@ -63,8 +63,8 @@ function App() {
         gap: '15rem',
 
       }}>
-        <button onClick={addWaterCup}>+</button>
         <button onClick={removeWaterCup}>-</button>
+        <button onClick={addWaterCup}>+</button>
       </div>
     </main >
   )
