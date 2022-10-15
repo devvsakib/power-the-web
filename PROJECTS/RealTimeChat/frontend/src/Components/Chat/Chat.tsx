@@ -1,4 +1,4 @@
-import { FC, useEffect, useState } from 'react'
+import { FC, useEffect, useState, useRef } from 'react'
 
 import type { Props, IMessages, IUsers, IMessage, IUser } from './Types'
 
@@ -21,6 +21,8 @@ const Chat: FC<Props> = ({ socket, username }) => {
 	const [Text, SetText] = useState('')
 	const [Messages, SetMessages] = useState<IMessages>([])
 	const [Users, SetUsers] = useState<IUsers>([])
+
+	const LastMessageRef = useRef<HTMLDivElement>(null)
 
 	useEffect(() => {
 		socket.once('message:history', (messages: IMessages) => {
@@ -60,6 +62,10 @@ const Chat: FC<Props> = ({ socket, username }) => {
 		}
 	}, [socket, username])
 
+	useEffect(() => {
+		LastMessageRef.current?.scrollIntoView({ behavior: 'smooth' })
+	}, [Messages])
+
 	const SendMessage = () => {
 		if (!Text) return
 
@@ -89,6 +95,7 @@ const Chat: FC<Props> = ({ socket, username }) => {
 				<MessagesStyled>
 					{Messages.map(({ sender, message, id }) => (
 						<Message mine={sender === socket.id} key={id}>
+							<div ref={LastMessageRef}></div>
 							<MessageWrapper>
 								<MessageSender>
 									{Users.find(user => user.id === sender)
