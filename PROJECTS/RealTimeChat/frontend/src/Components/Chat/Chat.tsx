@@ -60,6 +60,18 @@ const Chat: FC<Props> = ({ socket, username }) => {
 		}
 	}, [socket, username])
 
+	const SendMessage = () => {
+		if (!Text) return
+
+		const message = Text.trim()
+
+		socket.emit('message:send', message, (id: string) => {
+			SetMessages(prev => [...prev, { message, id, sender: socket.id }])
+		})
+
+		SetText('')
+	}
+
 	return (
 		<Container>
 			<UsersStyled>
@@ -79,10 +91,8 @@ const Chat: FC<Props> = ({ socket, username }) => {
 						<Message mine={sender === socket.id} key={id}>
 							<MessageWrapper>
 								<MessageSender>
-									{
-										Users.find(user => user.id === sender)
-											?.username
-									}
+									{Users.find(user => user.id === sender)
+										?.username ?? 'Not Found'}
 								</MessageSender>
 								<MessageText>{message}</MessageText>
 							</MessageWrapper>
@@ -95,7 +105,7 @@ const Chat: FC<Props> = ({ socket, username }) => {
 						onChange={event => SetText(event.target.value)}
 						value={Text}
 					/>
-					<Button>Send</Button>
+					<Button onClick={SendMessage}>Send</Button>
 				</InputContainer>
 			</ChatBox>
 		</Container>

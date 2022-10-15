@@ -26,7 +26,7 @@ export const Users = styled.div`
 	}
 `
 
-export const User = styled.div<UserProps>`
+export const User = styled.div<Partial<UserProps>>`
 	border: 1px solid black;
 	padding: 10px 20px;
 	width: 100%;
