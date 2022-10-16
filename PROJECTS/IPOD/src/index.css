@@ -1,0 +1,194 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* ----ipod outer box design */
+.pod-box{
+  background-color:#817e7e66;
+  border-radius: 37px;
+  height:75vh;
+  width: 25vw;
+  margin-top: 15vh;
+  margin-left: 35vw;
+  position: relative;
+}
+
+
+.pod-box .pod-display{
+  position: absolute;
+  width:90%;
+  top: 3%;
+  left: 4.5%;
+  height: 45%;
+  border-radius: 4px;
+  background-color: rgb(226, 190, 190);
+  border: solid black 2px ;
+  background-image: url('./assets/images/home_display.jpg');
+}
+/* -------------------controlller---------------------------- */
+.pod-box .pod-controller{
+  margin-top: 5%;
+  height: 40%;
+  width: 70%;
+  margin-right: 10%;
+  background-color: rgb(247, 247, 247);
+  top: 50%;
+  left: 14%;
+  border-radius: 50%;
+  position: absolute;
+}
+/*------- menu------ */
+.pod-box .pod-controller #Menu{
+  height:23%;
+  margin-top:10% ;
+  text-align: center;
+
+  color: #817e7e66;
+}
+
+#Menu a{
+  cursor: pointer;
+}
+
+.controller-mid i{
+  display: inline-block;
+  color: #817e7e66;
+ 
+}
+.controller-mid{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 33%;
+  justify-content: space-evenly;
+ 
+}
+
+.pod-box .pod-controller .controller-mid .enter{
+  width:33%;
+  height: 100%;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 1;
+  background-color: #817e7e66;
+  
+}
+
+.pod-box .pod-controller .play-pause{
+  margin-top: 8%;
+  color: #817e7e66;
+
+}
+
+.pod-box{
+  -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.5));
+  opacity: 1;
+}
+/* ipod home list style  */
+.pod-box .pod-display .list{
+  background-color: aliceblue;
+  width:50%;
+  height: 100%;
+  padding-top: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+}
+
+.pod-box .pod-display .list h3{
+  margin-block-start: 0;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.pod-display .list .active{
+  background-color: rgb(127, 202, 255);
+  color: white;
+}
+
+
+.pod-display .list span{
+  color: white;
+  margin-left: 40px;
+} 
+
+.pod-display .list h5{
+  /* height: 12%; */
+  padding: 7%;
+  margin: 7%;
+}
+/*----------------------------------- games---------------------------------- */
+.games{
+  background-color: rgb(129, 120, 120);
+  height: 100%;
+  border-radius: 7px;
+}
+.games h2{
+  margin-block-start: 0;
+}
+
+.games img{
+  margin-top: 20px;
+  height: 150px;
+  width: 150px;
+}
+
+
+/*------------------------------- settings------------------------------------ */
+.settings ,.coverflow{
+  background-color: white;
+  height: 100%;
+
+}
+.settings img{
+  margin-top: 25px;
+  height: 150px;
+  width: 150px;
+}
+.settings h3 {
+  margin-block-start: 0;
+}
+
+/* -----------allsongs &artist & albums---------------------- */
+.artist,.albums{
+  background-color: white;
+  height: 100%;
+}
+.allsongs{
+  background-image: url(./assets/images/music.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 100%;
+}
+/* -------------albums---------- */
+.albums{
+  background-image: url("./assets/images/album.jpg");
+  background-repeat: no-repeat;
+   background-size:cover;
+
+}
+.albums h3{
+  margin-block-start: 0;
+  color:white;
+}
+
+/* --------------------coverflow & artist----------- */
+.coverflow .head,.artist .head{
+    padding-top: 20%;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+
+
