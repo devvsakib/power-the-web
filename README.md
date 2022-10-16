@@ -1,7 +1,5 @@
 # Hacktoberfest-React-Project
 
-## _The Only Project You Need !_
-
 <img width="959" alt="Screenshot 2022-10-12 10-33-09" src="https://user-images.githubusercontent.com/56462749/195327772-d1c821f4-7591-418d-85eb-e32f5b0f14b6.png">
 
 ## About
