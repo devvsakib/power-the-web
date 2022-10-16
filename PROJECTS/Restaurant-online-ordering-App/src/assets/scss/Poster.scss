@@ -1,0 +1,84 @@
+.poster{
+    margin-top: 75px;
+
+    // position: absolute;
+  
+    
+    .background-image{
+        
+        height: 500px;
+        width: 100%;
+        position: relative;
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-image: url("https://roma.fleksa.com/_next/image?url=https%3A%2F%2Ffleksa-cdn1.s3.eu-central-1.amazonaws.com%2Fdevelopment%2Fshop%2Fimg%2Fplace%2Fsmartpizza5%2F13cdbab6318163af.jpg&w=1920&q=75");
+        .foreground{
+            position: absolute;
+            height: 500px;
+            background-color: rgba(0, 0, 0, 0.6);
+            top: 0;
+            left: 0;
+            width: 100%;
+            inset: 0px;
+            color: rgb(255, 255, 255);
+            display: flex;
+            -webkit-box-align: center;
+            align-items: center;
+            .foreground-content{
+                margin: 1%;
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+                .title{
+                     h1{
+                        font-size: 50px;
+                        margin-block-end: 0;
+                     }
+                     p{
+                        margin-block-start: 0;
+                        font-size: 25px;
+                        
+                     }
+                     #dine-but{
+                        display: none;
+                     }
+                     button{
+                        border: none;
+                        border-radius: 5px;
+                        // width: 100px;
+                        height: 50px;
+                        cursor: pointer;
+                        background-color: white;
+                        font-size: 20px;
+                        font-weight: 400;
+                        span{
+                            margin: 10px;
+                            
+                        }
+                     }
+                }
+                .offer{
+                    .coupon{
+                        background-color: white;
+                        padding: 5px;
+                        color: black;
+                        font-weight: 600;
+                        margin-block-start: 0;
+                        margin-block-end: 0;
+                        margin: 5px;
+                    }
+                }
+            }
+            
+         
+        }
+    }
+   
+}
+
+
+@media (max-width: 960px){
+    .poster{
+        margin-top: 0px;
+}
+}
