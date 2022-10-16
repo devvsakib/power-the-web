@@ -9,6 +9,7 @@
 Hacktoberfest-React-Project Application created using HTML and CSS.
 
 
+## STAR THE REPO
 ### How to Contribute to this repository
 
 1. Fork the repository (Click the Fork button in the top right of this page,
