@@ -59,7 +59,7 @@ So, people will know what project it is. Make sure you added your github name an
 ![GitHub language count](https://img.shields.io/github/languages/count/devvsakib/hacktoberfest-react-project?style=for-the-badge&color=brightgreen)
 <br><br>
 ## JOIN OUR COMMMUNITY
-DISCORD- [JOIN](https://discord.gg/6XRTeHRxWV)
+DISCORD - [JOIN](https://discord.gg/6XRTeHRxWV)
 <div align="center">
 Show some ❤️ by starring this awesome repository!
 </div>
