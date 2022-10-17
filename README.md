@@ -44,7 +44,7 @@ we have a react projects in "PROJECTS" folder
 <br>
 and we named it "clone-tesla"
 <br><br>
-So, people will know what project it is. Make sure you added your github name and link as comment in your file
+So, people will know what project it is. Make sure you added your github name and link as comment in your file. Last thing to do is, put your name. github link, email in CONTRIBUTORS.md file
 
 ### NOTE
 
