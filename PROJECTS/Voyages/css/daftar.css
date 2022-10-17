@@ -1,0 +1,70 @@
+/* body{
+    background: linear-gradient(to right, #cff09e, #a8dba8);
+} */
+#footer{
+    margin-top: 0px;
+}
+.container{
+   margin-top: 8%;
+}
+
+.dropdown-menu-start[data-bs-popper] {
+    left: auto!important;
+    right: 0!important;
+  }
+
+.form-login{
+    padding: 50px;
+    margin : 0px auto; 
+    background-color: white;
+    height: 500px;
+    border-radius: 5px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+    width: 450px; 
+}
+
+h1{
+    color: rgba(0, 0, 0, 0.623);
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding-bottom: 50px;
+}
+
+.form-group .checkbox{
+    cursor: pointer;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    padding-right: 5px;
+    float: left;
+}
+
+.form-group{
+    margin-bottom: 25px;
+}
+
+.btn{
+    background: rgba(255, 68, 0, 0.671);
+    color: white;
+    width: 100px;
+    float: right;
+
+}
+
+#footer {
+    color: #6d6d6d;
+    font-size: 12px;
+    text-align: center;
+}
+
+#footer p {
+    margin-bottom: 0;
+    margin: auto;
+}
+
+@media only screen and (max-width: 680px) {
+    .form-login{
+        box-shadow :none
+    }
+}
