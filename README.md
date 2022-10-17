@@ -5,7 +5,9 @@
 ## About
 
 Hacktoberfest-React-Project Application created using HTML and CSS.
-
+## Don't Forget to JOIN OUR COMMMUNITY
+Join our community and ask anything. If you run into a problem please let us know.
+DISCORD - [JOIN](https://discord.gg/6XRTeHRxWV)
 
 ## STAR THE REPO
 ### How to Contribute to this repository
@@ -58,8 +60,7 @@ So, people will know what project it is. Make sure you added your github name an
 ![GitHub PR closed](https://img.shields.io/github/issues-pr-closed-raw/devvsakib/hacktoberfest-react-project?style=for-the-badge&color=blue)
 ![GitHub language count](https://img.shields.io/github/languages/count/devvsakib/hacktoberfest-react-project?style=for-the-badge&color=brightgreen)
 <br><br>
-## JOIN OUR COMMMUNITY
-DISCORD - [JOIN](https://discord.gg/6XRTeHRxWV)
+
 <div align="center">
 Show some ❤️ by starring this awesome repository!
 </div>
