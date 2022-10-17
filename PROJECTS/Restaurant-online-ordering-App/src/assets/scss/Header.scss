@@ -1,0 +1,95 @@
+.header{
+    display: none;
+    font-weight:700;
+    height: 75px;
+    background: rgb(251, 250, 250);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+    .nav{
+    box-sizing: border-box;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 960px;
+    .nav-element{
+        margin-left: -15px;
+        margin-right: -15px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-grow: 0;
+        flex-shrink: 0;
+        align-items:normal;
+        // justify-content: flex-start;
+        flex-direction: row;
+        justify-content: space-between;
+        .logo{
+            padding: 2px 0px;
+            margin-left: 1rem;
+            margin-top: 2px;
+            height: inherit;
+            width:210px;
+            img{
+                max-width: 100%;
+            }
+        }
+        .list-outer{
+            box-sizing: border-box;
+            min-height: 1px;
+            position: relative;
+            padding-left: 15px;
+            padding-right: 15px;
+            width: 75%;
+            flex-basis: 75%;
+            flex-grow: 0;
+            flex-shrink: 0;
+            max-width: 75%;
+            margin-left: 0%;
+            right: auto;
+            left: auto;
+            .list-inner{
+                display: flex;
+                -webkit-box-pack: end;
+                justify-content: flex-start;
+                height: 75px;
+                .list{
+                    display: flex;
+                    list-style: none;
+                    -webkit-box-align: center;
+                    align-items: center;
+                    -webkit-box-pack: justify;
+                    justify-content: space-between;
+                    padding: 0px;
+                    margin: 0px;
+                    a{
+                        color: inherit;
+                        text-decoration: none;
+                        li{
+                            margin: 0px 0.5rem;
+                            min-width: 100px;
+                            padding: 4px;
+                            transition: all 0.1s ease-in 0s;
+                            border: none;
+                            backdrop-filter: none;
+                            box-shadow: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    }
+
+}
+
+@media (min-width: 960px){
+.header {
+    display: block;
+}
+}

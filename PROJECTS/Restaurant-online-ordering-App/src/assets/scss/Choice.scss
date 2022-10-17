@@ -1,0 +1,32 @@
+.choice-box{
+    border: 2px solid black;
+    display: none;
+    .choice{
+        margin: 2%;
+        .add-but-opt{
+            background-color: yellow;
+            font-size: 25px;
+            height: 50px;
+            font-weight: 600;
+            margin-left: 5%;
+            width: 90%;
+            text-align: center;
+            border: none;
+            border-radius: 15px;
+            padding-top:7px;
+            align-self: center;
+        }
+        .choice-head{
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            .heading{
+                font-size: larger;
+                font-weight: 700;
+
+            }
+
+        }
+    }
+
+}

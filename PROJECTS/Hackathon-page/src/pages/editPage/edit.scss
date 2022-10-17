@@ -1,0 +1,497 @@
+.details {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  justify-content: center;
+  background-color: white;
+  color: black;
+
+  .header-section {
+    background-color: rgb(248, 249, 253);
+    font-size: 27px;
+    font-weight: 700;
+    margin-top: 11px;
+    padding: 42px 105px;
+  }
+
+  .details-section {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    margin-top: 11px;
+    padding: 10px 105px;
+
+    .name {
+      margin-bottom: 30px;
+      .heading {
+        font-size: 20px;
+        font-weight: 500;
+        margin: 25px 0px;
+      }
+
+      .value {
+        input {
+          width: 410px;
+          font-size: 19px;
+          padding: 6px 2px;
+          border-color: rgb(218, 218, 218);
+          border-radius: 6px;
+          border-width: 2px 2px;
+        }
+      }
+    }
+    .date {
+      margin-bottom: 30px;
+      .heading {
+        font-size: 20px;
+        font-weight: 500;
+        margin: 25px 0px;
+      }
+
+      .value {
+        .datetime {
+          width: 51%;
+          font-size: 20px;
+          padding: 6px 2px;
+          border-color: rgb(218, 218, 218);
+          border-radius: 6px;
+          border-width: 2px 2px;
+          border-color: rgb(218, 218, 218);
+          border-radius: 6px;
+          border-width: 2px 2px;
+        }
+      }
+    }
+    .description {
+      margin-bottom: 30px;
+      .heading {
+        font-size: 20px;
+        font-weight: 500;
+        margin: 25px 0px;
+      }
+
+      .value {
+        height: 40%;
+        textarea {
+          resize: none;
+          width: 60%;
+          height: 200px;
+          display: block;
+          padding: 7px;
+          border-color: rgb(218, 218, 218);
+          border-radius: 6px;
+          border-width: 2px 2px;
+        }
+      }
+    }
+
+    .overview {
+      margin-bottom: 30px;
+      .heading {
+        font-size: 20px;
+        font-weight: 500;
+        margin: 25px 0px;
+      }
+
+      .value {
+        height: 40%;
+        textarea {
+          resize: none;
+          width: 60%;
+          height: 300px;
+          display: block;
+          padding: 7px;
+          border-color: rgb(218, 218, 218);
+          border-radius: 6px;
+          border-width: 2px 2px;
+        }
+      }
+    }
+
+    .uploadImage {
+      margin: 30px 0px;
+      .heading {
+        font-size: 20px;
+        font-weight: 500;
+        margin: 25px 0px;
+      }
+
+      .value {
+        display: flex;
+        flex-direction: column;
+
+        img {
+          width: 300px;
+          border-radius: 10px;
+          margin-bottom: 20px;
+        }
+        .myLabel {
+            border: none;
+            border-radius: 4px;
+            padding: 2px 5px;
+            margin: 2px;
+            background: white;
+            display: inline-block;
+
+            input[type="file"] {
+                position:absolute;
+                top: -1000px;
+            }
+        }
+
+        .myLabel:active {
+            background: #CCF;
+        }
+        .myLabel :invalid + div {
+            color: rgb(68,146,76);
+            display: flex;
+            align-items: center;
+            img{
+                width: 20px;
+                border-radius: 0px;
+                margin-right: 20px;
+            }
+        }
+        .myLabel :valid + div {
+            color: rgb(58, 137, 66);
+            display: flex;
+            img{
+                width: 20px;
+                border-radius: 0px;
+                margin-right: 20px;
+            }
+
+            
+        }
+        .fileContainer {
+          background: #fff;
+          box-shadow: none;
+          position: relative;
+          border-radius: 10px;
+          padding: 0;
+          display: flex;
+          align-items: flex-start;
+          justify-content: center;
+          flex-direction: column;
+          transition: all 0.3s ease-in;
+          height: auto;
+        }
+
+        .fileContainer p:empty {
+          font-size: 12px;
+          margin: 0;
+        }
+
+        .fileContainer .uploadPicturesWrapper {
+          background: #fff;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          height: inherit;
+          position: relative;
+        }
+        .uploadPicturesWrapper > div:empty {
+          height: 1px;
+        }
+
+        .fileContainer .uploadPictureContainer {
+          width: 200px;
+          height: 150px;
+          /* margin: 5%; */
+          padding: 5px;
+          background: #edf2f6;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          /* height: inherit; */
+          box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.1);
+          /* border: 1px solid #d0dbe4; */
+          position: relative;
+        }
+
+        .fileContainer .deleteImage {
+          display: none;
+        }
+
+        .fileContainer .deleteImage:after {
+          content: "Delete image";
+          position: absolute;
+          right: -45px;
+          font-size: 16px;
+        }
+        .fileContainer .uploadPictureContainer {
+          padding: 0px;
+        }
+
+        .fileContainer .uploadPictureContainer img.uploadPicture {
+          width: 200px;
+          height: 150px;
+        }
+
+        .fileContainer .errorsContainer {
+          max-width: 300px;
+          font-size: 12px;
+          position: absolute;
+          z-index: 10;
+          top: 35%;
+          background: rgba(255, 0, 0, 0.7);
+          padding: 10px;
+          text-align: center;
+          color: white;
+          margin: 0 auto;
+          width: 79%;
+          border-radius: 6px;
+        }
+
+        .fileContainer .errorsContainer:empty {
+          opacity: 0;
+        }
+
+        .fileContainer .chooseFileButton {
+          padding: 18px 33px;
+          width: 210px;
+          background: rgb(244, 244, 244);
+          border-radius: 30px;
+          color: rgb(102, 102, 102);
+          font-weight: 300;
+          font-size: 23px;
+
+          transition: all 0.2s ease-in;
+          cursor: pointer;
+          outline: none;
+          border: 1px rgb(102, 102, 102) solid;
+          border-radius: 11px;
+        }
+
+        .fileContainer .chooseFileButton:hover {
+          background: rgb(231, 231, 231);
+          border-radius: 30px;
+          color: rgb(102, 102, 102);
+          font-weight: 300;
+          font-size: 23px;
+
+          transition: all 0.2s ease-in;
+          cursor: pointer;
+          outline: none;
+          border: 1px rgb(102, 102, 102) solid;
+          border-radius: 11px;
+        }
+      }
+    }
+
+    .level {
+      margin-bottom: 30px;
+      .heading {
+        font-size: 20px;
+        font-weight: 500;
+        margin: 25px 0px;
+      }
+
+      .value {
+        select {
+          padding: 8px;
+          border-radius: 6px;
+          border-width: 2px 2px;
+          width: 20%;
+        }
+      }
+    }
+    input[type="submit"] {
+      background-color: rgb(68, 146, 76);
+      color: #fff;
+      padding: 10px 20px;
+      margin-bottom: 30px;
+      border: none;
+      border-radius: 10px;
+      font-size: 20px;
+      width: 30%;
+    }
+  }
+}
+.react-datetime-picker__wrapper {
+  display: flex;
+  flex-grow: 1;
+  flex-shrink: 0;
+  border: thin solid gray;
+  font-size: 20px;
+  border-radius: 6px;
+  width: 110%;
+  padding: 7px;
+  border-color: rgb(218, 218, 218);
+  border-radius: 6px;
+  border-width: 2px 2px;
+}
+@media only screen and (max-width: 1025px){
+  .details {
+    .header-section {
+      font-size: 30px;
+      padding: 42px 105px;
+    }
+  
+    .details-section {
+      input[type=submit] {
+        width: 255px;
+      }
+    }
+  }
+
+}
+@media only screen and (max-width: 770px){
+  .details {
+    .details-section {
+      .description {
+        margin-bottom: 30px;
+        .heading {
+          font-size: 20px;
+          font-weight: 500;
+          margin: 25px 0px;
+        }
+  
+        .value {
+          height: 40%;
+          textarea {
+            resize: none;
+            width: 85%;
+            height: 155px;
+
+          }
+        }
+      }
+  
+      .overview {
+        margin-bottom: 30px;
+        .value {
+          height: 40%;
+          textarea {
+            width: 85%;
+            height: 250px;
+            display: block;
+            padding: 7px;
+            border-color: rgb(218, 218, 218);
+            border-radius: 6px;
+            border-width: 2px 2px;
+          }
+        }
+      }
+  
+    
+      input[type=submit] {
+        background-color: rgb(68, 146, 76);
+        color: #fff;
+        padding: 10px 20px;
+        margin: 30px 0px;
+        border: none;
+        border-radius: 10px;
+        font-size: 20px;
+        width: 250px;
+      }
+    }
+  }
+  
+}
+@media only screen and (max-width: 600px){
+  .details {
+    .details-section {
+      .level {
+        .value {
+          select {
+            width: 30%;
+          }
+        }
+      }
+      input[type=submit] {
+        width: 200px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 430px){
+  .details {
+  
+    .header-section {
+      font-size: 35px;
+      padding: 30px 60px;
+    }
+  
+    .details-section {
+      margin-top: 5px;
+      padding: 10px 50px;
+
+      .name {
+        .heading {
+          font-size: 22px;
+        }
+        .value {
+          input {
+            width: 400px;
+            font-size: 20px;
+          }
+        }
+      }
+      .date {
+        .heading {
+          font-size: 22px;
+        }
+      }
+      .description {
+        .heading {
+          font-size: 22px;
+        }
+  
+        .value {
+          height: 40%;
+          textarea {
+            width: 100%;
+            height: 150px;
+          }
+        }
+      }
+  
+      .overview {
+        .heading {
+          font-size: 22px;
+        }
+        .value {
+          textarea {
+            width: 100%;
+            height: 200px;
+
+          }
+        }
+      }
+  
+      .uploadImage {
+        margin-bottom: 30px;
+  
+        .heading {
+          font-size: 22px;
+        }
+  
+        .value {
+          img {
+            width: 250px;
+          }
+        }
+      }
+  
+      .level {
+        .heading {
+          font-size: 22px;
+        }
+  
+        .value {
+          select {
+            width: 30%;
+          }
+        }
+      }
+      input[type=submit] {
+        width: 200px;
+      }
+    }
+  }
+
+}
