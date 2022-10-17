@@ -1,0 +1,79 @@
+.button-primer {
+  padding-right: 15px;
+}
+
+/* .body{
+    margin: 0px auto;
+    padding: 5px; 
+}  */
+
+/* .container {
+    margin:15px 15px;
+} */
+
+.btn-search:hover {
+  color: #fff;
+}
+
+.navhover:hover {
+  color: orangered !important;
+  border-bottom: 1px solid !important;
+  border-width: 2px !important;
+}
+
+.input-text:focus {
+  box-shadow: 0px 0px 0px;
+  border-color: black;
+  outline: 0px;
+}
+
+.form-control {
+  border: 1px solid black;
+}
+
+.img-container {
+  position: relative;
+}
+
+.img-container img {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.product-detail-container {
+  padding: 10px;
+}
+
+.ratings i {
+  color: #a9a6a6;
+}
+
+.ratings span {
+  color: #a9a6a6;
+}
+
+/* .col-4{
+    margin-bottom: 30px;
+} */
+
+@media only screen and (min-width: 1024px) {
+  .button-login {
+    position: relative;
+  }
+}
+
+/* If the screen size is 600px or less, set the font-size of <div> to 30px */
+@media only screen and (max-width: 980px) {
+  .button-login {
+    position: relative;
+    display: none;
+  }
+  .judul_daftar {
+    display: none;
+  }
+}
+
+.dropdown-menu-start[data-bs-popper] {
+  left: auto !important;
+  right: 0 !important;
+}
