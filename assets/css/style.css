@@ -15,3 +15,23 @@ span{
     color: rgb(255, 0, 221);
     font-weight: 800;
 }
+.titles a{
+    text-decoration: none;
+    color: white;
+    background: #5865F2;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+.wb{
+    color: red;
+}
+@media (max-width: 800px) {
+    .main-container{
+        margin-top: 3rem;
+        flex-direction: column;
+    }
+    .titles{
+        margin-bottom: 2rem;
+    }
+}
