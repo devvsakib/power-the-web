@@ -14,3 +14,4 @@
 | ------|----------|---------- |
 | DevvSakib | <a href="https://github.com/devvsakib/">DevvSakib</a> | <a href="mailto:devvsakib@gmail.com">E-Mail</a> |
 Drew | <a href="https://github.com/NeoPrint3D">Drew</a> | <a href="mailto:np3d.dev@gmail.com">E-Mail</a> |
+| Rahul Gupta | <a href="https://github.com/rahul8858">rahul8858</a> | <a href="mailto:rg3056052@gmail.com">E-Mail</a> |
