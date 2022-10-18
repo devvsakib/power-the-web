@@ -1,6 +1,6 @@
 .main-container{
-    background-color:  black;
-    color: white;
+    background-color:  white;
+    color: black;
     width: 100vw;
     height: calc( 100vh - 42px);
     display: grid;
@@ -9,9 +9,9 @@
     text-align: center;
 }
 h2{
-    font-weight: 800;
+    font-weight: 700;
 }
 span{
-    color: blue;
+    color: rgb(255, 0, 221);
     font-weight: 800;
 }
