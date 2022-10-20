@@ -59,6 +59,7 @@ So, people will know what project it is. Make sure you added your github name an
 ![GitHub PR Open](https://img.shields.io/github/issues-pr/devvsakib/hacktoberfest-react-project?style=for-the-badge&color=aqua)
 ![GitHub PR closed](https://img.shields.io/github/issues-pr-closed-raw/devvsakib/hacktoberfest-react-project?style=for-the-badge&color=blue)
 ![GitHub language count](https://img.shields.io/github/languages/count/devvsakib/hacktoberfest-react-project?style=for-the-badge&color=brightgreen)
+> Size: 76.45 MiB
 <br><br>
 
 ## Thanks to all the contributors ❤️
