@@ -1,0 +1,28 @@
+<html>
+    <head>
+           <title>index page</title>   
+    </head>
+      <body bgcolor="cyan">
+                        <form name="index" method="post" action="print">
+						<center> LOGIN PAGE</center>
+						<center><h1> enter userid and password</h1></center>
+                                       <center>
+                              <br><br><br><br>
+                         <table border="5">
+                               <tr>
+                                  <td><h1>	Enter name and password</h1><td>
+                                </tr>
+		<tr>
+                                  <td>NAME<input type="text" size="50" name="uname"/><td>
+  	              </tr>
+		<tr>
+                                  <td>PASSWORD<input type="password" size="50" name="upassword"/><td>
+  	              </tr>
+                                <tr>
+                                      <td><input type="submit"/></td>
+                                  </tr>
+                           </table>
+                                       </center>
+                         </form> 
+     </body>
+</html>

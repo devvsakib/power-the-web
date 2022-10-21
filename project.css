@@ -1,0 +1,21 @@
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+table{
+    border: 1px solid;
+    width: 40%;
+    border-collapse: collapse;
+    margin-bottom: 50px;
+}
+
+th{
+    color:blue
+}
+
+th,td{
+    padding: 10px;
+    width: 100px;
+    border-bottom: 1px solid #000;
+}
