@@ -1,0 +1,12 @@
+<html>
+<body bgcolor="orange">
+<title> student project </title>
+<form action="one" method="get">
+<center><h1> Student Record</h1></center>
+1.<a href=add.html> Add</a><br>
+2.<a href=delete.html> Delete</a><br>
+3.<a href=shlist> Show list</a><br>
+4.<a href=modify.html> Modify</a><br>
+</form>
+</body>
+</html>
