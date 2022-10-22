@@ -1,7 +1,6 @@
 import { React, useState } from 'react'
 import { Link } from 'react-router-dom'
 import "./Navbar.css"
-// import { Button } from '../Button/Button.js'
 
 function Navbar() {
     const [click, setClick] = useState(false)
@@ -40,7 +39,7 @@ function Navbar() {
                             </li>
                         </ul>
                     </div>
-                    <div className='menu-icon hidden' onClick={handleClicked}>
+                    <div className='menu-icon' onClick={handleClicked}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'}></i>
                     </div>
                 </div>
