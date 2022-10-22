@@ -58,7 +58,7 @@
         </div>
 
         <div>
-            <ul class="contributors-list flex flex-wrap gap-2.5" id="contributors"></ul>
+            <ul class="contributors-list" id="contributors"></ul>
         </div>
     </div>
 
@@ -73,23 +73,23 @@
 
             profiles.forEach(({ name, github, twitter, avatarUrl }) => {
                 contributorsElement.innerHTML += `
-      <div class="contributor-card m-1">
-                <div class="rounded-3xl overflow-visible shadow-xl max-w-[240px] h-[350px] my-3 p-4">
-      <img src="${avatarUrl}"
-        class="rounded-full border-solid border-white border-2 mt-3" />
+                <div class="contributor-card m-1">
+                 <div class="rounded-3xl overflow-visible shadow-xl max-w-[240px] h-[350px] my-3 p-4">
+                <img src="${avatarUrl}"
+                  class="rounded-full border-solid border-white border-2 mt-3" />
 
-      <div>
-        <h2 class="text-center text-2xl font-bold">${name}</h2>
-        <div class="flex justify-evenly items-center ">
-          <a href="https://github.com/${github}">
-            <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" class="w-10" />
-          </a>
-          <a href="https://twitter.com/${twitter}">
-            <img src="https://cdn-icons-png.flaticon.com/512/2111/2111738.png" class="w-8" />
-          </a>
-        </div>
-      </div>
-    </div>
+                <div>
+                  <h2 class="text-center text-2xl font-bold">${name}</h2>
+                  <div class="flex justify-evenly items-center ">
+                    <a href="https://github.com/${github}">
+                      <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" class="w-10" />
+                    </a>
+                    <a href="https://twitter.com/${twitter}">
+                      <img src="https://cdn-icons-png.flaticon.com/512/2111/2111738.png" class="w-8" />
+                    </a>
+                  </div>
+                </div>
+              </div>
               </div>
       `
             })
