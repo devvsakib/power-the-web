@@ -1,8 +1,0 @@
-<html>
-<body bgcolor="lightgreen">
-<form action="shmodify" method="get">
-<br>
-Enter student Roll no to modify:<input type=text name=sno><br>
-<a href=shmodify>
-<input type=submit value=submit>
-</form></body></html>
