@@ -27,7 +27,6 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: flex-start; */
-
   display: grid;
   grid-gap: 1rem 1rem;
   grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
