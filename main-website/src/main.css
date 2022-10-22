@@ -5,3 +5,8 @@
 body{
     font-family: 'Dosis';
 }
+.container{
+    display: grid;;
+    place-items: center;
+    
+}

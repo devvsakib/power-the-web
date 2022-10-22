@@ -14,7 +14,7 @@ function Navbar() {
             <nav>
                 <div className="navbar flex px-10 pt-5 items-center justify-between">
                     <Link to='/' className='nav-logo'>
-                        <img className='w-20' src='images/PowerTheWebLogo.png'/>
+                        <img className='w-20' src='images/PowerTheWebLogo.png' alt='logo'/>
                     </Link>
                     <div className="menu-container">
                         <ul onClick={click ? 'nav-manu active' : 'nav-menu'}  className='flex justify-items-center text-sm font-medium uppercase'>
@@ -29,14 +29,12 @@ function Navbar() {
                                 </Link>
                             </li>
                             <li className='nav-items'>
-                                <Link to='/
-                                projects' className='nav-links' onClick={mobileMenu}>
+                                <Link to='/projects' className='nav-links' onClick={mobileMenu}>
                                     Projects
                                 </Link>
                             </li>
                             <li className='nav-items'>
-                                <Link to='/
-                                blog' className='nav-links' onClick={mobileMenu}>
+                                <Link to='/blog' className='nav-links' onClick={mobileMenu}>
                                     Blog
                                 </Link>
                             </li>
