@@ -21,3 +21,14 @@
     font-style: italic;
     opacity: .8;
 }
+
+.contributors-list {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.contributor-card {
+  width: 15rem;
+}
