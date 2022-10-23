@@ -17,32 +17,39 @@
     <script src="https://kit.fontawesome.com/8d8e8b8b8a.js" crossorigin="anonymous"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="assets/css/style.css" />
-  </head>
+    <link rel="stylesheet" href="assets/css/contributor.css" />
+</head>
 
-  <body>
-    <nav>
-      <!-- Nav tabs -->
-      <ul class="nav nav-tabs" id="navId">
-        <li class="nav-item">
-          <a href="index.html" class="nav-link active">Home</a>
-        </li>
-        <li class="nav-item">
-          <a href="./contributor.html" class="nav-link">Contributors</a>
-        </li>
-        <li class="nav-item">
-          <a href="./project.html" class="nav-link">Projects</a>
-        </li>
-        <li class="nav-item">
-          <a href="./blog.html" class="nav-link">Blog</a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link disabled">Open-Source</a>
-        </li>
-        <li class="nav-item">
-          <a href="./faq.html" class="nav-link">FAQs</a>
-      </li>
-      </ul>
+<body>
+    <!--make contriibuters card from Contributors.json-->
 
+    <nav id="navi">
+        <div id="menuToggle">
+            <!-- Nav tabs -->
+            <input type="checkbox" />
+
+            <span></span>
+            <span></span>
+            <span></span>
+
+            <ul id="menu">
+                <a href="index.html">
+                    <li>Home</li>
+                </a>
+                <a href="./contributor.html" class="active">
+                    <li>Contributors</li>
+                </a>
+                <a href="./project.html">
+                    <li>Projects</li>
+                </a>
+                <a href="./blog.html">
+                    <li>Blog</li>
+                </a>
+                <a href="#" class="disabled">
+                    <li>Open-Source</li>
+                </a>
+            </ul>
+        </div>
     </nav>
     <div class="container">
         <div class="details">
