@@ -544,7 +544,7 @@ video {
   --tw-saturate:  ;
   --tw-sepia:  ;
   --tw-drop-shadow:  ;
-  --tw-backdrop-blur:  ;
+  --tw-backdrop-blur: 4px ;
   --tw-backdrop-brightness:  ;
   --tw-backdrop-contrast:  ;
   --tw-backdrop-grayscale:  ;

@@ -6,6 +6,7 @@ import Projects from "./component/pages/Projects";
 import Blog from "./component/pages/Blog";
 import "./main.css";
 import Contributors from "./component/pages/Contributors";
+import Footer from "./component/Footer/Footer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path='/projects' exact element={<Projects />} ></Route>
         <Route path='/blog' exact element={<Blog />} ></Route>
       </Routes>
+      <Footer/>
     </div>
   );
 }
