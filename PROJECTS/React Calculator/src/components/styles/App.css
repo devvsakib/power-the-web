@@ -1,0 +1,38 @@
+:root{
+  --lightBlack: rgb(41, 43, 44);
+  --darkBlack: rgb(18, 18, 18);
+}
+.app{
+  padding-top: 8%;
+  min-height: 95vh;
+  width: 100%;
+}
+.darkApp{
+  background-color: black;
+}
+
+.calculator{
+  border: 3px solid cyan;
+  border-radius: 10px;
+  margin: auto;
+  width: 99%;
+  text-align: center;
+}
+.darkCalculator{
+  background-color: var(--darkBlack);
+}
+
+.lightApp,
+.lightCalculator{
+  background-color: white;
+}
+@media screen and (max-width: 425px){
+  .app{
+    padding-top: 8%;
+  }
+}
+@media screen and (min-width: 426px){
+  .calculator{
+    width: 420px;
+  }
+}

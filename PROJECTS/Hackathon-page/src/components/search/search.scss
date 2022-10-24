@@ -1,0 +1,446 @@
+.heading {
+  font-size: 27px;
+  font-weight: 600;
+  margin: 20px 0px 60px 0px;
+}
+
+.closed{
+    display: none;
+}
+
+.open{
+    display: flex;
+}
+
+.search {
+  width: 75%;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  margin-bottom: 20px;
+
+  .bi-search {
+    position: absolute;
+    color: rgb(96, 96, 96);
+    left: 30px;
+    top: 13px;
+  }
+
+  .search-bar {
+    width: 40vw;
+    padding: 9px 9px 9px 65px;
+    font-size: 20px;
+    border-radius: 12px;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  .filter {
+    background-color: #ffff;
+    position: relative;
+    color: rgb(0, 0, 0);
+    width: 7vw;
+    padding: 10px 10px 10px 23px;
+    border-radius: 12px;
+    z-index: 99;
+
+    .filter-heading {
+      font-size: 20px;
+      font-weight: 500;
+      display: flex;
+      justify-content: space-around;
+
+      .bi-chevron-down {
+        margin: auto;
+      }
+    }
+    .search-filters {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      background-color: #ffff;
+      color: rgb(0, 0, 0);
+      padding: 10px 10px 10px 23px;
+      border-radius: 12px;
+      width: 280%;
+    //   display: flex;
+      flex-direction: column;
+      border: 1px black solid;
+
+      .filter-heading {
+        font-size: 20px;
+        font-weight: 500;
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 0px 30px 0px;
+
+        &::before {
+          content: "";
+          background-color: rgb(233, 231, 231);
+          height: 1px;
+          width: 80%;
+          position: absolute;
+          top: 55px;
+        }
+
+        .bi-chevron-up {
+          position: absolute;
+          right: 30px;
+        }
+      }
+
+      .status {
+        position: relative;
+        padding: 0px 0px 20px 0px;
+        color: rgb(102, 102, 102);
+
+        .status-heading {
+          font-size: 19px;
+          padding-bottom: 10px;
+        }
+        .status-options {
+          font-size: 18px;
+          padding: 3px 0px;
+
+          input[type="checkbox"] {
+            width: 15px;
+            height: 15px;
+            margin-right: 10px;
+          }
+        }
+
+        &::before {
+          content: "";
+          background-color: rgb(233, 231, 231);
+          height: 1px;
+          width: 92%;
+          position: absolute;
+          top: 180px;
+        }
+      }
+
+      .level {
+        position: relative;
+        padding: 0px 0px 20px 0px;
+        color: rgb(102, 102, 102);
+
+        .level-heading {
+          font-size: 19px;
+          padding-bottom: 10px;
+        }
+        .level-options {
+          font-size: 18px;
+          padding: 3px 0px;
+
+          input[type="checkbox"] {
+            width: 15px;
+            height: 15px;
+            margin-right: 10px;
+          }
+        }
+
+      }
+    }
+  }
+  .sort{
+    width: 8vw;
+  
+    .form-select{
+      height: 100%;
+      font-size: 20px;
+      font-weight: 500;
+      width: 75%;
+      border-radius: 12px;
+     
+    }
+  }
+}
+
+.filters-applied{
+    display: flex;
+    justify-content: left;
+    width: 60%;
+    // margin: auto;
+    flex-wrap: wrap;
+    
+
+    .each-filter {
+        padding: 11px 20px;
+        margin-right: 15px;
+        margin-bottom: 10px;
+        color: white;
+        background-color: rgb(122, 143, 154);
+        border-radius: 23px;
+        font-size: 18px;
+        display: flex;
+        justify-content: space-between;
+        
+
+        .filter-content{
+            margin-right: 20px;
+        }
+    }
+}
+
+@media only screen and (max-width: 1025px){
+  .search {
+    width: 80%;
+  
+    .search-bar {
+      width: 550px;
+    }
+  
+    .filter {
+      width: 100px;
+      padding: 10px 10px 10px 15px;
+    }
+    .sort{
+      width: 125px;
+    }
+  }
+}
+
+@media only screen and (max-width: 770px){
+  .search {
+    width: 90%;
+    padding: 5px;
+    font-size: 18px;
+
+
+    .bi-search {
+      font-size: 16px;
+      top: 12px;
+    }
+  
+    .search-bar {
+      width: 380px;
+      padding: 5px 5px 5px 55px;
+      font-size: 18px;
+  
+    }
+    .filter {
+      width: 90px;
+      padding: 8px 10px 5px 13px;
+  
+      .filter-heading {
+        font-size: 18px;
+        .bi-chevron-down {
+          margin: auto;
+        }
+      }
+      .search-filters {
+        padding: 10px 10px 10px 15px;
+        width: 270%;
+  
+        .filter-heading {
+          font-size: 18px;
+          padding: 0px 0px 15px 0px;
+  
+          &::before {
+            top: 45px;
+          }
+
+        }
+  
+        .status {
+          padding: 0px 0px 17px 0px;
+
+          .status-heading {
+            font-size: 17px;
+            padding-bottom: 7px;
+          }
+          .status-options {
+            font-size: 16px;
+            padding: 3px 0px;
+
+          }
+  
+          &::before {
+            top: 160px;
+          }
+        }
+  
+        .level {
+          position: relative;
+          padding: 0px 0px 15px 0px;
+          color: rgb(102, 102, 102);
+  
+          .level-heading {
+            font-size: 17px;
+            padding-bottom: 10px;
+          }
+          .level-options {
+            font-size: 16px;
+            padding: 3px 0px;
+  
+            input[type="checkbox"] {
+              width: 15px;
+              height: 15px;
+              margin-right: 10px;
+            }
+          }
+  
+        }
+      }
+    }
+    .sort{
+      width: 125px;
+    
+      .form-select{
+        height: 100%;
+        font-size: 18px;
+
+        option{
+          margin-top: 10px;
+        }
+       
+      }
+    }
+  }
+}
+@media only screen and (max-width: 500px){
+  .heading {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 20px 0px 10px 0px;
+  }
+  .search {
+    width: 100%;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 18px;
+
+
+    .bi-search {
+      font-size: 12px;
+      top: 26px;
+      left: 72px;
+    }
+  
+    .search-bar {
+      width: 318px;
+      padding: 6px 5px 3px 44px;
+      font-size: 12px;
+      margin-bottom: 10px;
+  
+    }
+    .filter {
+      width: 71px;
+      padding: 6px 7px 1px 10px;
+      position: relative;
+      right: 58px;
+      height: 29px;
+  
+      .filter-heading {
+        font-size: 12px;
+        .bi-chevron-down {
+          margin: auto;
+          font-size: 10px;
+        }
+      }
+      
+      .search-filters {
+        padding: 10px 10px 10px 15px;
+        width: 220%;
+        
+  
+        .filter-heading {
+          font-size: 16px;
+          padding: 0px 0px 15px 0px;
+
+   
+  
+          &::before {
+            top: 45px;
+          }
+
+        }
+  
+        .status {
+          padding: 0px 0px 17px 0px;
+
+          .status-heading {
+            font-size: 15px;
+            padding-bottom: 7px;
+          }
+          .status-options {
+            font-size: 14px;
+            padding: 3px 0px;
+
+            input[type="checkbox"] {
+              width: 14px;
+              height: 14px;
+              margin-right: 10px;
+            }
+
+          }
+  
+          &::before {
+            top: 140px;
+          }
+        }
+  
+        .level {
+  
+          .level-heading {
+            font-size: 15px;
+      
+          }
+          .level-options {
+            font-size: 14px;
+            padding: 3px 0px;
+  
+            input[type="checkbox"] {
+              width: 14px;
+              height: 14px;
+              margin-right: 10px;
+            }
+          }
+  
+        }
+      }
+    }
+    .sort{
+      width: 120px;
+      position:relative;
+      left: 94px;
+    
+      .form-select{
+        font-size: 12px;
+        height: 29px;
+
+        option{
+          margin-top: 10px;
+        }
+       
+      }
+    }
+  }
+  .filters-applied{
+    display: flex;
+    justify-content: left;
+    width: 60%;
+    flex-wrap: wrap;
+    
+
+    .each-filter {
+        padding: 5px 8px;
+        margin-right: 15px;
+        margin-bottom: 10px;
+        color: white;
+        background-color: rgb(122, 143, 154);
+        border-radius: 23px;
+        font-size: 10px;
+        display: flex;
+        justify-content: space-between;
+        
+
+        .filter-content{
+            margin-right: 10px;
+        }
+    }
+}
+}

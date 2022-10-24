@@ -1,0 +1,114 @@
+.types{
+    width:20%;
+    text-align: right;
+    
+    .types-list{
+        overflow: scroll;
+        overflow-x: hidden;
+        height: 80vh;
+        .product{
+            height: 50px;
+            width:auto;
+           
+    
+            a{
+                text-decoration: none;
+                color: black;
+            }
+            p{
+                margin-right: 5px;
+                margin-block-end: 0;
+                margin-block-start: 0;
+                font-size: 20px;
+            }
+
+        }
+        .product:active{
+                
+
+                 color: white;
+                 a{
+                    text-decoration: none;
+                    color: white;
+                    
+                }
+                p{ 
+                    span{
+                        background-color: black;
+                        padding-left: 15px;
+                        padding-right: 15px;
+                        border-radius:20px;
+                        padding-top: 5px;
+                        padding-bottom: 5x;
+                        
+                    }
+                  
+                }
+        }
+    }
+}
+
+@media (max-width: 960px){
+    .types{
+        text-align: center;
+        width: 100%;
+        input{
+            display: none
+        }
+        #search{
+            display: none
+        }
+        position: sticky;
+        // width:100%;
+        .types-list{
+            display: flex;
+            flex-direction: row;
+            overflow:unset;
+            overflow-x:visible;
+            overflow-y:hidden;
+            width: 100vw;
+            height: 8vh;
+            .product{
+                height: 10px;
+                display: inline-block;
+                width: 100px;
+                // width:;            
+        
+                a{
+                    text-decoration: none;
+                    color: black;
+                }
+                p{ 
+                    display: inline-block;
+                    margin-right: 5px;
+                    margin-block-end: 0;
+                    margin-block-start: 0;
+                    font-size: 10px;
+                }
+    
+            }
+            .product:active{
+                    
+    
+                     color: white;
+                     a{
+                        text-decoration: none;
+                        color: white;
+                        
+                    }
+                    p{ 
+                        span{
+                            background-color: black;
+                            padding-left: 15px;
+                            padding-right: 15px;
+                            border-radius:20px;
+                            padding-top: 5px;
+                            padding-bottom: 5x;
+                            
+                        }
+                      
+                    }
+            }
+        }
+    }
+ }

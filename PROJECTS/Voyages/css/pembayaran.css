@@ -1,0 +1,85 @@
+.radio-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 1.25rem;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+    border: 0;
+    border-radius: 0;
+    overflow-anchor: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,border-radius .15s ease;
+    
+}
+
+.back {
+    color: black;
+    text-decoration: none;
+}
+
+.radio-button-circle {
+    margin-right: 0.5rem;
+}
+
+.radio-button-checked:checked {
+    background-color: orangered;
+    border-color: orangered;
+}
+
+.radio-button-checked:focus{
+    box-shadow: 0 0 0 0.25rem rgb(255 99 71 / 25%) !important;
+}
+
+.rata {
+    display: flex;
+    align-items: self-end;
+}
+
+.btn-cs {
+    background-color: orangered;
+    color: white;
+}
+
+.btn-cs:hover {
+    background-color: tomato;
+    color: white;
+}
+
+.btn-cs:focus {
+    box-shadow: 0 0 0 0.25rem rgb(255 99 71 / 25%) !important;
+    background-color: tomato;
+}
+
+.img-rev img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.hovertes:hover {
+    background-color: whitesmoke
+}
+
+.modal-cs {
+    justify-content: center;
+    border: none;
+}
+
+.navhover:hover {
+    color: orangered !important;
+    border-bottom: 1px solid !important;
+    border-width: 2px !important;
+}
+
+.dropdown-menu-start[data-bs-popper] {
+    left: auto!important;
+    right: 0!important;
+  }
+
