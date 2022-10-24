@@ -7,6 +7,7 @@ import Blog from "./component/pages/Blog";
 import "./main.css";
 import Contributors from "./component/pages/Contributors";
 import Footer from "./component/Footer/Footer";
+import Roadmap from "./component/pages/Roadmap";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path='/contributors' exact element={<Contributors />} ></Route>
         <Route path='/projects' exact element={<Projects />} ></Route>
         <Route path='/blog' exact element={<Blog />} ></Route>
+        <Route path='/roadmap' exact element={<Roadmap />} ></Route>
       </Routes>
       <Footer/>
     </div>
