@@ -1,0 +1,16 @@
+ul > li{
+    margin: 0 10px;
+    letter-spacing: .2rem;
+}
+
+@media (min-width: 640px) {
+    .menu-icon {
+        display: none
+    }
+}
+
+@media (max-width: 640px) {
+    .menu-container {
+        display: none
+    }
+}
