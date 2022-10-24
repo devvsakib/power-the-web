@@ -1,0 +1,355 @@
+.details {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  justify-content: center;
+  background-color: white;
+  color: black;
+
+  .header-section {
+    background-color: rgb(248, 249, 253);
+    font-size: 27px;
+    font-weight: 700;
+    margin-top: 0px;
+    padding: 42px 105px;
+  }
+
+  .details-section {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    margin-top: 11px;
+    padding: 10px 105px;
+
+    .name {
+      margin-bottom: 30px;
+      .heading {
+        font-size: 20px;
+        font-weight: 500;
+        margin: 25px 0px;
+      }
+
+      .value {
+        input {
+          width: 410px;
+          font-size: 19px;
+          padding: 6px 2px;
+          border-color: rgb(218, 218, 218);
+          border-radius: 6px;
+          border-width: 2px 2px;
+        }
+      }
+    }
+    .date {
+      margin-bottom: 30px;
+      .heading {
+        font-size: 20px;
+        font-weight: 500;
+        margin: 25px 0px;
+      }
+
+      .value {
+        .datetime {
+          width: 51%;
+          font-size: 20px;
+          padding: 6px 2px;
+          border-color: rgb(218, 218, 218);
+          border-radius: 6px;
+          border-width: 2px 2px;
+          border-color: rgb(218, 218, 218);
+          border-radius: 6px;
+          border-width: 2px 2px;
+        }
+      }
+    }
+    .description {
+      margin-bottom: 30px;
+      .heading {
+        font-size: 20px;
+        font-weight: 500;
+        margin: 25px 0px;
+      }
+
+      .value {
+        height: 40%;
+        textarea {
+          resize: none;
+          width: 60%;
+          height: 200px;
+          display: block;
+          padding: 7px;
+          border-color: rgb(218, 218, 218);
+          border-radius: 6px;
+          border-width: 2px 2px;
+        }
+      }
+    }
+
+    .overview {
+      margin-bottom: 30px;
+      .heading {
+        font-size: 20px;
+        font-weight: 500;
+        margin: 25px 0px;
+      }
+
+      .value {
+        height: 40%;
+        textarea {
+          resize: none;
+          width: 60%;
+          height: 300px;
+          display: block;
+          padding: 7px;
+          border-color: rgb(218, 218, 218);
+          border-radius: 6px;
+          border-width: 2px 2px;
+        }
+      }
+    }
+
+    .uploadImage {
+      margin-bottom: 30px;
+      
+      .heading {
+        font-size: 20px;
+        font-weight: 500;
+        margin: 25px 0px;
+      }
+
+      .value {
+        display: flex;
+        flex-direction: column;
+
+        img {
+          width: 300px;
+          border-radius: 10px;
+          margin-bottom: 20px;
+        }
+        input {
+          padding: 0px;
+          border-radius: 6px;
+          border-width: 2px 2px;
+        }
+      }
+    }
+
+    .level {
+      margin-bottom: 30px;
+      .heading {
+        font-size: 20px;
+        font-weight: 500;
+        margin: 25px 0px;
+      }
+
+      .value {
+        select {
+          padding: 8px;
+          border-radius: 6px;
+          border-width: 2px 2px;
+          width: 20%;
+        }
+      }
+    }
+    input[type=submit] {
+      background-color: rgb(68, 146, 76);
+      color: #fff;
+      padding: 10px 20px;
+      margin: 30px 0px;
+      border: none;
+      border-radius: 10px;
+      font-size: 20px;
+      width: 300px;
+    }
+  }
+}
+.react-datetime-picker__wrapper {
+  display: flex;
+  flex-grow: 1;
+  flex-shrink: 0;
+  border: thin solid gray;
+  font-size: 20px;
+  border-radius: 6px;
+  width: 110%;
+  padding: 7px;
+  border-color: rgb(218, 218, 218);
+  border-radius: 6px;
+  border-width: 2px 2px;
+}
+
+@media only screen and (max-width: 1025px){
+  .details {
+    .header-section {
+      font-size: 30px;
+      padding: 42px 105px;
+    }
+  
+    .details-section {
+      input[type=submit] {
+        width: 255px;
+      }
+    }
+  }
+
+}
+@media only screen and (max-width: 770px){
+  .details {
+    .details-section {
+      .description {
+        margin-bottom: 30px;
+        .heading {
+          font-size: 20px;
+          font-weight: 500;
+          margin: 25px 0px;
+        }
+  
+        .value {
+          height: 40%;
+          textarea {
+            resize: none;
+            width: 85%;
+            height: 155px;
+
+          }
+        }
+      }
+  
+      .overview {
+        margin-bottom: 30px;
+        .value {
+          height: 40%;
+          textarea {
+            width: 85%;
+            height: 250px;
+            display: block;
+            padding: 7px;
+            border-color: rgb(218, 218, 218);
+            border-radius: 6px;
+            border-width: 2px 2px;
+          }
+        }
+      }
+  
+    
+      input[type=submit] {
+        background-color: rgb(68, 146, 76);
+        color: #fff;
+        padding: 10px 20px;
+        margin: 30px 0px;
+        border: none;
+        border-radius: 10px;
+        font-size: 20px;
+        width: 250px;
+      }
+    }
+  }
+  
+}
+@media only screen and (max-width: 600px){
+  .details {
+    .details-section {
+      .level {
+        .value {
+          select {
+            width: 30%;
+          }
+        }
+      }
+      input[type=submit] {
+        width: 200px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 430px){
+  .details {
+  
+    .header-section {
+      font-size: 35px;
+      padding: 30px 60px;
+    }
+  
+    .details-section {
+      margin-top: 5px;
+      padding: 10px 50px;
+
+      .name {
+        .heading {
+          font-size: 22px;
+        }
+        .value {
+          input {
+            width: 400px;
+            font-size: 20px;
+          }
+        }
+      }
+      .date {
+        .heading {
+          font-size: 22px;
+        }
+      }
+      .description {
+        .heading {
+          font-size: 22px;
+        }
+  
+        .value {
+          height: 40%;
+          textarea {
+            width: 100%;
+            height: 150px;
+          }
+        }
+      }
+  
+      .overview {
+        .heading {
+          font-size: 22px;
+        }
+        .value {
+          textarea {
+            width: 100%;
+            height: 200px;
+
+          }
+        }
+      }
+  
+      .uploadImage {
+        margin-bottom: 30px;
+  
+        .heading {
+          font-size: 22px;
+        }
+  
+        .value {
+          img {
+            width: 250px;
+          }
+        }
+      }
+  
+      .level {
+        .heading {
+          font-size: 22px;
+        }
+  
+        .value {
+          select {
+            width: 30%;
+          }
+        }
+      }
+      input[type=submit] {
+        width: 200px;
+      }
+    }
+  }
+
+}
+
+

@@ -1,0 +1,10 @@
+#cont{
+    margin: 50px;
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+    border: 2px solid black;
+}
+#logo{
+ color: rgb(14, 110, 199);
+}

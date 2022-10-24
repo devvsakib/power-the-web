@@ -1,0 +1,95 @@
+body{
+    margin: 0px auto;
+    padding: 0px auto;
+}
+
+#carouselExampleIndicators{
+    position: relative;
+    height: 400px;
+    padding: 0px auto;
+}
+
+.carousel-item img{
+    width: 100%;
+    height: 400px;
+    object-fit:cover;
+}
+
+.caption-content{
+    text-align: justify;
+}
+
+.button-primer{
+    padding-right: 15px;
+}
+
+
+.product-detail-container {
+    padding: 10px;
+}
+
+.ratings i {
+    color: #a9a6a6
+}
+
+.ratings span {
+    color: #a9a6a6
+}
+
+/* #list-wisata{
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+} */
+
+.btn-submit{
+    text-align: center;
+}
+
+.navhover:hover {
+    color: orangered !important;
+    border-bottom: 1px solid !important;
+    border-width: 2px !important;
+}
+
+/* .img-collection{
+    position: relative;
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+} */
+
+
+  
+  /* If the screen size is 600px or less, set the font-size of <div> to 30px */
+  @media only screen and (max-width: 1024px) {
+    .caption-content-2{
+        display: none;
+    }
+  }
+
+  @media only screen and (min-width: 1024px) {
+    .button-login {
+      position: relative;
+    }
+  }
+
+
+  
+  /* If the screen size is 600px or less, set the font-size of <div> to 30px */
+  @media only screen and (max-width: 980px) {
+    .button-login{
+        position: relative;
+        display: none;
+    }
+  }
+
+  .dropdown-menu-start[data-bs-popper] {
+    left: auto!important;
+    right: 0!important;
+  }
+
+  .dropdown-menu-start[data-bs-popper] {
+    left: auto!important;
+    right: 0!important;
+  }

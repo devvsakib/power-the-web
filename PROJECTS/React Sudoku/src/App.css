@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
+body {
+	background: radial-gradient(ellipse at center, #6b3381, #2a0845);
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+	appearance: none;
+	margin: 0;
+}
+
+.bg-input, .bg-input:focus, .bg-input:hover {
+	background-color: skyblue
+}
+
+.bg-light-input, .bg-light-input:focus, .bg-light-input:hover {
+	background-color: deepskyblue;
+}
+
+.text-user, .text-user:focus, .text-user:hover {
+	color: orangered;
+}
+
+.text-readonly, .text-readonly:focus, .text-readonly:hover {
+	color: purple;
+}
+
+h1.elegantshadow {
+	color: #131313;
+	letter-spacing: .15em;
+	text-shadow:
+	-1px 2px 1px #868585,
+	-1.8px 2.8px 1px #8f8e8d,
+	-2.6px 3.6px 1px #999897,
+	-3.4px 4.4px 1px #a3a1a1,
+	-4.2px 5.2px 1px #adabab,
+	-5px 6px 1px #b7b6b5,
+	-5.8px 6.8px 1px #c1bfbf,
+	-6.6px 7.6px 1px #cbc9c8,
+	-7.4px 8.4px 1px #d4d2d1,
+	-8.2px 9.2px 1px #dbdad9,
+	-9px 10px 1px #dfdddc;
+}
+
+.border-top {
+	border-top: 2px solid gray !important;
+}
+
+.border-bottom {
+	border-bottom: 2px solid gray !important;
+}
+
+.border-left {
+	border-left: 2px solid gray !important;
+}
+
+.border-right {
+	border-right: 2px solid gray !important;
+}

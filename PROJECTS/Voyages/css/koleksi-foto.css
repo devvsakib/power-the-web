@@ -1,0 +1,25 @@
+
+  .wrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-gap: 5px;
+  }
+  .img-gal{
+    width: 100%;
+    border-radius: 20px;
+  }
+  .box{
+    padding: 10px;
+  }
+
+@media only screen and (min-width: 990px) {
+  .wrapper{
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    grid-gap: 20px;
+  }
+}
+
+.dropdown-menu-start[data-bs-popper] {
+    left: auto!important;
+    right: 0!important;
+  }
