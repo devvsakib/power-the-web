@@ -1,10 +1,12 @@
 # Hacktoberfest-React-Project
 
-<img width="959" alt="Screenshot 2022-10-12 10-33-09" src="https://user-images.githubusercontent.com/56462749/195327772-d1c821f4-7591-418d-85eb-e32f5b0f14b6.png">
-
 ## About
+![PowerTheWeb Contributors](assets/powertheweb-contributors.png)
 
-Hacktoberfest-React-Project Application created using HTML and CSS.
+![PowerTheWeb Cover](assets/powertheweb-cover.png)
+
+PowerTheWeb is an open-source project to help web developers make their road easy to become a successful web developer
+
 ## Don't Forget to JOIN OUR COMMMUNITY
 Join our community and ask anything. If you run into a problem please let us know.
 DISCORD - [JOIN](https://discord.gg/6XRTeHRxWV)
