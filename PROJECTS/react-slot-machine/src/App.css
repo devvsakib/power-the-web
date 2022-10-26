@@ -1,0 +1,493 @@
+/*
+    Reset
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  border: 0;
+  font-family: inherit;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+:focus {
+  outline: 0;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  font-weight: normal;
+  text-align: left;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+}
+
+blockquote, q {
+  quotes: "" "";
+}
+
+a img {
+  border: 0;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+
+/*
+    Document
+*/
+
+html {
+  background: #2B2B2B;
+}
+
+body {
+  background: transparent;
+  font-size: 16px;
+}
+
+@media (max-width: 400px) {
+  body {
+    font-size: 8px;
+  }
+}
+
+#page {
+  margin: 0 auto;
+}
+
+#content {
+  padding: 20px;
+}
+
+
+/*
+    Slot Machine
+*/
+
+#slot-body {
+  background: #007dc3;
+  border-radius: .5em;
+  border: .2em solid #FEE300;
+  box-sizing: border-box;
+  box-shadow: inset 0 0 25px rgba(255, 255, 255, 0.6);
+  height: 30em;
+  margin: auto;
+  position: absolute;
+  width: 40em;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  transform: translate(-55%, -50%);
+}
+
+.slot-frame, #slot-frame {
+  left: 8%;
+  top: 29%;
+  border: 1px solid;
+  width: 86%;
+  height: 60%;
+  position: absolute;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.slot-frame.shadow:before {
+  content: '';
+  display: block;
+  height: 50%;
+  width: 100%;
+  box-shadow: 0 1.5em 3em #0c090a inset;
+}
+
+.slot-frame.shadow:after {
+  content: '';
+  display: block;
+  height: 50%;
+  width: 100%;
+  box-shadow: 0 -1.5em 3em #0c090a inset;
+}
+
+#slot-box {
+  background: #1b1b1b;
+  border-radius: 6px;
+  box-shadow: 0 0 16px rgba(255, 255, 255, 0.3), 0 1px 1px rgba(255, 255, 255, 0.5), 0 -1px 1px rgba(255, 255, 255, 0.2), inset 0 -2px 15px #000;
+  box-sizing: border-box;
+  border: 2px solid #FEE300;
+  height: 68%;
+  left: 5%;
+  position: absolute;
+  top: 25%;
+  width: 90%;
+  z-index: 1;
+}
+
+.slot-item {
+  height: 88%;
+  width: 94%;
+  position: relative;
+  background: white;
+  z-index: 1;
+  font-size: 4vw;
+  padding: 10px;
+}
+
+@media (min-width: 1000px) {
+  .slot-item {
+    font-size: 2.5em;
+  }
+}
+
+.slot-item .date {
+  position: absolute;
+  right: 10px;
+  bottom: 5px;
+  font-style: italic;
+  font-size: .8em;
+}
+
+.slot-item.evergreen {
+  font-variant: all-small-caps;
+  color: #007dc3;
+  font-family: monospace;
+}
+
+#slot-display {
+  background: #1b1b1b;
+  background: linear-gradient(to bottom, #1b1b1b 0%,#383838 8%,#3a3a3a 20%,#0a0a0a 47%,#010101 50%,#0d0d0d 54%,#444444 100%);
+  border-radius: 6px;
+  box-shadow: 0 0 16px rgba(255, 255, 255, 0.3), 0 1px 1px rgba(255, 255, 255, 0.5), 0 -1px 1px rgba(255, 255, 255, 0.2), inset 0 -2px 15px #000;
+  box-sizing: border-box;
+  border: 2px solid #ED5D1E;
+  bottom: 10px;
+  height: 28px;
+  left: 50%;
+  letter-spacing: 3px;
+  line-height: 25px;
+  margin-left: -85px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 18px;
+  text-align: right;
+  position: absolute;
+  width: 171px;
+  z-index: 2;
+}
+
+#slot-display div {
+  position: absolute;
+  right: 4px;
+  top: 1px;
+}
+
+#slot-credits {
+  color: #78FF00;
+  font-weight: bold;
+  z-index: 2;
+}
+
+#slot-zeros {
+  color: rgba(255, 255, 255, 0.3);
+  z-index: 1;
+}
+
+#slot-overlay {
+  background: linear-gradient(to bottom, rgba(0,0,0,0.1) 0%,rgba(0,0,0,0.15) 50%,rgba(0,0,0,0) 51%,rgba(0,0,0,0) 100%);
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 3;
+}
+
+#slot-overlay-line {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  height: 46%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 3;
+}
+
+#slot-trigger {
+  cursor: pointer;
+  height: 15em;
+  right: -4em;
+  top: 8em;
+  position: absolute;
+  width: 3.7em;
+}
+
+#slot-trigger div {
+  position: absolute;
+}
+
+#slot-trigger .ring1 {
+  background: #282828;
+  background: linear-gradient(to bottom, #282828 0%,#959595 14%,#d1d1d1 37%,#bababa 49%,#959595 67%,#212121 100%);
+  border-radius: 0 2px 2px 0;
+  box-shadow: inset 0 2px 3px rgba(0, 0, 0, 0.8);
+  height: 100%;
+  left: 0;
+  width: 2em;
+  z-index: 2;
+}
+
+#slot-trigger .ring1 .shadow {
+  background: linear-gradient(to bottom,  rgba(149,149,149,0.2) 0%,rgba(13,13,13,0.18) 46%,rgba(1,1,1,0.18) 50%,rgba(10,10,10,0.18) 53%,rgba(78,78,78,0.17) 76%,rgba(56,56,56,0.16) 87%,rgba(27,27,27,0.15) 100%);
+  border-radius: 0 2px 2px 0;
+  height: 50%;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  width: 10px;
+  z-index: 1;
+}
+
+#slot-trigger .ring2 {
+  background: #282828;
+  background: linear-gradient(to bottom, #282828 0%,#959595 14%,#d1d1d1 37%,#bababa 49%,#959595 67%,#212121 100%);
+  border-radius: 0 2px 2px 0;
+  box-shadow: inset 0 2px 3px rgba(0, 0, 0, 0.8);
+  height: 80%;
+  left: 2em;
+  overflow: hidden;
+  top: 10%;
+  width: 2em;
+  z-index: 1;
+}
+
+#slot-trigger .ring2 .shadow {
+  background: linear-gradient(to bottom,  rgba(149,149,149,0.15) 0%,rgba(13,13,13,0.15) 46%,rgba(1,1,1,0.15) 50%,rgba(10,10,10,0.15) 53%,rgba(78,78,78,0.15) 76%,rgba(56,56,56,0.15) 87%,rgba(27,27,27,0.15) 100%);
+  border-radius: 0 2px 2px 0;
+  height: 50%;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  width: 10px;
+  z-index: 1;
+}
+
+#slot-trigger .arm {
+  background: #0d0d0d;
+  background: linear-gradient(to right, #0d0d0d 0%,#4e4e4e 47%,#383838 87%,#1b1b1b 100%);
+  border-radius: 0 0 1em 1em;
+  box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.8);
+  height: 70%;
+  left: 2.5em;
+  top: -8em;
+  width: 1em;
+  z-index: 3;
+  overflow: visible !important;
+}
+
+#slot-trigger .knob {
+  background: #ff6363;
+  background: radial-gradient(ellipse at center, #ff6363 0%,#cf0404 100%);
+  border-radius: 2em;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+  width: 4em;
+  height: 4em;
+  left: -1.5em;
+  top: -2em;
+  z-index: 4;
+}
+
+#slot-trigger .arm-shadow {
+  background: #000;
+  border-radius: 1em;
+  bottom: -0.5em;
+  height: 1.5em;
+  left: 2.3em;
+  top: 1.5em;
+  width: 1.5em;
+  z-index: 2;
+}
+
+#slotTrigger.slotTriggerDown {
+  background-position: 0px -17px;
+}
+#slotTrigger.slotTriggerDisabled {
+  background-position: 0px -34px;
+  display: none;
+}
+.slotSpinAnimation {
+  display: none;
+}
+
+#slot-glaze-bottom {
+  background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,0.1) 45%,rgba(255,255,255,0.1) 100%);
+  bottom: 2px;
+  border-radius: 0 0 5px 5px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
+  left: 3px;
+  height: 14px;
+  position: absolute;
+  width: 190px;
+}
+
+#slot-details {
+  height: 150px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 200px;
+  z-index: 1;
+}
+
+#slot-top {
+  background: #ED5D1E;
+  border-radius: 10px 10px 0 0;
+  border: 2px solid #ED5D1E;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  box-shadow: 0 -1px 1px rgba(0, 0, 0, 0.6), 0 1px 2px rgba(0, 0, 0, 0.8), inset 0 0 25px rgba(255, 255, 255, 0.2);
+  height: 12px;
+  left: 50%;
+  margin-left: -98px;
+  position: absolute;
+  top: -3px;
+  width: 196px;
+}
+
+#slot-bottom {
+  background: #ED5D1E;
+  border-radius: 0 0 10px 10px;
+  border: 2px solid #ED5D1E;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  box-shadow: 0 -1px 1px rgba(0, 0, 0, 0.6), 0 1px 2px rgba(0, 0, 0, 0.8), inset 0 0 25px rgba(255, 255, 255, 0.2);
+  height: 12px;
+  left: 50%;
+  margin-left: -98px;
+  position: absolute;
+  bottom: -3px;
+  width: 196px;
+}
+
+#slot-legend {
+  background: #35A147;
+  border-radius: 10px;
+  border: 2px solid #35A147;
+  box-sizing: border-box;
+  box-shadow: 0 1px 100px rgba(0, 0, 0, 0.4), 0 1px 2px rgba(0, 0, 0, 0.8), inset 0 0 25px rgba(255, 255, 255, 0.6);
+  height: 180px;
+  left: -240px;
+  position: absolute;
+  top: -15px;
+  width: 200px;
+}
+
+#slot-legend .frame {
+  background: #3A3A3A;
+  border-radius: 6px;
+  box-shadow: 0 0 16px rgba(255, 255, 255, 0.3), 0 1px 1px rgba(255, 255, 255, 0.5), 0 -1px 1px rgba(255, 255, 255, 0.2), inset 0 -2px 15px #000;
+  box-sizing: border-box;
+  border: 2px solid #35A147;
+  height: 166px;
+  left: 6px;
+  position: absolute;
+  top: 5px;
+  width: 184px;
+  z-index: 2;
+}
+
+#slot-title {
+  width: 10em;
+  height: 5em;
+  background: url(https://www.skuola.net/bundles/skuolacommon/img/logo.svg) 10em 5em;
+  background-size: 10em;
+  margin: auto;
+}
+
+.tooBig {
+  display: inline-block;
+  margin: 0;
+  position: absolute;
+  top: 60%;
+  transform: translate(0, -75%);
+}
+
+.slot-item .evergreen {
+  background-color: #FEE300;
+  padding: 0px 3px 4px 3px;
+  border-radius: 8px;
+  margin: 10px;
+  border: solid 2px #007dc3;
+  color: #007dc3;
+  font-variant: all-small-caps;
+  width: 4em;
+}
+
+#slot-trigger.animation .arm {
+  animation-name: animation_arm;
+  animation-duration: 1s;
+  animation-timing-function: linear, ease-out;
+}
+
+#slot-trigger.animation .arm-shadow {
+  animation-name: animation_shadow;
+  animation-duration: 1s;
+}
+
+#slot-trigger.animation .knob {
+  animation-name: animation_knob;
+  animation-duration: 1s;
+}
+
+@keyframes animation_arm {
+  0%  { top: -8em; height: 70%; animation-timing-function: linear; }
+  25%  { top: 7.5em; height: 0%; animation-timing-function: ease-out; }
+  50%  { top: 12em; height: 70%; animation-timing-function: ease-in; }
+  75%  { top: 7.5em; height: 0%; animation-timing-function: linear; }
+  100% { top: -8em; height: 70%; animation-timing-function: ease-out; }
+}
+
+@keyframes animation_shadow {
+  0% { top: 1.5em; animation-timing-function: linear; }
+  25% { top: 6.5em; animation-timing-function: ease-out; }
+  50% { top: 11.5em; animation-timing-function: ease-in; }
+  75% { top: 6.5em; animation-timing-function: linear; }
+  100% { top: 1.5em; }
+}
+
+@keyframes animation_knob {
+  0%  { animation-timing-function: step-start; }
+  25% { top: -1em; animation-timing-function: step-start; }
+  50%  { top: auto; bottom: -1em; position: absolute; animation-timing-function: step-start; }
+  75%  { top: auto; bottom: -1em; position: absolute; animation-timing-function: step-start; }
+  100% { animation-timing-function: step-start; }
+}
