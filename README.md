@@ -7,6 +7,7 @@
 
 PowerTheWeb is an open-source project to help web developers make their road easy to become a successful web developer
 
+> Currently developing main website, checkout 2nd branch "convert-react"
 ## Don't Forget to JOIN OUR COMMMUNITY
 Join our community and ask anything. If you run into a problem please let us know.
 DISCORD - [JOIN](https://discord.gg/6XRTeHRxWV)
@@ -61,7 +62,7 @@ So, people will know what project it is. Make sure you added your github name an
 ![GitHub PR Open](https://img.shields.io/github/issues-pr/devvsakib/hacktoberfest-react-project?style=for-the-badge&color=aqua)
 ![GitHub PR closed](https://img.shields.io/github/issues-pr-closed-raw/devvsakib/hacktoberfest-react-project?style=for-the-badge&color=blue)
 ![GitHub language count](https://img.shields.io/github/languages/count/devvsakib/hacktoberfest-react-project?style=for-the-badge&color=brightgreen)
-> Size: 76.45 MiB
+> Size: 78.45 MiB
 <br><br>
 
 ## Thanks to all the contributors ❤️
