@@ -5,7 +5,7 @@ function Herosection() {
     <>
       <div className='hero-section flex justify-between py-10 items-center '>
         <div className='hero-content pb-10'>
-          <h2 className=' text-5xl font-bold text'>PoweTheWeb</h2>
+          <h2 className=' text-5xl font-bold text'>PowerTheWeb</h2>
           <p className='mt-5 text-xl'>An opensouce Projects for Web Developer.<br/> Start your development from here.</p>
         </div>
         <div className='dc-frame'> 
