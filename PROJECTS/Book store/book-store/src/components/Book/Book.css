@@ -1,0 +1,48 @@
+ul{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+    flex-wrap:wrap ;
+}
+li{
+    padding: 10px;
+    width: 210px;
+    max-width: 300px;
+    max-height: 600px;
+    list-style: none;
+}
+.card{
+    padding:2px;
+    width:200px;
+    height:600px;
+    box-shadow: 5px 5px 10px #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.card >img{
+    width: 100%;
+    height:50%
+}
+
+.card h3{
+    margin:4px
+}
+.card article{
+   margin: 2px;
+}
+.card p{
+    margin-top:2px
+}
+.form h1{
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.bookpage h1{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
