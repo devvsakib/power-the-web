@@ -18,28 +18,23 @@
 </head>
 <body>
 
-    <nav>
-        <ul class="nav nav-tabs" id="navId">
-            <li class="nav-item">
-                <a href="./index.html" class="nav-link active">Home</a>
-            </li>
-            <li class="nav-item">
-                <a href="./contributor.html" class="nav-link">Contributors</a>
-            </li>
-            <li class="nav-item">
-                <a href="./project.html" class="nav-link">Projects</a>
-            </li>
-            <li class="nav-item">
-                <a href="./blog.html" class="nav-link">Blog</a>
-            </li>
-            <li class="nav-item">
-                <a href="#" class="nav-link disabled">Open-Source</a>
-            </li>
-            <li class="nav-item">
-                <a href="./faq.html" class="nav-link">FAQs</a>
-            </li>
-        </ul>
+    <nav id="navi">
+        <div id="menuToggle">
+          <!-- Nav tabs -->
+          <input type="checkbox" />
 
+          <span></span>
+          <span></span>
+          <span></span>
+
+          <ul id="menu">
+              <a href="index.html" ><li>Home</li></a>
+              <a href="./contributor.html" ><li>Contributors</li></a>
+              <a href="./project.html" class="active"><li>Projects</li></a>
+              <a href="./blog.html" ><li>Blog</li></a>
+              <a href="#" class="disabled"><li>Open-Source</li></a>
+          </ul>
+        </div>
     </nav>
     <section>
         <div class="container">
@@ -51,85 +46,28 @@
         </div>
         
         <table>
-            <tr>
-                <th>Serial Number</th>
-                <th>Project Name</th>
-            </tr>
-            <tr>
-                <td>1.</td>
-                <td>Car</td>
-            </tr>
-            <tr>
-                <td>2.</td>
-                <td>Clone Tesla</td>
-            </tr>
-            <tr>
-                <td>3.</td>
-                <td>College Bazaar Main</td>
-            </tr>
-            <tr>
-                <td>4.</td>
-                <td>Counter App</td>
-            </tr>
-            <tr>
-                <td>5.</td>
-                <td>Day Planner</td>
-            </tr>
-            <tr>
-                <td>6.</td>
-                <td>Drum Kit</td>
-            </tr>
-            <tr>
-                <td>7.</td>
-                <td>Hackathon Page</td>
-            </tr>
-            <tr>
-                <td>8.</td>
-                <td>IPOD</td>
-            </tr>
-            <tr>
-                <td>9.</td>
-                <td>Main Website</td>
-            </tr>
-            <tr>
-                <td>10.</td>
-                <td>Movie List</td>
-            </tr>
+            <thead>
                 <tr>
-                <td>11.</td>
-                <td>Netflix Clone</td>
-            </tr>
-            <tr>
-                <td>12.</td>
-                <td>React Calculator</td>
-            </tr>
-            <tr>
-                <td>13.</td>
-                <td>React Counter App</td>
-            </tr>
-            <tr>
-                <td>14.</td>
-                <td>React Notes App</td>
-            </tr>
-            <tr>
-                <td>15.</td>
-                <td>Real Time Chat</td>
-            </tr><tr>
-                <td>16.</td>
-                <td>Restaurant Online Ordering</td>
-            </tr><tr>
-                <td>17.</td>
-                <td>Voyages</td>
-            </tr><tr>
-                <td>18.</td>
-                <td>Water Cup Tracker</td>
-            </tr><tr>
-                <td>19.</td>
-                <td>Weather App</td>
-            </tr><tr>
-                <td>20.</td>
-                <td>Website</td>
-            </tr>
+                    <th>Serial Number</th>
+                    <th>Project Name 🔗</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+            <script>
+                const tbody = document.querySelector('tbody')
+                fetch('https://api.github.com/repos/devvsakib/hacktoberfest-react-project/contents/PROJECTS')
+                .then(res => res.json())
+                .then(response => {
+                response.forEach(({ name, html_url }, index) => {
+                    tbody.innerHTML += `
+                        <tr>
+                            <td>${index + 1}</td>
+                            <td><a class="text-decoration-none" href="${html_url}" target="_blank" rel="noreferrer">${name}</a></td>
+                        </tr>
+                    `
+                })
+                })
+            </script>
     </table>
     </section>
     

@@ -1,0 +1,10 @@
+.dockerignore
+.git*
+.husky/
+.prettierrc
+.vscode/
+CODE_OF_CONDUCT.md
+README.md
+build/
+docker/Dockerfile
+node_modules/
