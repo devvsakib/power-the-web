@@ -20,13 +20,13 @@ DISCORD - [JOIN](https://discord.gg/6XRTeHRxWV)
 2. Clone the forked repository to your local machine.
 
 ```markdown
-git clone https://github.com/your-username/devvsakib/hacktoberfest-react-project.git
+git clone https://github.com/your-username/devvsakib/power-the-web.git
 ```
 
 3. change the present working directory
 
 ```markdown
-cd hacktoberfest-react-project
+cd power-the-web
 ```
 
 5. Make your changes
