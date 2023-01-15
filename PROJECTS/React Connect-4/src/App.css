@@ -1,0 +1,16 @@
+main {
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: radial-gradient(circle, #0f0c29 0%, #302b63 50%, #24243e 100%);
+}
+
+h1 {
+	text-shadow: 2px 1px 0px #fff, 5px 4px 0px rgba(0,0,0,0.2);
+}
+
+th {
+	clip-path: polygon(20% 20%, 80% 20%, 50% 80%);
+	height: 2rem;
+}

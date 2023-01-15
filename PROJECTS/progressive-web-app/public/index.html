@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" type="image/png" href="./images/logo.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Modern Weather Application" />
+  <link rel="apple-touch-icon" href="./images/logo.png" />
+  <link rel="manifest" href="./manifest.json" />
+  <title>PWA Weather App</title>
+</head>
+
+<body>
+  <!-- Service Worker is a javacript file that runs all the time as soon as you open the page it starts running and even if you close the page it keeps on running 
+Uses:
+Can send Push Notification to a mobile Phone
+Shows some data to the page even we are offline  -->
+
+  <div id="root"></div>
+  <!-- registering first service worker  -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', ()=>{
+        navigator.serviceWorker.register('./serviceworker.js')
+        .then((reg)=>console.log('Success: ',reg.scope))
+        .catch((err)=>console.log('Failure: ', err))
+      })
+    }
+  </script>
+
+</body>
+
+</html>

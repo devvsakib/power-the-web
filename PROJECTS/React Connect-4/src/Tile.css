@@ -1,0 +1,24 @@
+.tile {
+	height: 5rem;
+	width: 5rem;
+	background-color: linen;
+	border: 1px solid darkslategray;
+	border-radius: 50%;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.Blue {
+	background: radial-gradient(circle at 2rem 2rem, dodgerblue, #333);
+	animation: fadeIn ease-out 0.3s;
+}
+
+.Red {
+	background: radial-gradient(circle at 2rem 2rem, crimson, #333);
+	animation: fadeIn ease-out 0.3s;
+}
+
+@keyframes fadeIn {
+	0% {opacity:0;}
+	100% {opacity:1;}
+}

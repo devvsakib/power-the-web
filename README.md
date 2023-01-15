@@ -1,10 +1,13 @@
 # Hacktoberfest-React-Project
 
-<img width="959" alt="Screenshot 2022-10-12 10-33-09" src="https://user-images.githubusercontent.com/56462749/195327772-d1c821f4-7591-418d-85eb-e32f5b0f14b6.png">
-
 ## About
+![PowerTheWeb Cover](assets/powertheweb-cover.png)
 
-Hacktoberfest-React-Project Application created using HTML and CSS.
+![PowerTheWeb Contributors](assets/powertheweb-contributors.png)
+
+PowerTheWeb is an open-source project to help web developers make their road easy to become a successful web developer
+
+> Currently developing main website, checkout 2nd branch "convert-react"
 ## Don't Forget to JOIN OUR COMMMUNITY
 Join our community and ask anything. If you run into a problem please let us know.
 DISCORD - [JOIN](https://discord.gg/6XRTeHRxWV)
@@ -17,13 +20,13 @@ DISCORD - [JOIN](https://discord.gg/6XRTeHRxWV)
 2. Clone the forked repository to your local machine.
 
 ```markdown
-git clone https://github.com/your-username/devvsakib/hacktoberfest-react-project.git
+git clone https://github.com/your-username/devvsakib/power-the-web.git
 ```
 
 3. change the present working directory
 
 ```markdown
-cd hacktoberfest-react-project
+cd power-the-web
 ```
 
 5. Make your changes
@@ -59,7 +62,7 @@ So, people will know what project it is. Make sure you added your github name an
 ![GitHub PR Open](https://img.shields.io/github/issues-pr/devvsakib/hacktoberfest-react-project?style=for-the-badge&color=aqua)
 ![GitHub PR closed](https://img.shields.io/github/issues-pr-closed-raw/devvsakib/hacktoberfest-react-project?style=for-the-badge&color=blue)
 ![GitHub language count](https://img.shields.io/github/languages/count/devvsakib/hacktoberfest-react-project?style=for-the-badge&color=brightgreen)
-> Size: 76.45 MiB
+> Size: 78.45 MiB
 <br><br>
 
 ## Thanks to all the contributors ❤️
