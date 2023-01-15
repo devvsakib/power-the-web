@@ -1,9 +1,9 @@
 # Hacktoberfest-React-Project
 
 ## About
-![PowerTheWeb Cover](assets/powertheweb-cover.png)
+![PowerTheWeb Cover](public/assets/powertheweb-cover.png)
 
-![PowerTheWeb Contributors](assets/powertheweb-contributors.png)
+![PowerTheWeb Contributors](public/assets/powertheweb-contributors.png)
 
 PowerTheWeb is an open-source project to help web developers make their road easy to become a successful web developer
 
