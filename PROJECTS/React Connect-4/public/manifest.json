@@ -1,0 +1,15 @@
+{
+  "short_name": "Connect 4",
+  "name": "Connect 4",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": " 16x16",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

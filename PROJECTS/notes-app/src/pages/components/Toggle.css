@@ -1,0 +1,15 @@
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header button {
+    background-color: rgb(202, 108, 253);
+	border-radius: 25px;
+	height: 40px;
+	width: 120px;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: 'Times New Roman', Times, serif;
+}

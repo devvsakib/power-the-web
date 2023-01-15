@@ -1,0 +1,38 @@
+.container {
+    /* height: 100vh;
+    width: 100%;
+    background-color: black; */
+}
+
+.details {
+    margin: 2rem 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.title {
+    font-size: 26px;
+    font-weight: 500;
+}
+
+
+.sub-title {
+    font-size: 16px;
+    font-style: italic;
+    opacity: .8;
+}
+
+.contributors-list {
+  /* display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start; */
+  display: grid;
+  grid-gap: 1rem 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  place-items: center;
+}
+
+.contributor-card {
+  width: 15rem;
+}

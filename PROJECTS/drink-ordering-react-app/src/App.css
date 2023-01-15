@@ -1,0 +1,167 @@
+* {
+  background-color: rgb(240, 239, 239);
+}
+.outter {
+  display: flex;
+  flex-direction: column;
+}
+.nav {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: rgb(0, 0, 0);
+  box-shadow: 0px 8px 8px black;
+}
+
+.nav h2 {
+  float: right;
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: rgb(0, 0, 0);
+}
+
+.nav h2:hover {
+  background-color: rgb(253, 93, 0);
+  color: black;
+  box-shadow: 5px 5px 5px black;
+  border-radius: 10%;
+}
+
+.mainlayout {
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.entryDiv {
+  padding: 15px;
+  margin: 15px;
+  border: 2px solid black;
+  border-radius: 15px;
+  width: 450px;
+  height: 370px;
+  box-shadow: 5px 8px 10px rgb(71, 71, 71);
+}
+
+.entryDiv h1 {
+  padding: 5px;
+  text-align: center;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(253, 93, 0);
+  border-radius: 20px 20px 20px 20px;
+}
+.entercocktail,
+.entername,
+.enterpoints {
+  width: 100%;
+  padding: 5px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.formField {
+  border-radius: 5px;
+  height: 25px;
+}
+
+.formField:hover {
+  border-left: 3px solid black;
+  border-bottom: 3px solid black;
+}
+.addentrybutton {
+  display: flex;
+  flex-direction: row;
+  float: right;
+}
+
+.addentrybutton button {
+  padding: 5px;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.addentrybutton button:hover {
+  box-shadow: 2px 2px 5px black;
+}
+
+.entriesDiv {
+  padding: 15px;
+  margin: 15px;
+  border: 2px solid black;
+  width: 450px;
+  height: 370px;
+  border-radius: 15px;
+  box-shadow: 5px 8px 10px rgb(71, 71, 71);
+}
+
+.entriesDiv pre {
+  width: 100%;
+}
+
+.entriesDiv pre h1 {
+  padding: 3px;
+  text-align: center;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(253, 93, 0);
+  border-radius: 20px 20px 20px 20px;
+}
+
+.cocktailpoints {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.Lhead {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-weight: bolder;
+  background-color: rgb(197, 197, 197);
+  border-radius: 10px;
+}
+.Lhead div {
+  padding: 5px;
+  margin-right: 10px;
+  background-color: rgb(197, 197, 197);
+}
+
+.scroll {
+  overflow: scroll;
+  height: 230px;
+}
+.finalEntries li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.finalEntries li div {
+  padding: 5px;
+  margin-right: 10px;
+  width: 110px;
+  text-align: center;
+}
+
+.finalEntries li div button {
+  border-radius: 5px;
+  margin: 2px;
+}
+
+.finalEntries li div button:hover {
+  box-shadow: 2px 2px 5px black;
+}
