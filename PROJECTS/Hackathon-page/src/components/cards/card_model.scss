@@ -1,0 +1,164 @@
+.card{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 39%;
+    padding: 65px 20px 0px 35px;
+    background-color: rgb(248,249,253);
+    border: none;
+    border-radius: 7%;
+    margin: 30px 0px;
+
+    img{
+        width: 50px;
+        height: 50px;
+        margin-bottom: 10px;
+    }
+
+    .card-heading{
+        font-size: 27px;
+        font-weight: 700;
+        margin-bottom: 20px;
+
+    }
+
+    .card-description{
+        font-size: 18px;
+        font-weight: 600;
+        color: rgb(100,96,125);
+        text-align: left;
+
+
+    }
+}
+
+@media only screen and (max-width: 1025px){
+    .card{
+        width: 46%;
+        margin: 18px 0px;
+    }
+}
+
+@media only screen and (max-width: 770px){
+    .card{
+        width: 46%;
+        margin: 18px 0px;
+        padding: 55px 20px 0px 35px;
+    
+        img{
+            width: 45px;
+            height: 45px;
+            margin-bottom: 10px;
+        }
+    
+        .card-heading{
+            font-size: 25px;
+            font-weight: 700;
+            margin-bottom: 20px;
+    
+        }
+    
+        .card-description{
+            font-size: 16px;
+            font-weight: 600;
+            color: rgb(100,96,125);
+            text-align: left;
+    
+    
+        }
+    }
+}
+@media only screen and (max-width: 600px){
+    .card{
+        width: 45%;
+        margin: 18px 0px;
+        padding: 40px 10px 10px 10px;
+    
+        img{
+            width: 35px;
+            height: 35px;
+            margin-bottom: 7px;
+        }
+    
+        .card-heading{
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 17px;
+            text-align: left;
+    
+        }
+    
+        .card-description{
+            font-size: 14px;
+            font-weight: 600;
+            color: rgb(100,96,125);
+            text-align: left;
+    
+    
+        }
+    }
+}
+
+@media only screen and (max-width: 450px){
+    .card{
+        width: 45%;
+        margin: 18px 0px;
+        padding: 20px 10px 10px 10px;
+        height: auto;
+    
+        img{
+            width: 30px;
+            height: 30px;
+            margin-bottom: 5px;
+        }
+    
+        .card-heading{
+            font-size: 17px;
+            font-weight: 700;
+            margin-bottom: 14px;
+            text-align: left;
+    
+        }
+    
+        .card-description{
+            font-size: 11px;
+            font-weight: 600;
+            color: rgb(100,96,125);
+            text-align: left;
+    
+    
+        }
+    }
+}
+@media only screen and (max-width: 400px){
+    .card{
+        width: 45%;
+        margin: 18px 0px;
+        padding: 20px 10px 10px 10px;
+        height: auto;
+    
+        img{
+            width: 30px;
+            height: 30px;
+            margin-bottom: 5px;
+        }
+    
+        .card-heading{
+            font-size: 17px;
+            font-weight: 700;
+            margin-bottom: 14px;
+            text-align: left;
+    
+        }
+    
+        .card-description{
+            font-size: 11px;
+            font-weight: 600;
+            color: rgb(100,96,125);
+            text-align: left;
+    
+    
+        }
+    }
+}

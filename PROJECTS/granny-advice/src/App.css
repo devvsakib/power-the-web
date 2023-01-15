@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body {
+  background: rgb(208, 222, 252);
+}
+
+#hack_logo{
+  display: block;
+  width: 75px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  background: rgb(255, 255, 255);
+  border-radius: 8px;
+  box-shadow: 1px 1px 25px rgb(0, 0, 0);
+}
+#logo {
+  display: block;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#body {
+  /* border: 2px solid; */
+  width: 75vw;
+  height: 60vh;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  background: rgb(155, 194, 253);
+  box-shadow: 0px 0px 45px rgb(0, 35, 110);
+}
+
+#title {
+  /* border: 1px solid; */
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 25px;
+  color: rgb(0, 52, 163);
+  font-family: 'Josefin Sans', cursive;
+}
+
+#form {
+  /* display: none; */
+  width: 80%;
+  /* border: 1px solid; */
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+}
+
+#input {
+  display: block;
+  font-size: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  background: rgb(221, 233, 255);
+  color:rgb(0, 35, 110);
+  font-family: 'Roboto', sans-serif;
+}
+#button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 5px;
+  background: rgb(48, 67, 173);
+  color: white;
+}
+
+.outputDiv {
+  /* border: 1px solid; */
+  /* width: 80%; */
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-top: 25px;
+  font-size: 15px;
+  color: rgb(0, 52, 163);
+  font-weight: bold;
+  line-height: 25px;
+  font-family: 'Ubuntu', sans-serif;
+}
+.output {
+  color: rgb(2, 0, 102);
+  text-decoration: underline;
+
+}
+
+/* phone view */
+
+@media screen and (max-width: 1080px) {
+  body {
+  background: rgb(208, 222, 252);
+  }
+
+  #logo {
+    display: block;
+    width: 130px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #body {
+    /* border: 2px solid; */
+    width: 75vw;
+    height: 60vh;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgb(155, 194, 253);
+    box-shadow: 0px 0px 45px rgb(0, 35, 110);
+  }
+  #title {
+    /* border: 1px solid; */
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 25px;
+    color: rgb(0, 52, 163);
+    font-family: 'Josefin Sans', cursive;
+  }
+
+  #form {
+    /* display: none; */
+    width: 80%;
+    /* border: 1px solid; */
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+  }
+
+  #input {
+    display: block;
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgb(221, 233, 255);
+    color:rgb(0, 35, 110);
+    font-family: 'Roboto', sans-serif;
+  }
+  #button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    font-size: 12px;
+    border-radius: 5px;
+    padding: 5px;
+    background: rgb(48, 67, 173);
+    color: white;
+  }
+
+  .outputDiv {
+    /* border: 1px solid; */
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 15px;
+    color: rgb(0, 52, 163);
+    font-weight: bold;
+    line-height: 25px;
+    font-family: 'Ubuntu', sans-serif;
+  }
+  .output {
+    color: rgb(2, 0, 102);
+    text-decoration: underline;
+
+  }
+  #hack_logo{
+  display: block;
+  width: 40px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  background: rgb(255, 255, 255);
+  border-radius: 8px;
+  box-shadow: 1px 1px 25px rgb(0, 0, 0);
+}
+
+}
+

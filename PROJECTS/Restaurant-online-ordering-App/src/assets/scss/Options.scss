@@ -1,0 +1,9 @@
+.Options{
+    display: flex;
+    .options-name{
+        display: flex;
+        justify-content: space-between;
+        width: 85%;
+        margin-left: 5px;
+    }
+}
