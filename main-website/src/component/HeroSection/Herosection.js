@@ -5,8 +5,10 @@ function Herosection() {
     <>
       <div className='hero-section flex items-center'>
         <div className='hero-content flex-auto'>
-          <h2 className=' text-5xl font-bold'>PoweTheWeb</h2>
-          <p className='mt-5 text-xl'>An opensouce Projects for Web Developer. Start your development from here.</p>
+          <h2 className='text-6xl font-bold'>Powe<span>The</span>Web</h2>
+          <p className='mt-5 text-xl'>An opensouce Projects for Web Developer.
+          <br/>
+          Start your development from here.</p>
         </div>
         <div className='dc-frame'>
           <iframe

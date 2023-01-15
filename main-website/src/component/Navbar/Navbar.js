@@ -1,5 +1,5 @@
 import { React, useState } from 'react'
-import { Link } from 'react-router-dom'
+import { NavLink, Link } from 'react-router-dom'
 import "./Navbar.css"
 
 function Navbar() {
@@ -12,9 +12,9 @@ function Navbar() {
         <>
             <nav>
                 <div className="navbar flex px-10 pt-5 items-center justify-between">
-                    <Link to='/' className='nav-logo'>
+                    <NavLink to='/' className='nav-logo'>
                         <img className='w-20' src='images/PowerTheWebLogo.png' alt='logo'/>
-                    </Link>
+                    </NavLink>
                     <div className="menu-container">
                         <ul onClick={click ? 'nav-manu active' : 'nav-menu'}  className='flex justify-items-center text-sm font-medium uppercase'>
                             <li className='nav-items'>
