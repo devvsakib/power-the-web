@@ -28,13 +28,26 @@ git clone https://github.com/your-username/devvsakib/power-the-web.git
 ```markdown
 cd power-the-web
 ```
-
-5. Make your changes
-
+4. Open CMD in your current directory and install npm packages using command.
 ```markdown
-git add . git commit -m "Your commit Message" git push origin branch-name
+npm install
 ```
 
+5. Make changes in the project. Add, Commit and push the project using following commands:
+
+5.1 Add all files 
+```markdown
+git add . 
+```
+5.2 Commit the changes
+```markdown
+git commit -m "Write Your commit Message" 
+```
+5.3 Push the branch
+```markdown
+git push origin branch-name
+```
+5.4
 - Make a pull request.
 - Star the repository.
 
