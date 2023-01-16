@@ -13,7 +13,7 @@ function GetProjects() {
     }
     useEffect(() => {
         getProjects()
-    }, [])
+    }, [projects.length])
     return (
         <>
             <div className='projects-container place-items-center p-4'>
