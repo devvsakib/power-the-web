@@ -35,21 +35,24 @@ npm install
 
 5. Make changes in the project. Add, Commit and push the project using following commands:
 
-5.1 Add all files 
+> Add all files 
 ```markdown
 git add . 
 ```
-5.2 Commit the changes
+> Commit the changes
 ```markdown
 git commit -m "Write Your commit Message" 
 ```
-5.3 Push the branch
+> Push the branch
+```markdown
+git push 
+```
+OR
 ```markdown
 git push origin branch-name
 ```
-5.4
-- Make a pull request.
-- Star the repository.
+> Make Pull Request from Github Repository
+> Star the repository.
 
 ### Adding Projects
 If you want to add your project in repository, you are welcome. Please add your project in "PROJECTS" folder and make sure to name your folder as your project.
