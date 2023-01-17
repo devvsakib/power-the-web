@@ -52,7 +52,7 @@ OR
 git push origin branch-name
 ```
 > Make Pull Request from Github Repository
-> Star the repository.
+** Star the repository. **
 
 ### Adding Projects
 If you want to add your project in repository, you are welcome. Please add your project in "PROJECTS" folder and make sure to name your folder as your project.
