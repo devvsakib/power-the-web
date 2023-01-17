@@ -20,3 +20,4 @@ Drew | <a href="https://github.com/NeoPrint3D">Drew</a> | <a href="mailto:np3d.d
 | Rahul Gupta | <a href="https://github.com/rahul8858">rahul8858</a> | <a href="mailto:rg3056052@gmail.com">E-Mail</a> |
 | Akshat Tiwari | <a href="https://github.com/Git-Akshat01">Git-Akshat01</a> | <a href="mailto:akshattiwari0901@gmail.com">E-Mail</a> |
 | Tony Voss | <a href="https://github.com/anthonyjvoss">anthonyjvoss</a> | <a href="mailto:anthonyjvoss@gmail.com">E-Mail</a> |
+| Jaisal Srivastva | <a href="https://github.com/Jais99">Jais99</a> | <a href="mailto:jaisalsrivastava@gmail.com">E-Mail</a> |
