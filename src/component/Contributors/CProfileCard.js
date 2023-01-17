@@ -2,7 +2,7 @@ import React from 'react'
 import { FaGithub, FaTwitter } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 
-import data from "../../json/Contributors.json";
+import data from "../../json/contributors.json";
 
 function CProfileCard() {
     return (
