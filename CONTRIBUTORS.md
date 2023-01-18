@@ -1,6 +1,6 @@
 💻
 
-# Add Name
+# Details
 
 <p>Enter your Name, Github Link & Your E-Mail Address in the given format. Don't try to change anything else!!!</p>
 <code>| Name | Github Link | E-Mail Address |</code>
