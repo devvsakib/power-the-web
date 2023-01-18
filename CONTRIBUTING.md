@@ -10,23 +10,39 @@ DISCORD - [JOIN](https://discord.gg/6XRTeHRxWV)
 2. Clone the forked repository to your local machine.
 
 ```markdown
-git clone https://github.com/your-username/devvsakib/hacktoberfest-react-project.git
+git clone https://github.com/your-username/devvsakib/power-the-web.git
 ```
 
 3. change the present working directory
 
 ```markdown
-cd hacktoberfest-react-project
+cd power-the-web
 ```
-
-5. Make your changes
-
+4. Open CMD in your current directory and install npm packages using command.
 ```markdown
-git add . git commit -m "Your commit Message" git push origin branch-name
+npm install
 ```
 
-- Make a pull request.
-- Star the repository.
+5. Make changes in the project. Add, Commit and push the project using following commands:
+
+> Add all files 
+```markdown
+git add . 
+```
+> Commit the changes
+```markdown
+git commit -m "Write Your commit Message" 
+```
+> Push the branch
+```markdown
+git push 
+```
+OR
+```markdown
+git push origin branch-name
+```
+> Make Pull Request from Github Repository
+** Star the repository. **
 
 ### Adding Projects
 If you want to add your project in repository, you are welcome. Please add your project in "PROJECTS" folder and make sure to name your folder as your project.

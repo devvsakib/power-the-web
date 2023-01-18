@@ -13,8 +13,10 @@
 | Name | Github Link | Email ID |
 | ------|----------|---------- |
 | DevvSakib | <a href="https://github.com/devvsakib/">DevvSakib</a> | <a href="mailto:devvsakib@gmail.com">E-Mail</a> |
-Drew | <a href="https://github.com/NeoPrint3D">Drew</a> | <a href="mailto:np3d.dev@gmail.com">E-Mail</a> |
+| Drew | <a href="https://github.com/NeoPrint3D">Drew</a> | <a href="mailto:np3d.dev@gmail.com">E-Mail</a> |
+| UsamaXwati | <a href="https://github.com/UsamaXwati">UsamaXwati</a> | <a href="mailto:usamaxwati1@gmail.com">E-Mail</a> |
 | Rahul Gupta | <a href="https://github.com/rahul8858">rahul8858</a> | <a href="mailto:rg3056052@gmail.com">E-Mail</a> |
-| Akshat Tiwari | <a href="https://github.com/Git-Akshat01">Git-Akshat01</a> | <a href="mailto:akshattiwari0901@gmail.com">E-Mail</a> |
+| Akshat Tiwari | <a href="https://github.com/Git-Akshat01">Git-Akshat01</a> | <a href="mailto:akshattiwari0901@gmail.com">E-Mail</a>|
 | Tony Voss | <a href="https://github.com/anthonyjvoss">anthonyjvoss</a> | <a href="mailto:anthonyjvoss@gmail.com">E-Mail</a> |
 | Ojurongbe Adejuwon | <a href="https://github.com/Adejuwon-00">Adejuwon-00</a> | <a href="mailto:juwonmcalpha@gmail.com">E-Mail</a> |
+| Jaisal Srivastava | <a href="https://github.com/Jais99">Jaisal</a> | <a href="mailto:jaisalsrivastava@gmail.com">E-Mail</a> |
