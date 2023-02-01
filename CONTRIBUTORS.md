@@ -21,4 +21,4 @@
 | Jaisal Srivastava | <a href="https://github.com/Jais99">Jaisal</a> | <a href="mailto:jaisalsrivastava@gmail.com">E-Mail</a> |
 | Lewis Ushindi | <a href="https://github.com/lewisushindi">Lewis Ushindi</a> | <a href="mailto:coderflame3@gmail.com">E-Mail</a> |
 | Syed Jawad Alam | <a href="https://github.com/maksof-jawad">maksof-jawad</a> | <a href="mailto:contact.syedjawad@gmail.com">E-Mail</a> |
-x
+| Mohammed Raza | <a href="https://github.com/mohd-raza">mohd-raza</a> | <a href="mailto:contact.mohdraza.syed@gmail.com">E-Mail</a> |
