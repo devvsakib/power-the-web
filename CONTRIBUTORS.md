@@ -22,3 +22,4 @@
 | Lewis Ushindi | <a href="https://github.com/lewisushindi">Lewis Ushindi</a> | <a href="mailto:coderflame3@gmail.com">E-Mail</a> |
 | Syed Jawad Alam | <a href="https://github.com/maksof-jawad">maksof-jawad</a> | <a href="mailto:contact.syedjawad@gmail.com">E-Mail</a> |
 | Mohammed Raza | <a href="https://github.com/mohd-raza">mohd-raza</a> | <a href="mailto:contact.mohdraza.syed@gmail.com">E-Mail</a> |
+| Yusuf Bıyık | <a href="https://github.com/yussufbiyik">yussufbiyik</a> | <a href="mailto:yussuf.jpeg@gmail.com">E-Mail</a> |
