@@ -27,7 +27,11 @@ body {
     1px 30px 60px rgba(16,16,16,0.4);
 }
 #tet{
+    color: rgb(71, 157, 249);
     font-size: 6vw !important;
+}
+.title-mid-word{
+    color: rgb(16, 16, 16);
 }
 @media (max-width: 640px) {
     #tet {
