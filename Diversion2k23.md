@@ -26,3 +26,10 @@ Why not start your open source journey by merging some codes here. It will be ve
 5. After the event ends, top 10% contributors will be recognised.
 6. Top Contributors and projects will receive exciting swag kits and prizes.
 7. They will receive swags alongwith full event pass and invitation for the Phase 2 ie Hackathon.
+
+<br>
+
+<div align="center">
+    <img width="150px" src="https://avatars.githubusercontent.com/u/88339569?v=4">
+    <p><b><a href="https://github.com/devvsakib">DevvSakib</a></b><br> Maintainer</p>
+</div>
