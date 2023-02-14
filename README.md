@@ -79,8 +79,12 @@ So, people will know what project it is. Make sure you added your github name an
 ![GitHub PR closed](https://img.shields.io/github/issues-pr-closed-raw/devvsakib/hacktoberfest-react-project?style=for-the-badge&color=blue)
 ![GitHub language count](https://img.shields.io/github/languages/count/devvsakib/hacktoberfest-react-project?style=for-the-badge&color=brightgreen)
 > Size: 78.45 MiB
-<br><br>
+<br>
 
+## Event Occured
+1. Hacktoberfest 2022
+2. Diversion 2023
+<br>
 ## Thanks to all the contributors ❤️
 Add your details in contributions.json file
 <a href = "https://github.com/devvsakib/hacktoberfest-react-project/graphs/contributors">
