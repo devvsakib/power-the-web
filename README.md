@@ -1,4 +1,4 @@
-# Hacktoberfest-React-Project
+# Diversion 2023 🔖 (⏰Happening now. Do Contribute, Make PR)
 
 ## About
 ![PowerTheWeb Cover](public/assets/powertheweb-cover.png)
