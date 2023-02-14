@@ -82,9 +82,10 @@ So, people will know what project it is. Make sure you added your github name an
 <br>
 
 ## Event Occured
-1. Hacktoberfest 2022
-2. Diversion 2023
+1. Hacktoberfest 2022 ✅
+2. Diversion 2023 🔖 (⏰Happening now. Do Contribute, Make PR)
 <br>
+
 ## Thanks to all the contributors ❤️
 Add your details in contributions.json file
 <a href = "https://github.com/devvsakib/hacktoberfest-react-project/graphs/contributors">
