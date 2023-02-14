@@ -12,7 +12,14 @@ PowerTheWeb is an open-source project to help web developers make their road eas
     </a>
 </p>
 
-### [Click to Know More about Contributing through Diversion 2k23](diversion-2k23.md)
+### [Click to Know More about Contributing through Diversion 2k23](Diversion2k23.md)
+
+<br>
+
+<div align="center">
+    <img width="150px" src="https://avatars.githubusercontent.com/u/88339569?v=4">
+    <p><b><a href="https://github.com/devvsakib">DevvSakib</a></b><br> Maintainer</p>
+</div>
 
 ## Don't Forget to JOIN OUR COMMMUNITY
 Join our community and ask anything. If you run into a problem please let us know.
