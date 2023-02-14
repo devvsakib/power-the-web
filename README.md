@@ -3,11 +3,17 @@
 ## About
 ![PowerTheWeb Cover](public/assets/powertheweb-cover.png)
 
-![PowerTheWeb Contributors](public/assets/powertheweb-contributors.png)
-
 PowerTheWeb is an open-source project to help web developers make their road easy to become a successful web developer
 
-> Currently developing main website, checkout 2nd branch "convert-react"
+## Part of Diversion 2k23 Open-source Event 
+<p align="center">
+    <a href="https://diversion.tech/">
+        <img src="./public/assets/Diversion-logo.png">
+    </a>
+</p>
+
+### [Click to Know More about Contributing through Diversion 2k23](diversion-2k23.md)
+
 ## Don't Forget to JOIN OUR COMMMUNITY
 Join our community and ask anything. If you run into a problem please let us know.
 DISCORD - [JOIN](https://discord.gg/6XRTeHRxWV)
