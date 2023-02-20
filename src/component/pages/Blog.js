@@ -9,7 +9,7 @@ function Blog() {
           key={idx}
           className="w-100 sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 m-3 bg-slate-50 rounded"
         >
-          <div className="max-w-sm  md:h-[450px] flex flex-col justify-between rounded overflow-hidden shadow-lg">
+          <div className="max-w-sm  md:h-[400px] flex flex-col justify-between rounded overflow-hidden shadow-lg">
             <div>
               <img className="w-full h-44 object-cover" src={card.thumbnail} alt={card.title} />
               <h2 className="px-6 font-bold text-lg my-2">{card.title}</h2>
