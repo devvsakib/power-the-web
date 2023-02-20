@@ -1,0 +1,34 @@
+{
+    "Cards": [
+        {
+            "title": "Tips: How to get last element of an array in javascipt",
+            "url": "https://dev.to/devvsakib/tips-how-to-get-last-element-of-an-array-in-javascipt-3k2j",
+            "description": "An array is a data structure, which can store a fixed-size collection of elements of the same data type. If you have worked with JavaScript arrays before, you might know that they can be destructured much like objects. This is most commonly used to extract the first value of an array or the values of an array with a known length.",
+            "thumbnail": "https://res.cloudinary.com/practicaldev/image/fetch/s--Wq3AbKkr--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/9frfz2hnli8hiz39i3ld.png"
+        },
+        {
+            "title": "Fetch API in JavaScript",
+            "url": "https://dev.to/devvsakib/fetch-api-in-javascript-54o6",
+            "description": "The Fetch API provides a JavaScript interface for accessing and manipulating parts of the protocol, such as requests and responses. Before fetch(), we used XHR (XMLHttpRequest). Using Fetch is very easy. Fetch() starts the process of fetching a resource from a server and returns Promise that resolves to a Response object.",
+            "thumbnail": "https://res.cloudinary.com/practicaldev/image/fetch/s--nDglCHdk--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/tefmnrr3i9a8c0kl63ax.png"
+        },
+        {
+            "title": "Top 10 React Interview Question!",
+            "url": "https://dev.to/devvsakib/top-10-react-interview-question--584n",
+            "description": "All of these questions are collected from all over the developers websites. I have tried to collect the most important and frequently asked questions. I hope this will help you to prepare for your next React interview. If you have any questions, please let me know in the comments section. I will try to answer them as soon as possible.",
+            "thumbnail": "https://res.cloudinary.com/practicaldev/image/fetch/s--jiCM9b__--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/zzgleb5xx7p9a93p2n3e.png"
+        },
+        {
+            "title": "How to start a coding YouTube Channel",
+            "url": "https://dev.to/devvsakib/how-to-star-a-coding-youtube-channel-step-by-step-5enh",
+            "description": "Most of us want to start a YouTube channel. But they don’t know where to start. To i will walk you through the process from absolute beginners. I will guide you how to start a YouTube channel and how to grow it.",
+            "thumbnail": "images/hsacyc.png"
+        },
+        {
+            "title": "Top 5 Frontend Interview questions you must know! Ans with Example ",
+            "url": "https://dev.to/devvsakib/top-5-frontend-interview-questions-you-must-know-ans-with-example-5cnm",
+            "description": "Today's topic is about FRONTEND interview with most frequently asked in interview. I have tried to collect the most important and frequently asked questions. I hope this will help you to prepare for your next FRONTEND interview. If you have any questions, please let me know in the comments section. I will try to answer them as soon as possible.",
+            "thumbnail": "https://res.cloudinary.com/practicaldev/image/fetch/s--e3Z0DN9O--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/vbue66khzmgrehi0z8l9.png"
+        }
+    ]
+}
