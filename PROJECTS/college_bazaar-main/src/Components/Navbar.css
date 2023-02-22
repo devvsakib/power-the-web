@@ -1,0 +1,18 @@
+.navi{
+    color: aliceblue;
+    /* background-color: black; */
+}
+#nav{
+    width: 100%;
+}
+#logo{
+    color: rgb(229, 234, 239);
+    background-color: black;
+   }
+button.search-submit {
+    margin-top: 0;
+}
+
+.search-form label {
+    display: inline;
+}

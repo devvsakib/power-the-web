@@ -1,13 +1,26 @@
-# Hacktoberfest-React-Project
+# Diversion 2023 🔖 (⏰Happening now. Do Contribute, Make PR)
 
 ## About
 ![PowerTheWeb Cover](public/assets/powertheweb-cover.png)
 
-![PowerTheWeb Contributors](public/assets/powertheweb-contributors.png)
-
 PowerTheWeb is an open-source project to help web developers make their road easy to become a successful web developer
 
-> Currently developing main website, checkout 2nd branch "convert-react"
+## Part of Diversion 2k23 Open-source Event 
+<p align="center">
+    <a href="https://diversion.tech/">
+        <img src="./public/assets/Diversion-logo.png">
+    </a>
+</p>
+
+### [Click to Know More about Contributing through Diversion 2k23](Diversion2k23.md)
+
+<br>
+
+<div align="center">
+    <img width="150px" src="https://avatars.githubusercontent.com/u/88339569?v=4">
+    <p><b><a href="https://github.com/devvsakib">DevvSakib</a></b><br> Maintainer</p>
+</div>
+
 ## Don't Forget to JOIN OUR COMMMUNITY
 Join our community and ask anything. If you run into a problem please let us know.
 DISCORD - [JOIN](https://discord.gg/6XRTeHRxWV)
@@ -28,15 +41,31 @@ git clone https://github.com/your-username/devvsakib/power-the-web.git
 ```markdown
 cd power-the-web
 ```
-
-5. Make your changes
-
+4. Open CMD in your current directory and install npm packages using command.
 ```markdown
-git add . git commit -m "Your commit Message" git push origin branch-name
+npm install
 ```
 
-- Make a pull request.
-- Star the repository.
+5. Make changes in the project. Add, Commit and push the project using following commands:
+
+> Add all files 
+```markdown
+git add . 
+```
+> Commit the changes
+```markdown
+git commit -m "Write Your commit Message" 
+```
+> Push the branch
+```markdown
+git push 
+```
+OR
+```markdown
+git push origin branch-name
+```
+> Make Pull Request from Github Repository
+** Star the repository. **
 
 ### Adding Projects
 If you want to add your project in repository, you are welcome. Please add your project in "PROJECTS" folder and make sure to name your folder as your project.
@@ -63,7 +92,12 @@ So, people will know what project it is. Make sure you added your github name an
 ![GitHub PR closed](https://img.shields.io/github/issues-pr-closed-raw/devvsakib/hacktoberfest-react-project?style=for-the-badge&color=blue)
 ![GitHub language count](https://img.shields.io/github/languages/count/devvsakib/hacktoberfest-react-project?style=for-the-badge&color=brightgreen)
 > Size: 78.45 MiB
-<br><br>
+<br>
+
+## Event Occured
+1. Hacktoberfest 2022 ✅
+2. Diversion 2023 🔖 (⏰Happening now. Do Contribute, Make PR)
+<br>
 
 ## Thanks to all the contributors ❤️
 Add your details in contributions.json file

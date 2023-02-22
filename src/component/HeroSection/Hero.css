@@ -1,12 +1,14 @@
-.hero-section{
+.hero-section {
     width: 100vw;
     height: calc(100vh - 104px);
-    padding: 0 5rem ;
+    padding: 0 5rem;
 }
+
 body {
     background-color: #c4c4c4;
-  
+
 }
+
 .text {
     text-transform: uppercase;
     font-family: verdana;
@@ -21,28 +23,34 @@ body {
         1px 6px 1px #919191,
         1px 7px 1px #919191,
         1px 8px 1px #919191,
-    1px 15px 6px rgba(16,16,16,0.4),
-    1px 22px 10px rgba(16,16,16,0.2),
-    1px 25px 35px rgba(16,16,16,0.2),
-    1px 30px 60px rgba(16,16,16,0.4);
+        1px 15px 6px rgba(16, 16, 16, 0.4),
+        1px 22px 10px rgba(16, 16, 16, 0.2),
+        1px 25px 35px rgba(16, 16, 16, 0.2),
+        1px 30px 60px rgba(16, 16, 16, 0.4);
 }
-#tet{
+
+#homepageTitle {
     font-size: 6vw !important;
 }
+
 @media (max-width: 640px) {
     #tet {
         font-size: 10vw !important;
     }
-    .hero-section{
+
+    .hero-section {
         padding: 0;
     }
-    iframe{
+
+    iframe {
         width: 90vw;
     }
 }
+
 @media (max-width: 640px) {
     .text {
         font-size: 10vw !important;
     }
 }
+
 /* Path: src\component\HeroSection\Hero.js */

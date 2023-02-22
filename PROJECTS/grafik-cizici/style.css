@@ -1,0 +1,38 @@
+html{
+    width: 100%;
+    padding: 0; margin: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.small{
+    font-size: 12pt;
+}
+
+.icerik{
+    width: 100%;
+    display: grid;
+    row-gap: 10px;
+    grid-auto-flow: row;
+}
+
+.grafik-paneli{
+    padding: 20px;
+
+    border-radius: .2rem;
+    background: #f6f6f6;
+}
+
+.girdi-paneli{
+    gap: 10px;
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(250px, 1fr));
+}
+
+.grafik-araligi-girdiler{
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat( auto-fit, minmax(250px, 1fr));
+}

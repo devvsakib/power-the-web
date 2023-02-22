@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap");
+@layer base {
+  body {
+    @apply bg-[#040714] text-[#f9f9f9] font-body;
+  }
+}
+@layer components {
+  .navbar-link {
+    @apply flex items-center space-x-2 cursor-pointer;
+  }
+  .span {
+    @apply relative uppercase text-sm font-medium before:bg-[#f9f9f9] before:rounded-bl before:-bottom-1.5 before:h-0.5 before:inset-x-0 before:absolute before:transform before:origin-left before:scale-x-0 before:transition-all before:duration-200 group-hover:before:scale-x-100;
+  }
+  .brand {
+    @apply flex relative w-52 h-32 sm:w-64 sm:h-36 border-[3px] border-opacity-10 rounded-lg cursor-pointer shadow-xl overflow-hidden hover:border-opacity-80 hover:shadow-2xl transform hover:scale-105 transition duration-300;
+  }
+  .main {
+    @apply relative min-h-screen after:bg-home after:bg-center after:bg-cover after:bg-no-repeat after:bg-fixed after:absolute after:inset-0 after:z-[-1];
+  }
+}

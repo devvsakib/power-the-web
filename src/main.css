@@ -10,17 +10,19 @@
 body {
   font-family: "Dosis";
 
-  background: #efefbb; /* fallback for old browsers */
+  background: #09465e; /* fallback for old browsers */
   background: -webkit-linear-gradient(
-    to right,
-    #d4d3dd,
-    #efefbb
+    13deg,
+    #521fa5,
+    #b700ffb9 30%,
+    #d400ff91
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
-    to right,
-    #d4d3dd,
-    #efefbb
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    90deg, 
+    rgb(15, 28, 128) 0%,
+    rgba(182,0,255,1) 100%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 .container {

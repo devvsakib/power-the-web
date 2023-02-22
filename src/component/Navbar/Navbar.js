@@ -19,7 +19,7 @@ function Navbar() {
 
   return (
     <>
-      <Disclosure as="nav" className="sticky top-0 backdrop-blur-sm z-10 w-full">
+      <Disclosure as="nav" className="sticky top-0 backdrop-blur-[5px] z-10 w-full">
         {({ open }) => (
           <>
             <div className=" mainmenu mx-auto max-w-full px-2 sm:px-6 lg:px-8">

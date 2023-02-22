@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Denklem Grafiği Çizici</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/axist@latest/dist/axist.min.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/10.0.2/math.min.js"></script>
+</head>
+<body>
+    <section class="icerik">
+        <div id="grafik-paneli" class="grafik-paneli">
+            <canvas id="grafik-cizimi" class="grafik-cizimi"></canvas>
+        </div>
+        <div id="girdi-paneli" class="girdi-paneli">
+            <input type="text" placeholder="Denklemi Gir örn: 7x+13" name="denklem" id="denklem">
+            <div class="grafik-araligi">
+                <small>Başlangıç ve bitiş değerini boş bırakırsan 1 ile 100 arasındaki x değerleri için grafik çizilir.</small>
+                <div class="grafik-araligi-girdiler">
+                    <input type="number" placeholder="Başlangıç değeri (1)" name="baslangic" id="baslangic">
+                    <input type="number" placeholder="Bitiş değeri (100)" name="bitis" id="bitis">
+                </div>
+            </div>
+            <button onclick="grafikCiz()" id="calistir">Grafiği Güncelle</button>
+        </div>
+    </section>
+    <script src="./app.js"></script>
+</body>
+</html>

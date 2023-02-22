@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Card from './Card'
 function RoadmapHero() {
     return (
         <>
@@ -11,6 +11,9 @@ function RoadmapHero() {
                 <div>
                     <img src='images/goal.png' />
                 </div>
+            </div>
+            <div className=''>
+                <Card/>
             </div>
         </>
     )
