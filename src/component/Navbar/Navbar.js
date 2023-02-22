@@ -19,10 +19,10 @@ function Navbar() {
 
   return (
     <>
-      <Disclosure as="nav" className="sticky top-0 backdrop-blur-[5px] z-10 w-full">
+      <Disclosure as="nav" className="sticky  top-0 backdrop-blur-[5px] z-10 w-full">
         {({ open }) => (
           <>
-            <div className=" mainmenu mx-auto max-w-full px-2 sm:px-6 lg:px-8">
+            <div className="pt-2 mainmenu mx-auto  max-w-full px-2 sm:px-6 lg:px-8">
               <div className="relative flex h-16 items-center justify-between">
                 <div className="flex items-center justify-center sm:items-stretch sm:justify-start">
                   <div className="flex flex-shrink-0 items-center">
@@ -42,7 +42,7 @@ function Navbar() {
                 </div>
                 <div className="absolute inset-y-0 right-0 flex items-center sm:hidden">
                   {/* Mobile menu button*/}
-                  <Disclosure.Button className="inline-flex items-center justify-center rounded-md p-2 text-slate-900 hover:bg-gray-200 hover:text-slate-900 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+                  <Disclosure.Button className="inline-flex items-center justify-center rounded-md p-2 text-white hover:bg-gray-200 hover:text-slate-900 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
                     <span className="sr-only">Open main menu</span>
                     {open ? (
                       <XMarkIcon className="block h-6 w-6" aria-hidden="true" />
@@ -61,8 +61,8 @@ function Navbar() {
                           to={item.to}
                           className={classNames(
                             item.current
-                              ? "bg-gray-200 text-neutral-900"
-                              : "text-neutral-900 hover:bg-gray-200 hover:text-neutral-900",
+                              ? "bg-gray-200 text-white"
+                              : "hover:bg-white/20 text-white",
                             "px-3 py-2 rounded-md text-sm font-medium"
                           )}
                           aria-current={item.current ? "page" : undefined}
@@ -85,7 +85,7 @@ function Navbar() {
                     className={classNames(
                       item.current
                         ? "bg-gray-200 text-text-neutral-900"
-                        : "text-neutral-900 hover:bg-gray-200 hover:text-neutral-900",
+                        : "text-white  hover:bg-white/20",
                       "block px-3 py-2 rounded-md text-base font-medium"
                     )}
                     aria-current={item.current ? "page" : undefined}
