@@ -13,7 +13,7 @@ DISCORD - [JOIN](https://discord.gg/6XRTeHRxWV)
 ## STAR THE REPO
 ### How to Contribute to this repository
 
-1. Fork the repository (Click the Fork button in the top right of this page,
+1. Fork the repository first (Click the Fork button in the top right of this page,
    click your Profile Image)
 2. Clone the forked repository to your local machine.
 
@@ -31,7 +31,13 @@ cd power-the-web
 npm install
 ```
 
-5. Make changes in the project. Add, Commit and push the project using following commands:
+5. Make changes in the project. Add, Commit and Push the project using following commands:
+
+> Create a Branch
+```markdown
+git checkout -b <name of the branch>
+```
+- Make the changes
 
 > Add all files 
 ```markdown
