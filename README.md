@@ -30,6 +30,10 @@ cd power-the-web
 ```markdown
 npm install
 ```
+5. Run the project.
+```markdown
+npm run dev
+```
 
 5. Make changes in the project. Add, Commit and Push the project using following commands:
 
