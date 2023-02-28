@@ -1,25 +1,10 @@
-# Diversion 2023 🔖 (⏰Happening now. Do Contribute, Make PR)
+# Open-source Project💯✅
 
-## About
 ![PowerTheWeb Cover](public/assets/powertheweb-cover.png)
 
 PowerTheWeb is an open-source project to help web developers make their road easy to become a successful web developer
 
-## Part of Diversion 2k23 Open-source Event 
-<p align="center">
-    <a href="https://diversion.tech/">
-        <img src="./public/assets/Diversion-logo.png">
-    </a>
-</p>
 
-### [Click to Know More about Contributing through Diversion 2k23](Diversion2k23.md)
-
-<br>
-
-<div align="center">
-    <img width="150px" src="https://avatars.githubusercontent.com/u/88339569?v=4">
-    <p><b><a href="https://github.com/devvsakib">DevvSakib</a></b><br> Maintainer</p>
-</div>
 
 ## Don't Forget to JOIN OUR COMMMUNITY
 Join our community and ask anything. If you run into a problem please let us know.
@@ -28,7 +13,7 @@ DISCORD - [JOIN](https://discord.gg/6XRTeHRxWV)
 ## STAR THE REPO
 ### How to Contribute to this repository
 
-1. Fork the repository (Click the Fork button in the top right of this page,
+1. Fork the repository first (Click the Fork button in the top right of this page,
    click your Profile Image)
 2. Clone the forked repository to your local machine.
 
@@ -50,7 +35,13 @@ npm install
 npm run dev
 ```
 
-5. Make changes in the project. Add, Commit and push the project using following commands:
+5. Make changes in the project. Add, Commit and Push the project using following commands:
+
+> Create a Branch
+```markdown
+git checkout -b <name of the branch>
+```
+- Make the changes
 
 > Add all files 
 ```markdown
@@ -100,9 +91,16 @@ So, people will know what project it is. Make sure you added your github name an
 
 ## Event Occured
 1. Hacktoberfest 2022 ✅
-2. Diversion 2023 🔖 (⏰Happening now. Do Contribute, Make PR)
+2. Diversion 2023 ✅
 <br>
 
+<br>
+<!--
+<div align="center">
+    <img width="150px" src="https://avatars.githubusercontent.com/u/88339569?v=4">
+    <p><b><a href="https://github.com/devvsakib">DevvSakib</a></b><br> Maintainer</p>
+</div>
+-->
 ## Thanks to all the contributors ❤️
 Add your details in contributions.json file
 <a href = "https://github.com/devvsakib/hacktoberfest-react-project/graphs/contributors">
