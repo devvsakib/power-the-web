@@ -14,16 +14,16 @@ function CProfileCard() {
 
             <div>
                 {/* background: linear-gradient(90deg, rgba(3,13,87,0.40518205573244925) 0%, rgba(182,0,255,0.41918765797334556) 100%) */}
-                <div className="grid gap-x-5 gap-y-4 place-items-center grid-cols-custom">
+                <div className="grid gap-x-5 gap-y-4 place-items-center grid-cols-1 md:grid-cols-2 xl:grid-cols-4">
                     {data.profiles.map(({ name, github, twitter, avatarUrl }) => {
                         return (
-                            <div className="contributor-card m-1 w-30" key={github}>
+                            <div className="contributor-card m-1 w-30 cursor-pointer" key={github}>
                                 <div className="rounded-3xl bg-gradient-to-r 
                                 to-[#0f1c8018] from-[#b700ff48] backdrop-filter backdrop-blur-md z-0 overflow-visible shadow-md max-w-[240px] h-[350px] my-3 p-4 text-white
                                 hover:from-[#9d08d8] hover:to-[#711fce] transition-all ease-linear delay-80 duration-300 hover:scale-110 hover:transition-all">
                                     <img
                                         src={avatarUrl}
-                                        className="rounded-full border-solid border-white border-2 mt-3"
+                                        className="rounded-full w-[100%] h-[65%] skeleton  border-solid border-white border-2 mt-3"
                                         alt="avatarUrl"
                                     />
                                     <div>

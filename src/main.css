@@ -2,25 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components {
-  .container-style {
-    @apply px-2 sm:px-20
-  }
-}
 body {
   font-family: "Dosis";
 
-  background: #09465e; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    13deg,
-    #521fa5,
-    #b700ffb9 30%,
-    #d400ff91
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    90deg, 
-    rgb(15, 28, 128) 0%,
-    rgba(182,0,255,1) 100%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #09465e;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(13deg,
+      #521fa5,
+      #b700ffb9 30%,
+      #d400ff91);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(90deg,
+      rgb(15, 28, 128) 0%,
+      rgba(182, 0, 255, 1) 100%);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-position: center center;
   background-repeat: no-repeat;
 }
@@ -28,4 +23,26 @@ body {
 .container {
   display: grid;
   place-items: center;
+}
+
+.skeleton {
+  margin: 0 auto;
+  animation: skeleton 1s infinite alternate;
+}
+
+@keyframes skeleton {
+  0% {
+    background: #421ad3;
+  }
+
+  100% {
+    background: #e912de;
+  }
+}
+
+.ptw-grad {
+  background: linear-gradient(90deg, #521fa5, #e912de)  !important;
+}
+.ptw-grad:hover {
+  background: linear-gradient(-90deg, #521fa5, #e912de)  !important;
 }

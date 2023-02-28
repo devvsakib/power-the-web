@@ -29,14 +29,13 @@ function GetProjects() {
                     </div>
                     ) : (
                         <div className='projects-container place-items-center p-4'>
-
-                            <ul>
+                            <ul className='grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3 xl:grid-cols-4 items-center'>
                                 {
                                     projects.map((item, index) => (
-                                        <li className='py-3'>
+                                        <li className='py-3 items-center grid'>
                                             <a className='flex projects-line align-middle bg-black rounded-l-[30px]' href={item.html_url}>
-                                                <span className='h-12 w-12 cursor-pointer border-2 border-black rounded-full text-center font-bold leading-[2.7]'>{index + 1}</span>
-                                                <p className='pl-2  font-semibold leading-[2.7] tracking-wider'>{item.name}</p>
+                                                <span className='h-14 w-14 cursor-pointer border-2 border-black rounded-full text-center font-bold flex items-center justify-center'>{index + 1}</span>
+                                                <p className='pl-2  font-semibold flex items-center tracking-wider'>{item.name}</p>
                                             </a>
                                         </li>
                                     ))
