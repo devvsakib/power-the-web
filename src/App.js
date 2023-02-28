@@ -7,8 +7,9 @@ import Blog from "./component/pages/Blog";
 import "./main.css";
 import Contributors from "./component/pages/Contributors";
 import Footer from "./component/Footer/Footer";
-import Roadmap from "./component/pages/Roadmap";
+import Guidelines from "./component/pages/Guidelines";
 import ScrollToTop from "./component/Button/ScrollToTop";
+import GetStarted from "./component/Guidelines/pages/GetStarted";
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
         <Route path="/contributors" exact element={<Contributors />}></Route>
         <Route path="/projects" exact element={<Projects />}></Route>
         <Route path="/blog" exact element={<Blog />}></Route>
-        <Route path="/roadmap" exact element={<Roadmap />}></Route>
+        <Route path="/guidelines" exact element={<Guidelines />}></Route>
+        <Route path="/guidelines/getstarted" exact element={<GetStarted />}></Route>
       </Routes>
       <Footer />
     </div>

@@ -10,7 +10,7 @@ function Navbar() {
     { name: "Contributors", to: "/contributors", current: false },
     { name: "Projects", to: "/projects", current: false },
     { name: "Blog", to: "/blog", current: false },
-    { name: "Roadmap", to: "/roadmap", current: false },
+    { name: "guidelines", to: "/guidelines", current: false },
   ];
 
   function classNames(...classes) {
