@@ -1,10 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-const arr = ["Frontend Delopment", "Backend Development", "Full-Stack Development"]
+const arr = ["Frontend Delopment", "Interview Questions"]
 function Card() {
     return (
         <>
-            <hr></hr>
             <div className='container-style grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 px-10 sm:px-20  py-6 mt-10 items-center z-999  content-center mb-10'>
                 {
                     arr.map(items => (

@@ -1,10 +1,9 @@
 import React from 'react'
-import RoadmapHero from '../Roadmap/RoadmapHero'
+import Guidelines from '../Guidelines/Guidelines'
 function Roadmap() {
     return (
         <>
-
-            <RoadmapHero />
+            <Guidelines />
         </>
     )
 }

@@ -2,12 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* @layer components {
-  .container-style {
-    @apply px-2 sm: px-20
-  }
-} */
-
 body {
   font-family: "Dosis";
 
