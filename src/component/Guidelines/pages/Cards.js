@@ -13,7 +13,7 @@ const Cards = ({title, summarize}) => {
                 </div>
                 <div className="px-6 pb-6">
                     <button className="ptw-grad hover:scale-110 duration-300 ease-linear hover:shadow-md hover:shadow-white/30 ptw-gradHover text-white font-bold py-2 px-4 rounded">
-                        <Link>
+                        <Link to={'./Documents'}>
                             Explore
                         </Link>
                     </button>
