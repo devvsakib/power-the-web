@@ -7,7 +7,7 @@ import data from "../../json/Contributors.json";
 function CProfileCard() {
     return (
         <div className="w-full px-10">
-            <div className="text-center text-uppercase m-8">
+            <div className="text-center text-uppercase m-8 text-white">
                 <h1 className="text-4xl font-semibold"> Our Contributors </h1>
                 <p className="text-base"> Thanks To All Contributors. Join Us </p>
             </div>
