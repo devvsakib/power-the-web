@@ -10,6 +10,7 @@ import Footer from "./component/Footer/Footer";
 import Guidelines from "./component/pages/Guidelines";
 import ScrollToTop from "./component/Button/ScrollToTop";
 import GetStarted from "./component/Guidelines/pages/GetStarted";
+import Documents from "./component/Guidelines/pages/Documents";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path="/blog" exact element={<Blog />}></Route>
         <Route path="/guidelines" exact element={<Guidelines />}></Route>
         <Route path="/guidelines/getstarted" exact element={<GetStarted />}></Route>
+        <Route path="/guidelines/getstarted/:page" exact element={<Documents />}></Route>
       </Routes>
       <Footer />
     </div>
