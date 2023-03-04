@@ -33,7 +33,7 @@ function GetProjects() {
                                 {
                                     projects.map((item, index) => (
                                         <li className='py-3 items-center grid'>
-                                            <a className='flex projects-line align-middle bg-black rounded-l-[30px]' href={item.html_url}>
+                                            <a className='flex projects-line align-middle bg-black rounded-l-[30px]' href={item.html_url} target="_blank">
                                                 <span className='h-14 w-14 cursor-pointer border-2 border-black rounded-full text-center font-bold flex items-center justify-center'>{index + 1}</span>
                                                 <p className='pl-2  font-semibold flex items-center tracking-wider'>{item.name}</p>
                                             </a>
