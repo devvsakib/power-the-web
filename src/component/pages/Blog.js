@@ -1,6 +1,5 @@
 import { React } from "react";
 import BlogCard from "../../json/Blogs.json";
-import { Button } from "../Button/Button";
 
 function Blog() {
   return (
