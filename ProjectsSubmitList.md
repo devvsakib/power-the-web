@@ -1,0 +1,25 @@
+# Add some ideas if you have any
+Ideas For ReactJs
+- Counter app (Done [PR #16](https://github.com/devvsakib/hacktoberfest-react-project/tree/main/PROJECTS/React%20Counter%20App))
+- Drum Kit (Done [#2](https://github.com/devvsakib/hacktoberfest-react-project/tree/main/PROJECTS/Drum%20Kit))
+- eCommerce App
+- Keeper App
+- Social Media App
+- Blog App
+- ToDo List
+- Real Time Chat box
+- Music Player
+- calculator (Done [PR #17](https://github.com/devvsakib/hacktoberfest-react-project/tree/main/PROJECTS/React%20Calculator))
+- Weather App
+- Clock 
+- Resume Builder Web App
+- App Clones 
+- Markdown Editor
+- DSA Tracker App
+- Productivity App
+- Entertainment App
+- Dating App
+- Expense Tracking Application/Money Tracker
+- Quiz Application
+- Sleeping Tracker App
+- Fitness App/Workout Tracker
