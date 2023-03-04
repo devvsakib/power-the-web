@@ -16,7 +16,7 @@ function Blog() {
             </div>
             <div className="px-6 pb-4">
               <p className=" text-base">
-                {card.description.slice(0, 100) + "..."}
+                {card.description.slice(0, 90) + "..."}
               </p>
             </div>
             <div className="px-6 pb-6">
