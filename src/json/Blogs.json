@@ -41,6 +41,12 @@
       "url": "https://reactivesalman.medium.com/what-is-cors-policy-how-to-solve-cors-errors-as-a-front-end-engineer-b8779a43ea53",
       "description": "When Working with API's as a Front-end Engineer We often encounter CORS Policy Issue and honestly the first time I had this bug It took me three to four days to solve before I became familiar to the root of this issue. Let's break down and try to understand what is CORS and why in the bloody hell am I getting this?",
       "thumbnail": "https://miro.medium.com/v2/resize:fit:828/format:webp/1*XA9-ilepiVUL9dBP0sWH3A.png"
+    },
+    {
+      "title": "Template Literals In JavaScript for Dummies",
+      "url": "https://reactivesalman.medium.com/template-literals-in-javascript-for-dummies-ae34a402c00f",
+      "description": "All you Need to know about Template Literals and their use of JavaScript. In JavaScript there are a few ways you can write strings. These include using “double-quotes”, ‘single-quotes’ and `template-literals`. You might wonder why? My first attempt to make a contribution to the emerging developer community.",
+      "thumbnail": "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*GyWe_6PZlBJ5W4ZoV0r9Sg.png"
     }
   ]
 }
