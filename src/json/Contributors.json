@@ -12,7 +12,7 @@
       "github": "udaykahar",
       "twitter": "udaykahar1"
     },
-      {
+    {
       "name": "Abhishek Kumara",
       "avatarUrl": "https://avatars.githubusercontent.com/u/62874675?v=4",
       "github": "bobbyy16",
@@ -73,10 +73,10 @@
       "twitter": ""
     },
     {
-     "name": "Dadapeer Shaik",
+      "name": "Dadapeer Shaik",
       "avatarUrl": "https://avatars.githubusercontent.com/u/69897636?v=4",
       "github": "DaduDev",
-      "twitter": "Dadu_Dev_" 
+      "twitter": "Dadu_Dev_"
     },
     {
       "name": "Divya Chakshu",
@@ -287,6 +287,12 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/74404894?v=4",
       "github": "JasonDsouza212",
       "twitter": "https://twitter.com/_Jason_Dsouza/"
+    },
+    {
+      "name": "Salman Shahid",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/71010239?v=4",
+      "github": "salmanshahid888",
+      "twitter": "https://twitter.com/JJust_Sal"
     }
   ]
 }
