@@ -1,52 +1,52 @@
 {
-  "Cards": [
-    {
-      "title": "Tips: How to get last element of an array in javascipt",
-      "url": "https://dev.to/devvsakib/tips-how-to-get-last-element-of-an-array-in-javascipt-3k2j",
-      "description": "An array is a data structure, which can store a fixed-size collection of elements of the same data type. If you have worked with JavaScript arrays before, you might know that they can be destructured much like objects. This is most commonly used to extract the first value of an array or the values of an array with a known length.",
-      "thumbnail": "https://res.cloudinary.com/practicaldev/image/fetch/s--Wq3AbKkr--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/9frfz2hnli8hiz39i3ld.png"
-    },
-    {
-      "title": "Fetch API in JavaScript",
-      "url": "https://dev.to/devvsakib/fetch-api-in-javascript-54o6",
-      "description": "The Fetch API provides a JavaScript interface for accessing and manipulating parts of the protocol, such as requests and responses. Before fetch(), we used XHR (XMLHttpRequest). Using Fetch is very easy. Fetch() starts the process of fetching a resource from a server and returns Promise that resolves to a Response object.",
-      "thumbnail": "https://res.cloudinary.com/practicaldev/image/fetch/s--nDglCHdk--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/tefmnrr3i9a8c0kl63ax.png"
-    },
-    {
-      "title": "Top 10 React Interview Question!",
-      "url": "https://dev.to/devvsakib/top-10-react-interview-question--584n",
-      "description": "All of these questions are collected from all over the developers websites. I have tried to collect the most important and frequently asked questions. I hope this will help you to prepare for your next React interview. If you have any questions, please let me know in the comments section. I will try to answer them as soon as possible.",
-      "thumbnail": "https://res.cloudinary.com/practicaldev/image/fetch/s--jiCM9b__--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/zzgleb5xx7p9a93p2n3e.png"
-    },
-    {
-      "title": "How to start a coding YouTube Channel",
-      "url": "https://dev.to/devvsakib/how-to-star-a-coding-youtube-channel-step-by-step-5enh",
-      "description": "Most of us want to start a YouTube channel. But they don’t know where to start. To i will walk you through the process from absolute beginners. I will guide you how to start a YouTube channel and how to grow it.",
-      "thumbnail": "images/hsacyc.png"
-    },
-    {
-      "title": "Top 5 Frontend Interview questions you must know! Ans with Example ",
-      "url": "https://dev.to/devvsakib/top-5-frontend-interview-questions-you-must-know-ans-with-example-5cnm",
-      "description": "Today's topic is about FRONTEND interview with most frequently asked in interview. I have tried to collect the most important and frequently asked questions. I hope this will help you to prepare for your next FRONTEND interview. If you have any questions, please let me know in the comments section. I will try to answer them as soon as possible.",
-      "thumbnail": "https://res.cloudinary.com/practicaldev/image/fetch/s--e3Z0DN9O--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/vbue66khzmgrehi0z8l9.png"
-    },
-    {
-      "title": "Data Structures",
-      "url": "https://technotrunk.hashnode.dev/data-structures",
-      "description": "Let's learn about basic data structures",
-      "thumbnail": "https://cdn.hashnode.com/res/hashnode/image/upload/v1672151968440/fffcdddd-89f1-4c69-acbf-198a1d7c870d.webp?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp"
-    },
-    {
-      "title": "What is CORS Policy: How to Solve CORS Errors as a Front-End Engineer",
-      "url": "https://reactivesalman.medium.com/what-is-cors-policy-how-to-solve-cors-errors-as-a-front-end-engineer-b8779a43ea53",
-      "description": "When Working with API's as a Front-end Engineer We often encounter CORS Policy Issue and honestly the first time I had this bug It took me three to four days to solve before I became familiar to the root of this issue. Let's break down and try to understand what is CORS and why in the bloody hell am I getting this?",
-      "thumbnail": "https://miro.medium.com/v2/resize:fit:828/format:webp/1*XA9-ilepiVUL9dBP0sWH3A.png"
-    },
-    {
-      "title": "Template Literals In JavaScript for Dummies",
-      "url": "https://reactivesalman.medium.com/template-literals-in-javascript-for-dummies-ae34a402c00f",
-      "description": "All you Need to know about Template Literals and their use of JavaScript. In JavaScript there are a few ways you can write strings. These include using “double-quotes”, ‘single-quotes’ and `template-literals`. You might wonder why? My first attempt to make a contribution to the emerging developer community.",
-      "thumbnail": "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*GyWe_6PZlBJ5W4ZoV0r9Sg.png"
-    }
-  ]
+    "Cards": [
+        {
+            "title": "Tips: How to get last element of an array in javascipt",
+            "url": "https://dev.to/devvsakib/tips-how-to-get-last-element-of-an-array-in-javascipt-3k2j",
+            "description": "An array is a data structure, which can store a fixed-size collection of elements of the same data type. If you have worked with JavaScript arrays before, you might know that they can be destructured much like objects. This is most commonly used to extract the first value of an array or the values of an array with a known length.",
+            "thumbnail": "https://res.cloudinary.com/practicaldev/image/fetch/s--Wq3AbKkr--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/9frfz2hnli8hiz39i3ld.png"
+        },
+        {
+            "title": "Fetch API in JavaScript",
+            "url": "https://dev.to/devvsakib/fetch-api-in-javascript-54o6",
+            "description": "The Fetch API provides a JavaScript interface for accessing and manipulating parts of the protocol, such as requests and responses. Before fetch(), we used XHR (XMLHttpRequest). Using Fetch is very easy. Fetch() starts the process of fetching a resource from a server and returns Promise that resolves to a Response object.",
+            "thumbnail": "https://res.cloudinary.com/practicaldev/image/fetch/s--nDglCHdk--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/tefmnrr3i9a8c0kl63ax.png"
+        },
+        {
+            "title": "Top 10 React Interview Question!",
+            "url": "https://dev.to/devvsakib/top-10-react-interview-question--584n",
+            "description": "All of these questions are collected from all over the developers websites. I have tried to collect the most important and frequently asked questions. I hope this will help you to prepare for your next React interview. If you have any questions, please let me know in the comments section. I will try to answer them as soon as possible.",
+            "thumbnail": "https://res.cloudinary.com/practicaldev/image/fetch/s--jiCM9b__--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/zzgleb5xx7p9a93p2n3e.png"
+        },
+        {
+            "title": "How to start a coding YouTube Channel",
+            "url": "https://dev.to/devvsakib/how-to-star-a-coding-youtube-channel-step-by-step-5enh",
+            "description": "Most of us want to start a YouTube channel. But they don’t know where to start. To i will walk you through the process from absolute beginners. I will guide you how to start a YouTube channel and how to grow it.",
+            "thumbnail": "images/hsacyc.png"
+        },
+        {
+            "title": "Top 5 Frontend Interview questions you must know! Ans with Example ",
+            "url": "https://dev.to/devvsakib/top-5-frontend-interview-questions-you-must-know-ans-with-example-5cnm",
+            "description": "Today's topic is about FRONTEND interview with most frequently asked in interview. I have tried to collect the most important and frequently asked questions. I hope this will help you to prepare for your next FRONTEND interview. If you have any questions, please let me know in the comments section. I will try to answer them as soon as possible.",
+            "thumbnail": "https://res.cloudinary.com/practicaldev/image/fetch/s--e3Z0DN9O--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/vbue66khzmgrehi0z8l9.png"
+        },
+        {
+            "title": "Data Structures",
+            "url": "https://technotrunk.hashnode.dev/data-structures",
+            "description": "Let's learn about basic data structures",
+            "thumbnail": "https://cdn.hashnode.com/res/hashnode/image/upload/v1672151968440/fffcdddd-89f1-4c69-acbf-198a1d7c870d.webp?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp"
+        },
+        {
+          "title": "Template Literals In JavaScript for Dummies",
+          "url": "https://reactivesalman.medium.com/template-literals-in-javascript-for-dummies-ae34a402c00f",
+          "description": "All you Need to know about Template Literals and their use of JavaScript. In JavaScript there are a few ways you can write strings. These include using “double-quotes”, ‘single-quotes’ and `template-literals`. You might wonder why? My first attempt to make a contribution to the emerging developer community.",
+          "thumbnail": "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*GyWe_6PZlBJ5W4ZoV0r9Sg.png"
+        },
+        {
+            "title": "Getting Started with Open Source! Full guide and Demo",
+            "url": "https://devvsakib.hashnode.dev/getting-started-with-open-source-full-guide-and-demo",
+            "description": "Open-source. Just Two words with so much meaning and endless possibility. Do you ever try to know what the hack is Open-source and why everyone talks about open-source? If not, or you want to know what the hack is open-source and why it's important for you as a developer, then I will walk you through the open-source concept today. In this article, I will practically show you how to contribute. Sound crazy?",
+            "thumbnail": "https://cdn.hashnode.com/res/hashnode/image/upload/v1677404544572/0898b131-cb53-4da3-86c8-77a1f04a6e39.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp"
+        }
+    ]
 }
