@@ -2,7 +2,7 @@ import { React, useState, useEffect } from 'react'
 import axios from 'axios'
 import './Projects.css'
 function GetProjects() {
-    const url = "https://api.github.com/repos/devvsakib/hacktoberfest-react-project/contents/PROJECTS"
+    const url = "https://api.github.com/repos/devvsakib/power-the-web/contents/PROJECTS"
     const [projects, setProjects] = useState([])
     const [isLoading, setIsLoading] = useState(true)
     const getProjects = async () => {
