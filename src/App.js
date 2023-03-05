@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, Navigate } from "react-router-dom";
 import Navbar from "./component/Navbar/Navbar";
 import Home from "./component/pages/Home";
 import Projects from "./component/pages/Projects";
@@ -11,6 +11,7 @@ import Guidelines from "./component/pages/Guidelines";
 import ScrollToTop from "./component/Button/ScrollToTop";
 import GetStarted from "./component/Guidelines/pages/GetStarted";
 import Documents from "./component/Guidelines/pages/Documents";
+import NotFound from "./component/pages/NotFound";
 
 function App() {
   return (
@@ -25,6 +26,9 @@ function App() {
         <Route path="/guidelines" exact element={<Guidelines />}></Route>
         <Route path="/guidelines/getstarted" exact element={<GetStarted />}></Route>
         <Route path="/guidelines/getstarted/:page" exact element={<Documents />}></Route>
+        <Route path="/404" exact element={<NotFound />}></Route>
+        <Route path="*" exact element={<Navigate to="/404" />}></Route>
+        
       </Routes>
       <Footer />
     </div>
