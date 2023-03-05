@@ -1,11 +1,11 @@
-import React from 'react'
-import Herosection from '../HeroSection/Herosection'
+import React from "react";
+import Herosection from "../HeroSection/Herosection";
 function Home() {
   return (
-    <div>
-    <Herosection/>
-  </div>
-  )
+    <div className="overflow-x-hidden">
+      <Herosection />
+    </div>
+  );
 }
 
-export default Home
+export default Home;
