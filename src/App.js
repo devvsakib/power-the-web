@@ -28,7 +28,6 @@ function App() {
         <Route path="/guidelines/getstarted/:page" exact element={<Documents />}></Route>
         <Route path="/404" exact element={<NotFound />}></Route>
         <Route path="*" exact element={<Navigate to="/404" />}></Route>
-        
       </Routes>
       <Footer />
     </div>
