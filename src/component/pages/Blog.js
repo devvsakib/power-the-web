@@ -8,7 +8,7 @@ function Blog() {
       <div className="text-center text-uppercase m-8 text-white">
         <h1 className="text-4xl font-semibold"> Blogs </h1>
         <p className="text-base">Read more, Gain more. <a href={"https://github.com/devvsakib/power-the-web"}
-          className="text-base hover: underline" target={"_blank"}> Add</a> your Blog!</p>
+          className="text-base hover: underline" target={"_blank"} rel="noreferrer"> Add</a> your Blog!</p>
       </div>
 
 
