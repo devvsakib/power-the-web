@@ -103,6 +103,7 @@ So, people will know what project it is. Make sure you added your github name an
 -->
 ## Thanks to all the contributors ❤️
 Add your details in contributions.json file
+<br>
 <a href = "https://github.com/devvsakib/hacktoberfest-react-project/graphs/contributors">
   <img src = "https://contrib.rocks/image?repo=devvsakib/hacktoberfest-react-project"/>
 </a>
