@@ -4,7 +4,7 @@ import BlogCard from "../Blog/BlogCard";
 
 function Blog() {
   return (
-    <div className="w-full px-10">
+    <div className="w-full px-10 ">
       <div className="text-center text-uppercase m-8 text-white">
         <h1 className="text-4xl font-semibold"> Blogs </h1>
         <p className="text-base">Read more, Gain more. <a href={"https://github.com/devvsakib/power-the-web"}
