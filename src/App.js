@@ -11,12 +11,13 @@ import ScrollToTop from "./component/Button/ScrollToTop";
 import GetStarted from "./component/Guidelines/pages/GetStarted";
 import Documents from "./component/Guidelines/pages/Documents";
 import NotFound from "./component/pages/NotFound";
+import Layout from "./component/Layout";
 
 import "./main.css";
 
 function App() {
   return (
-    <div className="App">
+    <Layout>
       <Navbar />
       <ScrollToTop />
       <Routes>
@@ -31,7 +32,7 @@ function App() {
         <Route path="*" exact element={<Navigate to="/404" />}></Route>
       </Routes>
       <Footer />
-    </div>
+    </Layout>
   );
 }
 

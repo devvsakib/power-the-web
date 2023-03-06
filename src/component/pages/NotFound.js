@@ -2,7 +2,7 @@ import { React } from 'react';
 
 const NotFound = () => {
   return (
-    <div className='flex flex-grid w-full h-[100vh] my-auto'>
+    <div className='flex flex-grid  my-auto'>
         <div className='flex flex-col lg:flex-row p-6 w-full justify-center h-[100vh]'>
           <img src="images/404.svg" alt="404 error" className='w-2/3 lg:w-1/2 pt-auto mx-auto'/>
           <div className='w-2/3 lg:w-1/3 mb-6 mx-auto lg:my-auto text-center md:text-left text-white space-y-6'>

@@ -1,7 +1,6 @@
 .hero-section {
-    width: 100vw;
+    /* width: 100vw; */
     height: calc(100vh - 104px);
-    padding: 0 5rem;
 }
 
 body {
@@ -33,6 +32,12 @@ body {
     font-size: 6vw !important;
 }
 
+@media (max-width: 810px) {
+    #tet {
+        font-size: 8vw !important;
+    }
+}
+
 @media (max-width: 640px) {
     #tet {
         font-size: 10vw !important;
@@ -45,13 +50,11 @@ body {
     iframe {
         width: 90vw;
     }
-}
-
-@media (max-width: 640px) {
     .text {
         font-size: 10vw !important;
     }
 }
+
 
 .ptw-text-animation {
     background: linear-gradient(90deg, #da35c4, #03b7ff, #f7cc0e);

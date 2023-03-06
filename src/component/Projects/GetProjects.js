@@ -17,10 +17,6 @@ function GetProjects() {
     }, [projects.length])
     return (
         <>
-            <div className="text-center text-uppercase m-8">
-                <h1 className="text-2xl md:text-4xl font-semibold  text-white">  Contributors Projects </h1>
-                <p className="text-sm md:text-base text-white"> Source code given in GitHub. Join Us</p>
-            </div>
             {
                 isLoading ?
                     (<div className="loader h-[90vh]  md:-mt-36 flex flex-col items-center">
