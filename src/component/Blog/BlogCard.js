@@ -1,3 +1,5 @@
+import React  from 'react';
+
 const BlogCard = ({card, idx}) => {
     return (
         <div
@@ -22,7 +24,7 @@ const BlogCard = ({card, idx}) => {
                 </div>
                 <div className="px-3 pb-6">
                     <button className="ptw-grad hover:scale-110 duration-300 ease-linear hover:shadow-md hover:shadow-white/30 ptw-gradHover text-white font-bold py-2 px-4 rounded">
-                        <a href={card.url} target="_blank" rel="noreferrer">
+                        <a href={card.url} target="_blank" rel="noopener noreferrer">
                             Read More
                         </a>
                     </button>

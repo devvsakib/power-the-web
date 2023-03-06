@@ -1,3 +1,4 @@
+import React from 'react';
 import CProfileCard from "./CProfileCard";
 import data from "../../json/Contributors.json";
 
@@ -19,7 +20,7 @@ function GetContributors() {
                                 idx={idx}
                                 github={github}
                                 twitter={twitter}
-                                avatarUrl={avatarUrl}                            
+                                avatarUrl={avatarUrl}
                             />
                         );
                     })}

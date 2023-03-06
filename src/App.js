@@ -4,7 +4,6 @@ import Navbar from "./component/Navbar/Navbar";
 import Home from "./component/pages/Home";
 import Projects from "./component/pages/Projects";
 import Blog from "./component/pages/Blog";
-import "./main.css";
 import Contributors from "./component/pages/Contributors";
 import Footer from "./component/Footer/Footer";
 import Guidelines from "./component/pages/Guidelines";
@@ -12,6 +11,8 @@ import ScrollToTop from "./component/Button/ScrollToTop";
 import GetStarted from "./component/Guidelines/pages/GetStarted";
 import Documents from "./component/Guidelines/pages/Documents";
 import NotFound from "./component/pages/NotFound";
+
+import "./main.css";
 
 function App() {
   return (

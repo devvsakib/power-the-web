@@ -24,7 +24,7 @@ function GetProjects() {
             {
                 isLoading ?
                     (<div className="loader h-[90vh]  md:-mt-36 flex flex-col items-center">
-                        <img className='mx-auto md:w-1/3' src='/assets/run.gif' />
+                        <img className='mx-auto md:w-1/3' src='/assets/run.gif' alt="run.gif"/>
                         <h2 className='text-center text-2xl font-semibold text-white'>Loading...</h2>
                     </div>
                     ) : (
@@ -33,7 +33,7 @@ function GetProjects() {
                                 {
                                     projects.map((item, index) => (
                                         <li className='py-3 items-center grid'>
-                                            <a className='flex projects-line align-middle bg-black rounded-l-[30px]' href={item.html_url} target="_blank">
+                                            <a className='flex projects-line align-middle bg-black rounded-l-[30px]' href={item.html_url} target="_blank" rel="noopener noreferrer">
                                                 <span className='h-14 w-14 cursor-pointer border-2 border-black rounded-full text-center font-bold flex items-center justify-center'>{index + 1}</span>
                                                 <p className='pl-2  font-semibold flex items-center tracking-wider'>{item.name}</p>
                                             </a>
