@@ -45,6 +45,7 @@ body {
 
     .hero-section {
         padding: 0;
+        height: calc(100vh - 128px);
     }
 
     iframe {
