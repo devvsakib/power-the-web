@@ -1,0 +1,113 @@
+body {
+  background: url(../destination/background-destination-desktop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  color: var(--white);
+}
+
+.feature-section {
+  margin-top: 50px;
+}
+
+.row h5 {
+  color: var(--white);
+  margin-bottom: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-family: var(--h5font);
+  font-size: var(--h5);
+  letter-spacing: var(--space);
+}
+.row h5 span {
+  color: rgba(208, 214, 249, 0.6784313725) !important;
+  font-family: var(--h5font) !important;
+  font-weight: 500;
+  margin-right: 10px;
+  font-size: var(--h5) !important;
+}
+
+.left_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.left_content img {
+  max-width: 60%;
+}
+
+.right_content .tab-nav,
+.right_content .tab-details {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px !important;
+  letter-spacing: var(--nvtextspace);
+  position: relative;
+}
+.right_content .tab-nav li,
+.right_content .tab-details li {
+  position: relative;
+}
+.right_content .tab-nav li a:before,
+.right_content .tab-details li a:before {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -5px;
+  content: "";
+  height: 2px;
+  background-color: var(--white);
+  transform: scaleX(0);
+  opacity: 0;
+  transition: all 250ms ease-in-out;
+}
+.right_content .tab-nav li:hover a,
+.right_content .tab-details li:hover a {
+  color: var(--fog);
+}
+.right_content .tab-nav li:hover a:before,
+.right_content .tab-details li:hover a:before {
+  background-color: var(--fog);
+  transform: scaleX(1);
+  opacity: 1;
+}
+.right_content .tab-header span {
+  font-size: var(--h2);
+  font-family: var(--hfont);
+  color: var(--white);
+  text-transform: uppercase;
+  letter-spacing: var(--subh1space);
+}
+.right_content .tab-description {
+  justify-items: center;
+  margin-bottom: 0px;
+  font-family: var(--nvtext);
+  letter-spacing: 1px;
+  font-family: var(--h5font);
+  color: var(--fog);
+  display: flex;
+  justify-items: center;
+  font-weight: 400;
+}
+.right_content .tab-details {
+  width: 80%;
+}
+.right_content .tab-details p {
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  font-family: var(--nvtext);
+  letter-spacing: var(--subh1space);
+  color: var(--fog);
+  display: flex;
+}
+.right_content .tab-details h5 {
+  font-family: var(--hfont);
+}
+
+@media (max-width: 800px) {
+  .right_content .tab-nav li,
+  .right_content .tab-details li {
+    margin-right: 19px;
+  }
+}/*# sourceMappingURL=destination.css.map */

@@ -1,0 +1,110 @@
+body {
+    background: url(../technology/background-technology-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    color: var(--white);
+}
+
+.feature-section {
+    margin-top: 50px;
+
+    .row {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.row h5 {
+    color: var(--white);
+    margin-bottom: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: var(--h5font);
+    font-size: var(--h5);
+    letter-spacing: var(--space);
+
+    span {
+        font-family: var(--h5font) !important;
+        font-weight: 500;
+        margin-right: 10px;
+        font-size: var(--h5) !important;
+    }
+}
+
+.mt {
+    margin-top: 50px;
+}
+
+.left_content {
+    display: flex;
+    align-items: center;
+    margin: 0 !important;
+    width: auto !important;
+}
+
+.techTabBtn {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    li {
+        text-align: center;
+        line-height: 60px;
+        color: black;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        border: 1px solid #d0d6f9ad;
+        color: white;
+        cursor: pointer;
+    }
+
+    :first-child {
+        color: black;
+        background: white;
+    }
+}
+
+.tech_content {
+    padding-left: 80px;
+    margin-right: 0;
+
+    h5 {
+        color: #d0d6f9ad !important;
+        margin-bottom: 5px;
+    }
+
+    .subHeading {
+        text-transform: uppercase;
+        color: #d0d6f9ad;
+        font-size: var(--h6);
+        font-family: var(--hfont);
+        letter-spacing: var(--subh1space);
+    }
+
+    .mainHeading {
+        text-transform: uppercase;
+        margin-bottom: 20px;
+        color: white;
+        font-family: var(--hfont);
+        font-size: var(--h3);
+    }
+
+    .paraDes {
+        width: 430px;
+        line-height: 27px !important;
+        font-weight: 200 !important;
+        font-family: var(--h5font);
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+}
+
+#techImg {
+    width: 400px;
+    position: absolute;
+    right: 0 !important;
+    top: 30%;
+}

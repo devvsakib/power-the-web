@@ -1,0 +1,79 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+        integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <title>Frontend Mentor | Space tourism website</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/destination.css">
+</head>
+
+<body>
+    <section class="container-fluid px-0">
+        <div class="row px-0 mt-4 aCenter">
+            <div class="col-md-5 pl-5">
+                <div class="logo pl-4">
+                    <img src="assets/shared/logo.svg" alt="logo" srcset="">
+                    <span id="nav_line"></span>
+                </div>
+            </div>
+            <div class="col-md-7 px-0">
+                <nav class="menu_container">
+                    <ul class="main_menu">
+                        <li><a href="./index.html"><span>00</span> Home</a></li>
+                        <li><a href="./destination.html"><span>01</span> destination</a></li>
+                        <li><a href="./crew.html"><span>02</span> crew</a></li>
+                        <li><a href="./technology.html"><span>03</span> Technology</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </section>
+    <section class="container feature-section">
+        <div class="row">
+            <h5><span>01</span> pick your destination</h5>
+            <div class="col-md-6 col-sm-6">
+                <div class="left_content">
+                    <img id="tabImg" src="./assets/destination/image-moon.webp" alt="">
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-6">
+                <div class="right_content">
+                    <div class="tab-nav">
+                        <li class="tab" value="0"><a href="#"><span></span> moon</a></li>
+                        <li class="tab" value="1"><a href="#"><span></span> mars</a></li>
+                        <li class="tab" value="2"><a href="#"><span></span> europa</a></li>
+                        <li class="tab" value="3"><a href="#"><span></span> titan</a></li>
+                    </div>
+                    <div class="tab-header">
+                        <span class="des-head">Moon</span>
+                    </div>
+                    <div class="tab-description">
+                        <p class="des-para">See our planet as you’ve never seen it before. A perfect relaxing trip away
+                            to help regain perspective and come back refreshed. While you’re there, take in some history
+                            by visiting the Luna 2 and Apollo 11 landing sites.</p>
+                    </div>
+                    <hr>
+                    <div class="tab-details">
+                        <div>
+                            <p>AVG. distance</p>
+                            <h5 class="des-dis">384,400 KM</h5>
+                        </div>
+                        <div>
+                            <p>EST. travel</p>
+                            <h5 class="des-time">3 days</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="./assets/js/destination.js"></script>
+</body>
+
+</html>

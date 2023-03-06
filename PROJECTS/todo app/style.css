@@ -1,0 +1,209 @@
+p{
+    margin-bottom: 0 !important;
+}
+
+.card-pd {
+    padding: 0;
+    background-color: white;
+    max-width: 400px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 5px rgba(100, 100, 100, 0.1);
+}
+
+#pushNote {
+    justify-content: center;
+    gap: 10px;
+}
+
+.card-pd input {
+    border: none;
+    border-radius: 0 !important;
+    padding: 10px;
+    width: 100%;
+    outline: none;
+    padding: 15px 20px !important;
+    background: transparent;
+}
+
+.card-pd button {
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 0 5px 5px 0;
+}
+
+.task-list {
+    margin-top: 3rem;
+}
+
+.card-pd input {
+    background: transparent;
+}
+
+.navbar-nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.completed {
+    margin: 0;
+}
+
+.completed {
+    color: #fff;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.completed span {
+    font-weight: bold;
+    margin-left: 10px;
+    font-size: 1.12rem;
+}
+
+.todoCard {
+    position: relative;
+    background-color: white;
+    border-radius: 6px;
+    color: #000 !important;
+    box-shadow: 0 0 5px 0 rgba(40, 6, 190, 0.5);
+    color: #fff;
+    border: none;
+}
+
+.res-form {
+    visibility: hidden;
+}
+
+
+.music {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    padding: 5px 10px;
+    border-radius: 10px;
+
+}
+
+.playsound {
+    width: 20px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+.noteDiv > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.close {
+    margin: 30px;
+    z-index: 9999999;
+    cursor: pointer;
+}
+
+.music p {
+    font-weight: 600;
+    margin-bottom: 0 !important;
+}
+
+.taskC {
+    z-index: 111;
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    backdrop-filter: blur(5px);
+}
+
+.taskComplete {
+    max-width: 800px;
+    height: 500px;
+    margin: auto;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+#pushComplete{
+    flex-direction: column;
+}
+#tskbox{
+    width: 90%;
+    margin: auto;
+}
+.hide {
+    display: none;
+}
+
+.open {
+    display: block;
+}
+
+.title {
+    margin-top: 4rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    background: linear-gradient(180deg, rgb(234, 0, 255), rgb(82, 4, 228));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#pushNote {
+    display: flex;
+    justify-content: flex-start !important;
+}
+
+.card-text {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 991px) {
+    .res-form {
+        visibility: visible;
+    }
+
+    .completed {
+        margin-top: 20px;
+    }
+
+    #pushNote {
+        gap: 10px;
+        flex-direction: column !important;
+        justify-content: center;
+    }
+    .noteDiv > div{
+        flex-direction: column;
+    }
+    #tskbox{
+        margin-left: 0;
+    }
+}
+i{
+    height: 30px;
+}
+
+.card-number{
+    position: absolute;
+    top: 0;
+    left: 10px;    
+    font-size: 2rem;
+    opacity: 0.3;
+    font-weight: 700;
+}
+.ncTask{
+    padding-left: 2rem;
+}
+.gap{
+    gap: 10px;
+}
