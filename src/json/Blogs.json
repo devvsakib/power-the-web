@@ -1,5 +1,5 @@
 {
-    "Cards": [
+    "blogs": [
         {
             "title": "Tips: How to get last element of an array in javascipt",
             "url": "https://dev.to/devvsakib/tips-how-to-get-last-element-of-an-array-in-javascipt-3k2j",
@@ -17,6 +17,12 @@
             "url": "https://dev.to/devvsakib/top-10-react-interview-question--584n",
             "description": "All of these questions are collected from all over the developers websites. I have tried to collect the most important and frequently asked questions. I hope this will help you to prepare for your next React interview. If you have any questions, please let me know in the comments section. I will try to answer them as soon as possible.",
             "thumbnail": "https://res.cloudinary.com/practicaldev/image/fetch/s--jiCM9b__--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/zzgleb5xx7p9a93p2n3e.png"
+        },
+        {
+            "title": " Git & GitHub Common Error ",
+            "url": "https://res.cloudinary.com/practicaldev/image/fetch/s--irYHx_XU--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/bwzl0ge8652cul9z04n2.png",
+            "description": "GES stands for GitHub Error Solve. This is an Open Source project dedicated to resolving any errors or issues that may arise while using GitHub.",
+            "thumbnail": "https://res.cloudinary.com/practicaldev/image/fetch/s--irYHx_XU--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/bwzl0ge8652cul9z04n2.png"
         },
         {
             "title": "How to start a coding YouTube Channel",
@@ -53,6 +59,12 @@
             "url": "https://devvsakib.hashnode.dev/getting-started-with-open-source-full-guide-and-demo",
             "description": "Open-source. Just Two words with so much meaning and endless possibility. Do you ever try to know what the hack is Open-source and why everyone talks about open-source? If not, or you want to know what the hack is open-source and why it's important for you as a developer, then I will walk you through the open-source concept today. In this article, I will practically show you how to contribute. Sound crazy?",
             "thumbnail": "https://cdn.hashnode.com/res/hashnode/image/upload/v1677404544572/0898b131-cb53-4da3-86c8-77a1f04a6e39.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp"
+        },
+        {
+            "title": "How to solve Vercel and Netlify \"Page Not Found\" after page refresh [SOLVED] ",
+            "url": "https://dev.to/devvsakib/how-to-solve-vercel-and-netlify-page-not-found-after-page-refresh-solved-2ol7",
+            "description": "You obviously deployed your React App in vercel or netlify right? If you are using react-router then you must face the shitty Page Not Found page.",
+            "thumbnail": "https://res.cloudinary.com/practicaldev/image/fetch/s--je8jwU0b--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/hw4tkvch14j6r384tik1.png"
         }
     ]
 }
