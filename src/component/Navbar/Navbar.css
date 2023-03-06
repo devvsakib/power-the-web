@@ -12,7 +12,7 @@ ul>li {
   background: rgba(3, 13, 87, 0.404);
   background: linear-gradient(90deg, rgba(15, 28, 128, 0.2) 0%, rgba(183, 0, 255, 0.2) 100%);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
+
 }
 
 @media (min-width: 640px) {
@@ -24,5 +24,11 @@ ul>li {
 @media (max-width: 640px) {
   .menu-container {
     display: none
+  }
+  .burger-menu {
+    position: absolute;
+    background: #7900bf;
+    width: 100%;
+    border-radius: 8px 1px 8px 1px;
   }
 }
