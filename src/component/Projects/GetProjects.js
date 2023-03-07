@@ -19,7 +19,7 @@ function GetProjects() {
 
     if (isError) {
         return <Error
-            msg={`Sorry, we couldn’t find project list for now. Please comeback letter after`}
+            msg={`Sorry, we couldn’t find project list for now. Please comeback letter`}
         />
     }
 
