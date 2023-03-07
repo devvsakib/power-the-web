@@ -1,7 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+html {
+  background: #521fa5;
+}
 body {
   font-family: "Dosis";
 
