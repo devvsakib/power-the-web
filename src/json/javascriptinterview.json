@@ -186,8 +186,7 @@
     }
     {
         "question": "Explain Null and Undefined in JavaScript.",
-        "answer": "Null: It is the intentional absence of the value. It is one of the primitive values of JavaScript.
-                  "Undefined: It means the value does not exist in the compiler. It is the global object.",
+        "answer": "Null: It is the intentional absence of the value. It is one of the primitive values of JavaScript. Undefined: It means the value does not exist in the compiler. It is the global object.",
         "tag": "javascript"
     }
     {
