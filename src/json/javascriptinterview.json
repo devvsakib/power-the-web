@@ -184,4 +184,53 @@
         "answer": "CSS stands for Cascading Style Sheets. It is a stylesheet language used to describe the presentation of HTML or XML documents.",
         "tag": "css"
     }
+    {
+        "question": "Explain Null and Undefined in JavaScript.",
+        "answer": "Null: It is the intentional absence of the value. It is one of the primitive values of JavaScript.
+                  "Undefined: It means the value does not exist in the compiler. It is the global object.",
+        "tag": "javascript"
+    }
+    {
+        "question": "What is the strict mode?",
+        "answer": "This strict context prevents certain actions from being taken and throws more exceptions. The statement “use strict”; instructs the browser to use the Strict mode, which is a reduced and safer feature set of JavaScript.",
+        "tag": "javascript"
+    }
+    {
+        "question": "What is a Polyfill?",
+        "answer": "A polyfill is a piece of code (usually JavaScript on the Web) used to provide modern functionality on older browsers that do not natively support it.",
+        "tag": "javascript"
+    }
+    {
+        "question": "What are the advantages of using arrow functions?",
+        "answer": "1.Arrow function reduce code and makes the mode more readable.2.Arrow function syntax automatically binds “this” to the surrounding code’s context.3.Writing the arrow => is more flexible as compared with the function keyword.",
+        "tag": "javascript"
+    }
+    {
+        "question": "What is Currying?",
+        "answer": " It is a technique in functional programming, transformation of the function of multiple arguments into several functions of a single argument in sequence.",
+        "tag": "javascript"
+    }
+    {
+        "question": "What is Coercion in JavaScript?",
+        "answer": "Type Coercion refers to the process of automatic or implicit conversion of values from one data type to another. This includes conversion from Number to String, String to Number, Boolean to Number etc. when different types of operators are applied to the values.",
+        "tag": "javascript"
+    }
+    {
+        "question": " What is IIFE?",
+        "answer": " A JavaScript immediately Invoked Function Expression is a function defined as an expression and executed immediately after creation.",
+        "tag": "javascript"
+    }
+    {
+        "question": "What object.freeze() does?",
+        "answer": "The Object.freeze() method is used to freeze an object. Freezing an object does not allow new properties to be added to the object and prevents removing or altering the existing properties. Object.freeze() preserves the enumerability, configurability, writability, and prototype of the object. It returns the passed object and does not create a frozen copy.",
+        "tag": "javascript"
+    }
+    {
+        "question": "Explain the difference between Object.freeze() vs const.",
+        "answer": "The const keyword creates a read-only reference to a value. Variables created by the const keyword are immutable. In other words, you can’t reassign them to different values. Trying to reassign a constant variable will result in a TypeError. If you want the value of the person object to be immutable, you have to freeze it by using the Object.freeze() method.",
+        "tag": "javascript"
+   
+    
+    
+
 ]
