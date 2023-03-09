@@ -229,29 +229,14 @@
     "answer": "The const keyword creates a read-only reference to a value. Variables created by the const keyword are immutable. In other words, you can’t reassign them to different values. Trying to reassign a constant variable will result in a TypeError. If you want the value of the person object to be immutable, you have to freeze it by using the Object.freeze() method.",
     "tag": "javascript"
   },
-
   {
-    "question":"What is IIFEs ?",
-    "answer":"It’s an Immediately-Invoked Function Expression, or IIFE for short. It executes immediately after it’s created.This pattern is often used when trying to avoid polluting the global namespace, because all the variables used inside the IIFE (like in any other normal function) are not visible outside its scope.",
-    "tag":"javascript"
-
-  },
-
-  {
-    
     "question":"What's a typical use case for anonymous functions?",
     "answer":"They can be used in IIFEs to encapsulate some code within a local scope so that variables declared in it do not leak to the global scope.As a callback that is used once and does not need to be used anywhere else. The code will seem more self-contained and readable when handlers are defined right inside the code calling them, rather than having to search elsewhere to find the function body.",
     "tag":"javascript"
-
-
   },
-
-  {
-     
+  { 
     "question":"How will you merge two arrays in simple steps?",
     "answer":"We can either use the array.concat() method or the spread operator to merge two arrays. The concat() method returns a new array by merging (concatenating) the given arrays. The spread operator allows an iterable such as an array expression or string to be expanded in places where zero or more arguments (for function calls) or elements (for array literals) are expected, or an object expression to be expanded in places where zero or more key-value pairs (for object literals) are expected.",
-    "tag":"javascript"
-    
-
+    "tag":"javascript"  
   }
 ]
