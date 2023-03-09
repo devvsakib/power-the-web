@@ -1,235 +1,270 @@
 [
-    {
-        "question": "What is JavaScript?",
-        "answer": "JavaScript is a high-level, interpreted programming language that is commonly used for creating dynamic web pages and client-side scripting.",
-        "tag": "javascript"
-    },
-    {
-        "question": "What is JavaScript and how is it used in web development?",
-        "answer": "JavaScript is a programming language used to create interactive effects within web browsers. It can be used for front-end development to create interactive user interfaces, and also for back-end development to create server-side applications. JavaScript is one of the three core technologies used in web development, alongside HTML and CSS.",
-        "tag": "javascript"
-    },
-    {
-        "question": "What is the difference between JavaScript and other programming languages?",
-        "answer": "JavaScript is a dynamically-typed, high-level programming language that is used mainly for front-end and back-end web development. It is unique in that it is executed on the client- side, meaning that it runs within a web browser. Other programming languages may be compiled or interpreted and can be used for a wide variety of applications, such as desktop or mobile applications.",
-        "tag": "javascript"
-    },
-    {
-        "question": "What is the Document Object Model (DOM) in JavaScript?",
-        "answer": "The Document Object Model (DOM) is a programming interface for HTML and XML documents. It represents the page so that programs can change the document structure, style, and content. The DOM provides a way for programmers to access and manipulate HTML and XML documents, which makes it essential for building dynamic web pages and applications.",
-        "tag": "javascript"
-    },
-    {
-        "question": "What are the different data types in JavaScript?",
-        "answer": "JavaScript has seven different data types: undefined, null, boolean, number, string, object, and symbol.",
-        "tag": "javascript"
-    },
-    {
-        "question": "What is an object in JavaScript?",
-        "answer": "An object in JavaScript is a collection of properties, where each property has a name and a value. Objects can be created using object literals or using constructor functions.",
-        "tag": "javascript"
-    },
-    {
-        "question": "What is an array in JavaScript?",
-        "answer": "An array in JavaScript is a collection of elements, where each element has an index and a value. Arrays can be created using array literals or using the Array constructor.",
-        "tag": "javascript"
-    },
-    {
-        "question": "How do you declare variables in JavaScript?",
-        "answer": "Variables can be declared using the var, let, or const keywords in JavaScript. The var keyword is used for declaring variables with global or functional scope, while let and const are used for block-scoped variables",
-        "tag": "javascript"
-    },
-    {
-        "question": "What is hoisting in JavaScript?",
-        "answer": "Hoisting is a behavior in JavaScript where variable and function declarations are moved to the top of their respective scopes. This means that a variable or function can be used before it has been declared, although it will still be undefined until it is assigned a value",
-        "tag": "javascript"
-    },
-    {
-        "question": "What are the different types of operators in JavaScript?",
-        "answer": "JavaScript has several types of operators, including arithmetic, assignment, comparison, logical, bitwise, and string operators.",
-        "tag": "javascript"
-    },
-    {
-        "question": "What is async/await in JavaScript?",
-        "answer": "Async/await is a way to write asynchronous code that looks like synchronous code. It allows developers to write code that waits for a promise to resolve before executing the next line of code.",
-        "tag": "javascript"
-    },
-    {
-        "question": "What is a promise in JavaScript?",
-        "answer": "A promise is a JavaScript object that represents a value that may not be available yet but will be resolved in the future.",
-        "tag": "javascript"
-    },
-    {
-        "question": "What is the difference between synchronous and asynchronous programming in JavaScript?",
-        "answer": "Synchronous programming is when tasks are executed sequentially, one after the other, in a predictable order. Asynchronous programming is when tasks are executed concurrently, and the order of execution is not guaranteed.",
-        "tag": "javascript"
-    },
-    {
-        "question": "What is prototypal inheritance in JavaScript?",
-        "answer": "Prototypal inheritance is a way of creating new objects based on existing objects, by inheriting their properties and methods. In JavaScript, every object has a prototype, which is a reference to another object that it inherits properties and methods from.",
-        "tag": "javascript"
-    },
-    {
-        "question": "What is the difference between an object and an array in JavaScript?",
-        "answer": "An object is a collection of properties, where each property is a key-value pair. An array is an ordered list of values, where each value is accessed by its index number.",
-        "tag": "javascript"
-    },
-    {
-        "question": "What is a callback function in JavaScript?",
-        "answer": "A callback function in JavaScript is a function that is passed as an argument to another function and is executed when that function completes its operation. Callbacks are often used in asynchronous programming and event handling.",
-        "tag": "javascript"
-    },
-    {
-        "question": "What are closures in JavaScript?",
-        "answer": "Closures are functions that have access to variables in their outer (enclosing) functions, even after the outer function has returned. This is possible because the inner function retains a reference to the variables in the outer function, which are kept alive in memory.",
-        "tag": "javascript"
-    },
-    {
-        "question": "What is scope in JavaScript?",
-        "answer": "Scope refers to the accessibility of variables, functions, and objects in different parts of a JavaScript program. There are two types of scope in JavaScript: global scope and local scope.",
-        "tag": "javascript"
-    },
-    {
-        "question": "What is the difference between == and === in JavaScpt?",
-        "answer": "The == operator compares values for equality, whereas the === operator compares values for equality and type.",
-        "tag": "javascript"
-    },
-    {
-        "question": "What is event bubbling in JavaScript?",
-        "answer": "Event bubbling is the process by which an event propagates from the innermost element that triggered the event up to the document root, triggering all event handlers along the way.",
-        "tag": "javascript"
-    },
-    {
-        "question": "What is event delegation in JavaScript?",
-        "answer": "Event delegation is a technique in which a single event handler is added to a parent element, rather than multiple event handlers being added to multiple child elements.",
-        "tag": "javascript"
-    },
-    {
-        "question": "What is a decorator in JavaScript?",
-        "answer": "A decorator in JavaScript is a function that is used to modify the behavior of another function or object. Decorators are typically used to add functionality to an existing function or object without modifying its original source code.",
-        "tag": "javascript"
-    },
-    {
-        "question": "What is JSON and how is it used in JavaScript?",
-        "answer": "JSON (JavaScript Object Notation) is a lightweight data interchange format that is easy for humans to read and write and easy for machines to parse and generate. It is a text format that is used to represent data in a structured way and is widely used for data exchange between web servers and clients. In JavaScript, JSON is used to exchange data between a web server and a web application. The JSON format is based on a subset of the JavaScript programming language and is natively supported by most modern web browsers.",
-        "tag": "javascript"
-    },
-    {
-        "question": "What is the difference between null and undefined in JavaScript?",
-        "answer": "null is a value that represents the intentional absence of any object value. It is often used to indicate that a variable has no value assigned to it. undefined, on the other hand, is a value that represents an uninitialized variable or a missing property in an object.",
-        "tag": "javascript"
-    },
-    {
-        "question": "What is the event loop in JavaScript?",
-        "answer": "The event loop is a mechanism in JavaScript that allows for asynchronous programming. It continuously monitors the call stack and the message queue, and when the call stack is empty, it takes the first message from the queue and adds it to the call stack.",
-        "tag": "javascript"
-    },
-    {
-        "question": "What is a higher-order function in JavaScript?",
-        "answer": "A higher-order function is a function that takes another function as an argument or returns a function as a result. Examples of higher-order functions in JavaScript include map(), filter(), and reduce().",
-        "tag": "javascript"
-    },
-    {
-        "question": "What is the difference between var, let, and const in JavaScript?",
-        "answer": "var declares a variable globally or locally to a function, let declares a block-scoped variable, and const declares a read-only variable with a block scope. Variables declared with const cannot be reassigned.",
-        "tag": "javascript"
-    },
-    {
-        "question": "What is the purpose of the 'use strict' directive in JavaScript?",
-        "answer": "The 'use strict' directive is used to enable strict mode in JavaScript. Strict mode is a way to write more secure and optimized JavaScript code by enforcing stricter parsing and error handling rules.",
-        "tag": "javascript"
-    },
-    {
-        "question": "What is a generator function in JavaScript?",
-        "answer": "A generator function is a special type of function in JavaScript that can be paused and resumed during execution. It is defined using the function* syntax and uses the yield keyword to pause the function and return a value.",
-        "tag": "javascript"
-    },
-    {
-        "question": "What is the difference between synchronous and asynchronous functions in JavaScript?",
-        "answer": "Synchronous functions are blocking, meaning that the program waits for the function to complete before moving on to the next line of code. Asynchronous functions are non-blocking, meaning that the program can continue to execute while the function is running in the background.",
-        "tag": "javascript"
-    },
-    {
-        "question": "What is the difference between for..in and for..of loops in JavaScript?",
-        "answer": "for..in loops are used to iterate over the properties of an object, whereas for..of loops are used to iterate over the values of an iterable object such as an array or a string.",
-        "tag": "javascript"
-    },
-    {
-        "question": "What is the difference between a shallow copy and a deep copy in JavaScript?",
-        "answer": "A shallow copy creates a new object that references the original object's properties, whereas a deep copy creates a new object with its own properties that are copies of the original object's properties. Modifying a property of the original object will affect the shallow copy, but not the deep copy.",
-        "tag": "javascript"
-    },
-    {
-        "question": "What is a pure function in JavaScript?",
-        "answer": "A pure function is a function that always returns the same output given the same input, and has no side effects outside of its own scope. Pure functions are often used in functional programming to create predictable, composable code.",
-        "tag": "javascript"
-    },
-    {
-        "question": "What is the difference between call and apply in JavaScript?",
-        "answer": "Call and apply are both methods that allow you to call a function with a specific this value, and with arguments passed in as an array (apply) or as separate arguments (call).",
-        "tag": "javascript"
-    },
-    {
-        "question": "What is a module in JavaScript, and how is it used?",
-        "answer": "A module is a self-contained unit of code that can be imported and used by other parts of a program. Modules are often used to encapsulate functionality and to make code more reusable and easier to maintain.",
-        "tag": "javascript"
-    },
-    {
-        "question": "What is HTML?",
-        "answer": "HTML stands for HyperText Markup Language. It is a markup language used to create web pages.",
-        "tag": "html"
-    },
-    {
-        "question": "What is CSS?",
-        "answer": "CSS stands for Cascading Style Sheets. It is a stylesheet language used to describe the presentation of HTML or XML documents.",
-        "tag": "css"
-    },
-    {
-        "question": "Explain Null and Undefined in JavaScript.",
-        "answer": "Null: It is the intentional absence of the value. It is one of the primitive values of JavaScript. Undefined: It means the value does not exist in the compiler. It is the global object.",
-        "tag": "javascript"
-    },
-    {
-        "question": "What is the strict mode?",
-        "answer": "This strict context prevents certain actions from being taken and throws more exceptions. The statement “use strict”; instructs the browser to use the Strict mode, which is a reduced and safer feature set of JavaScript.",
-        "tag": "javascript"
-    },
-    {
-        "question": "What is a Polyfill?",
-        "answer": "A polyfill is a piece of code (usually JavaScript on the Web) used to provide modern functionality on older browsers that do not natively support it.",
-        "tag": "javascript"
-    },
-    {
-        "question": "What are the advantages of using arrow functions?",
-        "answer": "1.Arrow function reduce code and makes the mode more readable.2.Arrow function syntax automatically binds “this” to the surrounding code’s context.3.Writing the arrow => is more flexible as compared with the function keyword.",
-        "tag": "javascript"
-    },
-    {
-        "question": "What is Currying?",
-        "answer": " It is a technique in functional programming, transformation of the function of multiple arguments into several functions of a single argument in sequence.",
-        "tag": "javascript"
-    },
-    {
-        "question": "What is Coercion in JavaScript?",
-        "answer": "Type Coercion refers to the process of automatic or implicit conversion of values from one data type to another. This includes conversion from Number to String, String to Number, Boolean to Number etc. when different types of operators are applied to the values.",
-        "tag": "javascript"
-    },
-    {
-        "question": " What is IIFE?",
-        "answer": " A JavaScript immediately Invoked Function Expression is a function defined as an expression and executed immediately after creation.",
-        "tag": "javascript"
-    },
-    {
-        "question": "What object.freeze() does?",
-        "answer": "The Object.freeze() method is used to freeze an object. Freezing an object does not allow new properties to be added to the object and prevents removing or altering the existing properties. Object.freeze() preserves the enumerability, configurability, writability, and prototype of the object. It returns the passed object and does not create a frozen copy.",
-        "tag": "javascript"
-    },
-    {
-        "question": "Explain the difference between Object.freeze() vs const.",
-        "answer": "The const keyword creates a read-only reference to a value. Variables created by the const keyword are immutable. In other words, you can’t reassign them to different values. Trying to reassign a constant variable will result in a TypeError. If you want the value of the person object to be immutable, you have to freeze it by using the Object.freeze() method.",
-        "tag": "javascript"
-    }
-    
-    
+  {
+    "question": "What is JavaScript?",
+    "answer": "JavaScript is a high-level, interpreted programming language that is commonly used for creating dynamic web pages and client-side scripting.",
+    "tag": "javascript"
+  },
+  {
+    "question": "What is JavaScript and how is it used in web development?",
+    "answer": "JavaScript is a programming language used to create interactive effects within web browsers. It can be used for front-end development to create interactive user interfaces, and also for back-end development to create server-side applications. JavaScript is one of the three core technologies used in web development, alongside HTML and CSS.",
+    "tag": "javascript"
+  },
+  {
+    "question": "What is the difference between JavaScript and other programming languages?",
+    "answer": "JavaScript is a dynamically-typed, high-level programming language that is used mainly for front-end and back-end web development. It is unique in that it is executed on the client- side, meaning that it runs within a web browser. Other programming languages may be compiled or interpreted and can be used for a wide variety of applications, such as desktop or mobile applications.",
+    "tag": "javascript"
+  },
+  {
+    "question": "What is the Document Object Model (DOM) in JavaScript?",
+    "answer": "The Document Object Model (DOM) is a programming interface for HTML and XML documents. It represents the page so that programs can change the document structure, style, and content. The DOM provides a way for programmers to access and manipulate HTML and XML documents, which makes it essential for building dynamic web pages and applications.",
+    "tag": "javascript"
+  },
+  {
+    "question": "What are the different data types in JavaScript?",
+    "answer": "JavaScript has seven different data types: undefined, null, boolean, number, string, object, and symbol.",
+    "tag": "javascript"
+  },
+  {
+    "question": "What is an object in JavaScript?",
+    "answer": "An object in JavaScript is a collection of properties, where each property has a name and a value. Objects can be created using object literals or using constructor functions.",
+    "tag": "javascript"
+  },
+  {
+    "question": "What is an array in JavaScript?",
+    "answer": "An array in JavaScript is a collection of elements, where each element has an index and a value. Arrays can be created using array literals or using the Array constructor.",
+    "tag": "javascript"
+  },
+  {
+    "question": "How do you declare variables in JavaScript?",
+    "answer": "Variables can be declared using the var, let, or const keywords in JavaScript. The var keyword is used for declaring variables with global or functional scope, while let and const are used for block-scoped variables",
+    "tag": "javascript"
+  },
+  {
+    "question": "What is hoisting in JavaScript?",
+    "answer": "Hoisting is a behavior in JavaScript where variable and function declarations are moved to the top of their respective scopes. This means that a variable or function can be used before it has been declared, although it will still be undefined until it is assigned a value",
+    "tag": "javascript"
+  },
+  {
+    "question": "What are the different types of operators in JavaScript?",
+    "answer": "JavaScript has several types of operators, including arithmetic, assignment, comparison, logical, bitwise, and string operators.",
+    "tag": "javascript"
+  },
+  {
+    "question": "What is async/await in JavaScript?",
+    "answer": "Async/await is a way to write asynchronous code that looks like synchronous code. It allows developers to write code that waits for a promise to resolve before executing the next line of code.",
+    "tag": "javascript"
+  },
+  {
+    "question": "What is a promise in JavaScript?",
+    "answer": "A promise is a JavaScript object that represents a value that may not be available yet but will be resolved in the future.",
+    "tag": "javascript"
+  },
+  {
+    "question": "What is the difference between synchronous and asynchronous programming in JavaScript?",
+    "answer": "Synchronous programming is when tasks are executed sequentially, one after the other, in a predictable order. Asynchronous programming is when tasks are executed concurrently, and the order of execution is not guaranteed.",
+    "tag": "javascript"
+  },
+  {
+    "question": "What is prototypal inheritance in JavaScript?",
+    "answer": "Prototypal inheritance is a way of creating new objects based on existing objects, by inheriting their properties and methods. In JavaScript, every object has a prototype, which is a reference to another object that it inherits properties and methods from.",
+    "tag": "javascript"
+  },
+  {
+    "question": "What is the difference between an object and an array in JavaScript?",
+    "answer": "An object is a collection of properties, where each property is a key-value pair. An array is an ordered list of values, where each value is accessed by its index number.",
+    "tag": "javascript"
+  },
+  {
+    "question": "What is a callback function in JavaScript?",
+    "answer": "A callback function in JavaScript is a function that is passed as an argument to another function and is executed when that function completes its operation. Callbacks are often used in asynchronous programming and event handling.",
+    "tag": "javascript"
+  },
+  {
+    "question": "What are closures in JavaScript?",
+    "answer": "Closures are functions that have access to variables in their outer (enclosing) functions, even after the outer function has returned. This is possible because the inner function retains a reference to the variables in the outer function, which are kept alive in memory.",
+    "tag": "javascript"
+  },
+  {
+    "question": "What is scope in JavaScript?",
+    "answer": "Scope refers to the accessibility of variables, functions, and objects in different parts of a JavaScript program. There are two types of scope in JavaScript: global scope and local scope.",
+    "tag": "javascript"
+  },
+  {
+    "question": "What is the difference between == and === in JavaScpt?",
+    "answer": "The == operator compares values for equality, whereas the === operator compares values for equality and type.",
+    "tag": "javascript"
+  },
+  {
+    "question": "What is event bubbling in JavaScript?",
+    "answer": "Event bubbling is the process by which an event propagates from the innermost element that triggered the event up to the document root, triggering all event handlers along the way.",
+    "tag": "javascript"
+  },
+  {
+    "question": "What is event delegation in JavaScript?",
+    "answer": "Event delegation is a technique in which a single event handler is added to a parent element, rather than multiple event handlers being added to multiple child elements.",
+    "tag": "javascript"
+  },
+  {
+    "question": "What is a decorator in JavaScript?",
+    "answer": "A decorator in JavaScript is a function that is used to modify the behavior of another function or object. Decorators are typically used to add functionality to an existing function or object without modifying its original source code.",
+    "tag": "javascript"
+  },
+  {
+    "question": "What is JSON and how is it used in JavaScript?",
+    "answer": "JSON (JavaScript Object Notation) is a lightweight data interchange format that is easy for humans to read and write and easy for machines to parse and generate. It is a text format that is used to represent data in a structured way and is widely used for data exchange between web servers and clients. In JavaScript, JSON is used to exchange data between a web server and a web application. The JSON format is based on a subset of the JavaScript programming language and is natively supported by most modern web browsers.",
+    "tag": "javascript"
+  },
+  {
+    "question": "What is the difference between null and undefined in JavaScript?",
+    "answer": "null is a value that represents the intentional absence of any object value. It is often used to indicate that a variable has no value assigned to it. undefined, on the other hand, is a value that represents an uninitialized variable or a missing property in an object.",
+    "tag": "javascript"
+  },
+  {
+    "question": "What is the event loop in JavaScript?",
+    "answer": "The event loop is a mechanism in JavaScript that allows for asynchronous programming. It continuously monitors the call stack and the message queue, and when the call stack is empty, it takes the first message from the queue and adds it to the call stack.",
+    "tag": "javascript"
+  },
+  {
+    "question": "What is a higher-order function in JavaScript?",
+    "answer": "A higher-order function is a function that takes another function as an argument or returns a function as a result. Examples of higher-order functions in JavaScript include map(), filter(), and reduce().",
+    "tag": "javascript"
+  },
+  {
+    "question": "What is the difference between var, let, and const in JavaScript?",
+    "answer": "var declares a variable globally or locally to a function, let declares a block-scoped variable, and const declares a read-only variable with a block scope. Variables declared with const cannot be reassigned.",
+    "tag": "javascript"
+  },
+  {
+    "question": "What is the purpose of the 'use strict' directive in JavaScript?",
+    "answer": "The 'use strict' directive is used to enable strict mode in JavaScript. Strict mode is a way to write more secure and optimized JavaScript code by enforcing stricter parsing and error handling rules.",
+    "tag": "javascript"
+  },
+  {
+    "question": "What is a generator function in JavaScript?",
+    "answer": "A generator function is a special type of function in JavaScript that can be paused and resumed during execution. It is defined using the function* syntax and uses the yield keyword to pause the function and return a value.",
+    "tag": "javascript"
+  },
+  {
+    "question": "What is the difference between synchronous and asynchronous functions in JavaScript?",
+    "answer": "Synchronous functions are blocking, meaning that the program waits for the function to complete before moving on to the next line of code. Asynchronous functions are non-blocking, meaning that the program can continue to execute while the function is running in the background.",
+    "tag": "javascript"
+  },
+  {
+    "question": "What is the difference between for..in and for..of loops in JavaScript?",
+    "answer": "for..in loops are used to iterate over the properties of an object, whereas for..of loops are used to iterate over the values of an iterable object such as an array or a string.",
+    "tag": "javascript"
+  },
+  {
+    "question": "What is the difference between a shallow copy and a deep copy in JavaScript?",
+    "answer": "A shallow copy creates a new object that references the original object's properties, whereas a deep copy creates a new object with its own properties that are copies of the original object's properties. Modifying a property of the original object will affect the shallow copy, but not the deep copy.",
+    "tag": "javascript"
+  },
+  {
+    "question": "What is a pure function in JavaScript?",
+    "answer": "A pure function is a function that always returns the same output given the same input, and has no side effects outside of its own scope. Pure functions are often used in functional programming to create predictable, composable code.",
+    "tag": "javascript"
+  },
+  {
+    "question": "What is the difference between call and apply in JavaScript?",
+    "answer": "Call and apply are both methods that allow you to call a function with a specific this value, and with arguments passed in as an array (apply) or as separate arguments (call).",
+    "tag": "javascript"
+  },
+  {
+    "question": "What is a module in JavaScript, and how is it used?",
+    "answer": "A module is a self-contained unit of code that can be imported and used by other parts of a program. Modules are often used to encapsulate functionality and to make code more reusable and easier to maintain.",
+    "tag": "javascript"
+  },
+  {
+    "question": "What is HTML?",
+    "answer": "HTML stands for HyperText Markup Language. It is a markup language used to create web pages.",
+    "tag": "html"
+  },
+  {
+    "question": "What is CSS?",
+    "answer": "CSS stands for Cascading Style Sheets. It is a stylesheet language used to describe the presentation of HTML or XML documents.",
+    "tag": "css"
+  },
+  {
+    "question": "Explain Null and Undefined in JavaScript.",
+    "answer": "Null: It is the intentional absence of the value. It is one of the primitive values of JavaScript. Undefined: It means the value does not exist in the compiler. It is the global object.",
+    "tag": "javascript"
+  },
+  {
+    "question": "What is the strict mode?",
+    "answer": "This strict context prevents certain actions from being taken and throws more exceptions. The statement “use strict”; instructs the browser to use the Strict mode, which is a reduced and safer feature set of JavaScript.",
+    "tag": "javascript"
+  },
+  {
+    "question": "What is a Polyfill?",
+    "answer": "A polyfill is a piece of code (usually JavaScript on the Web) used to provide modern functionality on older browsers that do not natively support it.",
+    "tag": "javascript"
+  },
+  {
+    "question": "What are the advantages of using arrow functions?",
+    "answer": "1.Arrow function reduce code and makes the mode more readable.2.Arrow function syntax automatically binds “this” to the surrounding code’s context.3.Writing the arrow => is more flexible as compared with the function keyword.",
+    "tag": "javascript"
+  },
+  {
+    "question": "What is Currying?",
+    "answer": " It is a technique in functional programming, transformation of the function of multiple arguments into several functions of a single argument in sequence.",
+    "tag": "javascript"
+  },
+  {
+    "question": "What is Coercion in JavaScript?",
+    "answer": "Type Coercion refers to the process of automatic or implicit conversion of values from one data type to another. This includes conversion from Number to String, String to Number, Boolean to Number etc. when different types of operators are applied to the values.",
+    "tag": "javascript"
+  },
+  {
+    "question": " What is IIFE?",
+    "answer": " A JavaScript immediately Invoked Function Expression is a function defined as an expression and executed immediately after creation.",
+    "tag": "javascript"
+  },
+  {
+    "question": "What object.freeze() does?",
+    "answer": "The Object.freeze() method is used to freeze an object. Freezing an object does not allow new properties to be added to the object and prevents removing or altering the existing properties. Object.freeze() preserves the enumerability, configurability, writability, and prototype of the object. It returns the passed object and does not create a frozen copy.",
+    "tag": "javascript"
+  },
+  {
+    "question": "Explain the difference between Object.freeze() vs const.",
+    "answer": "The const keyword creates a read-only reference to a value. Variables created by the const keyword are immutable. In other words, you can’t reassign them to different values. Trying to reassign a constant variable will result in a TypeError. If you want the value of the person object to be immutable, you have to freeze it by using the Object.freeze() method.",
+    "tag": "javascript"
+  },
+  {
+    "question": " What is JSX?",
+    "answer": "JSX is a language that React uses to embed an HTML template in code. It is nott understood by browsers and must be transpiled with tools like webpack and Babel before it can be run.Still, JSX helps streamline React development once you know its syntax. You dont actually have to use JSX to create React components and can use React.createElement() instead, but Facebook recommends using JSX. Most React developers prefer its declarative syntax, and it also reduces code complexity.",
+    "tag": "react"
+  },
 
+  {
+    "question": " What components are stateless in React?",
+    "answer": "While most components in React have a state, stateless components are those reusable functions implemented to render DOM based on the provided existing properties. This does not need an internal state because in output, it is nothing more than a pure function compiled of properties.",
+    "tag": "react"
+  },
+
+  {
+    "question": "Can browsers read JSX code?",
+    "answer": "Usually browsers only read JavaScript objects. We have to use a JavaScript compiler such as Babel to convert JSX into .js files before passing it to the browser. However, there is a way to use JSX directly in modern browsers by running the Babel standalone script. The only drawback is that it adds extra loading and compilation steps at runtime, which reduces the performance of your website.",
+    "tag": "react"
+  },
+
+  {
+    "question": "Define an event in the context of React?",
+    "answer": "In React, events refer to triggered reactions to specific user actions such as a key press, mouse click or mouse hover. Dealing with these events is the same as dealing with DOM elements events. However, there are some syntactic differences. One is that the React events are named using the camel case rather than the lowercase. Another one is that the React events are passed as functions in curly brackets instead of string values.",
+    "tag": "react"
+  },
+
+  {
+    "question":"How to call loading function with React useEffect only once?",
+    "answer":"If you only want to run the function given to useEffect after the initial render, you can give it an empty array [] as the second argument.",
+    "tag":"react"
+
+  },
+
+  {
+    
+    "question":"What are common use cases for the useMemo?",
+    "answer":"The primary purpose of useMemo hook is performance optimization, It returns a memoized value and it accepts two arguments - create function (which should return a value to be memoized) and dependency array. It will recompute the memoized value only when one of the dependencies has changed.",
+    "tag":"react"
+
+  }
 ]
