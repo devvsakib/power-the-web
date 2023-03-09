@@ -48,3 +48,8 @@ body {
 .ptw-grad:hover {
   background: linear-gradient(-90deg, #521fa5, #e912de)  !important;
 }
+
+.ptwa-producthunt{
+  width: 300px;
+  height: 32px !important;
+}
