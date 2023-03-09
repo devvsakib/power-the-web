@@ -229,42 +229,29 @@
     "answer": "The const keyword creates a read-only reference to a value. Variables created by the const keyword are immutable. In other words, you can’t reassign them to different values. Trying to reassign a constant variable will result in a TypeError. If you want the value of the person object to be immutable, you have to freeze it by using the Object.freeze() method.",
     "tag": "javascript"
   },
-  {
-    "question": " What is JSX?",
-    "answer": "JSX is a language that React uses to embed an HTML template in code. It is nott understood by browsers and must be transpiled with tools like webpack and Babel before it can be run.Still, JSX helps streamline React development once you know its syntax. You dont actually have to use JSX to create React components and can use React.createElement() instead, but Facebook recommends using JSX. Most React developers prefer its declarative syntax, and it also reduces code complexity.",
-    "tag": "react"
-  },
 
   {
-    "question": " What components are stateless in React?",
-    "answer": "While most components in React have a state, stateless components are those reusable functions implemented to render DOM based on the provided existing properties. This does not need an internal state because in output, it is nothing more than a pure function compiled of properties.",
-    "tag": "react"
-  },
-
-  {
-    "question": "Can browsers read JSX code?",
-    "answer": "Usually browsers only read JavaScript objects. We have to use a JavaScript compiler such as Babel to convert JSX into .js files before passing it to the browser. However, there is a way to use JSX directly in modern browsers by running the Babel standalone script. The only drawback is that it adds extra loading and compilation steps at runtime, which reduces the performance of your website.",
-    "tag": "react"
-  },
-
-  {
-    "question": "Define an event in the context of React?",
-    "answer": "In React, events refer to triggered reactions to specific user actions such as a key press, mouse click or mouse hover. Dealing with these events is the same as dealing with DOM elements events. However, there are some syntactic differences. One is that the React events are named using the camel case rather than the lowercase. Another one is that the React events are passed as functions in curly brackets instead of string values.",
-    "tag": "react"
-  },
-
-  {
-    "question":"How to call loading function with React useEffect only once?",
-    "answer":"If you only want to run the function given to useEffect after the initial render, you can give it an empty array [] as the second argument.",
-    "tag":"react"
+    "question":"What is IIFEs ?",
+    "answer":"It’s an Immediately-Invoked Function Expression, or IIFE for short. It executes immediately after it’s created.This pattern is often used when trying to avoid polluting the global namespace, because all the variables used inside the IIFE (like in any other normal function) are not visible outside its scope.",
+    "tag":"javascript"
 
   },
 
   {
     
-    "question":"What are common use cases for the useMemo?",
-    "answer":"The primary purpose of useMemo hook is performance optimization, It returns a memoized value and it accepts two arguments - create function (which should return a value to be memoized) and dependency array. It will recompute the memoized value only when one of the dependencies has changed.",
-    "tag":"react"
+    "question":"What's a typical use case for anonymous functions?",
+    "answer":"They can be used in IIFEs to encapsulate some code within a local scope so that variables declared in it do not leak to the global scope.As a callback that is used once and does not need to be used anywhere else. The code will seem more self-contained and readable when handlers are defined right inside the code calling them, rather than having to search elsewhere to find the function body.",
+    "tag":"javascript"
+
+
+  },
+
+  {
+     
+    "question":"How will you merge two arrays in simple steps?",
+    "answer":"We can either use the array.concat() method or the spread operator to merge two arrays. The concat() method returns a new array by merging (concatenating) the given arrays. The spread operator allows an iterable such as an array expression or string to be expanded in places where zero or more arguments (for function calls) or elements (for array literals) are expected, or an object expression to be expanded in places where zero or more key-value pairs (for object literals) are expected.",
+    "tag":"javascript"
+    
 
   }
 ]
