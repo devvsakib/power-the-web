@@ -1,0 +1,47 @@
+.leftImg {
+  margin-top: 30px;
+  display: flex;
+  position: relative;
+}
+.leftImg #balls {
+  position: absolute;
+  left: 125px;
+  top: 60px;
+}
+.leftImg #balls .ball {
+  position: absolute;
+  width: 20px;
+  height: 25px;
+  background: linear-gradient(#BBBACC 40%, #E3E5F8 60%);
+  border-radius: 30px;
+  left: -8px;
+}
+.leftImg #balls .ball:last-child {
+  top: 60px;
+  left: 35px;
+}
+.leftImg img {
+  position: relative;
+  width: 400px;
+  max-width: 100% !important;
+  left: -150px;
+}
+.leftImg h3 {
+  position: relative;
+  left: -140px;
+  top: 50px;
+  height: 100px;
+  width: 150px;
+  border-radius: 50% 50% 50% 0;
+  padding: 10px 15px;
+  border: 1px solid #fff;
+  text-align: center;
+  line-height: 100px;
+}
+
+.hidden {
+  opacity: 0;
+  transform: translateX(-100%);
+  filter: blur(5px);
+  transition: all 2s !important;
+}/*# sourceMappingURL=herosec.css.map */

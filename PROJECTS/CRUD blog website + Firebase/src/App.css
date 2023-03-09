@@ -1,0 +1,271 @@
+
+body {
+  width: 100vw;
+  min-height: 100vh;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  background-color: #000;
+}
+
+#root {
+  /* max-width: 1400px; */
+  margin: 0 auto;
+  width: 100%;
+  background-color: #000;
+}
+
+
+.Header {
+  padding: 0 40px !important;
+  width: 100%;
+  background-color: #66d8f5;
+  padding: .2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0;
+  z-index: 22222222222222222222222;
+
+}
+
+.Header h1 {
+  font-size: 10px;
+}
+
+.Header svg {
+  font-size: 10px;
+}
+
+
+.Nav {
+  padding: 0 40px;
+  z-index: 22222222222222222222222;
+  width: 100%;
+  background-color: #333;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.searchForm {
+  width: 80%;
+  padding: .3rem 0 0 0.75rem;
+}
+
+.searchForm input[type="text"] {
+  font-family: 'Open Sans', sans-serif;
+  width: 100%;
+  min-height: 38px;
+  font-size: 1rem;
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  outline: none;
+}
+
+.searchForm label {
+  position: absolute;
+  left: -99999px;
+}
+
+.Nav ul {
+  color: #fff;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.Nav li {
+  padding: .5rem;
+}
+
+.Nav li:hover,
+.Nav li:focus {
+  padding: .5rem;
+}
+
+.Nav li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.Nav li:hover,
+.Nav li:focus,
+.Nav li:hover a,
+.Nav li:focus a {
+  background-color: #eee;
+  color: #333;
+}
+
+.Nav li:hover a,
+.Nav li:focus a {
+  cursor: pointer;
+}
+
+.Home,
+.NewPost,
+.PostPage,
+.About,
+.Missing {
+  padding: 0 50px !important;
+
+  width: 100%;
+  flex-grow: 1;
+  padding: 1rem;
+  overflow-y: auto;
+  /* background-color: #17022b; */
+  /* background-color: ; */
+}
+
+.post {
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+  text-align: left;
+
+  border-bottom: 1px solid lightgray;
+}
+
+.Home .post a {
+  text-decoration: none;
+}
+
+.Home .post a,
+.Home .post a:visited {
+  color: #000;
+}
+
+.post:first-child {
+  margin-top: 0;
+}
+
+.post:last-child {
+  border-bottom: none;
+}
+
+.postDate {
+  font-size: 0.75rem;
+  margin-top: 0.25rem;
+}
+
+.postBody {
+  margin: 1rem 0;
+}
+
+.editButton {
+  background: rgb(70, 156, 120);
+  margin-top: 1rem;
+  min-width: 48px;
+  border-radius: 5px;
+  padding: 0.4rem .6rem;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-right: .2rem;
+
+}
+
+.newPostForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.newPostForm label {
+  margin-top: 1rem;
+}
+
+.newPostForm input[type='text'],
+.newPostForm textarea {
+  font-family: 'Open Sans', sans-serif;
+  width: 100%;
+  /* min-height: 48px; */
+  font-size: 1rem;
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  margin-right: 0.25rem;
+  color: #000;
+  outline: none;
+}
+
+
+.newPostForm button {
+  margin-top: 1rem;
+  min-width: 48px;
+  border-radius: 10px;
+  padding: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.Missing h2,
+.PostPage h2,
+.Missing p,
+.PostPage p {
+  margin-bottom: 1rem;
+}
+
+.PostPage button {
+  min-width: 48px;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  background-color: red;
+  color: #fff;
+  cursor: pointer;
+}
+
+.statusMsg {
+  margin-top: 2rem;
+}
+
+@media only screen and (min-width: 610px) {
+  html {
+    font-size: 22px;
+  }
+
+  .Header h1 {
+    font-size: 2rem;
+  }
+
+  .Nav {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 22222222222222222222222;
+  }
+
+  .Nav ul {
+    text-align: right;
+  }
+
+  .Nav li:hover,
+  .Nav li:focus,
+  .Nav li:hover a,
+  .Nav li:focus a {
+    background-color: #eee;
+    color: #333;
+  }
+
+  .searchForm {
+    width: 50%;
+    padding: .5rem 0;
+  }
+
+  .searchForm input[type="text"] {
+    margin-left: 0.5rem;
+  }
+
+  .newPostForm textarea {
+    color: #000;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+
+  .Header svg {
+    font-size: 3rem;
+  }
+
+}
