@@ -1,0 +1,21 @@
+
+section {
+    min-height: 100vh;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    h2{
+        color: white
+    }
+}
+.hidden {
+    opacity: 0;
+    transform: translateX(-100%);
+    filter: blur(5px);
+    transition: all 1s;
+}
+.show {
+    opacity: 1;
+    filter: blur(0px);
+    transform: translateX(0%);
+}

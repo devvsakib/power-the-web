@@ -1,0 +1,148 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 25px;
+}
+.container .btns {
+  padding: 2px 25px;
+  cursor: pointer;
+  border: none;
+  background-color: orange;
+  color: rgb(3, 3, 3);
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+.logo {
+  font-weight: 700;
+  display: flex;
+  align-content: center;
+  width: 150px;
+  cursor: pointer;
+  flex: 1;
+}
+.logo .logo-icon {
+  margin-top: -3px;
+  font-size: 2rem;
+}
+.logo a {
+  color: white;
+  font-size: 1.2rem;
+  margin-left: 5px;
+}
+
+.menuContainer {
+  width: 300px;
+}
+.menuContainer ul {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+.menuContainer ul :last-child {
+  margin-left: 8px;
+}
+.menuContainer ul li::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  top: -3px;
+  left: -8px;
+  background-color: rgb(0, 0, 0);
+  height: 100%;
+  width: 5px;
+  transform: scale(0);
+  transition: transform 350ms ease-in-out;
+}
+.menuContainer ul li a {
+  color: white;
+  font-weight: 600;
+  padding-bottom: 5px;
+  position: relative;
+}
+.menuContainer ul li a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  top: -3px;
+  left: -8px;
+  background-color: rgb(0, 0, 0);
+  height: 100%;
+  width: 5px;
+  transform: scaleY(0);
+  transition: transform 350ms ease-in-out;
+}
+.menuContainer ul li a:hover::after {
+  transform: scaleY(1);
+  border-radius: 0 0 50px 50px;
+  background-color: rgb(184, 167, 231);
+}
+
+#menuIcon {
+  display: none;
+  flex: 2;
+}
+
+@media (max-width: 576px) {
+  .container {
+    font-size: 40px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+  }
+  .container .leftImg img {
+    left: -110px;
+  }
+  .container .leftImg h3 {
+    left: -110px;
+  }
+  .container .leftImg h3::after {
+    content: "Holo";
+    font-size: 13px;
+    padding-left: 0;
+    text-align: center;
+    line-height: 80px;
+    height: 80px;
+    width: 80px;
+  }
+  .container #menuIcon {
+    display: inline-block;
+    cursor: pointer;
+  }
+  .container .menuContainer {
+    text-align: end;
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 49px;
+    left: 0;
+    z-index: 9999;
+  }
+  .container .menuContainer .hide {
+    display: none;
+  }
+  .container .menuContainer ul {
+    display: block;
+    text-align: center;
+    overflow: hidden;
+  }
+  .container .menuContainer ul li {
+    width: 100%;
+  }
+  .container .menuContainer ul li a {
+    margin-left: 0;
+    padding: 25px 0;
+    display: block;
+    background-color: tomato;
+    transition: all 350ms ease-in-out;
+  }
+  .container .menuContainer ul li a:hover {
+    background-color: gray;
+    color: red;
+  }
+  .container .menuContainer ul li:last-child {
+    margin-left: 0px;
+    border-radius: 10px !important;
+  }
+}/*# sourceMappingURL=style.css.map */
