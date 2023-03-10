@@ -36,9 +36,21 @@ const Documents = () => {
                             setMenu={setMenu}
                             menu={menu}
                         />
-                        <FrontendRoadmap />
-                        <BackendRoadmap />
-                        <FullStackRoadmap />
+                        <FrontendRoadmap
+                            setContent={setContent}
+                            setMenu={setMenu}
+                            menu={menu}
+                            />
+                        <BackendRoadmap
+                            setContent={setContent}
+                            setMenu={setMenu}
+                            menu={menu}
+                            />
+                        <FullStackRoadmap
+                            setContent={setContent}
+                            setMenu={setMenu}
+                            menu={menu}
+                        />
                     </div>
                 </div>
                 <div className='w-full h-[100vh] md:w-3/4 py-5 px-10 bg-white/10 backdrop-blur-[10px] rounded-lg overflow-y-scroll'>
