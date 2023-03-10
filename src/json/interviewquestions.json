@@ -25,8 +25,18 @@
     "tag": "javascript"
   },
   {
+    "question": "What is the typeof operator in JavaScript?",
+    "answer": "You can use the JavaScript typeof operator to find the type of a JavaScript variable. It returns the type of a variable or an expression.",
+    "tag": "javascript"
+  },
+  {
     "question": "What is an object in JavaScript?",
     "answer": "An object in JavaScript is a collection of properties, where each property has a name and a value. Objects can be created using object literals or using constructor functions.",
+    "tag": "javascript"
+  },
+  {
+    "question": "What are some tools or techniques to use when debugging JavaScript code?",
+    "answer": "Chrome Devtools, debugger, using console.log statements",
     "tag": "javascript"
   },
   {
@@ -125,6 +135,11 @@
     "tag": "javascript"
   },
   {
+    "question": "What is the call stack in JavaScript?",
+    "answer": "The call stack in JavaScript is a data structure that manages the order in which function calls are executed. It keeps track of the function calls that have been made and the order in which they should be completed. When a function is called, it is added to the top of the stack and when it returns, it is removed from the top of the stack. If there is an error in the code, the call stack can be used to trace the origin of the error.",
+    "tag": "javascript"
+  },
+  {
     "question": "What is a higher-order function in JavaScript?",
     "answer": "A higher-order function is a function that takes another function as an argument or returns a function as a result. Examples of higher-order functions in JavaScript include map(), filter(), and reduce().",
     "tag": "javascript"
@@ -132,6 +147,11 @@
   {
     "question": "What is the difference between var, let, and const in JavaScript?",
     "answer": "var declares a variable globally or locally to a function, let declares a block-scoped variable, and const declares a read-only variable with a block scope. Variables declared with const cannot be reassigned.",
+    "tag": "javascript"
+  },
+  {
+    "question": "What is the difference between slice and splice in JavaScript?",
+    "answer": "Slice: doesn't modify original array, returns subset of original array, and used to pick elements from an array. Splice: modifies the original array, returns the deleted elements as an array, and is used to insert or delete elements to / from an array. ",
     "tag": "javascript"
   },
   {
@@ -162,6 +182,11 @@
   {
     "question": "What is a pure function in JavaScript?",
     "answer": "A pure function is a function that always returns the same output given the same input, and has no side effects outside of its own scope. Pure functions are often used in functional programming to create predictable, composable code.",
+    "tag": "javascript"
+  },
+  {
+    "question": "What is an Event Listener in JavaScript?",
+    "answer": "An event listener in JavaScript is a function that is registered to be notified when a specific event occurs on an element. When the event occurs, the listener function is automatically executed, allowing you to respond to the event and take some action.",
     "tag": "javascript"
   },
   {
@@ -237,6 +262,11 @@
   {
     "question": "How will you merge two arrays in simple steps?",
     "answer": "We can either use the array.concat() method or the spread operator to merge two arrays. The concat() method returns a new array by merging (concatenating) the given arrays. The spread operator allows an iterable such as an array expression or string to be expanded in places where zero or more arguments (for function calls) or elements (for array literals) are expected, or an object expression to be expanded in places where zero or more key-value pairs (for object literals) are expected.",
+    "tag": "javascript"
+  },
+  {
+    "question": "What are the main differences between ES6 and older versions of JavaScript?",
+    "answer": "ES6 introduced many new features and improvements, including: block scoping with let and const, template literals for easier string concatenation, arrow functions for concise function syntax, destructuring for easier extraction of values from arrays and objects, among many other changes!",
     "tag": "javascript"
   },
   {
