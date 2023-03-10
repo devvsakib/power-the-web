@@ -19,6 +19,10 @@ const Documents = () => {
             setMenu(true);
             setMenuOpen(true);
         }
+        else{
+            setMenu(false);
+            setMenuOpen(false);
+        }
 
     }, [width])
 
