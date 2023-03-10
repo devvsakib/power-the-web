@@ -6,7 +6,7 @@ import FullStackRoadmap from '../List/FullStackRoadmap';
 import Questions from '../Data/Questions';
 
 const Documents = () => {
-    const [content, setContent] = useState('javascript');
+    const [content, setContent] = useState('');
 
     return (
         <div className='h-[86vh]overflow-y-hidden text-fuchsia-200 bg-white/10 backdrop-blur-[10px]'>
@@ -23,7 +23,10 @@ const Documents = () => {
                     </div>
                 </div>
                 <div className='w-full h-[100vh] md:w-3/4 py-5 px-10 bg-white/10 backdrop-blur-[10px] rounded-lg overflow-y-scroll'>
-                    <Questions content={content} />
+                    {
+                        !content ? <h1 className='text-2xl font-bold'>Select a Document To Get start</h1> : 
+                        <Questions content={content} />
+                    }
                 </div>
             </div>
         </div>
