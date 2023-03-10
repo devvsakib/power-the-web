@@ -6,7 +6,7 @@ PowerTheWeb is an open-source project to help web developers make their road eas
 
 
 
-## Don't Forget to JOIN OUR COMMMUNITY
+## Don't Forget to JOIN OUR COMMUNITY
 Join our community and ask anything. If you run into a problem please let us know.
 DISCORD - [JOIN](https://discord.gg/6XRTeHRxWV)
 
