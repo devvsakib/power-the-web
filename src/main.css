@@ -12,16 +12,15 @@ body {
   background: -webkit-linear-gradient(13deg,
       #521fa5,
       #b700ffb9 30%,
-      #d400ff91);
+      rgba(181, 10, 248, 0.4) 100%);
   /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(90deg,
-      rgb(15, 28, 128) 0%,
-      rgba(182, 0, 255, 1) 100%);
+      rgb(15, 28, 128, .3) 0%,
+      rgba(181, 10, 248, 0.4) 100%);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-position: center center;
   background-repeat: no-repeat;
 }
-
 .container {
   display: grid;
   place-items: center;

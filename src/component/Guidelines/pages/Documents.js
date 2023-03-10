@@ -29,7 +29,7 @@ const Documents = () => {
     return (
         <div className='h-[86vh]overflow-y-hidden text-fuchsia-200 backdrop-blur-[10px]'>
             <div className='flex flex-col md:flex-row gap-5'>
-                <div className='w-full  md:w-1/4  rounded-lg p-3 px-5 bg-white/10'>
+                <div className='w-full  md:w-1/4  rounded-lg p-3 px-5 bg-white/5'>
                     <div className='flex justify-between items-center'>
                         <h1 className='text-2xl font-bold'>List of Documents</h1>
                         <button onClick={() => setMenu(!menu)} className={`text-2xl font-bold transition-all ease-linear duration-300 ${!menuOpen ? "hidden" : ""}`}>{menu ? <i className="fas fa-chevron-right"></i> : <i className="fas fa-chevron-left"></i>}</button>
@@ -57,7 +57,7 @@ const Documents = () => {
                         />
                     </div>
                 </div>
-                <div className='w-full h-[100vh] md:w-3/4 py-5 px-10 bg-white/10 backdrop-blur-[10px] rounded-lg overflow-y-scroll'>
+                <div className='w-full h-[100vh] md:w-3/4 py-5 px-10 bg-white/5 backdrop-blur-[10px] rounded-lg overflow-y-scroll'>
                     {
                         !content ? <h1 className='text-2xl font-bold'>Select a Document To Get start</h1> :
                             <Questions content={content} />
