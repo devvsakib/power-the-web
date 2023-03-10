@@ -230,13 +230,209 @@
     "tag": "javascript"
   },
   {
-    "question":"What's a typical use case for anonymous functions?",
-    "answer":"They can be used in IIFEs to encapsulate some code within a local scope so that variables declared in it do not leak to the global scope.As a callback that is used once and does not need to be used anywhere else. The code will seem more self-contained and readable when handlers are defined right inside the code calling them, rather than having to search elsewhere to find the function body.",
-    "tag":"javascript"
+    "question": "What's a typical use case for anonymous functions?",
+    "answer": "They can be used in IIFEs to encapsulate some code within a local scope so that variables declared in it do not leak to the global scope.As a callback that is used once and does not need to be used anywhere else. The code will seem more self-contained and readable when handlers are defined right inside the code calling them, rather than having to search elsewhere to find the function body.",
+    "tag": "javascript"
   },
-  { 
-    "question":"How will you merge two arrays in simple steps?",
-    "answer":"We can either use the array.concat() method or the spread operator to merge two arrays. The concat() method returns a new array by merging (concatenating) the given arrays. The spread operator allows an iterable such as an array expression or string to be expanded in places where zero or more arguments (for function calls) or elements (for array literals) are expected, or an object expression to be expanded in places where zero or more key-value pairs (for object literals) are expected.",
-    "tag":"javascript"  
+  {
+    "question": "How will you merge two arrays in simple steps?",
+    "answer": "We can either use the array.concat() method or the spread operator to merge two arrays. The concat() method returns a new array by merging (concatenating) the given arrays. The spread operator allows an iterable such as an array expression or string to be expanded in places where zero or more arguments (for function calls) or elements (for array literals) are expected, or an object expression to be expanded in places where zero or more key-value pairs (for object literals) are expected.",
+    "tag": "javascript"
+  },
+  {
+    "question": "What is the box model in CSS?",
+    "answer": "The box model is a way of representing the layout of elements in CSS. It consists of four parts: the content, padding, border, and margin. The content is the actual content of the element, the padding is the space between the content and the border, the border is the border around the element, and the margin is the space between the border and the surrounding elements.",
+    "tag": "css"
+  },
+  {
+    "question": "What is the difference between inline and block-level elements?",
+    "answer": "Inline elements are those that only take up as much width as necessary and do not create a new line, while block-level elements take up the full width available and create a new line. Examples of inline elements are span and a, while examples of block-level elements are div and p.",
+    "tag": "html"
+  },
+  {
+    "question": "What is the difference between class and ID selectors in CSS?",
+    "answer": "Class selectors are used to apply a style to multiple elements on a page, while ID selectors are used to apply a style to a single unique element. In CSS, class selectors are denoted with a period (.), while ID selectors are denoted with a hash symbol (#).",
+    "tag": "css"
+  },
+  {
+    "question": "What is the DOM in HTML?",
+    "answer": "The Document Object Model (DOM) is a programming interface for HTML documents. It represents the page so that programs can change the document structure, style, and content. The DOM represents the document as nodes and objects, which can be manipulated with programming languages such as JavaScript.",
+    "tag": "html"
+  },
+  {
+    "question": "What is the box model in HTML?",
+    "answer": "The box model is a layout concept in HTML that represents an HTML element as a rectangular box, comprising of four parts: content, padding, border, and margin. The content is the actual element content, padding is the space between the content and the border, border is the line around the padding, and margin is the space outside the border.",
+    "tag": "html"
+  },
+  {
+    "question": "What is semantic HTML?",
+    "answer": "Semantic HTML is the use of HTML markup to reinforce the meaning of content on a web page rather than just using markup for visual appearance. This makes the page more accessible for people using assistive technologies and also helps search engines to better understand the page content.",
+    "tag": "html"
+  },
+  {
+    "question": "What is the difference between a div and a span in HTML?",
+    "answer": "A div is a block-level element that is used to group larger sections of content together, while a span is an inline-level element that is used to group smaller sections of content together. Divs are typically used to create layout structures and apply styles, while spans are used for inline styling or to target specific pieces of text or content.",
+    "tag": "html"
+  },
+  {
+    "question": "What is the difference between the <head> and <body> tags in HTML?",
+    "answer": "The <head> tag contains meta-data about the document such as the title, keywords, and links to external files, while the <body> tag contains the visible content of the page. The <head> tag is not displayed in the browser, whereas the <body> tag is where all the visible content goes.",
+    "tag": "html"
+  },
+  {
+    "question": "What is the purpose of the alt attribute in HTML?",
+    "answer": "The alt attribute is used to provide alternative text for an image in case the image cannot be displayed. This is important for accessibility reasons as it allows screen readers to describe the image to users who are visually impaired. It also helps search engines to better understand the image content.",
+    "tag": "html"
+  },
+  {
+    "question": "What is the purpose of the alt attribute in an img tag?",
+    "answer": "The alt attribute provides alternative text for an image if the image cannot be displayed. This text is also used by screen readers for accessibility purposes.",
+    "tag": "html"
+  },
+
+  {
+    "question": "What is the role of the title tag in HTML?",
+    "answer": "The title tag is used to specify the title of a document or webpage. It appears in the browser's title bar and is used by search engines when displaying search results.",
+    "tag": "html"
+  },
+  {
+    "question": "What is the difference between the head and body sections of an HTML document?",
+    "answer": "The head section contains metadata about the document, such as the title and links to external resources, and is not visible on the page. The body section contains the visible content of the page.",
+    "tag": "html"
+  },
+  {
+    "question": "What are the different types of lists in HTML?",
+    "answer": "There are three types of lists in HTML: ordered lists (ol), unordered lists (ul), and definition lists (dl).",
+    "tag": "html"
+  },
+  {
+    "question": "What is the role of the form tag in HTML?",
+    "answer": "The form tag is used to create an HTML form for user input. It contains form elements such as input fields, checkboxes, and buttons.",
+    "tag": "html"
+  },
+  {
+    "question": "What is the difference between GET and POST methods in HTML forms?",
+    "answer": "The GET method submits the form data as URL parameters, visible in the URL of the resulting page. The POST method submits the form data in the body of the HTTP request, making it more secure for sensitive information.",
+    "tag": "html"
+  },
+  {
+    "question": "What is the purpose of the HTML <head> tag?",
+    "answer": "The <head> tag contains information about the HTML document, such as the title, keywords, and metadata. This information is not displayed on the page itself, but is used by the browser and search engines to understand and categorize the content of the page.",
+    "tag": "html"
+  },
+  {
+    "question": "What is the difference between the <div> and <span> tags in HTML?",
+    "answer": "The <div> tag is a block-level element that is used to group together other HTML elements and apply styles or other properties to the group as a whole. The <span> tag is an inline-level element that is used to apply styles or other properties to a specific section of text or other inline content.",
+    "tag": "html"
+  },
+  {
+    "question": "How do you create a hyperlink in HTML?",
+    "answer": "To create a hyperlink in HTML, you use the <a> tag, followed by the href attribute to specify the URL of the page you want to link to. For example, <a href='https://www.example.com'>Example</a> would create a link to the page at https://www.example.com, with the text 'Example' displayed as the link.",
+    "tag": "html"
+  },
+  {
+    "question": "What is the purpose of the alt attribute in an <img> tag?",
+    "answer": "The alt attribute provides alternative text for an image, which is displayed in place of the image if the image cannot be loaded or if the user is using a screen reader to access the content. The alt text should describe the content of the image and provide context for its use in the page.",
+    "tag": "html"
+  },
+  {
+    "question": "What is the difference between the <ul> and <ol> tags in HTML?",
+    "answer": "The <ul> tag is used to create an unordered list, where each item in the list is preceded by a bullet point. The <ol> tag is used to create an ordered list, where each item in the list is numbered. The type of bullet point or numbering can be changed using CSS.",
+    "tag": "html"
+  },
+  {
+    "question": "How do you create a table in HTML?",
+    "answer": "To create a table in HTML, you use the <table> tag, along with the <tr> tag to create each row of the table, and the <td> tag to create each cell in the table. You can also use the <th> tag to create header cells for the table.",
+    "tag": "html"
+  },
+  {
+    "question": "What is the purpose of the <form> tag in HTML?",
+    "answer": "The <form> tag is used to create an HTML form, which allows users to input data that can be sent to a server for processing. The form typically contains input fields such as text boxes, radio buttons, and checkboxes, and is submitted using a button or by pressing Enter.",
+    "tag": "html"
+  },
+  {
+    "question": "What is the purpose of the href attribute in an <a> tag?",
+    "answer": "The href attribute specifies the URL or web page that the link leads to. When a user clicks on the link, the browser navigates to the URL specified in the href attribute. The href attribute can also be used to create internal links within a web page by referencing the ID of a specific element on the page.",
+    "tag": "html"
+  },
+  {
+    "question": "What is semantic HTML, and why is it important?",
+    "answer": "Semantic HTML refers to using HTML tags that convey the meaning and structure of the content they enclose, rather than just using tags for their visual appearance. Semantic HTML makes it easier for search engines and screen readers to understand the content and context of a web page, improving accessibility and SEO. Examples of semantic HTML tags include <header>, <footer>, <nav>, and <article>.",
+    "tag": "html"
+  },
+  {
+    "question": "What is the purpose of the tabindex attribute?",
+    "answer": "The tabindex attribute specifies the order in which elements can be accessed using the keyboard's tab key. This is useful for improving accessibility for users who cannot use a mouse or touchpad. By default, only certain elements, such as links and form fields, are tabbable. The tabindex attribute can be used to make other elements, such as <div> or <span>, tabbable as well. The value of the tabindex attribute determines the order in which the elements are accessed, with lower values coming first.",
+    "tag": "html"
+  },
+  {
+    "question": "What are the different types of HTML tags?",
+    "answer": "HTML tags can be classified into two types: container tags and empty tags. Container tags have an opening tag and a closing tag, and they can contain other HTML tags and text content. Examples include <div>, <p>, and <h1>. Empty tags, also called void or self-closing tags, do not have a closing tag and are used to insert content that does not require any additional markup. Examples include <img>, <input>, and <br>.",
+    "tag": "html"
+  },
+  {
+    "question": "What is the difference between margin and padding in CSS?",
+    "answer": "Margin and padding are both CSS properties that define the space around an element, but they have different effects. Margin adds space outside the border of an element and can be used to create space between adjacent elements. Padding adds space inside the border of an element and can be used to create space between the content and the border. Both properties can be specified using shorthand syntax or individual properties for each side (top, right, bottom, left).",
+    "tag": "css"
+  },
+  {
+    "question": "What is the CSS box-sizing property?",
+    "answer": "The box-sizing property in CSS determines how the width and height of an element are calculated. By default, the width and height of an element include the content, padding, and border layers. This can make it difficult to create consistent layouts, especially when using percentages or ems for sizing. The box-sizing property can be set to border-box, which makes the width and height include the padding and border layers, or content-box, which is the default behavior.",
+    "tag": "css"
+  },
+  {
+    "question": "What is the CSS float property, and how does it work?",
+    "answer": "The float property in CSS is used to align an element to the left or right of its container. When an element is floated, it is taken out of the normal flow of the document and can overlap with other elements. This can be useful for creating multi-column layouts or wrapping text around an image. However, it can also cause layout problems if not used carefully. The clear property can be used to prevent elements from overlapping with floated elements.",
+    "tag": "css"
+  },
+  {
+    "question": "What is the difference between position: absolute and position: relative in CSS?",
+    "answer": "Position: absolute and position: relative are both CSS properties that control the positioning of an element, but they have different effects. Position: relative positions an element relative to its normal position in the document flow, while allowing other elements to flow around it. Position: absolute positions an element relative to its nearest positioned ancestor, or the document if no ancestor is positioned. Absolute positioning takes an element out of the normal flow of the document and can cause other elements to overlap with it.",
+    "tag": "css"
+  },
+  {
+    "question": "What is the difference between display: none and visibility: hidden in CSS?",
+    "answer": "The display: none property removes an element from the flow of the document, so it takes up no space and is not visible. The visibility: hidden property hides an element but still takes up space and affects the layout of the document. In other words, display: none completely removes the element from the page, while visibility: hidden hides the element but still reserves its space.",
+    "tag": "css"
+  },
+  {
+    "question": "What is the difference between inline and block elements in CSS?",
+    "answer": "Inline elements are those that only take up as much width as their content and do not start a new line. Examples of inline elements include <a>, <span>, and <strong>. Block elements, on the other hand, take up the full width available to them and start a new line. Examples of block elements include <div>, <p>, and <h1>. Inline elements can be nested inside block elements, but block elements cannot be nested inside inline elements.",
+    "tag": "css"
+  },
+  {
+    "question": "What is the purpose of the z-index property in CSS?",
+    "answer": "The z-index property determines the stacking order of elements on a web page. An element with a higher z-index value will appear on top of an element with a lower z-index value. The z-index property only applies to positioned elements (i.e., those with position: relative, position: absolute, or position: fixed).",
+    "tag": "css"
+  },
+  {
+    "question": "What is the difference between ID and class selectors in CSS?",
+    "answer": "ID selectors target a specific HTML element based on its unique ID attribute, using the # symbol. For example, #header { background-color: blue; } would target the element with an ID of 'header'. Class selectors, on the other hand, target one or more HTML elements based on their shared class attribute, using the . symbol. For example, .highlight { background-color: yellow; } would target all elements with a class of 'highlight'. An ID can only be used once on a page, while a class can be used multiple times.",
+    "tag": "css"
+  },
+  {
+    "question": "What is VH/VW (viewport height/ viewport width) in CSS?",
+    "answer": "VH and VW are CSS units used to measure viewport height and viewport width respectively in percentage form in the responsive design techniques. E.g. If the height of the browser is 1000px, then VH is 1/100 of the height of the viewport that is 1000px*(1/100) = 10px, which is the height of the browser.  The same applies to VW (viewport width).",
+    "tag": "css"
+  },
+  {
+    "question": "What are Pseudo classes?",
+    "answer": "Pseudo-classes are the type of pseudo-elements that don’t exist in a normal document tree. It allows selecting the regular elements under certain conditions especially when we try to hover over the link; the anchor tags are :link, :visited, :hover, :active, :focus",
+    "tag": "css"
+  },
+  {
+    "question": "How is opacity specified in CSS3?",
+    "answer": "Opacity is the measure of content transparency. It is measured in the range from 0 to 1. Value 1 means the content is completely opaque. It is not supportable in the internet browser. Also, the 60% of opacity is applicable in the div section where we need to apply the filter property (polyfill) to make it completely opaque.",
+    "tag": "css"
+  },
+  {
+    "question": "How does absolute positioning work?",
+    "answer": "Absolute positioning is used to place the element which is then removed from the HTML document from the normal workflow without creating any space for the element in the HTML page layout. The element can be positioned respectively to the closest positioned ancestor; otherwise, if the ancestor is not found, the element is placed with respect to the initial container box. The values provided to the top, right, left and bottom determine the final position of the element.",
+    "tag": "css"
+  },
+  {
+    "question": "How is opacity specified in CSS3?",
+    "answer": "Opacity is the measure of content transparency. It is measured in the range from 0 to 1. Value 1 means the content is completely opaque. It is not supportable in the internet browser. Also, the 60% of opacity is applicable in the div section where we need to apply the filter property (polyfill) to make it completely opaque.",
+    "tag": "css"
   }
 ]
