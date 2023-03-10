@@ -468,6 +468,6 @@
   {
     "question": "What is Fragment in React?",
     "answer": "React Fragment is a component that allows returning multiple children elements from a component without adding an additional node to the DOM hierarchy.",
-    "tag": "reactJs"
-  },
+    "tag": "react"
+  }
 ]

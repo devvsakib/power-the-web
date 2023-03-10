@@ -28,12 +28,12 @@ function Navbar() {
                   <Link to="/" className="nav-logo">
                     <img
                       className="block h-14 w-auto lg:hidden"
-                      src="images/PowerTheWebLogo.png"
+                      src="/images/PowerTheWebLogo.png"
                       alt="Power The Web Logo"
                     />
                     <img
                       className="hidden h-14 w-auto lg:block"
-                      src="images/PowerTheWebLogo.png"
+                      src="/images/PowerTheWebLogo.png"
                       alt="Power The Web Logo"
                     />
                   </Link>
