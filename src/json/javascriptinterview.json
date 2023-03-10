@@ -185,7 +185,7 @@
     "tag": "javascript"
   },
   {
-    "question": "What is n Event Listener in JavaScript?",
+    "question": "What is an Event Listener in JavaScript?",
     "answer": "An event listener in JavaScript is a function that is registered to be notified when a specific event occurs on an element. When the event occurs, the listener function is automatically executed, allowing you to respond to the event and take some action.",
     "tag": "javascript"
   },
