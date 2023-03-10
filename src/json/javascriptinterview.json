@@ -464,5 +464,10 @@
     "question": "How is opacity specified in CSS3?",
     "answer": "Opacity is the measure of content transparency. It is measured in the range from 0 to 1. Value 1 means the content is completely opaque. It is not supportable in the internet browser. Also, the 60% of opacity is applicable in the div section where we need to apply the filter property (polyfill) to make it completely opaque.",
     "tag": "css"
-  }
+  },
+  {
+    "question": "What is Fragment in React?",
+    "answer": "React Fragment is a component that allows returning multiple children elements from a component without adding an additional node to the DOM hierarchy.",
+    "tag": "reactJs"
+  },
 ]
