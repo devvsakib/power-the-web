@@ -480,19 +480,49 @@
     "answer": "Giving it an empty array acts like componentDidMount as in, it only runs once whereas giving it no second argument acts as both componentDidMount and componentDidUpdate, as in it runs first on mount and then on every re-render.",
     "tag": "react"
   },
-   {
+  {
     "question": "How does React use Virtual DOM to improve performance?",
     "answer": "React uses a virtual DOM to minimize the number of direct DOM manipulations. Whenever there is a change in the state of a component, React creates a new virtual DOM tree and compares it with the old one. The differences between the two are then calculated, and only those changes are made to the real DOM. This approach significantly improves the performance of the application.",
     "tag": "react"
   },
-   {
+  {
     "question": "What is JSX in React and why is it used?",
     "answer": "JSX is a syntax extension that allows developers to write HTML-like syntax within JavaScript code. It is used in React to create UI components and is a more intuitive way of representing the structure and layout of the UI.",
     "tag": "react"
   },
-   {
+  {
     "question": "What is state in React and how is it used?",
     "answer": "State in React is an object that represents the current state of a component. It is used to manage the data that changes over time and triggers the rendering of the UI when the state changes. State is mutable, and it can only be modified using the setState method.",
+    "tag": "react"
+  },
+  {
+    "question": "What is the difference between state and props in React?",
+    "answer": "State is used to manage data that can change within a component, while props are used to pass data from a parent component to a child component. State is mutable and can be updated within the component, while props are read-only.",
+    "tag": "react"
+  },
+  {
+    "question": "What is the significance of keys in React?",
+    "answer": "Keys are used to uniquely identify elements in a list of components. They help React identify which items have changed, been added, or been removed in a list, making the rendering process more efficient.",
+    "tag": "react"
+  },
+  {
+    "question": "What is the virtual DOM in React?",
+    "answer": "The virtual DOM is a lightweight copy of the actual DOM that React uses to manage and update the UI efficiently. When a component’s state or props change, React creates a new virtual DOM tree, compares it to the old one, and updates only the necessary parts of the actual DOM.",
+    "tag": "react"
+  },
+  {
+    "question": "What are the lifecycle methods in React?",
+    "answer": "Lifecycle methods are methods that are called at different stages of a component’s life cycle, such as when it is mounted, updated, or unmounted. They can be used to perform actions like fetching data, updating the state, or cleaning up resources.",
+    "tag": "react"
+  },
+  {
+    "question": "How can you optimize the performance of a React application?",
+    "answer": "Some ways to optimize the performance of a React application include using the virtual DOM, avoiding unnecessary renders, using lazy loading, and minimizing the number of HTTP requests. You can also use tools like React Profiler and DevTools to identify and fix performance issues.",
+    "tag": "react"
+  },
+  {
+    "question": "What is the difference between a functional component and a class component in React?",
+    "answer": "Functional components are stateless and use a function to render the UI. They are simpler and easier to write than class components, but cannot use state or lifecycle methods. Class components, on the other hand, use a class to define the component and can use state and lifecycle methods.",
     "tag": "react"
   }
 ]
