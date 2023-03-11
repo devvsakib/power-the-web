@@ -471,6 +471,31 @@
     "tag": "react"
   },
   {
+    "question":"What is TypeScript?",
+    "answer":"TypeScript is a statically-typed superset of JavaScript that adds optional type annotations and other language features to improve developer productivity and code quality.",
+    "tag":"typescript"
+  },
+  {
+    "question":"How do you create variables in TypeScript?",
+    "answer":"In TypeScript, you create variables using the let, const, or var keywords, followed by the variable name, an optional type annotation using the : symbol, and an optional initial value using the = symbol. For example, let myVariable: string = 'Hello, world!''; creates a variable named myVariable with the type string and the initial value 'Hello, world!'",
+    "tag":"typescript"
+  },
+  {
+    "question": "How do you set up TypeScript?",
+    "answer": "To set up TypeScript, you first need to install it globally or in your project using a package manager like npm. Then, you can create a TypeScript configuration file named tsconfig.json in your project root directory to specify compiler options and file locations. Finally, you can use a TypeScript compiler like tsc or a build tool like Webpack to compile TypeScript code into JavaScript.",
+    "tag": "typescript"
+  },
+  {
+    "question":"What are some things to consider when choosing between TypeScript and JavaScript?",
+    "answer": "When choosing between TypeScript and JavaScript, you should consider factors such as the size and complexity of your project, the need for type checking and other language features, and the experience and preferences of your development team. TypeScript can provide better scalability, maintainability, and developer productivity for larger and more complex projects, but may have a steeper learning curve and require additional tooling compared to JavaScript.",
+    "tag": "typescript"
+  },
+  {
+    "question": "Can you list and describe some primitive types in TypeScript?",
+    "answer" : "Some primitive types in TypeScript include number, string, boolean, null, and undefined. number represents numeric values, string represents text values, boolean represents true/false values, null represents absence of value, and undefined represents an uninitialized value or absence of value.",
+    "tag":"typescript"
+  },
+  {
     "question": "What happens if we leave useeffect dependency array empty?",
     "answer": "The empty array indicates that the useEffect doesn't have any dependencies on any state variables. Therefore, the callback function is only called once the page renders in this case.",
     "tag": "react"
@@ -556,4 +581,5 @@
     "answer": "React is a JavaScript library for building user interfaces, while React Native is a framework for building native mobile applications using React. React Native uses the same programming concepts as React, but it is designed specifically for mobile devices and uses native components instead of HTML and CSS. React Native allows developers to build cross-platform mobile applications that run on iOS and Android devices with a single codebase.",
     "tag": "react"
   }
+
 ]
