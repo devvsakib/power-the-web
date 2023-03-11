@@ -494,7 +494,8 @@
     "question": "Can you list and describe some primitive types in TypeScript?",
     "answer" : "Some primitive types in TypeScript include number, string, boolean, null, and undefined. number represents numeric values, string represents text values, boolean represents true/false values, null represents absence of value, and undefined represents an uninitialized value or absence of value.",
     "tag":"typescript"
-},
+  },
+  {
     "question": "What happens if we leave useeffect dependency array empty?",
     "answer": "The empty array indicates that the useEffect doesn't have any dependencies on any state variables. Therefore, the callback function is only called once the page renders in this case.",
     "tag": "react"
