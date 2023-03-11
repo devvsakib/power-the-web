@@ -479,5 +479,20 @@
     "question": "In useEffect, what's the difference between providing no dependency array and an empty one?",
     "answer": "Giving it an empty array acts like componentDidMount as in, it only runs once whereas giving it no second argument acts as both componentDidMount and componentDidUpdate, as in it runs first on mount and then on every re-render.",
     "tag": "react"
+  },
+   {
+    "question": "How does React use Virtual DOM to improve performance?",
+    "answer": "React uses a virtual DOM to minimize the number of direct DOM manipulations. Whenever there is a change in the state of a component, React creates a new virtual DOM tree and compares it with the old one. The differences between the two are then calculated, and only those changes are made to the real DOM. This approach significantly improves the performance of the application.",
+    "tag": "react"
+  },
+   {
+    "question": "What is JSX in React and why is it used?",
+    "answer": "JSX is a syntax extension that allows developers to write HTML-like syntax within JavaScript code. It is used in React to create UI components and is a more intuitive way of representing the structure and layout of the UI.",
+    "tag": "react"
+  },
+   {
+    "question": "What is state in React and how is it used?",
+    "answer": "State in React is an object that represents the current state of a component. It is used to manage the data that changes over time and triggers the rendering of the UI when the state changes. State is mutable, and it can only be modified using the setState method.",
+    "tag": "react"
   }
 ]
