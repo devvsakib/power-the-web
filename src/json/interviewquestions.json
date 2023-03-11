@@ -524,5 +524,36 @@
     "question": "What is the difference between a functional component and a class component in React?",
     "answer": "Functional components are stateless and use a function to render the UI. They are simpler and easier to write than class components, but cannot use state or lifecycle methods. Class components, on the other hand, use a class to define the component and can use state and lifecycle methods.",
     "tag": "react"
+  },
+  
+  {
+    "question": "What are the advantages of using React?",
+    "answer": "Some advantages of using React include its ability to create reusable UI components, its virtual DOM which increases performance, its ease of use with other libraries or frameworks, and its large and supportive community.",
+    "tag": "react"
+  },
+  {
+    "question": "What is Redux and how does it work with React?",
+    "answer": "Redux is a state management library for JavaScript applications. It works with React by providing a centralized store for application state, which can be accessed by any component in the application. React components can subscribe to changes in the Redux store using the connect() function, and can update the store using Redux actions.",
+    "tag": "react"
+  },
+  {
+    "question": "What is React Router and how does it work?",
+    "answer": "React Router is a library for handling routing in React applications. It allows you to define routes for different URLs and render different components depending on the current route. React Router works by using a <Router> component to wrap your application and defining different routes using <Route> components.",
+    "tag": "react"
+  },
+  {
+    "question": "What are controlled components in React?",
+    "answer": "Controlled components are React components that are controlled entirely by the state of the parent component. The state of a controlled component is passed down to the child component as props, and the child component cannot modify its state directly. Instead, it must notify the parent component of any changes, which then updates the state of the controlled component.",
+    "tag": "react"
+  },
+  {
+    "question": "What are React Hooks?",
+    "answer": "React Hooks are functions that allow developers to use state and other React features without writing a class component. Hooks were introduced in React 16.8 and include useState, useEffect, useContext, and many others. Hooks simplify the development of React components by reducing the amount of boilerplate code required and promoting code reuse.",
+    "tag": "react"
+  },
+  {
+    "question": "What is the difference between React and React Native?",
+    "answer": "React is a JavaScript library for building user interfaces, while React Native is a framework for building native mobile applications using React. React Native uses the same programming concepts as React, but it is designed specifically for mobile devices and uses native components instead of HTML and CSS. React Native allows developers to build cross-platform mobile applications that run on iOS and Android devices with a single codebase.",
+    "tag": "react"
   }
 ]
