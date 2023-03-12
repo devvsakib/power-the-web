@@ -603,5 +603,30 @@
     "question": "What is a higher-order component (HOC) in React?",
     "answer": "A higher-order component is a function that takes a component as an argument and returns a new component with enhanced functionality. HOCs are used to reuse logic between different components.",
     "tag": "react"
+},
+{
+    "question": "What is the use of useRef in React Hooks?",
+    "answer": "useRef is one of the built-in React Hooks. It allows you to persist values between render. You can also use it to store a mutable value that does not cause a re-render when updated. You must pass the initial value inside the useRef, which returns a mutable ref object. The object has a property called current, where the value is persisted.",
+    "tag": "react"
+  },
+  {
+    "question": "What is the use of the useCallback hook?",
+    "answer": "useCallback is one of the react hooks used to prevent functions declared within the body of function components from being recreated on every render.",
+    "tag": "react"
+  },
+  {
+    "question": "What is the use of the useMemo hook?",
+    "answer": "The useMemo hook is used to memoise an expensive operation that we give it. The term memoise refers to remembering past values that have already been computed.",
+    "tag": "react"
+  },
+  {
+    "question": "What is the use of useContext Hook",
+    "answer": "The useContext hook removes the unusual-looking render props pattern that was required in consuming React Context before.Instead, useContext gives us a simple function to access the data we provided on the value prop of the Context Provider in any child component.",
+    "tag": "react"
+  },
+  {
+    "question": "What is the use of useReducer Hook",
+    "answer": "useReducer is an alternative to the useState Hook ,it helps users manage complex state logic. When combined with other hooks such as useContext it can be a good alternative to Redux.",
+    "tag": "react"
   }
 ]
