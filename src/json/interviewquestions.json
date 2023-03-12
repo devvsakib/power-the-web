@@ -525,7 +525,7 @@
     "answer": "Functional components are stateless and use a function to render the UI. They are simpler and easier to write than class components, but cannot use state or lifecycle methods. Class components, on the other hand, use a class to define the component and can use state and lifecycle methods.",
     "tag": "react"
   },
-  
+
   {
     "question": "What are the advantages of using React?",
     "answer": "Some advantages of using React include its ability to create reusable UI components, its virtual DOM which increases performance, its ease of use with other libraries or frameworks, and its large and supportive community.",
@@ -554,6 +554,31 @@
   {
     "question": "What is the difference between React and React Native?",
     "answer": "React is a JavaScript library for building user interfaces, while React Native is a framework for building native mobile applications using React. React Native uses the same programming concepts as React, but it is designed specifically for mobile devices and uses native components instead of HTML and CSS. React Native allows developers to build cross-platform mobile applications that run on iOS and Android devices with a single codebase.",
+    "tag": "react"
+  },
+  {
+    "question": "What is the use of useRef in React Hooks?",
+    "answer": "useRef is one of the built-in React Hooks. It allows you to persist values between render. You can also use it to store a mutable value that does not cause a re-render when updated. You must pass the initial value inside the useRef, which returns a mutable ref object. The object has a property called current, where the value is persisted.",
+    "tag": "react"
+  },
+  {
+    "question": "What is the use of the useCallback hook?",
+    "answer": "useCallback is one of the react hooks used to prevent functions declared within the body of function components from being recreated on every render.",
+    "tag": "react"
+  },
+  {
+    "question": "What is the use of the useMemo hook?",
+    "answer": "The useMemo hook is used to memoise an expensive operation that we give it. The term memoise refers to remembering past values that have already been computed.",
+    "tag": "react"
+  },
+  {
+    "question": "What is the use of useContext Hook",
+    "answer": "The useContext hook removes the unusual-looking render props pattern that was required in consuming React Context before.Instead, useContext gives us a simple function to access the data we provided on the value prop of the Context Provider in any child component.",
+    "tag": "react"
+  },
+  {
+    "question": "What is the use of useReducer Hook",
+    "answer": "useReducer is an alternative to the useState Hook ,it helps users manage complex state logic. When combined with other hooks such as useContext it can be a good alternative to Redux.",
     "tag": "react"
   }
 ]
