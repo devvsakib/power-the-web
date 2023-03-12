@@ -319,7 +319,6 @@
     "answer": "The alt attribute provides alternative text for an image if the image cannot be displayed. This text is also used by screen readers for accessibility purposes.",
     "tag": "html"
   },
-
   {
     "question": "What is the role of the title tag in HTML?",
     "answer": "The title tag is used to specify the title of a document or webpage. It appears in the browser's title bar and is used by search engines when displaying search results.",
@@ -525,7 +524,6 @@
     "answer": "Functional components are stateless and use a function to render the UI. They are simpler and easier to write than class components, but cannot use state or lifecycle methods. Class components, on the other hand, use a class to define the component and can use state and lifecycle methods.",
     "tag": "react"
   },
-
   {
     "question": "What are the advantages of using React?",
     "answer": "Some advantages of using React include its ability to create reusable UI components, its virtual DOM which increases performance, its ease of use with other libraries or frameworks, and its large and supportive community.",
@@ -557,6 +555,56 @@
     "tag": "react"
   },
   {
+    "question": "What is React?",
+    "answer": "React is an open-source JavaScript library that is used for building user interfaces or UI components.",
+    "tag": "react"
+  },
+  {
+    "question": "What is the difference between a class component and a functional component?",
+    "answer": "A class component is a type of React component that is written using ES6 classes. It has its own state and can use lifecycle methods. A functional component is a type of React component that is written using a JavaScript function. It doesn't have its own state and doesn't use lifecycle methods.",
+    "tag": "react"
+  },
+  {
+    "question": "What is JSX?",
+    "answer": "JSX is an extension to JavaScript that allows developers to write HTML-like code in their JavaScript files. It is used to describe what the UI should look like.",
+    "tag": "react"
+  },
+  {
+    "question": "What is virtual DOM in React?",
+    "answer": "The virtual DOM is a lightweight copy of the actual DOM that is maintained by React. React uses the virtual DOM to keep track of changes to the UI, and then it updates the actual DOM only when necessary.",
+    "tag": "react"
+  },
+  {
+    "question": "What is a state in React?",
+    "answer": "State is an object that holds information about the current state of a component. When a component's state changes, React re-renders the component and updates the UI.",
+    "tag": "react"
+  },
+  {
+    "question": "What is a props in React?",
+    "answer": "Props are short for properties, and they are used to pass data from a parent component to a child component. Props are read-only and cannot be changed by the child component.",
+    "tag": "react"
+  },
+  {
+    "question": "What are lifecycle methods in React?",
+    "answer": "Lifecycle methods are methods that are called at different stages of a component's life cycle. They are used to initialize, update, and clean up a component. Some common lifecycle methods are componentDidMount, componentDidUpdate, and componentWillUnmount.",
+    "tag": "react"
+  },
+  {
+    "question": "What is the role of ReactDOM in React?",
+    "answer": "ReactDOM is a package that provides an API for rendering React components to the DOM. It is responsible for updating the actual DOM based on changes to the virtual DOM.",
+    "tag": "react"
+  },
+  {
+    "question": "What is Redux in React?",
+    "answer": "Redux is a state management library for JavaScript applications. It is often used with React to manage the application's state in a predictable and organized way.",
+    "tag": "react"
+  },
+  {
+    "question": "What is a higher-order component (HOC) in React?",
+    "answer": "A higher-order component is a function that takes a component as an argument and returns a new component with enhanced functionality. HOCs are used to reuse logic between different components.",
+    "tag": "react"
+},
+{
     "question": "What is the use of useRef in React Hooks?",
     "answer": "useRef is one of the built-in React Hooks. It allows you to persist values between render. You can also use it to store a mutable value that does not cause a re-render when updated. You must pass the initial value inside the useRef, which returns a mutable ref object. The object has a property called current, where the value is persisted.",
     "tag": "react"
