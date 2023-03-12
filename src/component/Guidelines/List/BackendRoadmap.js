@@ -2,7 +2,7 @@ import React from 'react'
 import { useState } from 'react';
 
 const BackendRoadmap = ({ setContent, setMenu, menu }) => {
-    const topics = ["HTML", "CSS", "JavaScript", "React", "Next.js", "TypeScript", "Sass"]
+    const topics = []
     const [open, setOpen] = useState(false);
     // const [type, setType] = useState("");
     // console.log(type);
@@ -11,10 +11,11 @@ const BackendRoadmap = ({ setContent, setMenu, menu }) => {
         <div>
             <h2 className='cursor-pointer'
                 onClick={() => setOpen(!open)}
-            >Backend Interview</h2>
+            >Backend Roadmap</h2>
             <div className='flex flex-col gap-y-5'>
                 <ul className={`${open ? "" : "hidden"}`}>
                     {
+                        topics.length === 0 ? <h1 className='text-sm font-semibold'>Coming soon...</h1> :
                         topics.map((topic, index) => (
                             <li key={index} className='cursor-pointer my-2 hover:bg-slate-600 transition-all ease-linear duration-200a ml-0 px-1 rounded py-2' onClick={() => { setContent(topic.toLowerCase()); setOpen(!open); }}>{topic}</li>
                         ))
