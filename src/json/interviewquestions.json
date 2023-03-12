@@ -653,12 +653,13 @@
     "question": "What is the difference between the display: block and display: inline-block properties in CSS?",
     "answer": "The display: block property makes an element a block-level element, which means it takes up the full width of its parent container and creates a new line after it. The display: inline-block property makes an element an inline-level block element, which means it takes up only as much width as necessary and does not create a new line after it. It allows other inline-level elements to be displayed on the same line next to it.",
     "tag": "css"
-},{
+  },
+  {
     "question": "What is a higher-order component (HOC) in React?",
     "answer": "A higher-order component is a function that takes a component as an argument and returns a new component with enhanced functionality. HOCs are used to reuse logic between different components.",
     "tag": "react"
-},
-{
+  },
+  {
     "question": "What is the use of useRef in React Hooks?",
     "answer": "useRef is one of the built-in React Hooks. It allows you to persist values between render. You can also use it to store a mutable value that does not cause a re-render when updated. You must pass the initial value inside the useRef, which returns a mutable ref object. The object has a property called current, where the value is persisted.",
     "tag": "react"
@@ -734,30 +735,37 @@
   },
   {
     "question": "What are some best practices for optimizing Next.js applications?",
-    "answer": "Some best practices for optimizing Next.js applications include: \n- Using static site generation or server-side rendering to improve page load times \n- Minimizing the size of your JavaScript and CSS bundles \n- Caching data where possible to reduce the number of API requests \n- Using efficient data fetching methods such as getStaticProps or getServerSideProps \n- Compressing images and other media assets to reduce file size"
+    "answer": "Some best practices for optimizing Next.js applications include: \n- Using static site generation or server-side rendering to improve page load times \n- Minimizing the size of your JavaScript and CSS bundles \n- Caching data where possible to reduce the number of API requests \n- Using efficient data fetching methods such as getStaticProps or getServerSideProps \n- Compressing images and other media assets to reduce file size",
+    "tag": "next.js"
   },
   {
     "question": "What is the purpose of the pages directory in Next.js?",
-    "answer": "The pages directory is where you define your application's pages and routes in Next.js. Each file in the pages directory corresponds to a different route in your application. For example, a file named index.js in the pages directory would be the home page of your application."
+    "answer": "The pages directory is where you define your application's pages and routes in Next.js. Each file in the pages directory corresponds to a different route in your application. For example, a file named index.js in the pages directory would be the home page of your application.",
+    "tag": "next.js"
   },
   {
     "question": "What is the difference between a component and a page in Next.js?",
-    "answer": "A component is a reusable piece of UI code that can be used on multiple pages in your application. A page, on the other hand, is a specific route in your application that is defined in the pages directory. Each page in your application can be made up of one or more components."
+    "answer": "A component is a reusable piece of UI code that can be used on multiple pages in your application. A page, on the other hand, is a specific route in your application that is defined in the pages directory. Each page in your application can be made up of one or more components.",
+    "tag": "next.js"
   },
   {
     "question": "What is the purpose of the next/image component in Next.js?",
-    "answer": "The next/image component is a built-in component in Next.js that allows you to optimize and serve images on your pages. It automatically resizes and compresses images based on the device and viewport size, and it uses a lazy-loading technique to improve page load times."
+    "answer": "The next/image component is a built-in component in Next.js that allows you to optimize and serve images on your pages. It automatically resizes and compresses images based on the device and viewport size, and it uses a lazy-loading technique to improve page load times.",
+    "tag": "next.js"
   },
   {
     "question": "What is the purpose of the next/head component in Next.js?",
-    "answer": "The next/head component is a built-in component in Next.js that allows you to modify the head section of your HTML document. This can be used to add metadata, custom stylesheets, scripts, and other content to your pages."
+    "answer": "The next/head component is a built-in component in Next.js that allows you to modify the head section of your HTML document. This can be used to add metadata, custom stylesheets, scripts, and other content to your pages.",
+    "tag": "next.js"
   },
   {
     "question": "What is the purpose of the next/link component in Next.js?",
-    "answer": "The next/link component is a built-in component in Next.js that allows you to create links between pages in your application. It automatically prefetches pages in the background to improve page loading times and provides a seamless navigation experience for users."
+    "answer": "The next/link component is a built-in component in Next.js that allows you to create links between pages in your application. It automatically prefetches pages in the background to improve page loading times and provides a seamless navigation experience for users.",
+    "tag": "next.js"
   },
   {
     "question": "What is the difference between client-side and server-side routing in Next.js?",
-    "answer": "Client-side routing is the process of changing the URL and updating the page content on the client-side without making a new request to the server. Server-side routing, on the other hand, involves making a new request to the server for each new page or route in your application. Next.js supports both client-side and server-side routing, and you can configure your application to use one or the other depending on your needs."
+    "answer": "Client-side routing is the process of changing the URL and updating the page content on the client-side without making a new request to the server. Server-side routing, on the other hand, involves making a new request to the server for each new page or route in your application. Next.js supports both client-side and server-side routing, and you can configure your application to use one or the other depending on your needs.",
+    "tag": "next.js"
   }
 ]
