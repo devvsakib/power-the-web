@@ -12,7 +12,7 @@ PowerTheWeb is an open-source project to help web developers make their road eas
 Join our community and ask anything. If you run into a problem please let us know.
 DISCORD - [JOIN](https://discord.gg/6XRTeHRxWV)
 
-## STAR THE REPO
+
 ### How to Contribute to this repository
 
 1. Fork the repository first (Click the Fork button in the top right of this page,
@@ -104,8 +104,15 @@ So, people will know what project it is. Make sure you added your github name an
 </div>
 -->
 
+## Support
+Please leave a **STAR⭐**
+
+### Connect with us
+
+Join Us  <a href="https://discord.gg/xwRbDwnbMr"><img src="https://cdn.worldvectorlogo.com/logos/discord-6.svg" title="Discord" alt="Discord Community" width="20"/></a>
+
 ## Thanks to all the contributors ❤️
-Add your details in contributions.json file
+Add your details in `src/json/Contributors.json` file
 
 
 <a href = "https://github.com/devvsakib/hacktoberfest-react-project/graphs/contributors">
