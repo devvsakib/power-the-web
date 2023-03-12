@@ -2,7 +2,7 @@ import React from 'react'
 import { useState } from 'react';
 
 const FrontendInterview = ({ setContent, setMenu, menu }) => {
-    const topics = ["HTML", "CSS", "JavaScript", "React", "Next.js", "TypeScript", "Sass"]
+    const topics = ["HTML", "CSS", "JavaScript", "React", "Next.js", "TypeScript"]
     const [open, setOpen] = useState(false);
     // const [type, setType] = useState("");
     // console.log(type);

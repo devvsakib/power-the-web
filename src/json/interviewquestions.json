@@ -682,5 +682,50 @@
     "question": "What is the use of useReducer Hook",
     "answer": "useReducer is an alternative to the useState Hook ,it helps users manage complex state logic. When combined with other hooks such as useContext it can be a good alternative to Redux.",
     "tag": "react"
+  },
+  {
+    "question": "What is Next.js?",
+    "answer": "Next.js is a React-based web framework that enables server-side rendering, automatic code splitting, and easy configuration of client-side and server-side functionalities. It is designed to help developers build performant, scalable, and SEO-friendly web applications quickly and easily.",
+    "tag": "next.js"
+  },
+  {
+    "question": "What are the benefits of using Next.js?",
+    "answer": "Some benefits of using Next.js include: \n- Server-side rendering for faster page load times and better SEO \n- Automatic code splitting for optimized page loading \n- Built-in support for static site generation \n- Easy configuration of client-side and server-side functionalities \n- Seamless integration with React and other front-end libraries \n- Rich set of features for building complex web applications",
+    "tag": "next.js"
+  },
+  {
+    "question": "What is server-side rendering?",
+    "answer": "Server-side rendering is the process of generating HTML content on the server and sending it to the client, instead of relying solely on client-side JavaScript to render the page. This can lead to faster page load times, improved SEO, and better accessibility.",
+    "tag": "next.js"
+  },
+  {
+    "question": "What is code splitting?",
+    "answer": "Code splitting is the process of breaking up a large JavaScript bundle into smaller, more manageable chunks that can be loaded on demand. This can improve page loading times and reduce the amount of unnecessary code that needs to be downloaded by the client.",
+    "tag": "next.js"
+  },
+  {
+    "question": "What is the difference between static site generation and server-side rendering?",
+    "answer": "Static site generation is the process of generating a set of static HTML files at build time, which can be served directly to the client without any server-side processing. Server-side rendering, on the other hand, generates HTML content on the server at runtime and sends it to the client. Static site generation is typically faster than server-side rendering, but it may not be suitable for applications that require dynamic content or user interactions.",
+    "tag": "next.js"
+  },
+  {
+    "question": "How do you configure client-side and server-side functionality in Next.js?",
+    "answer": "Next.js provides a simple configuration system that allows you to specify which code should be run on the server and which should be run on the client. You can use the getInitialProps function to fetch data on the server and pass it down to the client, or you can use the useEffect hook to fetch data on the client after the page has loaded.",
+    "tag": "next.js"
+  },
+  {
+    "question": "What is the _app.js file in Next.js?",
+    "answer": "The _app.js file is a special file in Next.js that allows you to customize the page layout and behavior for your entire application. It is used to wrap all other pages in your application and provides a common place to define global styles, third-party libraries, and other application-wide functionality.",
+    "tag": "next.js"
+  },
+  {
+    "question": "What is the getStaticProps function in Next.js?",
+    "answer": "The getStaticProps function is a built-in method in Next.js that allows you to fetch data at build time and pass it down to your pages as props. This can be useful for pre-rendering dynamic content and improving page load times.",
+    "tag": "next.js"
+  },
+  {
+    "question": "What is the getServerSideProps function in Next.js?",
+    "answer": "The getServerSideProps function is a built-in method in Next.js that allows you to fetch data on the server and pass it down to your pages as props. This can be useful for server-rendering dynamic content that changes frequently.",
+    "tag": "next.js"
   }
 ]
