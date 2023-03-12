@@ -96,7 +96,6 @@ So, people will know what project it is. Make sure you added your github name an
 2. Diversion 2023 ✅
 <br>
 
-<br>
 <!--
 <div align="center">
     <img width="150px" src="https://avatars.githubusercontent.com/u/88339569?v=4">
