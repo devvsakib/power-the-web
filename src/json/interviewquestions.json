@@ -767,5 +767,10 @@
     "question": "What is the difference between client-side and server-side routing in Next.js?",
     "answer": "Client-side routing is the process of changing the URL and updating the page content on the client-side without making a new request to the server. Server-side routing, on the other hand, involves making a new request to the server for each new page or route in your application. Next.js supports both client-side and server-side routing, and you can configure your application to use one or the other depending on your needs.",
     "tag": "next.js"
+  },
+  {
+    "question": "What is the testing library most often associated with React?",
+    "answer": "Jest",
+    "tag": "react"
   }
 ]
