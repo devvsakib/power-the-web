@@ -1,10 +1,11 @@
 import React from "react";
+import Layout from "..";
 import Herosection from "../HeroSection/Herosection";
 function Home() {
   return (
-    <div className="overflow-x-hidden">
+    <Layout className="overflow-x-hidden">
       <Herosection />
-    </div>
+    </Layout>
   );
 }
 
