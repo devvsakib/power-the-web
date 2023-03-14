@@ -30,7 +30,7 @@ const Questions = ({ content }) => {
         <div>
             <div>
                 {/* <h1 className='text-2xl font-bold'>{content.toUpperCase()} Questions</h1> */}
-                <img className='mx-auto w-full' src='/images/jsInterviewthumb.png' />
+                <img className='mx-auto w-full' src={`/images/${content}Interviewthumb.png`} />
             </div>
             <div>
                 {
