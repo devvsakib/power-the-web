@@ -1,0 +1,177 @@
+[
+    {
+        "question": "What is HTML?",
+        "answer": "HTML stands for HyperText Markup Language. It is a markup language used to create web pages.",
+        "tag": "html"
+    },
+    {
+        "question": "What is the difference between inline and block-level elements?",
+        "answer": "Inline elements are those that only take up as much width as necessary and do not create a new line, while block-level elements take up the full width available and create a new line. Examples of inline elements are span and a, while examples of block-level elements are div and p.",
+        "tag": "html"
+    },
+    {
+        "question": "What is the DOM in HTML?",
+        "answer": "The Document Object Model (DOM) is a programming interface for HTML documents. It represents the page so that programs can change the document structure, style, and content. The DOM represents the document as nodes and objects, which can be manipulated with programming languages such as JavaScript.",
+        "tag": "html"
+    },
+    {
+        "question": "What is the box model in HTML?",
+        "answer": "The box model is a layout concept in HTML that represents an HTML element as a rectangular box, comprising of four parts: content, padding, border, and margin. The content is the actual element content, padding is the space between the content and the border, border is the line around the padding, and margin is the space outside the border.",
+        "tag": "html"
+    },
+    {
+        "question": "What is semantic HTML?",
+        "answer": "Semantic HTML is the use of HTML markup to reinforce the meaning of content on a web page rather than just using markup for visual appearance. This makes the page more accessible for people using assistive technologies and also helps search engines to better understand the page content.",
+        "tag": "html"
+    },
+    {
+        "question": "What is the difference between a div and a span in HTML?",
+        "answer": "A div is a block-level element that is used to group larger sections of content together, while a span is an inline-level element that is used to group smaller sections of content together. Divs are typically used to create layout structures and apply styles, while spans are used for inline styling or to target specific pieces of text or content.",
+        "tag": "html"
+    },
+    {
+        "question": "What is the difference between the <head> and <body> tags in HTML?",
+        "answer": "The <head> tag contains meta-data about the document such as the title, keywords, and links to external files, while the <body> tag contains the visible content of the page. The <head> tag is not displayed in the browser, whereas the <body> tag is where all the visible content goes.",
+        "tag": "html"
+    },
+    {
+        "question": "What is the purpose of the alt attribute in HTML?",
+        "answer": "The alt attribute is used to provide alternative text for an image in case the image cannot be displayed. This is important for accessibility reasons as it allows screen readers to describe the image to users who are visually impaired. It also helps search engines to better understand the image content.",
+        "tag": "html"
+    },
+    {
+        "question": "What is the purpose of the alt attribute in an img tag?",
+        "answer": "The alt attribute provides alternative text for an image if the image cannot be displayed. This text is also used by screen readers for accessibility purposes.",
+        "tag": "html"
+    },
+    {
+        "question": "What is the role of the title tag in HTML?",
+        "answer": "The title tag is used to specify the title of a document or webpage. It appears in the browser's title bar and is used by search engines when displaying search results.",
+        "tag": "html"
+    },
+    {
+        "question": "What is the difference between the head and body sections of an HTML document?",
+        "answer": "The head section contains metadata about the document, such as the title and links to external resources, and is not visible on the page. The body section contains the visible content of the page.",
+        "tag": "html"
+    },
+    {
+        "question": "What are the different types of lists in HTML?",
+        "answer": "There are three types of lists in HTML: ordered lists (ol), unordered lists (ul), and definition lists (dl).",
+        "tag": "html"
+    },
+    {
+        "question": "What is the role of the form tag in HTML?",
+        "answer": "The form tag is used to create an HTML form for user input. It contains form elements such as input fields, checkboxes, and buttons.",
+        "tag": "html"
+    },
+    {
+        "question": "What is the difference between GET and POST methods in HTML forms?",
+        "answer": "The GET method submits the form data as URL parameters, visible in the URL of the resulting page. The POST method submits the form data in the body of the HTTP request, making it more secure for sensitive information.",
+        "tag": "html"
+    },
+    {
+        "question": "What is the purpose of the HTML <head> tag?",
+        "answer": "The <head> tag contains information about the HTML document, such as the title, keywords, and metadata. This information is not displayed on the page itself, but is used by the browser and search engines to understand and categorize the content of the page.",
+        "tag": "html"
+    },
+    {
+        "question": "What is the difference between the <div> and <span> tags in HTML?",
+        "answer": "The <div> tag is a block-level element that is used to group together other HTML elements and apply styles or other properties to the group as a whole. The <span> tag is an inline-level element that is used to apply styles or other properties to a specific section of text or other inline content.",
+        "tag": "html"
+    },
+    {
+        "question": "How do you create a hyperlink in HTML?",
+        "answer": "To create a hyperlink in HTML, you use the <a> tag, followed by the href attribute to specify the URL of the page you want to link to. For example, <a href='https://www.example.com'>Example</a> would create a link to the page at https://www.example.com, with the text 'Example' displayed as the link.",
+        "tag": "html"
+    },
+    {
+        "question": "What is the purpose of the alt attribute in an <img> tag?",
+        "answer": "The alt attribute provides alternative text for an image, which is displayed in place of the image if the image cannot be loaded or if the user is using a screen reader to access the content. The alt text should describe the content of the image and provide context for its use in the page.",
+        "tag": "html"
+    },
+    {
+        "question": "What is the difference between the <ul> and <ol> tags in HTML?",
+        "answer": "The <ul> tag is used to create an unordered list, where each item in the list is preceded by a bullet point. The <ol> tag is used to create an ordered list, where each item in the list is numbered. The type of bullet point or numbering can be changed using CSS.",
+        "tag": "html"
+    },
+    {
+        "question": "How do you create a table in HTML?",
+        "answer": "To create a table in HTML, you use the <table> tag, along with the <tr> tag to create each row of the table, and the <td> tag to create each cell in the table. You can also use the <th> tag to create header cells for the table.",
+        "tag": "html"
+    },
+    {
+        "question": "What is the purpose of the <form> tag in HTML?",
+        "answer": "The <form> tag is used to create an HTML form, which allows users to input data that can be sent to a server for processing. The form typically contains input fields such as text boxes, radio buttons, and checkboxes, and is submitted using a button or by pressing Enter.",
+        "tag": "html"
+    },
+    {
+        "question": "What is the purpose of the href attribute in an <a> tag?",
+        "answer": "The href attribute specifies the URL or web page that the link leads to. When a user clicks on the link, the browser navigates to the URL specified in the href attribute. The href attribute can also be used to create internal links within a web page by referencing the ID of a specific element on the page.",
+        "tag": "html"
+    },
+    {
+        "question": "What is semantic HTML, and why is it important?",
+        "answer": "Semantic HTML refers to using HTML tags that convey the meaning and structure of the content they enclose, rather than just using tags for their visual appearance. Semantic HTML makes it easier for search engines and screen readers to understand the content and context of a web page, improving accessibility and SEO. Examples of semantic HTML tags include <header>, <footer>, <nav>, and <article>.",
+        "tag": "html"
+    },
+    {
+        "question": "What is the purpose of the tabindex attribute?",
+        "answer": "The tabindex attribute specifies the order in which elements can be accessed using the keyboard's tab key. This is useful for improving accessibility for users who cannot use a mouse or touchpad. By default, only certain elements, such as links and form fields, are tabbable. The tabindex attribute can be used to make other elements, such as <div> or <span>, tabbable as well. The value of the tabindex attribute determines the order in which the elements are accessed, with lower values coming first.",
+        "tag": "html"
+    },
+    {
+        "question": "What are the different types of HTML tags?",
+        "answer": "HTML tags can be classified into two types: container tags and empty tags. Container tags have an opening tag and a closing tag, and they can contain other HTML tags and text content. Examples include <div>, <p>, and <h1>. Empty tags, also called void or self-closing tags, do not have a closing tag and are used to insert content that does not require any additional markup. Examples include <img>, <input>, and <br>.",
+        "tag": "html"
+    },
+    {
+        "question": "What are the different types of HTML elements?",
+        "answer": "There are several types of HTML elements, including text elements, image elements, form elements, and semantic elements.",
+        "tag": "html"
+    },
+    {
+        "question": "What is the difference between the <div> and <span> tags?",
+        "answer": "The <div> tag is a block-level element that is used to group elements together and apply styles to them. The <span> tag is an inline element that is used to apply styles to small sections of text.",
+        "tag": "html"
+    },
+    {
+        "question": "What is the purpose of the alt attribute in the <img> tag?",
+        "answer": "The alt attribute is used to provide alternative text for an image in case the image cannot be displayed. It is also used by screen readers for accessibility.",
+        "tag": "html"
+    },
+    {
+        "question": "What is the difference between the <strong> and <em> tags?",
+        "answer": "The <strong> tag is used to indicate strong importance, while the <em> tag is used to indicate emphasis. The two tags are often displayed in the same way by default, but they have different semantic meanings.",
+        "tag": "html"
+    },
+    {
+        "question": "What is the difference between the <ul> and <ol> tags?",
+        "answer": "The <ul> tag is used to create an unordered list, while the <ol> tag is used to create an ordered list.",
+        "tag": "html"
+    },
+    {
+        "question": "What is a data attribute in HTML?",
+        "answer": "A data attribute is an HTML attribute that begins with the prefix 'data-'. It can be used to store custom data in an HTML element for use in JavaScript or CSS.",
+        "tag": "html"
+    },
+    {
+        "question": "What is the purpose of the <meta> tag?",
+        "answer": "The <meta> tag is used to provide metadata about an HTML document, such as the character encoding, viewport settings, or author information.",
+        "tag": "html"
+    },
+    {
+        "question": "What is the difference between HTML and XHTML?",
+        "answer": "XHTML is a stricter version of HTML that follows the rules of XML. It requires well-formed markup, such as closing all tags, using lowercase tag names, and using attribute values within quotes.",
+        "tag": "html"
+    },
+    {
+        "question": "What is the purpose of the HTML5 <video> element?",
+        "answer": "The <video> element is used to embed video content on a web page. It allows developers to specify video sources, controls, captions, and other settings.",
+        "tag": "html"
+    },
+    {
+        "question": "What is the purpose of the href attribute in the <a> tag?",
+        "answer": "The href attribute is used to specify the URL or web address of the page or resource that the <a> tag links to. It is required for the <a> tag to function as a hyperlink.",
+        "tag": "html"
+    }
+]

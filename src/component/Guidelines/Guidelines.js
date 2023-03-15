@@ -10,7 +10,7 @@ function RoadmapHero() {
                         Your one stop for all the guidelines you need to follow to contribute to this project and make it better. Your development journey starts here.
                     </p>
                     <div className='flex flex-row mt-5 justify-center'>
-                        <Link to={"/guidelines/getstarted"}>
+                        <Link to={"documents"}>
                         <button className='bg-white font-semibold uppercase text-black px-4 py-2 rounded-lg mr-2'>Get Started</button>
                         </Link>
                     </div>

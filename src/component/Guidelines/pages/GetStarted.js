@@ -4,7 +4,6 @@ import Cards from './Cards'
 const GetStarted = () => {
     return (
         <>
-
             <div className='w-full sm:w-1/2 mt-20 mx-auto text-center'>
                 <h1 className='text-5xl font-bold text-white uppercase'>Guidelines</h1>
             </div>
