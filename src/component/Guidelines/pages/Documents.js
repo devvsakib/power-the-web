@@ -39,7 +39,7 @@ const Documents = () => {
                         <h1 className='text-2xl font-bold mt-3'>Documents</h1>
                         <button onClick={() => setMenu(!menu)} className={`text-2xl font-bold transition-all ease-linear duration-300 ${!menuOpen ? "hidden" : ""}`}>{menu ? <i className="fas fa-chevron-right"></i> : <i className="fas fa-chevron-left"></i>}</button>
                     </div>
-                    <div className={`h-auto md:h-[75vh] pb-5 mt-5 text-md font-semibold text-[#242A31] flex flex-col gap-10 overflow-y-scroll ${menu ? "hidden" : ""}`}>
+                    <div className={`h-auto md:h-[75vh] pb-5 mt-5 text-md font-semibold text-[#242A31] flex flex-col overflow-x-hidden gap-10 overflow-y-scroll ${menu ? "hidden" : ""}`}>
                         <FrontendInterview
                             setContent={setContent}
                             setMenu={setMenu}
