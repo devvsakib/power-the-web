@@ -1,4 +1,4 @@
-# Open-source Project💯✅
+# <p align="center"> Open-source Project✅ </p>
 
 ![PowerTheWeb Cover](public/assets/powertheweb-cover.png)
 
