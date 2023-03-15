@@ -118,5 +118,55 @@
         "question": "What is the use of useReducer Hook",
         "answer": "useReducer is an alternative to the useState Hook ,it helps users manage complex state logic. When combined with other hooks such as useContext it can be a good alternative to Redux.",
         "tag": "react"
-    }
+    },
+    {
+        "question": "What is a Higher-Order Component in React?",
+        "answer": "A Higher-Order Component is a function that takes a component as an argument and returns a new component. It is used to share common functionality between components and reduce code duplication.",
+        "tag": "react"
+      },
+      {
+        "question": "What is Context in React?",
+        "answer": "Context is a feature in React that allows you to share data between components without having to pass it down through props. It is useful for sharing global data such as user preferences or theme settings.",
+        "tag": "react"
+      },
+      {
+        "question": "What is the purpose of the ReactDOM library in React?",
+        "answer": "ReactDOM is a library that provides methods for rendering React components to the DOM. It is used to manipulate the actual DOM based on the virtual DOM updates made by React components.",
+        "tag": "react"
+      },
+      {
+        "question": "What is the difference between shallow rendering and full rendering in React?",
+        "answer": "Shallow rendering in React only renders the current component and does not render its child components. Full rendering, on the other hand, renders the entire component tree including all child components.",
+        "tag": "react"
+      },
+      {
+        "question": "What is the significance of the constructor method in React components?",
+        "answer": "The constructor method is used to initialize the state of a component and bind methods to the component instance. It is called before the component is mounted and is used to set up the initial state and other variables.",
+        "tag": "react"
+      },
+      {
+        "question": "What is the significance of the render() method in React components?",
+        "answer": "The render() method is the only required method in a React component. It is responsible for rendering the component to the DOM based on the current state and props of the component.",
+        "tag": "react"
+      },
+      {
+        "question": "What is the significance of the setState() method in React?",
+        "answer": "The setState() method is used to update the state of a component and trigger a re-render of the component. It takes an object as an argument and merges it with the current state of the component.",
+        "tag": "react"
+      },
+      {
+        "question": "What is the significance of the props.children property in React?",
+        "answer": "The props.children property in React represents the content between the opening and closing tags of a component. It allows you to pass arbitrary content to a component as children.",
+        "tag": "react"
+      },
+      {
+        "question": "What is React.memo() and how is it used?",
+        "answer": "React.memo() is a higher-order component in React that memoizes the result of a component function. It is used to optimize the performance of functional components by preventing unnecessary re-renders when the props of the component have not changed.",
+        "tag": "react"
+      },
+      {
+        "question": "What is the useReducer hook in React and how is it used?",
+        "answer": "The useReducer hook is a state management hook in React that allows you to manage state using a reducer function. It is used to handle complex state logic and allows you to update state in a predictable and immutable way.",
+        "tag": "react"
+      }
 ]
