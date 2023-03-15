@@ -35,9 +35,11 @@ const Documents = () => {
         <div className='h-[86vh]overflow-y-hidden font-[inter] backdrop-blur-[10px]'>
             <div className='flex flex-col md:flex-row'>
                 <div className='w-full  md:w-1/4 p-3 px-5 bg-[#F5F7F9]'>
-                    <div className='flex justify-between items-center text-[#242A31]'>
-                        <h1 className='text-2xl font-bold mt-3'>Documents</h1>
-                        <button onClick={() => setMenu(!menu)} className={`text-2xl font-bold transition-all ease-linear duration-300 ${!menuOpen ? "hidden" : ""}`}>{menu ? <i className="fas fa-chevron-right"></i> : <i className="fas fa-chevron-left"></i>}</button>
+                    <div className='flex justify-between cursor-pointer md:cursor-auto items-center text-[#242A31]'
+                        onClick={() => { width < 768 ? setMenu(!menu) : setMenu(menu) }}
+                    >
+                        <h1 className='text-2xl font-bold mt-3 select-none'>Documents</h1>
+                        <button className={`text-2xl font-bold transition-all ease-linear duration-300 ${!menuOpen ? "hidden" : ""}`}>{menu ? <i className="fas fa-chevron-right"></i> : <i className="fas fa-chevron-left"></i>}</button>
                     </div>
                     <div className={`h-auto md:h-[75vh] pb-5 mt-5 text-md font-semibold text-[#242A31] flex flex-col overflow-x-hidden gap-10 overflow-y-scroll ${menu ? "hidden" : ""}`}>
                         <FrontendInterview
@@ -64,7 +66,7 @@ const Documents = () => {
                 </div>
                 <div className='w-full h-[100vh] md:w-3/4 py-5 px-10 bg-white backdrop-blur-[10px] overflow-y-scroll'>
                     {
-                        !content ? <DocumentInterface/> :
+                        !content ? <DocumentInterface /> :
                             <Questions content={content} />
                     }
                 </div>
