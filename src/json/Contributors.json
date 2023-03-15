@@ -1,6 +1,12 @@
 {
   "profiles": [
     {
+      "name":"Raushan",
+      "avatarUrl":"https://avatars.githubusercontent.com/u/100012376?s=400&v=4",
+      "github":"devraushan",
+      "twitter":"the_rock_rausan"
+    },
+    {
       "name": "DevvSakib",
       "avatarUrl": "https://avatars.githubusercontent.com/u/88339569?v=4",
       "github": "devvsakib",
