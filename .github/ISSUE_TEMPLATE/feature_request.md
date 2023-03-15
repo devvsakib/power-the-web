@@ -19,6 +19,6 @@ A clear and concise description of any alternative solutions or features you've 
 <!-- Do not delete this -->
 **IMPORTANT**
 If it's your first Contribution to this project, please add your details to the Contributors file
-File Path: `src/json/Contributors.json`
+File Path: `src/json/Contributors.json` and you have to **MUST** read the contributing guideline before you start. [Here](https://github.com/devvsakib/power-the-web/blob/main/CONTRIBUTING.md)
 
 > If you do not add your details, your PR will be Close
