@@ -64,6 +64,8 @@ git push origin branch-name
 > Make Pull Request from Github Repository
 ** Star the repository. **
 
+### Guidelines
+ We are getting PR from others who are not assigned to the issue. so, you can't make any PR if someone has already been assigned to a specific issue. If you make PR, your PR will be closed.
 ### Adding Projects
 If you want to add your project in repository, you are welcome. Please add your project in "PROJECTS" folder and make sure to name your folder as your project.
 <br>
