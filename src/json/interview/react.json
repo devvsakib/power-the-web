@@ -183,6 +183,6 @@
         "question": "How do you handle passing through the component tree without having to pass props down manually at every level?",
         "answer": "React Context",
         "tag": "react"
-      },
+      }
         
 ]
