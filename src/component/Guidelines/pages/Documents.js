@@ -7,7 +7,7 @@ import Questions from '../Data/Questions';
 import useWindow from '../../hooks/useWindow';
 import { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-
+import DocumentInterface from "./DocumentInterface"
 
 const Documents = () => {
     const { page } = useParams();
@@ -64,7 +64,7 @@ const Documents = () => {
                 </div>
                 <div className='w-full h-[100vh] md:w-3/4 py-5 px-10 bg-white backdrop-blur-[10px] overflow-y-scroll'>
                     {
-                        !content ? <h1 className='text-2xl font-bold'>Select a Document To Get start</h1> :
+                        !content ? <DocumentInterface/> :
                             <Questions content={content} />
                     }
                 </div>
