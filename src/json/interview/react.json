@@ -168,5 +168,21 @@
         "question": "What is the useReducer hook in React and how is it used?",
         "answer": "The useReducer hook is a state management hook in React that allows you to manage state using a reducer function. It is used to handle complex state logic and allows you to update state in a predictable and immutable way.",
         "tag": "react"
+      },
+      {
+       "question": "What is the testing library most often associated with React?",
+       "answer": "Jest",
+       "tag": "react"
+      },
+      {
+        "question": "What is the right syntax to import a Component from the React library",
+        "answer": "import { Component } from 'react'",
+        "tag": "react"
+      },
+      {
+        "question": "How do you handle passing through the component tree without having to pass props down manually at every level?",
+        "answer": "React Context",
+        "tag": "react"
       }
+        
 ]
