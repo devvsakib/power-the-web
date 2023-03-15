@@ -4,7 +4,7 @@ const DocumentInterface = () => {
     return (
         <div>
             <div>
-                <img src='/images/PowerTheWebDocumentPageBanner.png' srcSet='/images/PowerTheWebDocumentPageBanner.png' alt='PowerTheWeb Document Page Banner'/>
+                <img className='skeleton' src='/images/PowerTheWebDocumentPageBanner.png' srcSet='/images/PowerTheWebDocumentPageBanner.png' alt='PowerTheWeb Document Page Banner'/>
             </div>
         </div>
     )
