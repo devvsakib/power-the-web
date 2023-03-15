@@ -8,5 +8,10 @@
         "question": "How TypeScript is different from JavaScript?",
         "answer": "TypeScript is different from JavaScript because it has a static type system, which helps prevent runtime errors and makes code more maintainable. It also supports interfaces, classes, and other features that JavaScript does not.",
         "tag": "typescript"
+    },
+    {
+        "question":"Give some description about 'any' type.",
+        "answer":"'Any' is a type which is used in case when we are not sure about which type of value is going to be stored in a particular variable as happens while getting values from any outside source like input by user, response of any API or also sometimes any requires when we collect information from a code which is not typesafe. 'any' type tells the compiler that any type of value can be assigned to that particular variable.",
+        "tag":"typescript"
     }
 ]
