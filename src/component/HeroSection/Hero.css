@@ -58,7 +58,8 @@ body {
 
 
 .ptw-text-animation {
-    background: linear-gradient(90deg, #da35c4, #03b7ff, #f7cc0e);
+    /* background: linear-gradient(90deg, #da35c4, #03b7ff, #f7cc0e); */
+    background-color: black;
     background-size: 1000px 50px;
     background-clip: text;
     -webkit-background-clip: text;

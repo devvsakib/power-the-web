@@ -2,22 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 html {
-  background: #521fa5;
+  /* background: #521fa5; */
 }
 body {
   font-family: "Dosis";
 
-  background: #09465e;
+  /* background: #09465e; */
   /* fallback for old browsers */
-  background: -webkit-linear-gradient(13deg,
+  /* background: -webkit-linear-gradient(13deg,
       #521fa5,
       #b700ffb9 30%,
-      rgba(181, 10, 248, 0.4) 100%);
+      rgba(181, 10, 248, 0.4) 100%); */
   /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(90deg,
+  /* background: linear-gradient(90deg,
       rgb(15, 28, 128, .3) 0%,
-      rgba(181, 10, 248, 0.4) 100%);
+      rgba(181, 10, 248, 0.4) 100%); */
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-color: #f0efef;
   background-position: center center;
   background-repeat: no-repeat;
 }
