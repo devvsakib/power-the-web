@@ -817,5 +817,16 @@
     "question": "What is the difference between client-side and server-side routing in Next.js?",
     "answer": "Client-side routing is the process of changing the URL and updating the page content on the client-side without making a new request to the server. Server-side routing, on the other hand, involves making a new request to the server for each new page or route in your application. Next.js supports both client-side and server-side routing, and you can configure your application to use one or the other depending on your needs.",
     "tag": "next.js"
+  },
+
+  {
+    "question":"How does the virtual Dom in React.js work?"  ,
+    "answer": "React uses a virtual DOM (Document Object Model) to optimize updates and rendering.The virtual DOM is a lightweight in-memory representation of the actual DOM. When the state of a component changes, React compares the virtual DOM with the actual DOM and only makes changes to the actual DOM where necessary, which is much more efficient than re- rendering the entire page."  ,
+    "tag":"react"
+  },
+  {
+    "question":"What is the component lifecycle in React.js?",
+    "answer":"The component lifecycle in React.js refers to the different stages a component goes through, from its creation to its destruction.The main lifecycle methods include:1. componentDidMount: executed after the first render 2. componentDidUpdate: executed after each update.3. componentWillUnmount: executed before the component is removed from the DOM.",
+    "tag":"react"
   }
 ]
