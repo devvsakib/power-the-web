@@ -127,6 +127,12 @@
       "twitter": "PragyaSapkota15"
     },
     {
+      "name": "Eslem",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/65737942?v=4",
+      "github": "EslemOuederni",
+      "twitter": "EslemOuederni"
+    },
+    {
       "name": "Andrei Pascuta",
       "avatarUrl": "https://avatars.githubusercontent.com/u/7703903?v=4",
       "github": "RXBlade",
@@ -291,7 +297,7 @@
     {
       "name": "Subham2409",
       "avatarUrl": "https://avatars.githubusercontent.com/u/97209802?v=4",
-      "github": "abhi87374",
+      "github": "Subham2409",
       "twitter": ""
     },
     {
@@ -403,11 +409,11 @@
       "twitter": ""
     },
     {
-      "name":"Rahul Maity",
-      "avatarUrl":"https://avatars.githubusercontent.com/u/113348978?v=4",
-      "github":"Rahul-Maity",
-      "twitter":"mrahulmaity623"
-    }, 
+      "name": "Rahul Maity",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/113348978?v=4",
+      "github": "Rahul-Maity",
+      "twitter": "mrahulmaity623"
+    },
     {
       "name": "Sudeep Mahato",
       "avatarUrl": "https://avatars.githubusercontent.com/u/122378993?v=4",
@@ -427,21 +433,76 @@
       "twitter": ""
     },
     {
-      "name":"Raushan",
-      "avatarUrl":"https://avatars.githubusercontent.com/u/100012376?s=400&v=4",
-      "github":"devraushan",
-      "twitter":"the_rock_rausan"
+      "name": "Raushan",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/100012376?s=400&v=4",
+      "github": "devraushan",
+      "twitter": "the_rock_rausan"
     },
     {
-    "name":"Gregory Navasarkian",
-      "avatarUrl":"https://avatars.githubusercontent.com/u/111259248?v=4",
-      "github":"gregorynavasarkian",
-      "twitter":""
-},{
-      "name": "Harsh Sharma",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/69196581?v=4",
-      "github": "devharsh007",
-      "twitter": "Harshsh81867967"
+      "name": "Anoosh Mr",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/86554677?v=4",
+      "github": "Anoosh-MR",
+      "twitter": "Anoosh_Mr"
+    },
+    {
+      "name": "Manav Malhotra",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/64147782?v=4",
+      "github": "ManavMalhotra",
+      "twitter": "imanavmalhotra"
+    },
+    {
+      "name": "Pritesh Kiri",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/77957844?v=4",
+      "github": "PriteshKiri",
+      "twitter": "PriteshKiri"
+    },
+    {
+      "name": "SRIRAJIV RANJAN",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/76935061?v=4",
+      "github": "Rajiv7479",
+      "twitter": ""
+    },
+    {
+      "name": "Protob",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/24397445?v=4",
+      "github": "protob",
+      "twitter": ""
+    },
+    {
+      "name": "Uriel",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/83469583?v=4",
+      "github": "JustAsteri",
+      "twitter": ""
+    },
+    {
+      "name": "Dipankur",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/103897344?v=4",
+      "github": "dipankurverma",
+      "twitter": ""
+    },
+    {
+      "name": "Akbar Ahmed",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/70852077?v=4",
+      "github": "Akbar-Ahmed",
+      "twitter": ""
+    },
+    {
+      "name": "ubaid9890",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/116611703?v=4",
+      "github": "ubaid9890",
+      "twitter": ""
+    },
+    {
+      "name": "HarshAggarwal1",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/116611703?v=4",
+      "github": "HarshAggarwal1",
+      "twitter": ""
+    },
+    {
+      "name": "angelmr",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/16781447?v=4",
+      "github": "Angel-M-R",
+      "twitter": ""
     }
   ]
 }
