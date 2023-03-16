@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  background: #000106 url('bg-berlin.jpg') fixed;
+  display: block;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+background-position: top center;
+min-height: 100vh;
+margin: 0;
+padding:0;
+}
+
+img {
+  border: none;
+  outline: none;
+}
+
+
+.wrap-box {
+  padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather-box {
+  margin: 5% auto;
+        padding: 100px;
+        background-color: rgba(255,255,255,.1);
+        box-shadow: 0 0 10px rgba(0,0,0,.2);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-size: 1.2em;
+        color: #fff;
+        border-radius: 8px;
+}
+
+.daylight {
+  /* background-image: url('sun.svg'); */
+  background-size: 80px;
+  background-repeat:no-repeat;
+  width: 80px;
+  height: 80px;
+  display: block;
+  margin: 0 auto;
+  filter:invert();
+}
+
+.nightime {
+  /* background: transparent url('moon.svg'); */
+  background-size: 80px;
+  background-repeat:no-repeat;
+  width: 80px;
+  height: 80px;
+  display: block;
+  margin: 0 auto;
+  filter:invert(.5);
+}
+
+.weather-icon {
+  border: none;
+  outline: none;
+  background-size: 80px;
+  background-repeat:no-repeat;
+  width: 80px;
+  height: 80px;
+  display: block;
+  margin: 0 auto;
+  filter: brightness(0) invert(1);
+}
+
+.header {
+  font-size: 1.4em;
+ display: block;
+}
+
+.date {
+  font-size: .9em;
+  color: #eee;
+}
+
+.temp {
+  font-size: 1em;
+  font-family: inherit;
+}
+
+@media screen and (max-width: 600px) {
+  .weather-box  {
+    padding: 50px;
+    font-size: 100%;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .weather-box  {
+    padding: 100px;
+  }
+}
