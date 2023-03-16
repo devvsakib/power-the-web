@@ -1,7 +1,7 @@
 ---
 name: Bug report
 about: Create a report to help us improve
-title: ''
+title: "[BUG]: "
 labels: ''
 assignees: ''
 
@@ -37,6 +37,14 @@ If applicable, add screenshots to help explain your problem.
 **Additional context**
 Add any other context about the problem here.
 
+
+## Checklist
+
+- [ ] I have read and followed the project's contributing guidelines
+- [ ] I have checked that this issue is not a duplicate of an existing issue
+- [ ] I have tested the bug in the latest version of the project
+- [ ] I have included all relevant information and examples in this issue description
+- [ ] I am available to collaborate on this issue and address any feedback from maintainers or other contributors
 
 <!-- Do not delete this -->
 **IMPORTANT**
