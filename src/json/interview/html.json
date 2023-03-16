@@ -173,5 +173,16 @@
         "question": "What is the purpose of the href attribute in the <a> tag?",
         "answer": "The href attribute is used to specify the URL or web address of the page or resource that the <a> tag links to. It is required for the <a> tag to function as a hyperlink.",
         "tag": "html"
+    },
+    {
+        "question":" Are the HTML tags and elements the same thing?",
+        "answer": "No. HTML elements are defined by a starting tag, may contain some content and a closing tag.For example, <h1>Heading 1</h1> is a HTML element but just <h1> is a starting tag and </h1> is a closing tag. " ,
+        "tag":"html"
+    },
+    {
+        "question":"What are void elements in HTML?",
+        "answer":"HTML elements which do not have closing tags or do not need to be closed are Void elements. For Example <br />, <img />, <hr />, etc.",
+        "tag":"html"
+
     }
 ]
