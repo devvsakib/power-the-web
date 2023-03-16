@@ -8,7 +8,7 @@ PowerTheWeb is an open-source project to help web developers make their road eas
 </div>
 
 
-### How to Contribute to this repository
+### How to Contribute to this project
 
 1. Fork the repository first (Click the Fork button in the top right of this page,
    click your Profile Image)
