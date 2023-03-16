@@ -8,11 +8,6 @@ PowerTheWeb is an open-source project to help web developers make their road eas
 </div>
 
 
-## Don't Forget to JOIN OUR COMMUNITY
-Join our community and ask anything. If you run into a problem please let us know.
-DISCORD - [JOIN](https://discord.gg/6XRTeHRxWV)
-
-
 ### How to Contribute to this repository
 
 1. Fork the repository first (Click the Fork button in the top right of this page,
