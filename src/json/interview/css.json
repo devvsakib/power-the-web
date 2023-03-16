@@ -128,5 +128,15 @@
         "question": "What is the difference between the display: block and display: inline-block properties in CSS?",
         "answer": "The display: block property makes an element a block-level element, which means it takes up the full width of its parent container and creates a new line after it. The display: inline-block property makes an element an inline-level block element, which means it takes up only as much width as necessary and does not create a new line after it. It allows other inline-level elements to be displayed on the same line next to it.",
         "tag": "css"
+    },
+    {
+        "question":"what are the limitations of css?",
+        "answer":"1.Browser Compatibility: Some style selectors are supported and some are not. We have to determine which style is supported or not using the @support selector. 2.Cross Browser issue: Some selectors behave differently in a different browser.  3.There is no parent selector: Currently, Using CSS, you can’t select a parent tag.",
+        "tag":"css"
+    },
+    {
+        "question":"what is the grid system?",
+        "answer":"CSS Grid Layout is the most powerful layout system available in CSS. It is said to be a 2-dimensional system, meaning it can handle both columns and rows, unlike flexbox which is largely a 1-dimensional system.",
+        "tag":"css"
     }
 ]
