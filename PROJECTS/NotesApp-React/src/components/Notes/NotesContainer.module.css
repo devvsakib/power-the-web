@@ -1,0 +1,10 @@
+.notes__container {
+  position: relative;
+  max-width: 375px;
+  background-color: white;
+  margin: 0px auto;
+  margin-top: 100px;
+  padding-bottom: 86px;
+  padding-top: 16px;
+  border-radius: 15px;
+}
