@@ -1,0 +1,164 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+
+.App {
+  text-align: center;
+}
+body {
+  background-color: aquamarine;
+}
+.notes__title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  text-align: left;
+  padding-left: 32px;
+}
+.findNoteForm {
+  max-width: 311px;
+  height: 32px;
+  margin: 0px auto;
+  margin-top: 32px;
+  padding: 0 5px;
+}
+.findNoteInput {
+  width: 100%;
+  height: 100%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+  background: #e5e5e5;
+  border-radius: 12px;
+  border: none;
+  padding-left: 16px;
+}
+.findNoteInput::placeholder {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+}
+
+/* Styles for notes */
+.notes {
+  max-width: 311px;
+  display: flex;
+  flex-direction: column;
+  margin: 0px auto;
+  gap: 16px;
+  max-height: 400px;
+  overflow: scroll;
+  margin-top: 32px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.note {
+  max-width: 311px;
+  height: 77px;
+  background: #e5e5e5;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  cursor: pointer;
+  margin: 0px 5px;
+}
+.note__name {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
+  padding-left: 41px;
+  padding-right: 172px;
+}
+.note__date {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+  padding-left: 41px;
+  padding-right: 172px;
+  margin-top: -5px;
+}
+
+.btn {
+  position: absolute;
+  bottom: 60px;
+  right: 32px;
+  width: 48px;
+  height: 48px;
+  border: none;
+  border-radius: 50%;
+  background: #c4c4c4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*==========================================================*/
+.AddContainer {
+  position: relative;
+  max-width: 375px;
+  background-color: white;
+  margin: 0px auto;
+  margin-top: 100px;
+  padding-bottom: 86px;
+  padding-top: 16px;
+  border-radius: 15px;
+}
+.AddNote {
+  margin: 0px auto;
+  margin-top: 39px;
+  display: flex;
+  gap: 32px;
+  flex-direction: column;
+  max-width: 311px;
+}
+.AddNote__Input {
+  height: 100px;
+  border: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+.AddNote__textarea {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  resize: none;
+  width: 100%;
+  height: 350px;
+  border: none;
+}
+.AddContainer__header {
+  display: flex;
+  align-items: center;
+  max-width: 311px;
+  margin: 0px auto;
+}
+.AddContainer__title {
+  margin-left: 100px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
