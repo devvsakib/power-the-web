@@ -258,5 +258,10 @@
         "question": "What are the main differences between ES6 and older versions of JavaScript?",
         "answer": "ES6 introduced many new features and improvements, including: block scoping with let and const, template literals for easier string concatenation, arrow functions for concise function syntax, destructuring for easier extraction of values from arrays and objects, among many other changes!",
         "tag": "javascript"
+    },
+    {
+        "question": "How does JavaScript differ from Java?",
+        "answer": "Despite sharing a similar name, Java and JavaScript are distinct programming languages. Java is a compiled, statically typed programming language commonly used for building desktop and server-side applications, whereas JavaScript is an interpreted, dynamically typed language primarily used for client-side web development.",
+        "tag": "javascript"
     }
 ]
