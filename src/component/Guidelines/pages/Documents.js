@@ -47,11 +47,11 @@ const Documents = () => {
                     }
                 </button>
                 <div className={`w-full  md:w-1/4 p-3 px-5 ${theme ? "bg-[#F5F7F9] text-black" : "bg-[#242A31] text-white"}]`}>
-                    <div className='flex justify-between cursor-pointer md:cursor-auto items-center'
+                    <div className='flex gap-4 cursor-pointer md:cursor-auto items-center'
                         onClick={() => { width < 768 ? setMenu(!menu) : setMenu(menu) }}
                     >
-                        <h1 className={`text-2xl font-bold mt-3 select-none ${theme ? "text-black" : 'text-white'}`}>Documents</h1>
-                        <button className={`text-2xl font-bold transition-all ease-linear duration-300 ${!menuOpen ? "hidden" : ""}`}>{menu ? <i className="fas fa-chevron-right"></i> : <i className="fas fa-chevron-left"></i>}</button>
+                        <h1 className={`text-2xl font-bold select-none ${theme ? "text-black" : 'text-white'}`}>Documents</h1>
+                        <button className={`${theme ? "text-black" : 'text-white'} text-2xl font-bold transition-all ease-linear duration-300 ${!menuOpen ? "hidden" : ""}`}>{menu ? <i className="fas fa-chevron-right"></i> : <i className="fas fa-chevron-down"></i>}</button>
                     </div>
                     <div className={`h-auto md:h-[75vh] pb-5 mt-5 text-md font-semibold  flex flex-col overflow-x-hidden gap-10 overflow-y-scroll ${menu ? "hidden" : ""} ${theme ? "text-black" : 'text-white'}`}>
                         <FrontendInterview
@@ -65,21 +65,21 @@ const Documents = () => {
                             setMenu={setMenu}
                             menu={menu}
                             theme={theme}
-                            
+
                         />
                         <BackendRoadmap
                             setContent={setContent}
                             setMenu={setMenu}
                             menu={menu}
                             theme={theme}
-                            
+
                         />
                         <FullStackRoadmap
                             setContent={setContent}
                             setMenu={setMenu}
                             menu={menu}
                             theme={theme}
-                            
+
                         />
                     </div>
                 </div>
