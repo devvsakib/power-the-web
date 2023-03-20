@@ -40,17 +40,17 @@ git checkout -b <name of the branch>
 ```
 - Make the changes
 
-> Add all files 
+> Add all files
 ```markdown
-git add . 
+git add .
 ```
 > Commit the changes
 ```markdown
-git commit -m "Write Your commit Message" 
+git commit -m "Write Your commit Message"
 ```
 > Push the branch
 ```markdown
-git push 
+git push
 ```
 OR
 ```markdown
@@ -75,6 +75,7 @@ So, people will know what project it is. Make sure you added your github name an
 - Make Sure you commit your changes in a new branch.
 - Make Sure you Give proper name to your files describing the addition.
 - Also Make Sure you comment your code wherever necessary.
+- Make sure the eslint `Compiled successfully!` doesn't show you a warning.
 
 
 ## REPO STATUS
@@ -116,4 +117,4 @@ Add your details in `src/json/Contributors.json` file
 Show some ❤️ by starring this awesome repository!
 </div>
 
-LinkedIn Page -> [Visit🧩](https://www.linkedin.com/company/powertheweb) 
+LinkedIn Page -> [Visit🧩](https://www.linkedin.com/company/powertheweb)
