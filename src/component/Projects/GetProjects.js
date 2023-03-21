@@ -18,7 +18,7 @@ function GetProjects() {
     }
     useEffect(() => {
         getProjects();
-    }, [projects.length])
+    }, [projects.length]) 
 
     if (isError) {
         return <Error
