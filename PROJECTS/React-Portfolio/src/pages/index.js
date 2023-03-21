@@ -7,6 +7,17 @@ import Image from 'next/legacy/image';
 import devimg from './../../public/assets/devimg.png'
 import { useState } from 'react';
 import flip1 from './../../public/ecommerce/flip1.png';
+import flip2 from './../../public/ecommerce/flip2.png';
+import flip3 from './../../public/ecommerce/realestate.jpg';
+import flip4 from './../../public/ecommerce/work.jpeg';
+
+
+import web1 from './../../public/ecommerce/web1.png';
+import web2 from './../../public/ecommerce/web2.png';
+import web3 from './../../public/ecommerce/web3.png';
+import web4 from './../../public/ecommerce/web4.png';
+import web5 from './../../public/ecommerce/web5.png';
+import web6 from './../../public/ecommerce/web6.png';
 
 
 
@@ -86,15 +97,21 @@ export default function Home() {
 
           <div className='grid grid-cols-1 gap-8 md:grid-cols-3 md:justify-items-center'>
 
-            <div className='w-full h-64 bg-teal-200 flex flex-col justify-center items-center rounded-2xl md:w-10/12'>
-              <div></div>
+            <div className='w-full h-full bg-teal-200 flex flex-col justify-start items-center rounded-2xl md:w-10/12'>
+              <div>
+              <Image 
+                  src={web4}
+                  className='blur-[0.03rem] hover:blur-none rounded-t-2xl z-10'
+                  objectFit='cover'
+                />
+              </div>
               <span className='text-2xl text-gray-800 font-semibold md:text-2xl'>Portfolio Project</span>
             </div>
 
-            <div className='w-full h-64 bg-teal-200 flex flex-col justify-center items-center rounded-2xl md:w-10/12 relative'>
+            <div className='w-full h-full bg-teal-200 flex flex-col justify-start items-center rounded-2xl md:w-10/12 relative'>
               <div>
                 <Image 
-                  src={flip1}
+                  src={web5}
                   className='blur-[0.03rem] hover:blur-none rounded-t-2xl'
                   // layout='fill'
                   objectFit='cover'
@@ -103,25 +120,50 @@ export default function Home() {
               <span className='text-2xl text-black font-semibold md:text-2xl'>e-Commerce Project</span>
             </div>
 
-            <div className='w-full h-64 bg-teal-200 flex flex-col justify-center items-center rounded-2xl md:w-10/12'>
-              <div></div>
+            <div className='w-full h-full bg-teal-200 flex flex-col justify-start items-center rounded-2xl md:w-10/12'>
+              <div>
+                <Image 
+                  src={web6}
+                  className='blur-[0.03rem] hover:blur-none rounded-t-2xl'
+                  // layout='fill'
+                  objectFit='cover'
+                />
+              </div>
               <span className='text-2xl text-gray-800 font-semibold md:text-2xl'>Personal Landing Page</span>
             </div>
 
-            <div className='w-full h-64 bg-teal-200 flex flex-col justify-center items-center rounded-2xl md:w-10/12'>
-              <div></div>
+            <div className='w-full h-full bg-teal-200 flex flex-col justify-start items-center rounded-2xl md:w-10/12'>
+              <div>
+              <Image 
+                  src={web1}
+                  className='blur-[0.03rem] hover:blur-none rounded-t-2xl z-10'
+                  objectFit='contain'
+                />
+              </div>
               <span className='text-2xl text-gray-800 font-semibold md:text-2xl'>To-Do App</span>
             </div>
 
             
-            <div className='w-full h-64 bg-teal-200 flex flex-col justify-center items-center rounded-2xl md:w-10/12'>
-              <div></div>
+            <div className='w-full h-full bg-teal-200 flex flex-col justify-start items-center rounded-2xl md:w-10/12'>
+              <div>
+              <Image 
+                  src={web2}
+                  className='blur-[0.03rem] hover:blur-none rounded-t-2xl z-10'
+                  objectFit='cover'
+                />
+              </div>
               <span className='text-2xl text-gray-800 font-semibold md:text-2xl'>To-Do App</span>
             </div>
 
 
-            <div className='w-full h-64 bg-teal-200 flex flex-col justify-center items-center rounded-2xl md:w-10/12'>
-              <div></div>
+            <div className='w-full h-full bg-teal-200 flex flex-col justify-start items-center rounded-2xl md:w-10/12'>
+              <div>
+              <Image 
+                  src={web3}
+                  className='blur-[0.03rem] hover:blur-none rounded-t-2xl z-10'
+                  objectFit='cover'
+                />
+              </div>
               <span className='text-2xl text-gray-800 font-semibold md:text-2xl'>To-Do App</span>
             </div>
 
