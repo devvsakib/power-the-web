@@ -1,11 +1,19 @@
 {
   "profiles": [
      {
+      "name": "Oluwatimilehin",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/107879861?v=4",
+      "github": "therealtmmy",
+      "twitter": "therealtmmy"
+    },
+
+     {
       "name": "DevvSakib",
       "avatarUrl": "https://avatars.githubusercontent.com/u/88339569?v=4",
       "github": "devvsakib",
       "twitter": "devvsakib"
     },
+    
     {
       "name": "Uday Kahar",
       "avatarUrl": "https://avatars.githubusercontent.com/u/81680319?v=4",
