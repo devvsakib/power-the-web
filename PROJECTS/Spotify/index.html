@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-Your favourite music is here.</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav> 
+        <ul>
+            <li class="brand"> <img src="logo.png" alt="spotify"> Spotify  </li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">        
+        <!-- on the left -->
+        <div class="songlist">
+            <h1>Best of NCS-no copyrights sounds</h1>
+
+            <div class="songitemcontainer">
+                <div class="songitem">
+                    <img src="bg.jpeg" alt="1">
+                    <span class="songname">Let me love you</span>
+                    <span class="songlistplay"> <span class="timestamp">05:34 <i id="0" class="far songitemplay fa-2x fa-play-circle"></i> </span>  </span>
+                </div>
+                <div class="songitem">
+                    <img src="bg.jpeg" alt="1">
+                    <span class="songname">Let me love you</span>
+                    <span class="songlistplay"> <span class="timestamp">05:34 <i id="1" class="far songitemplay fa-2x fa-play-circle"></i> </span>  </span>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- on the right -->
+        <div class="songbanner">
+        </div>
+    </div>
+
+    <!-- audio progressive bar at the bottom of the page. -->
+    <div class="bottom">
+        <input type="range" name="range" id="myprogressbar" value="0" min="0" max="100">
+        <div class="icons">
+            <!-- fontawesome icons -->
+            <i class="fas fa-3x fa-fast-backward" id="previous"></i>
+            <i class="far fa-3x fa-play-circle" id="masterplay"></i>
+            <i class="fas fa-3x fa-fast-forward" id="next"></i>
+        </div>
+
+        <div class="songinfo">
+            <img src="YdBO.gif" width="38px" alt="" id="gif">Your Song-> <span id="mastersongname"></span>
+
+        </div>
+
+    </div>
+
+    <script src="https://kit.fontawesome.com/5ae3828c41.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>

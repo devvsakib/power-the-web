@@ -180,6 +180,31 @@
         "tag": "react"
       },
       {
+        "question": "What are components in react?",
+        "answer": "Building blocks of the user interface. Each compoenent exist in the same space but works independently of each other. All of the components are rendered to the DOM. All of the components are reusable.",
+        "tag": "react"
+      },
+      {
+        "question": "Types of components in react?",
+        "answer": "Similiar in look, different in data, Container component, Stateless component, Stateful component, Presentational component",
+        "tag": "react"
+      },
+      {
+        "question": "Advantages of components in react?",
+        "answer": "Code readability, Faster development, Reusability, Testability, Maintainability",
+        "tag": "react"
+      },
+      {
+        "question": "What are single page applications?",
+        "answer": "Only one web page, and each time something happens, only part of the is reloaded while the rest of the HTML remains unchanged. All UI interactions are handled by JavaScript. Give the users the illusion that they are accessing different pages.",
+        "tag": "react"
+      },
+      {
+        "question": "What is the best between MPA and SPA?",
+        "answer": "SPA is better for the user experience, but MPA is better for SEO.",
+        "tag": "react"
+      },
+      {
         "question": "How do you handle passing through the component tree without having to pass props down manually at every level?",
         "answer": "React Context",
         "tag": "react"
