@@ -53,7 +53,7 @@ function GetProjects() {
                         <h2 className='text-center text-2xl font-semibold text-white'>Loading...</h2>
                     </div>
                     ) : (
-                        <div className='projects-container place-items-center p-4 h-[100vh]'>
+                        <div className='projects-container place-items-center p-4'>
                             <ul className='grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3 xl:grid-cols-4 items-center'>
                                 {
                                     filteredProjects.length === 0 ? <h2 className='text-center text-2xl font-semibold text-white'>No project found</h2> : filteredProjects.map((item, index) => (
