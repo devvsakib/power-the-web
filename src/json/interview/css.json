@@ -138,5 +138,30 @@
         "question":"what is the grid system?",
         "answer":"CSS Grid Layout is the most powerful layout system available in CSS. It is said to be a 2-dimensional system, meaning it can handle both columns and rows, unlike flexbox which is largely a 1-dimensional system.",
         "tag":"css"
+    },
+    {
+        "question":"What is the difference between the display: none and visibility: hidden properties in CSS?",
+        "answer":"display:none removes an element from the flow of the page, while visibility:hidden hides an element while still taking up space on the page.",
+        "tag":"css"
+    },
+    {
+        "question":"How can you center an element horizontally and vertically in CSS?",
+        "answer":"To center an element horizontally in CSS, use text-align:center and to center vertically, use display:flex; justify-content:center; align-items:center; or position:absolute; top:0; bottom:0; left:0; right:0; margin:auto;",
+        "tag":"css"
+    },
+    {
+        "question":"What is the box-sizing property in CSS, and how does it work?",
+        "answer":"The box-sizing property in CSS determines how an element's width and height are calculated, and border-box calculates the width and height based on content, padding, and border, but not margin.",
+        "tag":"css"
+    },
+    {
+        "question":"What is the difference between position: absolute and position: relative in CSS?",
+        "answer":"Position: absolute positions an element relative to its closest positioned ancestor, while position: relative positions an element relative to its normal position on the page.",
+        "tag":"css"
+    },
+    {
+        "question":"What is the box model in CSS, and how does it work?",
+        "answer":"The box model is a fundamental concept in CSS that describes how elements are rendered on a web page by consisting of content, padding, border, and margin layers.",
+        "tag":"css"
     }
 ]
