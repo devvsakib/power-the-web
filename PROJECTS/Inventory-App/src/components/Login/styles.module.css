@@ -1,0 +1,126 @@
+.login_container {
+	width: 100%;
+	min-height: 100vh;
+	background-color: #f0f0fa;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.login_form_container {
+	width: 900px;
+	min-height: 500px;
+	border-radius: 10px;
+	overflow: hidden;
+	display: flex;
+	border-radius: 10px;
+	box-shadow: 0px 3px 3px -2px rgb(0 0 0 / 20%),
+		0px 3px 4px 0px rgb(0 0 0 / 14%), 0px 1px 8px 0px rgb(0 0 0 / 12%);
+}
+
+.login_container .left {
+	flex: 2;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: white;
+}
+
+.login_container .form_container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.login_container .form_container h1 {
+	font-size: 25px;
+	align-self: center;
+}
+
+.login_container .input {
+	outline: none;
+	border: none;
+	width: 400px;
+	padding: 15px;
+	border-radius: 10px;
+	background-color: #f0f0fa;
+	border: 1px solid #cccceb;
+	margin: 5px 0;
+	font-size: 14px;
+	font-weight: 600;
+}
+.login_container .input::placeholder{
+	color: rgb(65, 65, 65);
+	font-weight: 400;
+}
+
+.login_container .error_msg {
+	width: 370px;
+	padding: 15px;
+	margin: 5px 0;
+	font-size: 14px;
+	background-color: #f34646;
+	font-weight: 700;
+	color: white;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.login_container .right {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: #4e54c8;
+}
+
+.login_container .right h1 {
+	color: white;
+	font-size: 30px;
+	margin: 10px;
+	align-self: center;
+}
+
+.login_container .white_btn,
+.login_container .green_btn {
+   border: none;
+   outline: none;
+   padding: 12px 0;
+   background-color: white;
+   border-radius: 20px;
+   width: 180px;
+   font-weight: bold;
+   font-size: 14px;
+   cursor: pointer;
+   transition: all 0.3s ease;
+}
+.login_container .green_btn:hover {
+   box-shadow: 0 2px 5px  rgb(109, 109, 109);
+   transform: scale(1.02);
+}
+
+.login_container .green_btn {
+   background-color: #4e54c8;
+   color: white;
+   margin: 10px;
+}
+
+.login_container .white_btn {
+   color: #4e54c8;
+}
+.login_container .white_btn:hover{
+   transform: scale(1.02);
+   color: #4e54c8;
+}
+
+@media only screen and (max-width: 800px) {
+	.login_form_container {
+		width: 90%;
+		flex-direction: column;
+	}
+	.login_container .input {
+		max-width: 100%;
+	}
+  }
