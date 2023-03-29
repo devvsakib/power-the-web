@@ -1,0 +1,295 @@
+.true {
+  display: flex;
+}
+
+.false {
+  display: none;
+}
+
+.card-body {
+  background-color: rgb(255, 255, 255);
+  flex-direction: column;
+  margin: 30px;
+  border-radius: 20px;
+  max-width: 27%;
+  position: relative;
+}
+.card-body .card-image img {
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+}
+.card-body .Upcoming {
+  color: rgb(0, 0, 0);
+  background-color: rgb(252, 241, 210);
+  font-size: 14px;
+  padding: 2px 14px;
+  margin: 30px auto;
+  justify-content: center;
+  display: flex;
+  border-radius: 10px;
+}
+.card-body .Active {
+  color: rgb(103, 167, 110);
+  background-color: rgb(210, 229, 212);
+  font-size: 14px;
+  padding: 2px 14px;
+  margin: 30px auto;
+  justify-content: center;
+  display: flex;
+  border-radius: 8px;
+}
+.card-body .Past {
+  color: rgb(140, 132, 129);
+  background-color: rgb(255, 222, 212);
+  font-size: 14px;
+  padding: 2px 14px;
+  margin: 30px auto;
+  justify-content: center;
+  display: flex;
+  border-radius: 10px;
+}
+.card-body .card-name {
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
+  width: 70%;
+  text-align: center;
+  margin: 0px auto;
+}
+.card-body .countdown {
+  margin: 30px auto;
+  color: rgb(103, 103, 103);
+  display: flex;
+  flex-direction: column;
+}
+.card-body .countdown .countdown-header {
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.card-body .countdown .countdown-timer {
+  color: #000;
+}
+.card-body .countdown .countdown-timer .active {
+  display: flex;
+}
+.card-body .countdown .countdown-timer .inactive {
+  display: none;
+}
+.card-body .countdown .countdown-timer .counter {
+  width: 100%;
+  justify-content: space-around;
+}
+.card-body .countdown .countdown-timer .counter .time {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5px 5px;
+}
+.card-body .countdown .countdown-timer .counter .time .time-value {
+  font-weight: 600;
+  color: rgb(69, 69, 69);
+  font-size: 20px;
+}
+.card-body .countdown .countdown-timer .counter .time .time-label {
+  color: rgb(79, 79, 79);
+  font-size: 10px;
+}
+.card-body .countdown .countdown-timer .counter .seperater {
+  font-weight: 600;
+  color: rgb(69, 69, 69);
+  font-size: 20px;
+  padding-top: 3px;
+}
+.card-body .countdown .countdown-timer .ended_on {
+  font-weight: 600;
+  color: rgb(70, 70, 70);
+  font-size: 21px;
+  padding-top: 9px;
+  margin-bottom: 16px;
+}
+.card-body .participate {
+  background-color: rgb(68, 146, 76);
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 55%;
+  text-decoration: none;
+  padding: 10px 10px;
+  margin: 30px auto;
+  border-radius: 11px;
+  font-size: 19px;
+  font-weight: 500;
+}
+.card-body .participate .bi-check2-circle {
+  font-size: 22px;
+}
+.card-body a {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 1024px) {
+  .card-body {
+    background-color: rgb(255, 255, 255);
+    flex-direction: column;
+    margin: 30px;
+    border-radius: 20px;
+    max-width: 35%;
+    position: relative;
+  }
+  .card-body .Upcoming {
+    margin: 20px auto;
+  }
+  .card-body .Active {
+    margin: 20px auto;
+  }
+  .card-body .Past {
+    margin: 20px auto;
+  }
+  .card-body .card-name {
+    width: 75%;
+  }
+  .card-body .countdown {
+    margin: 12px auto;
+  }
+  .card-body .participate {
+    width: 57%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 25px;
+  }
+  .card-body .participate .bi-check2-circle {
+    font-size: 22px;
+  }
+}
+@media only screen and (max-width: 770px) {
+  .card-body {
+    margin: 30px 10px;
+    max-width: 45%;
+  }
+  .card-body .Upcoming {
+    margin: 20px auto;
+  }
+  .card-body .Active {
+    margin: 20px auto;
+  }
+  .card-body .Past {
+    margin: 20px auto;
+  }
+  .card-body .card-name {
+    width: 75%;
+  }
+  .card-body .countdown {
+    margin: 12px auto;
+  }
+  .card-body .participate {
+    width: 59%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 25px;
+  }
+  .card-body .participate .bi-check2-circle {
+    font-size: 22px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .card-body {
+    margin: 30px 10px;
+    max-width: 41%;
+  }
+  .card-body .Upcoming {
+    font-size: 10px;
+    padding: 2px 10px;
+    margin: 10px auto;
+  }
+  .card-body .Active {
+    font-size: 10px;
+    padding: 2px 10px;
+    margin: 10px auto;
+  }
+  .card-body .Past {
+    font-size: 10px;
+    padding: 2px 10px;
+    margin: 10px auto;
+  }
+  .card-body .card-name {
+    font-size: 10px;
+    width: 90%;
+  }
+  .card-body .countdown {
+    width: 100%;
+  }
+  .card-body .countdown .countdown-header {
+    font-size: 9px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .card-body .countdown .countdown-timer {
+    color: #000;
+    width: 100%;
+    padding: 2px;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+  }
+  .card-body .countdown .countdown-timer .active {
+    display: flex;
+  }
+  .card-body .countdown .countdown-timer .inactive {
+    display: none;
+  }
+  .card-body .countdown .countdown-timer .counter {
+    width: 100%;
+    justify-content: space-around;
+  }
+  .card-body .countdown .countdown-timer .counter .time {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px 0px;
+  }
+  .card-body .countdown .countdown-timer .counter .time .time-value {
+    font-weight: 600;
+    color: rgb(69, 69, 69);
+    font-size: 10px;
+  }
+  .card-body .countdown .countdown-timer .counter .time .time-label {
+    color: rgb(79, 79, 79);
+    font-size: 10px;
+  }
+  .card-body .countdown .countdown-timer .counter .seperater {
+    font-weight: 600;
+    color: rgb(69, 69, 69);
+    font-size: 10px;
+    padding-top: 4px;
+  }
+  .card-body .countdown .countdown-timer .ended_on {
+    font-weight: 600;
+    color: rgb(70, 70, 70);
+    font-size: 10px;
+    padding-top: 6px;
+    margin-bottom: 0px;
+    justify-content: center;
+  }
+  .card-body .participate {
+    width: 81%;
+    padding: 6px 4px;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 9px;
+    position: absolute;
+    bottom: 0px;
+    left: 12px;
+  }
+  .card-body .participate .bi-check2-circle {
+    font-size: 10px;
+  }
+  .card-body a {
+    text-decoration: none;
+  }
+}/*# sourceMappingURL=challenge_card.css.map */

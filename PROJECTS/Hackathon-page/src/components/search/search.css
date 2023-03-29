@@ -1,0 +1,368 @@
+.heading {
+  font-size: 27px;
+  font-weight: 600;
+  margin: 20px 0px 60px 0px;
+}
+
+.closed {
+  display: none;
+}
+
+.open {
+  display: flex;
+}
+
+.search {
+  width: 75%;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.search .bi-search {
+  position: absolute;
+  color: rgb(96, 96, 96);
+  left: 30px;
+  top: 13px;
+}
+.search .search-bar {
+  width: 40vw;
+  padding: 9px 9px 9px 65px;
+  font-size: 20px;
+  border-radius: 12px;
+}
+.search .search-bar:focus {
+  outline: none;
+}
+.search .filter {
+  background-color: white;
+  position: relative;
+  color: rgb(0, 0, 0);
+  width: 7vw;
+  padding: 10px 10px 10px 23px;
+  border-radius: 12px;
+  z-index: 99;
+}
+.search .filter .filter-heading {
+  font-size: 20px;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-around;
+}
+.search .filter .filter-heading .bi-chevron-down {
+  margin: auto;
+}
+.search .filter .search-filters {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: white;
+  color: rgb(0, 0, 0);
+  padding: 10px 10px 10px 23px;
+  border-radius: 12px;
+  width: 280%;
+  flex-direction: column;
+  border: 1px black solid;
+}
+.search .filter .search-filters .filter-heading {
+  font-size: 20px;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 0px 30px 0px;
+}
+.search .filter .search-filters .filter-heading::before {
+  content: "";
+  background-color: rgb(233, 231, 231);
+  height: 1px;
+  width: 80%;
+  position: absolute;
+  top: 55px;
+}
+.search .filter .search-filters .filter-heading .bi-chevron-up {
+  position: absolute;
+  right: 30px;
+}
+.search .filter .search-filters .status {
+  position: relative;
+  padding: 0px 0px 20px 0px;
+  color: rgb(102, 102, 102);
+}
+.search .filter .search-filters .status .status-heading {
+  font-size: 19px;
+  padding-bottom: 10px;
+}
+.search .filter .search-filters .status .status-options {
+  font-size: 18px;
+  padding: 3px 0px;
+}
+.search .filter .search-filters .status .status-options input[type=checkbox] {
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+}
+.search .filter .search-filters .status::before {
+  content: "";
+  background-color: rgb(233, 231, 231);
+  height: 1px;
+  width: 92%;
+  position: absolute;
+  top: 180px;
+}
+.search .filter .search-filters .level {
+  position: relative;
+  padding: 0px 0px 20px 0px;
+  color: rgb(102, 102, 102);
+}
+.search .filter .search-filters .level .level-heading {
+  font-size: 19px;
+  padding-bottom: 10px;
+}
+.search .filter .search-filters .level .level-options {
+  font-size: 18px;
+  padding: 3px 0px;
+}
+.search .filter .search-filters .level .level-options input[type=checkbox] {
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+}
+.search .sort {
+  width: 8vw;
+}
+.search .sort .form-select {
+  height: 100%;
+  font-size: 20px;
+  font-weight: 500;
+  width: 75%;
+  border-radius: 12px;
+}
+
+.filters-applied {
+  display: flex;
+  justify-content: left;
+  width: 60%;
+  flex-wrap: wrap;
+}
+.filters-applied .each-filter {
+  padding: 11px 20px;
+  margin-right: 15px;
+  margin-bottom: 10px;
+  color: white;
+  background-color: rgb(122, 143, 154);
+  border-radius: 23px;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+}
+.filters-applied .each-filter .filter-content {
+  margin-right: 20px;
+}
+
+@media only screen and (max-width: 1025px) {
+  .search {
+    width: 80%;
+  }
+  .search .search-bar {
+    width: 550px;
+  }
+  .search .filter {
+    width: 100px;
+    padding: 10px 10px 10px 15px;
+  }
+  .search .sort {
+    width: 125px;
+  }
+}
+@media only screen and (max-width: 770px) {
+  .search {
+    width: 90%;
+    padding: 5px;
+    font-size: 18px;
+  }
+  .search .bi-search {
+    font-size: 16px;
+    top: 12px;
+  }
+  .search .search-bar {
+    width: 380px;
+    padding: 5px 5px 5px 55px;
+    font-size: 18px;
+  }
+  .search .filter {
+    width: 90px;
+    padding: 8px 10px 5px 13px;
+  }
+  .search .filter .filter-heading {
+    font-size: 18px;
+  }
+  .search .filter .filter-heading .bi-chevron-down {
+    margin: auto;
+  }
+  .search .filter .search-filters {
+    padding: 10px 10px 10px 15px;
+    width: 270%;
+  }
+  .search .filter .search-filters .filter-heading {
+    font-size: 18px;
+    padding: 0px 0px 15px 0px;
+  }
+  .search .filter .search-filters .filter-heading::before {
+    top: 45px;
+  }
+  .search .filter .search-filters .status {
+    padding: 0px 0px 17px 0px;
+  }
+  .search .filter .search-filters .status .status-heading {
+    font-size: 17px;
+    padding-bottom: 7px;
+  }
+  .search .filter .search-filters .status .status-options {
+    font-size: 16px;
+    padding: 3px 0px;
+  }
+  .search .filter .search-filters .status::before {
+    top: 160px;
+  }
+  .search .filter .search-filters .level {
+    position: relative;
+    padding: 0px 0px 15px 0px;
+    color: rgb(102, 102, 102);
+  }
+  .search .filter .search-filters .level .level-heading {
+    font-size: 17px;
+    padding-bottom: 10px;
+  }
+  .search .filter .search-filters .level .level-options {
+    font-size: 16px;
+    padding: 3px 0px;
+  }
+  .search .filter .search-filters .level .level-options input[type=checkbox] {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+  }
+  .search .sort {
+    width: 125px;
+  }
+  .search .sort .form-select {
+    height: 100%;
+    font-size: 18px;
+  }
+  .search .sort .form-select option {
+    margin-top: 10px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .heading {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 20px 0px 10px 0px;
+  }
+  .search {
+    width: 100%;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 18px;
+  }
+  .search .bi-search {
+    font-size: 12px;
+    top: 26px;
+    left: 72px;
+  }
+  .search .search-bar {
+    width: 318px;
+    padding: 6px 5px 3px 44px;
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  .search .filter {
+    width: 71px;
+    padding: 6px 7px 1px 10px;
+    position: relative;
+    right: 58px;
+    height: 29px;
+  }
+  .search .filter .filter-heading {
+    font-size: 12px;
+  }
+  .search .filter .filter-heading .bi-chevron-down {
+    margin: auto;
+    font-size: 10px;
+  }
+  .search .filter .search-filters {
+    padding: 10px 10px 10px 15px;
+    width: 220%;
+  }
+  .search .filter .search-filters .filter-heading {
+    font-size: 16px;
+    padding: 0px 0px 15px 0px;
+  }
+  .search .filter .search-filters .filter-heading::before {
+    top: 45px;
+  }
+  .search .filter .search-filters .status {
+    padding: 0px 0px 17px 0px;
+  }
+  .search .filter .search-filters .status .status-heading {
+    font-size: 15px;
+    padding-bottom: 7px;
+  }
+  .search .filter .search-filters .status .status-options {
+    font-size: 14px;
+    padding: 3px 0px;
+  }
+  .search .filter .search-filters .status .status-options input[type=checkbox] {
+    width: 14px;
+    height: 14px;
+    margin-right: 10px;
+  }
+  .search .filter .search-filters .status::before {
+    top: 140px;
+  }
+  .search .filter .search-filters .level .level-heading {
+    font-size: 15px;
+  }
+  .search .filter .search-filters .level .level-options {
+    font-size: 14px;
+    padding: 3px 0px;
+  }
+  .search .filter .search-filters .level .level-options input[type=checkbox] {
+    width: 14px;
+    height: 14px;
+    margin-right: 10px;
+  }
+  .search .sort {
+    width: 120px;
+    position: relative;
+    left: 94px;
+  }
+  .search .sort .form-select {
+    font-size: 12px;
+    height: 29px;
+  }
+  .search .sort .form-select option {
+    margin-top: 10px;
+  }
+  .filters-applied {
+    display: flex;
+    justify-content: left;
+    width: 60%;
+    flex-wrap: wrap;
+  }
+  .filters-applied .each-filter {
+    padding: 5px 8px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    color: white;
+    background-color: rgb(122, 143, 154);
+    border-radius: 23px;
+    font-size: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .filters-applied .each-filter .filter-content {
+    margin-right: 10px;
+  }
+}/*# sourceMappingURL=search.css.map */
