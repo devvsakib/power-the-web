@@ -86,7 +86,6 @@
 
 @media (max-width: 576px) {
   .container {
-    font-size: 40px;
     justify-content: space-between;
     flex-wrap: wrap;
     position: relative;

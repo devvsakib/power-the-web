@@ -1,0 +1,16 @@
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cart-item .cart-item-head {
+  width: 60%;
+}
+.cart-item .increase-button button {
+  border: none;
+  color: white;
+  background-color: black;
+  margin: 5px;
+  height: 40px;
+  width: 20px;
+}/*# sourceMappingURL=CartItem.css.map */

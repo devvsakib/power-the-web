@@ -1,0 +1,96 @@
+.types {
+  width: 20%;
+  text-align: right;
+}
+.types .types-list {
+  overflow: scroll;
+  overflow-x: hidden;
+  height: 80vh;
+}
+.types .types-list .product {
+  height: 50px;
+  width: auto;
+}
+.types .types-list .product a {
+  text-decoration: none;
+  color: black;
+}
+.types .types-list .product p {
+  margin-right: 5px;
+  -webkit-margin-after: 0;
+          margin-block-end: 0;
+  -webkit-margin-before: 0;
+          margin-block-start: 0;
+  font-size: 20px;
+}
+.types .types-list .product:active {
+  color: white;
+}
+.types .types-list .product:active a {
+  text-decoration: none;
+  color: white;
+}
+.types .types-list .product:active p span {
+  background-color: black;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 20px;
+  padding-top: 5px;
+  padding-bottom: 5x;
+}
+
+@media (max-width: 960px) {
+  .types {
+    text-align: center;
+    width: 100%;
+    position: sticky;
+  }
+  .types input {
+    display: none;
+  }
+  .types #search {
+    display: none;
+  }
+  .types .types-list {
+    display: flex;
+    flex-direction: row;
+    overflow: unset;
+    overflow-x: visible;
+    overflow-y: hidden;
+    width: 100vw;
+    height: 8vh;
+  }
+  .types .types-list .product {
+    height: 10px;
+    display: inline-block;
+    width: 100px;
+  }
+  .types .types-list .product a {
+    text-decoration: none;
+    color: black;
+  }
+  .types .types-list .product p {
+    display: inline-block;
+    margin-right: 5px;
+    -webkit-margin-after: 0;
+            margin-block-end: 0;
+    -webkit-margin-before: 0;
+            margin-block-start: 0;
+    font-size: 10px;
+  }
+  .types .types-list .product:active {
+    color: white;
+  }
+  .types .types-list .product:active a {
+    text-decoration: none;
+    color: white;
+  }
+  .types .types-list .product:active p span {
+    background-color: black;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-bottom: 5x;
+  }
+}/*# sourceMappingURL=Types.css.map */
