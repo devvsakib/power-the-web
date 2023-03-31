@@ -12,6 +12,7 @@ import Documents from "./component/Guidelines/pages/Documents";
 import NotFound from "./component/pages/NotFound";
 
 import "./main.css";
+import Card from "./component/pages/Card.js";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <Route path="/guidelines" exact element={<Guidelines />}></Route>
           <Route path="/guidelines/:page" exact element={<Documents />}></Route>
           <Route path="/404" exact element={<NotFound />}></Route>
+          <Route path="/card" exact element={<Card />}></Route>
           <Route path="*" exact element={<Navigate to="/404" />}></Route>
         </Routes>
         <Footer />
