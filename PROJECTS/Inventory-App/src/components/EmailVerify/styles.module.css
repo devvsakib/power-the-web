@@ -1,0 +1,29 @@
+.container {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.green_btn {
+	border: none;
+	outline: none;
+	padding: 12px 20px;
+	background-color: white;
+	border-radius: 20px;
+	width: 180px;
+	font-weight: bold;
+	font-size: 14px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+.green_btn:hover {
+	box-shadow: 0 2px 5px  rgb(109, 109, 109);
+	transform: scale(1.05);
+}
+.green_btn {
+	background-color: #4e54c8;
+	color: white;
+	margin: 10px;
+}

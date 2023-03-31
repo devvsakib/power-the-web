@@ -1,0 +1,45 @@
+.CategoryProduct {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.CategoryProduct .cat-product {
+  width: 70%;
+  min-width: 400px;
+}
+.CategoryProduct .cat-addbutton .addbutton {
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  background-color: yellow;
+  font-size: large;
+  font-weight: 800;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+}
+.CategoryProduct .cat-addbutton .handleinput {
+  width: 100px;
+  display: none;
+}
+.CategoryProduct .cat-addbutton .handleinput button {
+  height: 50px;
+  width: 40px;
+  background-color: inherit;
+  border: white 1px;
+  background-color: yellow;
+}
+.CategoryProduct .cat-addbutton .handleinput .qty {
+  height: 50px;
+  display: inline-block;
+  text-align: center;
+}
+
+@media (max-width: 960px) {
+  .CategoryProduct {
+    flex-direction: column;
+  }
+  .CategoryProduct .cat-addbutton .addbutton {
+    width: 300px;
+  }
+}/*# sourceMappingURL=CategoryProduct.css.map */

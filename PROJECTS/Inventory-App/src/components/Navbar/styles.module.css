@@ -1,0 +1,30 @@
+.navbar {
+	width: 100%;
+	height: 70px;
+	background-color: #4e54c8;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.navbar span ,.navbar link{
+	color: white;
+	font-size: 1.5rem;
+	margin: 20px;
+}
+.navbar .navLink{
+	color: white;
+}
+
+.white_btn {
+	border: none;
+	outline: none;
+	padding: 12px 0;
+	background-color: white;
+	border-radius: 20px;
+	width: 120px;
+	font-weight: bold;
+	font-size: 14px;
+	cursor: pointer;
+	margin-right: 20px;
+}

@@ -1,0 +1,429 @@
+$White: hsl(0, 0%, 100%);
+$Black: hsl(0, 0%, 0%);
+$Dark-Gray: hsl(0, 0%, 55%);
+$Very-Dark-Gray: hsl(0, 0%, 41%);
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+main {
+  padding: 0rem;
+  margin: 0rem;
+
+  .ham-menu {
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+
+    header {
+      margin: auto;
+      width: 80%;
+      height: 15%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      span {
+        font-size: 2rem;
+        font-weight: 500;
+        font-family: sans-serif;
+        color: white;
+      }
+    }
+
+    section {
+      height: 70%;
+      width: 100%;
+
+      ul {
+        height: 100%;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 1rem 2rem;
+
+        li {
+          list-style-type: none;
+          margin: 2rem 0rem;
+
+          a {
+            text-decoration: none;
+            color: white;
+            font-size: 2rem;
+            font-family: monospace;
+          }
+        }
+      }
+    }
+  }
+
+  .intro {
+    height: 100vh;
+    width: 100%;
+    // border: 2px solid black;
+    background: url(./images/mobile/image-hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    header {
+      margin: auto;
+      width: 80%;
+      height: 15%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      span {
+        font-size: 2rem;
+        font-weight: 500;
+        font-family: sans-serif;
+        color: white;
+      }
+    }
+
+    .bgscreen-menu {
+      display: none;
+    }
+
+    section {
+      width: 100%;
+      height: 80%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      div {
+        width: 80%;
+        padding: 1rem 2rem;
+        border: 2px solid white;
+        margin: auto;
+
+        p {
+          font-size: 3rem;
+          color: white;
+          font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+            sans-serif;
+          font-weight: 300;
+        }
+      }
+    }
+  }
+}
+
+.about {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  .image {
+    width: 90%;
+    margin: 4rem auto;
+
+    img {
+      height: 100%;
+      width: 100%;
+    }
+  }
+
+  .desc {
+    width: 90%;
+    margin: 0rem auto;
+    text-align: center;
+    h3 {
+      font-size: 1.5rem;
+      font-family: cursive;
+      line-height: 40px;
+    }
+
+    p {
+      font-size: 1.25rem;
+      line-height: 2.5rem;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      color: gray;
+    }
+  }
+}
+
+.creations {
+  width: 100%;
+  height: 250vh;
+  margin: 8rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h3 {
+    font-size: 1.75rem;
+    text-align: center;
+    font-family: cursive;
+  }
+
+  .creations-list {
+    width: 90%;
+    margin: 0rem auto;
+    // margin: 3rem auto;
+
+    div {
+      position: relative;
+      border: none;
+      width: 100%;
+      height: 10rem;
+      margin: 2rem auto;
+
+      span {
+        font-size: 1.5rem;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        position: absolute;
+        bottom: 25px;
+        left: 25px;
+        color: white;
+      }
+    }
+
+    .one {
+      background: url(./images/mobile/image-deep-earth.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .two {
+      background: url(./images/mobile/image-night-arcade.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .three {
+      background: url(./images/mobile/image-soccer-team.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .four {
+      background: url(./images/mobile/image-grid.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .five {
+      background: url(./images/mobile/image-from-above.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .six {
+      background: url(./images/mobile/image-pocket-borealis.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .seven {
+      background: url(./images/mobile/image-curiosity.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .eight {
+      background: url(./images/mobile/image-fisheye.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+  }
+  button {
+    padding: 1rem 3rem;
+    font-size: 1.35rem;
+    font-family: monospace;
+    border: 1px solid black;
+    margin: 0rem auto;
+  }
+}
+
+.footer {
+  width: 100%;
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: black;
+  margin: 5rem auto;
+  margin-bottom: 0rem;
+
+  .foot-logo {
+    span {
+      color: white;
+      font-family: cursive;
+      font-size: 2.5rem;
+    }
+  }
+
+  .foot-ul {
+    ul {
+      padding: 0rem;
+      list-style-type: none;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+
+      li {
+        margin: 1rem auto;
+
+        a {
+          text-decoration: none;
+          color: white;
+          font-size: 1.7rem;
+          font-family: monospace;
+        }
+      }
+    }
+  }
+
+  .socials {
+    margin: 0rem auto;
+    width: 80%;
+    ul {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+
+      li {
+        a {
+          color: white;
+
+          img {
+            height: 2rem;
+            width: 2rem;
+          }
+        }
+      }
+    }
+  }
+
+  .copy {
+    width: 100%;
+
+    p {
+      font-family: monospace;
+      text-align: center;
+      color: gray;
+      font-size: 1.25rem;
+    }
+  }
+}
+
+@media screen and (min-width: 1040px) {
+  .open {
+    display: none;
+  }
+
+
+
+
+  .intro {
+
+
+    header {
+
+        .bgscreen-menu {
+            width: 60%;
+            padding: 0;
+            display: block;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            li {
+                list-style: none;
+
+                a {
+                    text-decoration: none;
+                    font-size: 1.2rem;
+                    font-family: cursive;
+                    color: white;
+                }
+            }
+        }
+    }
+
+    section {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        div {
+            width: 50%;
+        }
+    }
+  }
+
+  .about {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    .image {
+      height: 35rem;
+      width: 25rem;
+      width: 50%;
+      margin: 0rem;
+      position: absolute;
+      bottom: 0rem;
+      left: 7rem;
+    }
+    
+    
+    .desc {
+      width: 40%;
+      // border: 2px solid black;
+      position: absolute;
+      bottom: 0rem;
+      right: 10rem;
+      background-color: white;
+    }
+  }
+
+  .creations {
+    height: 200vh;
+    width: 100%;
+    h3 {
+      font-size: 3rem;
+
+    }
+      .creations-list {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+
+        div {
+          height: 30rem;
+        }
+      }
+  }
+
+  .foot-ul {
+    ul {
+      justify-content: space-around;
+    }
+  }
+}
