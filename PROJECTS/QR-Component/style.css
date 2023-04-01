@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Outfit&display=swap');
+
+
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Light-gray: hsl(212, 45%, 89%);
+  --Grayish-blue: hsl(220, 15%, 55%);
+  --Dark-blue: hsl(218, 44%, 22%);
+
+  --fs-outfit: 'Outfit', sans-serif;
+}
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+main {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: var(--Light-gray);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.body {
+  padding: 13px;
+  /* position: absolute;
+  top: 50%;
+  left: 50%; */
+  height: 60%;
+  width: 250px;  
+  background-color: var(--White);
+  border: none;
+  border-radius: 10px;
+}
+
+.qr-img {
+  height: 60%;
+  width: 100%;
+  border-radius: 5%;
+  background: url(./images/image-qr-code.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.desc {
+  height: 40%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.desc > h4 {
+  margin: 0.75rem 0.25rem;
+  text-align: center;
+  color: var(--Dark-blue);
+  font-size: 1.1rem;
+  font-family: var(--fs-outfit);
+}
+
+.desc > p {
+  margin: 0.75rem 0.25rem;
+  text-align: center;
+  font-size: 1rem;
+  color: var(--Grayish-blue);
+  font-family: var(--fs-outfit);
+}
+
+@media screen and (min-width: 780px) {
+  .body {
+    padding: 13px;
+    height: 75%;
+    width: 300px;  
+  }
+  
+  .qr-img {
+    height: 60%;
+  }
+  
+  .desc {
+    height: 45%;
+  } 
+  
+  .desc > h4 {
+    margin: 0.9rem 0.5rem;
+    font-size: 1.25rem;
+  }
+  
+  .desc > p {
+    margin: 0.9rem 0.5rem;
+    font-size: 1.25rem;
+  }
+  
+}
