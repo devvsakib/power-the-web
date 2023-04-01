@@ -1,0 +1,55 @@
+.container6{
+    background:linear-gradient(  to top right, rgba(21, 71, 62, 0.8), rgba(130, 230, 255, 0.6));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+}
+
+.radioButton{
+    font-size: 1.3rem;
+    margin: 0 15px;
+    cursor: pointer;
+}
+.radioButton:hover{
+    color: orange;
+}
+.radioButton input{
+
+    cursor: pointer;
+}
+.radioButton input:hover{
+    background-color:orange;
+}
+
+video{
+    border: 1px solid rgb(16, 179, 179);
+    margin-top: 50px;
+    cursor: pointer;
+    display: block;
+    width: 50%;
+}
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1000px){
+    video{
+        width: 85%;
+    }
+}
