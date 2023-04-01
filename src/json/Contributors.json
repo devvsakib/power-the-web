@@ -1,6 +1,6 @@
 {
   "profiles": [
-     {
+    {
       "name": "DevvSakib",
       "avatarUrl": "https://avatars.githubusercontent.com/u/88339569?v=4",
       "github": "devvsakib",
@@ -529,16 +529,22 @@
       "twitter": "TheShrish46"
     },
     {
-      "name":"Kenneth Yashim",
-      "avatarUrl":"https://avatars.githubusercontent.com/u/47125383?v=4",
-      "github":"kzamani44",
-      "twitter":"_kzsy"
-  },
+      "name": "Kenneth Yashim",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/47125383?v=4",
+      "github": "kzamani44",
+      "twitter": "_kzsy"
+    },
     {
       "name": "Aagam Jain",
       "avatarUrl": "https://avatars.githubusercontent.com/u/79409258?v=4",
       "github": "getlost01",
       "twitter": ""
+    },
+    {
+      "name": "Piyush Yadav",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/72244570?v=4",
+      "github": "piyushyadav1617",
+      "twitter": "Piyush61818686"
     }
   ]
 }

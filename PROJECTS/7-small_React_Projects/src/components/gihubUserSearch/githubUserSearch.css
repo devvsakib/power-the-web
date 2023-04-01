@@ -1,0 +1,67 @@
+.container5{
+    background:linear-gradient(  to top right, rgba(14, 21, 9, 0.8),rgba(134, 255, 146, 0.6));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+.findUserForm{
+  display: flex;
+
+}
+
+
+
+.usersList{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+.userProfile{
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px 0;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: #e1e1e1;
+    font-size:1.5rem;
+}
+button.searchUser{
+    background-color: #e1e1e1;
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    margin: 10px 20px;
+    width: 20VW;
+    /* width: 50px; */
+}
+input.searchUser{
+    margin: 10px 20px;
+    min-width: fit-content;
+    width: 40VW;
+    background-color: #e1e1e1;
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+}
+@media screen and (max-width:500px) {
+    .usersList{
+        width: 80vw;
+    }
+    .findUserForm{
+        flex-direction: column;
+        align-items: center;
+    }
+    input.searchUser{
+        width: 80vw;
+    }
+    button.searchUser{
+        width: 40vw;
+    }
+}

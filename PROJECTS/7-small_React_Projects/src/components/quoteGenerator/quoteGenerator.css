@@ -1,0 +1,36 @@
+
+.container3{
+    
+    padding: 50px 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    background:linear-gradient(  to top right, rgba(124, 115, 5, 0.8), rgba(162, 255, 0, 0.4));
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.panel{
+    background:linear-gradient(  to bottom right, rgba(177, 106, 106, 1), rgba(143, 128, 128, 0.6)) ;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50vw;
+    height: 200px;
+    padding: 30px;
+}
+@media screen and (max-width:1000px) {
+    .panel{
+        width: 70vw;
+        height: 270px;
+        
+    }
+    
+}
+button.change{
+     background: #ffffff;
+     padding: 7px;
+     border-radius: 3px;
+}
