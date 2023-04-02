@@ -13,10 +13,14 @@ import NotFound from "./component/pages/NotFound";
 
 import "./main.css";
 import Card from "./component/pages/Card.js";
+import { ToastContainer } from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css';
+
 
 function App() {
   return (
     <>
+      <ToastContainer/>
       <Navbar />
       {/* <Layout> */}
         <ScrollToTop />
