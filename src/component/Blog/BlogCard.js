@@ -1,11 +1,13 @@
 import React  from 'react';
-
+import { motion } from "framer-motion"
 const BlogCard = ({card, idx}) => {
     return (
+     <motion.div whileHover={{ scale: 1.05, y: -10, boxShadow: "0px 10px 20px rgba(0, 0, 0, 0.2)" }}>     
         <div
             key={idx}
             className=" bg-white/10 backdrop-blur-[10px] text-white rounded"
         >
+            
             <div className=" md:h-[400px] flex flex-col justify-between rounded overflow-hidden shadow-lg">
                 <div>
                     <img
@@ -31,6 +33,7 @@ const BlogCard = ({card, idx}) => {
                 </div>
             </div>
         </div>
+        </motion.div>
     )
 }
 
