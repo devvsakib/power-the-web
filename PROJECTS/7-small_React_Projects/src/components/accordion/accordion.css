@@ -1,0 +1,49 @@
+
+.container2{
+    box-sizing: border-box;
+    padding: 50px 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+     background-color: rgb(161, 205, 205);
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.accordion{
+
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    height: fit-content;
+    
+    width: 50%;
+    background-color: rgb(43, 43, 160);
+    color: white;
+    border-radius: 30px;
+}
+
+.ques{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.item{
+    padding: 10px;
+    display:flex;
+    flex-direction: column;
+    width: 70%;
+    color: rgb(19, 19, 19);
+    background-color: #e4deff;
+    margin: 10px;
+}
+@media screen and (max-width:700px) {
+    .accordion{
+        width: 85%;
+    }
+}

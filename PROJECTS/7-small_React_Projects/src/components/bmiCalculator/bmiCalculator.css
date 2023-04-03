@@ -1,0 +1,49 @@
+
+.container7{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+   height: 100vh;
+    width: 100%;
+    background-color: #e39c5f;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.BMI_panel{
+    background-color: #dac75b;
+    padding: 30px;
+    width: 40%;
+    border-radius: 10px;
+    display:flex ;
+    flex-direction: column;
+}
+
+input[type="range"]{
+   width: 80%;
+}
+
+.bmi{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#BMIresult{
+    background-color: #e66529;
+    color: azure;
+    padding: 10px 15px;
+    border-radius: 10px;
+
+}
+@media screen and (max-width:800px) {
+    .BMI_panel{
+        
+        padding: 30px;
+        width: 80%;
+       
+       
+        
+    }
+}

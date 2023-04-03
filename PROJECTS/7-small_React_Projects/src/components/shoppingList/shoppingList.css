@@ -1,0 +1,49 @@
+
+body{
+padding: 0;
+margin: 0;
+}
+.container4{
+    width: 100%;
+    background-color: #e4b875;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.shoppingItem{
+    display: flex;
+    min-width: fit-content;
+    width: 300px;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.6);
+    margin: 10px 0;
+    padding: 0 10px;
+    
+}
+/* button.deleteItem{
+
+
+} */
+button.addShoppingItem{
+    background-color: rgb(147, 214, 191);
+    width: 100px;
+    padding: 10px;
+}
+
+
+button.addShoppingItem:hover{
+    background-color: rgb(193, 189, 113);
+    
+    
+}
+input.typeShoppingItem{
+    width: 200px;
+    background-color: bisque;
+    border: none;
+    outline: none;
+    padding: 10px;
+}
