@@ -118,8 +118,8 @@ Please leave a **STAR⭐**
 Join Us  <a href="https://discord.gg/xwRbDwnbMr"><img src="https://cdn.worldvectorlogo.com/logos/discord-6.svg" title="Discord" alt="Discord Community" width="20"/></a>
 
 ## Thanks to all the contributors ❤️
-Add your details in `src/json/Contributors.json` file
-
+Add your details in `src/json/Contributors.json` file and <br>
+Read this [docs](/docs/contributor-card.md) for generate your contributor card
 
 <a href = "https://github.com/devvsakib/hacktoberfest-react-project/graphs/contributors">
   <img src = "https://contrib.rocks/image?repo=devvsakib/hacktoberfest-react-project"/>
