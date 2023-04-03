@@ -24,12 +24,15 @@ const CProfileCard = ({ github, avatarUrl, twitter, name, idx }) => {
                                 alt="github"
                             />
                         </a>
-                        <Link to={`/cards/${github}`} title='My Contributor Card'>
-                            <FaRegAddressCard
-                                className="w-8 h-8"
-                                alt="twitter"
-                            />
-                        </Link>
+                        {
+                            github &&
+                                <Link to={`/cards/${github}`} title='My Contributor Card'>
+                                    <FaRegAddressCard
+                                        className="w-8 h-8"
+                                        alt="twitter"
+                                    />
+                                </Link>
+                        }
                         <a target="_blank" href={`https://twitter.com/${twitter}`} rel="noopener noreferrer">
                             <FaTwitter
                                 className="w-8 h-8"
