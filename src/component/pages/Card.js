@@ -36,7 +36,7 @@ const Card = () => {
   const generateHandler = () => {
     setGenerateCardLoading(true);
     const template = contributorCardRef.current
-    htmlToImage.toSvg(template, { filter: (node) => (node.tagName !== 'i') })
+    htmlToImage.toPng(template, { filter: (node) => (node.tagName !== 'i') })
       .then(dataUrl => {
         setContributorCard(dataUrl);
       })
