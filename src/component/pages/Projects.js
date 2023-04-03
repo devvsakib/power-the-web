@@ -10,7 +10,6 @@ function Projects() {
                 <p className="text-sm md:text-base text-white"> Source code given in GitHub. Join Us</p>
             </div>
             <GetProjects />
-
         </Layout >
     )
 }

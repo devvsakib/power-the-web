@@ -24,13 +24,13 @@ const Questions = ({ content }) => {
         } catch (error) {
             console.error(error);
         }
-    }, [content])
+    }, [content, css, html, javascript, nextjs, react, typescript])
 
     return (
         <div>
             <div>
                 {/* <h1 className='text-2xl font-bold'>{content.toUpperCase()} Questions</h1> */}
-                <img className='mx-auto w-full' src={`/images/${content}Interviewthumb.png`} />
+                <img className='mx-auto w-full' src={`/images/${content}Interviewthumb.png`} alt='Interviewthumb.png'/>
             </div>
             <div>
                 {

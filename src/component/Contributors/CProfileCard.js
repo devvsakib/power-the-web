@@ -1,6 +1,7 @@
 import React from 'react';
 
-import { FaGithub, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaTwitter, FaRegAddressCard } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 const CProfileCard = ({ github, avatarUrl, twitter, name, idx }) => {
     return (
@@ -23,6 +24,15 @@ const CProfileCard = ({ github, avatarUrl, twitter, name, idx }) => {
                                 alt="github"
                             />
                         </a>
+                        {
+                            github &&
+                                <Link to={`/cards/${github}`} title='My Contributor Card'>
+                                    <FaRegAddressCard
+                                        className="w-8 h-8"
+                                        alt="twitter"
+                                    />
+                                </Link>
+                        }
                         <a target="_blank" href={`https://twitter.com/${twitter}`} rel="noopener noreferrer">
                             <FaTwitter
                                 className="w-8 h-8"

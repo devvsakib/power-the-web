@@ -1,0 +1,356 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+main {
+  padding: 0rem;
+  margin: 0rem;
+}
+main .ham-menu {
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+}
+main .ham-menu header {
+  margin: auto;
+  width: 80%;
+  height: 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .ham-menu header span {
+  font-size: 2rem;
+  font-weight: 500;
+  font-family: sans-serif;
+  color: white;
+}
+main .ham-menu section {
+  height: 70%;
+  width: 100%;
+}
+main .ham-menu section ul {
+  height: 100%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 1rem 2rem;
+}
+main .ham-menu section ul li {
+  list-style-type: none;
+  margin: 2rem 0rem;
+}
+main .ham-menu section ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 2rem;
+  font-family: monospace;
+}
+main .intro {
+  height: 100vh;
+  width: 100%;
+  background: url(./images/mobile/image-hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+main .intro header {
+  margin: auto;
+  width: 80%;
+  height: 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .intro header span {
+  font-size: 2rem;
+  font-weight: 500;
+  font-family: sans-serif;
+  color: white;
+}
+main .intro .bgscreen-menu {
+  display: none;
+}
+main .intro section {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .intro section div {
+  width: 80%;
+  padding: 1rem 2rem;
+  border: 2px solid white;
+  margin: auto;
+}
+main .intro section div p {
+  font-size: 3rem;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 300;
+}
+
+.about {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.about .image {
+  width: 90%;
+  margin: 4rem auto;
+}
+.about .image img {
+  height: 100%;
+  width: 100%;
+}
+.about .desc {
+  width: 90%;
+  margin: 0rem auto;
+  text-align: center;
+}
+.about .desc h3 {
+  font-size: 1.5rem;
+  font-family: cursive;
+  line-height: 40px;
+}
+.about .desc p {
+  font-size: 1.25rem;
+  line-height: 2.5rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: gray;
+}
+
+.creations {
+  width: 100%;
+  height: 250vh;
+  margin: 8rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.creations h3 {
+  font-size: 1.75rem;
+  text-align: center;
+  font-family: cursive;
+}
+.creations .creations-list {
+  width: 90%;
+  margin: 0rem auto;
+}
+.creations .creations-list div {
+  position: relative;
+  border: none;
+  width: 100%;
+  height: 10rem;
+  margin: 2rem auto;
+}
+.creations .creations-list div span {
+  font-size: 1.5rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  position: absolute;
+  bottom: 25px;
+  left: 25px;
+  color: white;
+}
+.creations .creations-list .one {
+  background: url(./images/mobile/image-deep-earth.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.creations .creations-list .two {
+  background: url(./images/mobile/image-night-arcade.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.creations .creations-list .three {
+  background: url(./images/mobile/image-soccer-team.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.creations .creations-list .four {
+  background: url(./images/mobile/image-grid.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.creations .creations-list .five {
+  background: url(./images/mobile/image-from-above.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.creations .creations-list .six {
+  background: url(./images/mobile/image-pocket-borealis.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.creations .creations-list .seven {
+  background: url(./images/mobile/image-curiosity.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.creations .creations-list .eight {
+  background: url(./images/mobile/image-fisheye.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.creations button {
+  padding: 1rem 3rem;
+  font-size: 1.35rem;
+  font-family: monospace;
+  border: 1px solid black;
+  margin: 0rem auto;
+}
+
+.footer {
+  width: 100%;
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: black;
+  margin: 5rem auto;
+  margin-bottom: 0rem;
+}
+.footer .foot-logo span {
+  color: white;
+  font-family: cursive;
+  font-size: 2.5rem;
+}
+.footer .foot-ul ul {
+  padding: 0rem;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer .foot-ul ul li {
+  margin: 1rem auto;
+}
+.footer .foot-ul ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.7rem;
+  font-family: monospace;
+}
+.footer .socials {
+  margin: 0rem auto;
+  width: 80%;
+}
+.footer .socials ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer .socials ul li a {
+  color: white;
+}
+.footer .socials ul li a img {
+  height: 2rem;
+  width: 2rem;
+}
+.footer .copy {
+  width: 100%;
+}
+.footer .copy p {
+  font-family: monospace;
+  text-align: center;
+  color: gray;
+  font-size: 1.25rem;
+}
+
+@media screen and (min-width: 1040px) {
+  .open {
+    display: none;
+  }
+  .intro header .bgscreen-menu {
+    width: 60%;
+    padding: 0;
+    display: block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .intro header .bgscreen-menu li {
+    list-style: none;
+  }
+  .intro header .bgscreen-menu li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-family: cursive;
+    color: white;
+  }
+  .intro section {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .intro section div {
+    width: 50%;
+  }
+  .about {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .about .image {
+    height: 35rem;
+    width: 25rem;
+    width: 50%;
+    margin: 0rem;
+    position: absolute;
+    bottom: 0rem;
+    left: 7rem;
+  }
+  .about .desc {
+    width: 40%;
+    position: absolute;
+    bottom: 0rem;
+    right: 10rem;
+    background-color: white;
+  }
+  .creations {
+    height: 200vh;
+    width: 100%;
+  }
+  .creations h3 {
+    font-size: 3rem;
+  }
+  .creations .creations-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+  .creations .creations-list div {
+    height: 30rem;
+  }
+  .foot-ul ul {
+    justify-content: space-around;
+  }
+}/*# sourceMappingURL=style.css.map */
