@@ -103,6 +103,7 @@ const Card = () => {
                 }
                 {/* <button class="ml-[20px] pl-4 pr-4 pt-2 pb-2 text-[#ffffff] border-[#eac20d] bg-[#eac20d] font-[800] rounded-[10px] border-2 hover:bg-[transparent] hover:text-white hover:border-[#ffffff]">Copy link</button> */}
               </div>
+              <p className='font-[500] mt-[15px] text-white text-md'>See the docs <a href="https://github.com/devvsakib/power-the-web/blob/main/docs/contributor-card.md" target="_blank">Here</a> how to add your project to contributor card</p>
             </div>
             {
               (contributorCard) &&
