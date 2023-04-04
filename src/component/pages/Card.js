@@ -121,7 +121,7 @@ const Card = () => {
                   </div>
                 </Fragment>
             }
-          <p className='font-[500] mt-[15px] text-white text-md'>See the docs <a href="https://github.com/devvsakib/power-the-web/blob/main/docs/contributor-card.md" target="_blank" className='text-[#eac20d]'>Here</a> how to add your project to your contributor card</p>
+          <p className='font-[500] mt-[15px] text-white text-md'>See the docs <a href="https://github.com/devvsakib/power-the-web/blob/main/docs/contributor-card.md" target="_blank" className='text-[#eac20d]' rel="noreferrer">Here</a> how to add your project to your contributor card</p>
           </div>
         </div>
       </div>
