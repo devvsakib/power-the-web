@@ -1,6 +1,6 @@
 .hero-section {
     /* width: 100vw; */
-    height: calc(100vh - 104px);
+    height: calc(100vh - 144px);
 }
 
 body {
@@ -45,7 +45,7 @@ body {
 
     .hero-section {
         padding: 0;
-        height: calc(100vh - 128px);
+        height: calc(100vh - 152px);
     }
 
     iframe {
