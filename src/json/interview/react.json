@@ -1,213 +1,262 @@
 [
-    {
-        "question": "What is Fragment in React?",
-        "answer": "React Fragment is a component that allows returning multiple children elements from a component without adding an additional node to the DOM hierarchy.",
-        "tag": "react"
-    },
-    {
-        "question": "What happens if we leave useeffect dependency array empty?",
-        "answer": "The empty array indicates that the useEffect doesn't have any dependencies on any state variables. Therefore, the callback function is only called once the page renders in this case.",
-        "tag": "react"
-    },
-    {
-        "question": "In useEffect, what's the difference between providing no dependency array and an empty one?",
-        "answer": "Giving it an empty array acts like componentDidMount as in, it only runs once whereas giving it no second argument acts as both componentDidMount and componentDidUpdate, as in it runs first on mount and then on every re-render.",
-        "tag": "react"
-    },
-    {
-        "question": "How does React use Virtual DOM to improve performance?",
-        "answer": "React uses a virtual DOM to minimize the number of direct DOM manipulations. Whenever there is a change in the state of a component, React creates a new virtual DOM tree and compares it with the old one. The differences between the two are then calculated, and only those changes are made to the real DOM. This approach significantly improves the performance of the application.",
-        "tag": "react"
-    },
-    {
-        "question": "What is JSX in React and why is it used?",
-        "answer": "JSX is a syntax extension that allows developers to write HTML-like syntax within JavaScript code. It is used in React to create UI components and is a more intuitive way of representing the structure and layout of the UI.",
-        "tag": "react"
-    },
-    {
-        "question": "What is state in React and how is it used?",
-        "answer": "State in React is an object that represents the current state of a component. It is used to manage the data that changes over time and triggers the rendering of the UI when the state changes. State is mutable, and it can only be modified using the setState method.",
-        "tag": "react"
-    },
-    {
-        "question": "What is the difference between state and props in React?",
-        "answer": "State is used to manage data that can change within a component, while props are used to pass data from a parent component to a child component. State is mutable and can be updated within the component, while props are read-only.",
-        "tag": "react"
-    },
-    {
-        "question": "What is the significance of keys in React?",
-        "answer": "Keys are used to uniquely identify elements in a list of components. They help React identify which items have changed, been added, or been removed in a list, making the rendering process more efficient.",
-        "tag": "react"
-    },
-    {
-        "question": "What is the virtual DOM in React?",
-        "answer": "The virtual DOM is a lightweight copy of the actual DOM that React uses to manage and update the UI efficiently. When a component’s state or props change, React creates a new virtual DOM tree, compares it to the old one, and updates only the necessary parts of the actual DOM.",
-        "tag": "react"
-    },
-    {
-        "question": "What are the lifecycle methods in React?",
-        "answer": "Lifecycle methods are methods that are called at different stages of a component’s life cycle, such as when it is mounted, updated, or unmounted. They can be used to perform actions like fetching data, updating the state, or cleaning up resources.",
-        "tag": "react"
-    },
-    {
-        "question": "How can you optimize the performance of a React application?",
-        "answer": "Some ways to optimize the performance of a React application include using the virtual DOM, avoiding unnecessary renders, using lazy loading, and minimizing the number of HTTP requests. You can also use tools like React Profiler and DevTools to identify and fix performance issues.",
-        "tag": "react"
-    },
-    {
-        "question": "What is the difference between a functional component and a class component in React?",
-        "answer": "Functional components are stateless and use a function to render the UI. They are simpler and easier to write than class components, but cannot use state or lifecycle methods. Class components, on the other hand, use a class to define the component and can use state and lifecycle methods.",
-        "tag": "react"
-    },
-    {
-        "question": "What are the advantages of using React?",
-        "answer": "Some advantages of using React include its ability to create reusable UI components, its virtual DOM which increases performance, its ease of use with other libraries or frameworks, and its large and supportive community.",
-        "tag": "react"
-    },
-    {
-        "question": "What is Redux and how does it work with React?",
-        "answer": "Redux is a state management library for JavaScript applications. It works with React by providing a centralized store for application state, which can be accessed by any component in the application. React components can subscribe to changes in the Redux store using the connect() function, and can update the store using Redux actions.",
-        "tag": "react"
-    },
-    {
-        "question": "What is React Router and how does it work?",
-        "answer": "React Router is a library for handling routing in React applications. It allows you to define routes for different URLs and render different components depending on the current route. React Router works by using a <Router> component to wrap your application and defining different routes using <Route> components.",
-        "tag": "react"
-    },
-    {
-        "question": "What are controlled components in React?",
-        "answer": "Controlled components are React components that are controlled entirely by the state of the parent component. The state of a controlled component is passed down to the child component as props, and the child component cannot modify its state directly. Instead, it must notify the parent component of any changes, which then updates the state of the controlled component.",
-        "tag": "react"
-    },
-    {
-        "question": "What are React Hooks?",
-        "answer": "React Hooks are functions that allow developers to use state and other React features without writing a class component. Hooks were introduced in React 16.8 and include useState, useEffect, useContext, and many others. Hooks simplify the development of React components by reducing the amount of boilerplate code required and promoting code reuse.",
-        "tag": "react"
-    },
-    {
-        "question": "What is the difference between React and React Native?",
-        "answer": "React is a JavaScript library for building user interfaces, while React Native is a framework for building native mobile applications using React. React Native uses the same programming concepts as React, but it is designed specifically for mobile devices and uses native components instead of HTML and CSS. React Native allows developers to build cross-platform mobile applications that run on iOS and Android devices with a single codebase.",
-        "tag": "react"
-    },
-    {
-        "question": "What is a higher-order component (HOC) in React?",
-        "answer": "A higher-order component is a function that takes a component as an argument and returns a new component with enhanced functionality. HOCs are used to reuse logic between different components.",
-        "tag": "react"
-    },
-    {
-        "question": "What is the use of useRef in React Hooks?",
-        "answer": "useRef is one of the built-in React Hooks. It allows you to persist values between render. You can also use it to store a mutable value that does not cause a re-render when updated. You must pass the initial value inside the useRef, which returns a mutable ref object. The object has a property called current, where the value is persisted.",
-        "tag": "react"
-    },
-    {
-        "question": "What is the use of the useCallback hook?",
-        "answer": "useCallback is one of the react hooks used to prevent functions declared within the body of function components from being recreated on every render.",
-        "tag": "react"
-    },
-    {
-        "question": "What is the use of the useMemo hook?",
-        "answer": "The useMemo hook is used to memoise an expensive operation that we give it. The term memoise refers to remembering past values that have already been computed.",
-        "tag": "react"
-    },
-    {
-        "question": "What is the use of useContext Hook",
-        "answer": "The useContext hook removes the unusual-looking render props pattern that was required in consuming React Context before.Instead, useContext gives us a simple function to access the data we provided on the value prop of the Context Provider in any child component.",
-        "tag": "react"
-    },
-    {
-        "question": "What is the use of useReducer Hook",
-        "answer": "useReducer is an alternative to the useState Hook ,it helps users manage complex state logic. When combined with other hooks such as useContext it can be a good alternative to Redux.",
-        "tag": "react"
-    },
-    {
-        "question": "What is a Higher-Order Component in React?",
-        "answer": "A Higher-Order Component is a function that takes a component as an argument and returns a new component. It is used to share common functionality between components and reduce code duplication.",
-        "tag": "react"
-      },
-      {
-        "question": "What is Context in React?",
-        "answer": "Context is a feature in React that allows you to share data between components without having to pass it down through props. It is useful for sharing global data such as user preferences or theme settings.",
-        "tag": "react"
-      },
-      {
-        "question": "What is the purpose of the ReactDOM library in React?",
-        "answer": "ReactDOM is a library that provides methods for rendering React components to the DOM. It is used to manipulate the actual DOM based on the virtual DOM updates made by React components.",
-        "tag": "react"
-      },
-      {
-        "question": "What is the difference between shallow rendering and full rendering in React?",
-        "answer": "Shallow rendering in React only renders the current component and does not render its child components. Full rendering, on the other hand, renders the entire component tree including all child components.",
-        "tag": "react"
-      },
-      {
-        "question": "What is the significance of the constructor method in React components?",
-        "answer": "The constructor method is used to initialize the state of a component and bind methods to the component instance. It is called before the component is mounted and is used to set up the initial state and other variables.",
-        "tag": "react"
-      },
-      {
-        "question": "What is the significance of the render() method in React components?",
-        "answer": "The render() method is the only required method in a React component. It is responsible for rendering the component to the DOM based on the current state and props of the component.",
-        "tag": "react"
-      },
-      {
-        "question": "What is the significance of the setState() method in React?",
-        "answer": "The setState() method is used to update the state of a component and trigger a re-render of the component. It takes an object as an argument and merges it with the current state of the component.",
-        "tag": "react"
-      },
-      {
-        "question": "What is the significance of the props.children property in React?",
-        "answer": "The props.children property in React represents the content between the opening and closing tags of a component. It allows you to pass arbitrary content to a component as children.",
-        "tag": "react"
-      },
-      {
-        "question": "What is React.memo() and how is it used?",
-        "answer": "React.memo() is a higher-order component in React that memoizes the result of a component function. It is used to optimize the performance of functional components by preventing unnecessary re-renders when the props of the component have not changed.",
-        "tag": "react"
-      },
-      {
-        "question": "What is the useReducer hook in React and how is it used?",
-        "answer": "The useReducer hook is a state management hook in React that allows you to manage state using a reducer function. It is used to handle complex state logic and allows you to update state in a predictable and immutable way.",
-        "tag": "react"
-      },
-      {
-       "question": "What is the testing library most often associated with React?",
-       "answer": "Jest",
-       "tag": "react"
-      },
-      {
-        "question": "What is the right syntax to import a Component from the React library",
-        "answer": "import { Component } from 'react'",
-        "tag": "react"
-      },
-      {
-        "question": "What are components in react?",
-        "answer": "Building blocks of the user interface. Each compoenent exist in the same space but works independently of each other. All of the components are rendered to the DOM. All of the components are reusable.",
-        "tag": "react"
-      },
-      {
-        "question": "Types of components in react?",
-        "answer": "Similiar in look, different in data, Container component, Stateless component, Stateful component, Presentational component",
-        "tag": "react"
-      },
-      {
-        "question": "Advantages of components in react?",
-        "answer": "Code readability, Faster development, Reusability, Testability, Maintainability",
-        "tag": "react"
-      },
-      {
-        "question": "What are single page applications?",
-        "answer": "Only one web page, and each time something happens, only part of the is reloaded while the rest of the HTML remains unchanged. All UI interactions are handled by JavaScript. Give the users the illusion that they are accessing different pages.",
-        "tag": "react"
-      },
-      {
-        "question": "What is the best between MPA and SPA?",
-        "answer": "SPA is better for the user experience, but MPA is better for SEO.",
-        "tag": "react"
-      },
-      {
-        "question": "How do you handle passing through the component tree without having to pass props down manually at every level?",
-        "answer": "React Context",
-        "tag": "react"
-      }
-        
+  {
+    "question": "What is Fragment in React?",
+    "answer": "React Fragment is a component that allows returning multiple children elements from a component without adding an additional node to the DOM hierarchy.",
+    "tag": "react"
+  },
+  {
+    "question": "What happens if we leave useeffect dependency array empty?",
+    "answer": "The empty array indicates that the useEffect doesn't have any dependencies on any state variables. Therefore, the callback function is only called once the page renders in this case.",
+    "tag": "react"
+  },
+  {
+    "question": "In useEffect, what's the difference between providing no dependency array and an empty one?",
+    "answer": "Giving it an empty array acts like componentDidMount as in, it only runs once whereas giving it no second argument acts as both componentDidMount and componentDidUpdate, as in it runs first on mount and then on every re-render.",
+    "tag": "react"
+  },
+  {
+    "question": "How does React use Virtual DOM to improve performance?",
+    "answer": "React uses a virtual DOM to minimize the number of direct DOM manipulations. Whenever there is a change in the state of a component, React creates a new virtual DOM tree and compares it with the old one. The differences between the two are then calculated, and only those changes are made to the real DOM. This approach significantly improves the performance of the application.",
+    "tag": "react"
+  },
+  {
+    "question": "What is JSX in React and why is it used?",
+    "answer": "JSX is a syntax extension that allows developers to write HTML-like syntax within JavaScript code. It is used in React to create UI components and is a more intuitive way of representing the structure and layout of the UI.",
+    "tag": "react"
+  },
+  {
+    "question": "What is state in React and how is it used?",
+    "answer": "State in React is an object that represents the current state of a component. It is used to manage the data that changes over time and triggers the rendering of the UI when the state changes. State is mutable, and it can only be modified using the setState method.",
+    "tag": "react"
+  },
+  {
+    "question": "What is the difference between state and props in React?",
+    "answer": "State is used to manage data that can change within a component, while props are used to pass data from a parent component to a child component. State is mutable and can be updated within the component, while props are read-only.",
+    "tag": "react"
+  },
+  {
+    "question": "What is the significance of keys in React?",
+    "answer": "Keys are used to uniquely identify elements in a list of components. They help React identify which items have changed, been added, or been removed in a list, making the rendering process more efficient.",
+    "tag": "react"
+  },
+  {
+    "question": "What is the virtual DOM in React?",
+    "answer": "The virtual DOM is a lightweight copy of the actual DOM that React uses to manage and update the UI efficiently. When a component’s state or props change, React creates a new virtual DOM tree, compares it to the old one, and updates only the necessary parts of the actual DOM.",
+    "tag": "react"
+  },
+  {
+    "question": "What are the lifecycle methods in React?",
+    "answer": "Lifecycle methods are methods that are called at different stages of a component’s life cycle, such as when it is mounted, updated, or unmounted. They can be used to perform actions like fetching data, updating the state, or cleaning up resources.",
+    "tag": "react"
+  },
+  {
+    "question": "How can you optimize the performance of a React application?",
+    "answer": "Some ways to optimize the performance of a React application include using the virtual DOM, avoiding unnecessary renders, using lazy loading, and minimizing the number of HTTP requests. You can also use tools like React Profiler and DevTools to identify and fix performance issues.",
+    "tag": "react"
+  },
+  {
+    "question": "What is the difference between a functional component and a class component in React?",
+    "answer": "Functional components are stateless and use a function to render the UI. They are simpler and easier to write than class components, but cannot use state or lifecycle methods. Class components, on the other hand, use a class to define the component and can use state and lifecycle methods.",
+    "tag": "react"
+  },
+  {
+    "question": "What are the advantages of using React?",
+    "answer": "Some advantages of using React include its ability to create reusable UI components, its virtual DOM which increases performance, its ease of use with other libraries or frameworks, and its large and supportive community.",
+    "tag": "react"
+  },
+  {
+    "question": "What is Redux and how does it work with React?",
+    "answer": "Redux is a state management library for JavaScript applications. It works with React by providing a centralized store for application state, which can be accessed by any component in the application. React components can subscribe to changes in the Redux store using the connect() function, and can update the store using Redux actions.",
+    "tag": "react"
+  },
+  {
+    "question": "What is React Router and how does it work?",
+    "answer": "React Router is a library for handling routing in React applications. It allows you to define routes for different URLs and render different components depending on the current route. React Router works by using a <Router> component to wrap your application and defining different routes using <Route> components.",
+    "tag": "react"
+  },
+  {
+    "question": "What are controlled components in React?",
+    "answer": "Controlled components are React components that are controlled entirely by the state of the parent component. The state of a controlled component is passed down to the child component as props, and the child component cannot modify its state directly. Instead, it must notify the parent component of any changes, which then updates the state of the controlled component.",
+    "tag": "react"
+  },
+  {
+    "question": "What are React Hooks?",
+    "answer": "React Hooks are functions that allow developers to use state and other React features without writing a class component. Hooks were introduced in React 16.8 and include useState, useEffect, useContext, and many others. Hooks simplify the development of React components by reducing the amount of boilerplate code required and promoting code reuse.",
+    "tag": "react"
+  },
+  {
+    "question": "What is the difference between React and React Native?",
+    "answer": "React is a JavaScript library for building user interfaces, while React Native is a framework for building native mobile applications using React. React Native uses the same programming concepts as React, but it is designed specifically for mobile devices and uses native components instead of HTML and CSS. React Native allows developers to build cross-platform mobile applications that run on iOS and Android devices with a single codebase.",
+    "tag": "react"
+  },
+  {
+    "question": "What is a higher-order component (HOC) in React?",
+    "answer": "A higher-order component is a function that takes a component as an argument and returns a new component with enhanced functionality. HOCs are used to reuse logic between different components.",
+    "tag": "react"
+  },
+  {
+    "question": "What is the use of useRef in React Hooks?",
+    "answer": "useRef is one of the built-in React Hooks. It allows you to persist values between render. You can also use it to store a mutable value that does not cause a re-render when updated. You must pass the initial value inside the useRef, which returns a mutable ref object. The object has a property called current, where the value is persisted.",
+    "tag": "react"
+  },
+  {
+    "question": "What is the use of the useCallback hook?",
+    "answer": "useCallback is one of the react hooks used to prevent functions declared within the body of function components from being recreated on every render.",
+    "tag": "react"
+  },
+  {
+    "question": "What is the use of the useMemo hook?",
+    "answer": "The useMemo hook is used to memoise an expensive operation that we give it. The term memoise refers to remembering past values that have already been computed.",
+    "tag": "react"
+  },
+  {
+    "question": "What is the use of useContext Hook",
+    "answer": "The useContext hook removes the unusual-looking render props pattern that was required in consuming React Context before.Instead, useContext gives us a simple function to access the data we provided on the value prop of the Context Provider in any child component.",
+    "tag": "react"
+  },
+  {
+    "question": "What is the use of useReducer Hook",
+    "answer": "useReducer is an alternative to the useState Hook ,it helps users manage complex state logic. When combined with other hooks such as useContext it can be a good alternative to Redux.",
+    "tag": "react"
+  },
+  {
+    "question": "What is a Higher-Order Component in React?",
+    "answer": "A Higher-Order Component is a function that takes a component as an argument and returns a new component. It is used to share common functionality between components and reduce code duplication.",
+    "tag": "react"
+  },
+  {
+    "question": "What is Context in React?",
+    "answer": "Context is a feature in React that allows you to share data between components without having to pass it down through props. It is useful for sharing global data such as user preferences or theme settings.",
+    "tag": "react"
+  },
+  {
+    "question": "What is the purpose of the ReactDOM library in React?",
+    "answer": "ReactDOM is a library that provides methods for rendering React components to the DOM. It is used to manipulate the actual DOM based on the virtual DOM updates made by React components.",
+    "tag": "react"
+  },
+  {
+    "question": "What is the difference between shallow rendering and full rendering in React?",
+    "answer": "Shallow rendering in React only renders the current component and does not render its child components. Full rendering, on the other hand, renders the entire component tree including all child components.",
+    "tag": "react"
+  },
+  {
+    "question": "What is the significance of the constructor method in React components?",
+    "answer": "The constructor method is used to initialize the state of a component and bind methods to the component instance. It is called before the component is mounted and is used to set up the initial state and other variables.",
+    "tag": "react"
+  },
+  {
+    "question": "What is the significance of the render() method in React components?",
+    "answer": "The render() method is the only required method in a React component. It is responsible for rendering the component to the DOM based on the current state and props of the component.",
+    "tag": "react"
+  },
+  {
+    "question": "What is the significance of the setState() method in React?",
+    "answer": "The setState() method is used to update the state of a component and trigger a re-render of the component. It takes an object as an argument and merges it with the current state of the component.",
+    "tag": "react"
+  },
+  {
+    "question": "What is the significance of the props.children property in React?",
+    "answer": "The props.children property in React represents the content between the opening and closing tags of a component. It allows you to pass arbitrary content to a component as children.",
+    "tag": "react"
+  },
+  {
+    "question": "What is React.memo() and how is it used?",
+    "answer": "React.memo() is a higher-order component in React that memoizes the result of a component function. It is used to optimize the performance of functional components by preventing unnecessary re-renders when the props of the component have not changed.",
+    "tag": "react"
+  },
+  {
+    "question": "What is the useReducer hook in React and how is it used?",
+    "answer": "The useReducer hook is a state management hook in React that allows you to manage state using a reducer function. It is used to handle complex state logic and allows you to update state in a predictable and immutable way.",
+    "tag": "react"
+  },
+  {
+    "question": "What is the testing library most often associated with React?",
+    "answer": "Jest",
+    "tag": "react"
+  },
+  {
+    "question": "What is the right syntax to import a Component from the React library",
+    "answer": "import { Component } from 'react'",
+    "tag": "react"
+  },
+  {
+    "question": "What are components in react?",
+    "answer": "Building blocks of the user interface. Each compoenent exist in the same space but works independently of each other. All of the components are rendered to the DOM. All of the components are reusable.",
+    "tag": "react"
+  },
+  {
+    "question": "Types of components in react?",
+    "answer": "Similiar in look, different in data, Container component, Stateless component, Stateful component, Presentational component",
+    "tag": "react"
+  },
+  {
+    "question": "Advantages of components in react?",
+    "answer": "Code readability, Faster development, Reusability, Testability, Maintainability",
+    "tag": "react"
+  },
+  {
+    "question": "What are single page applications?",
+    "answer": "Only one web page, and each time something happens, only part of the is reloaded while the rest of the HTML remains unchanged. All UI interactions are handled by JavaScript. Give the users the illusion that they are accessing different pages.",
+    "tag": "react"
+  },
+  {
+    "question": "What is the best between MPA and SPA?",
+    "answer": "SPA is better for the user experience, but MPA is better for SEO.",
+    "tag": "react"
+  },
+  {
+    "question": "How do you handle passing through the component tree without having to pass props down manually at every level?",
+    "answer": "React Context",
+    "tag": "react"
+  },
+  {
+    "question": "What is Redux and why would you use it in a project?",
+    "answer": "Redux is a state management library that provides a predictable and centralized way to manage the state of a JavaScript application. It can be used in a project to simplify the management of complex application states and to provide a clear separation of concerns between the state and the UI components.",
+    "tag": "react"
+  },
+  {
+    "question": "What is the purpose of the Provider component in Redux, and how does it work?",
+    "answer": "The Provider component is used to provide the Redux store to all components in the application. It works by wrapping the root component of the application and passing the store down through the component tree using React's context API.",
+    "tag": "react"
+  },
+  {
+    "question": "How would you explain the concept of a Redux store to someone new to Redux?",
+    "answer": "A Redux store is a JavaScript object that holds the entire state of a Redux application. It is created using the createStore function and can be updated using Redux's built-in functions like dispatch and getState. The store can be accessed by all components in the application, allowing for a centralized way to manage the state of the application.",
+    "tag": "react"
+  },
+  {
+    "question": "What is an action in Redux, and how is it related to the store?",
+    "answer": "An action in Redux is a plain JavaScript object that describes a change that needs to be made to the state of the application. It must have a type property that describes the action and can optionally have a payload property that provides additional data. The store listens for actions to be dispatched and uses the action object to update the state of the application.",
+    "tag": "react"
+  },
+  {
+    "question": "What is a reducer in Redux, and how is it used to update the store?",
+    "answer": "A reducer in Redux is a function that takes the current state of the application and an action object, and returns a new state object that reflects the changes made by the action. It is used to update the store by taking the current state and the action object, and returning a new state object that reflects the changes made by the action.",
+    "tag": "react"
+  },
+  {
+    "question": "What is a selector in Redux, and how is it used to get data from the store?",
+    "answer": "A selector in Redux is a function that takes the current state of the application and returns a specific piece of data from the state. It is used to get data from the store by selecting a specific piece of state and returning it as a value that can be used by components in the application.",
+    "tag": "react"
+  },
+  {
+    "question": "What is the difference between synchronous and asynchronous actions in Redux?",
+    "answer": "Synchronous actions in Redux are actions that are immediately dispatched and processed by the reducer function, while asynchronous actions are actions that are dispatched asynchronously and require additional processing before the reducer function can update the state of the application. Asynchronous actions are typically handled using middleware like redux-thunk or redux-saga.",
+    "tag": "react"
+  },
+  {
+    "question": "How would you handle errors in a Redux application?",
+    "answer": "Errors in a Redux application can be handled by dispatching an error action when an error occurs and updating the state of the application to reflect the error. The error can then be displayed to the user using UI components. Middleware like redux-thunk or redux-saga can be used to handle asynchronous errors.",
+    "tag": "react"
+  },
+  {
+    "question": "What is Redux middleware, and how is it used in a Redux application?",
+    "answer": "Redux middleware is a function that intercepts actions as they are dispatched and can modify, log, or otherwise process them before they reach the reducer. Middleware can be used in a Redux application to add additional functionality like logging, handling asynchronous actions, or handling errors.",
+    "tag": "react"
+  },
+  {
+    "question": "How would you implement a dynamic route in React Router, where the URL path is determined by data in the application?",
+    "answer": "To implement a dynamic route in React Router, you would use a parameterized route. For example, if you have a list of products in your application, and you want to create a route for each product that displays more detailed information about that product, you could create a parameterized route like this: /products/:productId. Then, in the component that renders the detailed product information, you would use the useParams hook to extract the productId from the URL.",
+    "tag": "react"
+  }
 ]
