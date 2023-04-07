@@ -1,9 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 html {
   background: #521fa5;
 }
+
 body {
   font-family: "Dosis";
 
@@ -21,6 +23,7 @@ body {
   background-position: center center;
   background-repeat: no-repeat;
 }
+
 .container {
   display: grid;
   place-items: center;
@@ -42,13 +45,18 @@ body {
 }
 
 .ptw-grad {
-  background: linear-gradient(90deg, #521fa5, #e912de)  !important;
-}
-.ptw-grad:hover {
-  background: linear-gradient(-90deg, #521fa5, #e912de)  !important;
+  background: linear-gradient(90deg, #521fa5, #e912de) !important;
 }
 
-.ptwa-producthunt{
+.ptw-grad:hover {
+  background: linear-gradient(-90deg, #521fa5, #e912de) !important;
+}
+
+.ptwa-producthunt {
   width: 300px;
   height: 32px !important;
+}
+
+.socialIcon {
+  @apply w-8 h-8 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110;
 }
