@@ -13,7 +13,7 @@ const Questions = ({ content }) => {
             }
             if (content === "react") {
                 setQuestions(react)
-            } if (content === "nextjs") {
+            } if (content === "next.js") {
                 setQuestions(nextjs)
             }
             if (content === "typescript") {

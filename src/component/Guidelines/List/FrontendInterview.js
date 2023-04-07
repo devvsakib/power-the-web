@@ -18,7 +18,7 @@ const FrontendInterview = ({ setContent, content }) => {
             <div className='flex flex-col gap-y-5'>
                 <ul className={`${open ? "" : "hidden"}`}>
                     {topics.map((topic, index) => (
-                            <li key={index} className={`bg-transparent cursor-pointer my-2 hover:bg-[#8A00AD] transition-all ease-linear duration-300 ml-0 px-1 rounded py-2  hover:text-white hover:translate-x-3 hover:scale-105 hover:pl-2`} onClick={() => { setContent(topic.toLowerCase() == "next.js" ? "nextjs" : topic); setOpen(!open); }}>
+                            <li key={index} className={`bg-transparent cursor-pointer my-2 hover:bg-[#8A00AD] transition-all ease-linear duration-300 ml-0 px-1 rounded py-2  hover:text-white hover:translate-x-3 hover:scale-105 hover:pl-2`} onClick={() => { setContent(topic.toLowerCase()); setOpen(!open); }}>
                                 {topic}
                             </li>
                         ))}
