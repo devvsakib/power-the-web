@@ -26,8 +26,8 @@ const CProfileCard = ({ github, avatarUrl, twitter, name, idx }) => {
                             github &&
                             <Link to={`/cards/${github}`} title='My Contributor Card'>
                                 <FaRegAddressCard
-                                    className="socialIcon"
-                                    alt="twitter"
+                                    className="socialIcon customName"
+                                    alt="Card"
                                 />
                             </Link>
                         }
