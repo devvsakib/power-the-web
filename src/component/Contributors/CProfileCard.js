@@ -17,7 +17,7 @@ const CProfileCard = ({ github, avatarUrl, twitter, name, idx }) => {
                     <h2 className="text-center text-2xl font-bold m-2">
                         {name}
                     </h2>
-                    <div className="flex justify-evenly items-center mt-4 ">
+                    <div className="flex justify-evenly items-center mt-4 card-icon">
                         <a target="_blank" href={`https://github.com/${github}`} rel="noopener noreferrer">
                             <FaGithub
                                 className="w-8 h-8"
