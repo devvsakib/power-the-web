@@ -60,3 +60,13 @@ body {
 .socialIcon {
   @apply w-8 h-8 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110;
 }
+
+.App{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main{
+  flex: 1;
+}

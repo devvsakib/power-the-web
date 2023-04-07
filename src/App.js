@@ -15,29 +15,28 @@ import "./main.css";
 import Card from "./component/pages/Card.js";
 import { ToastContainer } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
+import Layout from "./component";
 
 
 function App() {
   return (
-    <>
-      <ToastContainer/>
+    <div className="App">
+      <ToastContainer />
       <Navbar />
-      {/* <Layout> */}
-        <ScrollToTop />
-        <Routes>
-          <Route path="/" exact element={<Home />}></Route>
-          <Route path="/contributors" exact element={<Contributors />}></Route>
-          <Route path="/projects" exact element={<Projects />}></Route>
-          <Route path="/blog" exact element={<Blog />}></Route>
-          <Route path="/guidelines" exact element={<Guidelines />}></Route>
-          <Route path="/guidelines/:page" exact element={<Documents />}></Route>
-          <Route path="/404" exact element={<NotFound />}></Route>
-          <Route path="/cards/:github" exact element={<Card />}></Route>
-          <Route path="*" exact element={<Navigate to="/404" />}></Route>
-        </Routes>
-        <Footer />
-      {/* </Layout > */}
-    </>
+      <ScrollToTop />
+      <Routes>
+        <Route path="/" exact element={<Home />}></Route>
+        <Route path="/contributors" exact element={<Contributors />}></Route>
+        <Route path="/projects" exact element={<Projects />}></Route>
+        <Route path="/blog" exact element={<Blog />}></Route>
+        <Route path="/guidelines" exact element={<Guidelines />}></Route>
+        <Route path="/guidelines/:page" exact element={<Documents />}></Route>
+        <Route path="/404" exact element={<NotFound />}></Route>
+        <Route path="/cards/:github" exact element={<Card />}></Route>
+        <Route path="*" exact element={<Navigate to="/404" />}></Route>
+      </Routes>
+      <Footer />
+    </div>
   );
 }
 
