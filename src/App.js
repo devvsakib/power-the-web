@@ -10,12 +10,10 @@ import Guidelines from "./component/pages/Guidelines";
 import ScrollToTop from "./component/Button/ScrollToTop";
 import Documents from "./component/Guidelines/pages/Documents";
 import NotFound from "./component/pages/NotFound";
-
 import "./main.css";
 import Card from "./component/pages/Card.js";
 import { ToastContainer } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
-import Layout from "./component";
 
 
 function App() {

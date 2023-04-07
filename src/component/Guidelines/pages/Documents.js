@@ -81,8 +81,7 @@ const Documents = () => {
 					>
 						<FrontendInterview
 							setContent={setContent}
-							setMenu={setMenu}
-							menu={menu}
+							content={content}
 							theme={theme}
 						/>
 						<FrontendRoadmap
