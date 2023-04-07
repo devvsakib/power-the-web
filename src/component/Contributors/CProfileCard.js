@@ -1,15 +1,11 @@
 import React from 'react';
-
 import { FaGithub, FaTwitter, FaRegAddressCard } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 
 const CProfileCard = ({ github, avatarUrl, twitter, name, idx }) => {
     return (
-
         <div className="m-1 w-full md:w-30 cursor-pointer" key={idx}>
-            <div className="w-full mx-auto rounded-3xl bg-gradient-to-r
-                                to-[#0f1c8018] from-[#b700ff48] backdrop-filter backdrop-blur-md z-0 overflow-visible shadow-md max-w-[240px] h-[350px] my-3 p-4 text-white
-                                hover:from-[#9d08d8] hover:to-[#711fce] transition-all ease-linear delay-80 duration-300 hover:scale-110 hover:transition-all">
+            <div className="w-full mx-auto rounded-3xl bg-gradient-to-r to-[#0f1c8018] from-[#b700ff48] backdrop-filter backdrop-blur-md z-0 overflow-visible shadow-md max-w-[240px] h-[350px] my-3 p-4 text-white">
                 <img src={avatarUrl} className="rounded-full w-[100%] h-[65%] skeleton  border-solid border-white border-2 mt-3"
                     alt={name}
                 />
@@ -20,7 +16,7 @@ const CProfileCard = ({ github, avatarUrl, twitter, name, idx }) => {
                     <div className="flex justify-evenly items-center mt-4 ">
                         <a target="_blank" href={`https://github.com/${github}`} rel="noopener noreferrer">
                             <FaGithub
-                                className="w-8 h-8"
+                                className="w-8 h-8 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110"
                                 alt="github"
                             />
                         </a>
@@ -28,14 +24,14 @@ const CProfileCard = ({ github, avatarUrl, twitter, name, idx }) => {
                             github &&
                                 <Link to={`/cards/${github}`} title='My Contributor Card'>
                                     <FaRegAddressCard
-                                        className="w-8 h-8"
+                                        className="w-8 h-8 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110"
                                         alt="twitter"
                                     />
                                 </Link>
                         }
                         <a target="_blank" href={`https://twitter.com/${twitter}`} rel="noopener noreferrer">
                             <FaTwitter
-                                className="w-8 h-8"
+                                className="w-8 h-8 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110"
                                 alt="twitter"
                             />
                         </a>
@@ -46,4 +42,5 @@ const CProfileCard = ({ github, avatarUrl, twitter, name, idx }) => {
     )
 }
 
-export default CProfileCard
+export default CProfileCard;
+
