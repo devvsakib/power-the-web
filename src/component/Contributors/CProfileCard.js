@@ -16,12 +16,17 @@ const CProfileCard = ({ github, avatarUrl, twitter, name, idx }) => {
                         {name}
                     </h2>
                     <div className="flex justify-evenly items-center mt-4 ">
-                        <a target="_blank" href={`https://github.com/${github}`} rel="noopener noreferrer">
-                            <FaGithub
-                                className="socialIcon"
-                                alt="github"
-                            />
-                        </a>
+
+
+                        {
+                            github &&
+                            <a target="_blank" href={`https://github.com/${github}`} rel="noopener noreferrer">
+                                <FaGithub
+                                    className="socialIcon"
+                                    alt="github"
+                                />
+                            </a>
+                        }
                         {
                             github &&
                             <Link to={`/cards/${github}`} title='My Contributor Card'>
@@ -31,16 +36,19 @@ const CProfileCard = ({ github, avatarUrl, twitter, name, idx }) => {
                                 />
                             </Link>
                         }
-                        <a target="_blank" href={`https://twitter.com/${twitter}`} rel="noopener noreferrer">
-                            <FaTwitter
-                                className="socialIcon"
-                                alt="twitter"
-                            />
-                        </a>
+                        {
+                            twitter &&
+                            <a target="_blank" href={`https://twitter.com/${twitter}`} rel="noopener noreferrer">
+                                <FaTwitter
+                                    className="socialIcon"
+                                    alt="twitter"
+                                />
+                            </a>
+                        }
                     </div>
                 </div>
             </div>
-        </div>
+        </div >
     )
 }
 
