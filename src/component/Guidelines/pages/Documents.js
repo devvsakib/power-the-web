@@ -17,7 +17,7 @@ const Documents = () => {
 	const [content, setContent] = useState("")
 	const [menuOpen, setMenuOpen] = useState(false)
 	const [menu, setMenu] = useState(false)
-	const [theme, setTheme] = useState(false)
+	const [theme, setTheme] = useState(true)
 	const { width } = useWindow()
 
 	// console.log(width);
@@ -81,8 +81,7 @@ const Documents = () => {
 					>
 						<FrontendInterview
 							setContent={setContent}
-							setMenu={setMenu}
-							menu={menu}
+							content={content}
 							theme={theme}
 						/>
 						<FrontendRoadmap
