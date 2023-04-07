@@ -11,7 +11,7 @@ function GetContributors() {
                     return (
                         <CProfileCard
                             name={name}
-                            idx={idx}
+                            idx={idx} 
                             github={github}
                             twitter={twitter}
                             avatarUrl={avatarUrl}
