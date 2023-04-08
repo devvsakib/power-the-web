@@ -1,0 +1,21 @@
+:root {
+    --content-color: hsla(210, 58%, 69%, 1);
+}
+
+.footer-container p {
+    color: var(--content-color);
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.footer-container a {
+    color: var(--content-color);
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+.footer-container a:hover {
+    color: hsl(225, 50%, 46%);
+}

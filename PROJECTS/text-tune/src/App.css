@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600;700&display=swap');
+
+
+.App {
+  /* text-align: center; */
+  font-family: 'Bai Jamjuree',
+    sans-serif;
+  background: hsla(211, 100%, 16%, 1);
+  overflow: hidden;
+}
