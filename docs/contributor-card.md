@@ -1,6 +1,6 @@
 ## Contributor card
 
-Thank you for considering contributing to POWERTHEWEB! We appreciate all contributions, big or small. Here's how you can add your profile to the contributor card:
+Thank you for considering contributing to POWERTHEWEB! We appreciate all your hard work and contributions, big or small. Here's how you can add your profile to the contributor card:
 
 1. Log in to your GitHub Account
 2. Visit the [POWERTHEWEB](https://github.com/devvsakib/power-the-web) repo
