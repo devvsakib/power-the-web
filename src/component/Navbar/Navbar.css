@@ -6,12 +6,12 @@ ul>li {
 .mainmenu {
   background: #efefbb;
   /* fallback for old browsers */
-  background:  -webkit-linear-gradient(90deg, rgb(15, 28, 128) 0%, rgba(182, 0, 255, 1) 100%);
+  background: -webkit-linear-gradient(90deg, rgb(15, 28, 128) 0%, rgba(182, 0, 255, 1) 100%);
   /* Chrome 10-25, Safari 5.1-6 */
 
   background: rgba(3, 13, 87, 0.404);
   background: linear-gradient(90deg, rgba(15, 28, 128, 0.2) 0%, rgba(183, 0, 255, 0.2) 100%);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
@@ -25,6 +25,7 @@ ul>li {
   .menu-container {
     display: none
   }
+
   .burger-menu {
     position: absolute;
     background: #7900bf;
