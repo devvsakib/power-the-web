@@ -15,7 +15,7 @@
 
 ## Examples
 
-- [HTML Tips and Tricks](https://yoksel.github.io/bad-practices/) - "bad practies" of HTML;
+- [HTML Tips and Tricks](https://yoksel.github.io/bad-practices/) - "bad practices" of HTML;
 - [HTML Rules](http://yoksel.github.io/easy-markup/) - simple markup rules;
 - [HTML Template](https://tpverstak.ru/seo-html-template/) - basic SEO HTML Template;
 - [HTML Academy Style](http://codeguide.academy/html-css.html) - HTML Academy Code Style;
@@ -144,10 +144,12 @@
 
 - [React Cheatsheet #1](https://reactcheatsheet.com/) - simple react cheat sheet;
 - [React Cheatsheet #2](https://www.freecodecamp.org/news/the-react-cheatsheet-for-2020/) - the React Cheatsheet for 2020;
+- [React Cheatsheet #3](http://cheatsheets.shecodes.io/react) - the React Cheatsheet for 2023;
 
 ## Examples
 
 - [useHooks](https://usehooks.com/) - easy to understand React Hook;
+- [React Hooks Cheat Sheet](https://blog.logrocket.com/react-hooks-cheat-sheet-solutions-common-problems/) - React Hooks Cheat Sheet;
 - [Create React App](https://github.com/facebook/create-react-app/) - create React apps with no build configuration;
 - [React Bits](https://vasanthk.gitbooks.io/react-bits/content/) - compilation of React Patterns, techniques, tips and tricks;
 - [React Sight](https://github.com/React-Sight/React-Sight) - live view of the component hierarchy tree;

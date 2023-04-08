@@ -1,0 +1,108 @@
+:root {
+    --primary-font-color: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+    --content-color: hsla(210, 58%, 69%, 1);
+    --color-white: hsl(0, 0%, 100%);
+    --color-black-blue: hsl(239, 90%, 11%);
+    --button-color: linear-gradient(319deg, #ff794f, #ffd90f);
+}
+
+.heading {
+    font-size: 1.7rem;
+    color: var(--primary-font-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    transition: transform 0.6s cubic-bezier(0.5, 1, 0.89, 1);
+}
+
+.content {
+    color: var(--content-color);
+    text-align: center;
+    margin: 20px;
+    font-size: 0.9rem;
+    transition: transform 0.6s cubic-bezier(0.5, 1, 0.89, 1);
+}
+
+.words,
+.characters {
+    color: var(--content-color);
+    text-align: right;
+    margin-right: 70px;
+    font-weight: 700;
+}
+
+#contentBox {
+    display: block;
+    padding: 1rem;
+    width: 100%;
+    max-width: 300px;
+    resize: vertical;
+    font: inherit;
+    min-height: 35vh;
+    margin-left: 29px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 4px solid hsla(210, 58%, 69%, 1);
+    outline: none;
+    transition: transform 0.6s cubic-bezier(0.5, 1, 0.89, 1);
+}
+
+.buttons {
+    margin-left: 30px;
+    width: 100%;
+    max-width: 300px;
+    transition: transform 0.6s cubic-bezier(0.5, 1, 0.89, 1);
+    padding-bottom: 2rem;
+}
+
+.buttons .btns {
+    margin-bottom: 10px;
+    padding: 10px;
+    background: var(--button-color);
+    color: var(--color-white);
+    font-weight: 700;
+    margin-right: 10px;
+    font-family: inherit;
+    cursor: pointer;
+    border: 0;
+}
+
+.buttons .btns:hover {
+    transform: scale(1.1);
+}
+
+@media screen and (min-width:768px) {
+    .heading {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .content {
+        text-align: center;
+        font-size: 1.5rem;
+        padding: 0 50px;
+    }
+
+    #contentBox {
+        width: 1000px;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .words,
+    .characters {
+        margin-right: 90px;
+    }
+
+    .characters {
+        padding-bottom: 30px;
+    }
+
+    .buttons {
+        width: 1000px;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
