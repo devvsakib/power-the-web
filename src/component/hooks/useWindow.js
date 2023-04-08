@@ -33,7 +33,6 @@ Using the requestAnimationFrame API to debounce the handleResize function can
  improve performance by delaying its execution until the next animation frame. 
  This means that the function will only be executed once per animation frame, 
  regardless of how many times the resize event is fired.
-
  */
 
   const handleResize = useCallback(() => {
