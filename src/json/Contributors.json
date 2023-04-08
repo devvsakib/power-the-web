@@ -1,6 +1,5 @@
 {
-  "profiles": [
-    {
+  "profiles": [{
       "name": "DevvSakib",
       "avatarUrl": "https://avatars.githubusercontent.com/u/88339569?v=4",
       "github": "devvsakib",
@@ -23,6 +22,16 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/62874675?v=4",
       "github": "bobbyy16",
       "twitter": "bobsstwt"
+    },
+    {
+      "name": "Nelson Uprety",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25173636?v=4",
+      "github": "nelsonuprety1",
+      "twitter": "Nelsan97354355",
+      "projects": [
+        "https://github.com/devvsakib/power-the-web/tree/main/PROJECTS/text-tune"
+      ]
+
     },
     {
       "name": "Nwani Victory",
