@@ -16,14 +16,14 @@ ul>li {
 }
 
 @media (min-width: 640px) {
-  .menu-icon {
+  .menu-icon { 
     display: none
   }
 }
 
 @media (max-width: 640px) {
   .menu-container {
-    display: none
+    display: none;
   }
 
   .burger-menu {
@@ -31,5 +31,16 @@ ul>li {
     background: #7900bf;
     width: 100%;
     border-radius: 8px 1px 8px 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .burger-menu ul li:hover {
+    background-color: #a566ff;
+    /* add any other styles you want for the hover effect */
   }
 }
+
+

@@ -15,7 +15,7 @@ function Navbar() {
 
   function classNames(...classes) {
     return classes.filter(Boolean).join(" ");
-  }
+  } 
 
   return (
     <Disclosure as="nav" className="sticky  top-0 backdrop-blur-[5px] z-10 w-full">
