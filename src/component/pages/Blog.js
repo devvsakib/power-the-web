@@ -2,7 +2,6 @@ import { React } from "react";
 import blogs from "../../json/Blogs.json";
 import BlogCard from "../Blog/BlogCard";
 import Layout from ".."
-import { motion } from 'framer-motion';
 
 function Blog() {
   return (
@@ -17,12 +16,10 @@ function Blog() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 my-6">
           {blogs.blogs.map((card, idx) => (
-            <motion.div whileHover={{ scale: 1.05 }}>
             <BlogCard
               card={card}
               idx={idx}
             />
-            </motion.div>
           ))}
         </div>
       </div>
