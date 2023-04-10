@@ -1,0 +1,87 @@
+.hero-section {
+    /* width: 100vw; */
+    height: calc(100vh - 144px);
+}
+
+body {
+    background: #4e05c5!important;
+}
+
+.text {
+    text-transform: uppercase;
+    font-family: verdana;
+    font-size: 5rem !important;
+    font-weight: 700;
+    color: #f5f5f5;
+    text-shadow: 1px 1px 1px #919191,
+        1px 2px 1px #EFEFBB,
+        1px 3px 1px #919191,
+        1px 4px 1px #919191,
+        1px 5px 1px #919191,
+        1px 6px 1px #919191,
+        1px 7px 1px #919191,
+        1px 8px 1px #919191,
+        1px 15px 6px rgba(16, 16, 16, 0.4),
+        1px 22px 10px rgba(16, 16, 16, 0.2),
+        1px 25px 35px rgba(16, 16, 16, 0.2),
+        1px 30px 60px rgba(16, 16, 16, 0.4);
+}
+
+#homepageTitle {
+    font-size: 6vw !important;
+}
+
+@media (max-width: 810px) {
+    #tet {
+        font-size: 8vw !important;
+    }
+}
+
+@media (max-width: 640px) {
+    #tet {
+        font-size: 10vw !important;
+    }
+
+    .hero-section {
+        padding: 0;
+        height: calc(100vh - 152px);
+    }
+
+    iframe {
+        width: 90vw;
+    }
+    .text {
+        font-size: 10vw !important;
+    }
+}
+
+
+.ptw-text-animation {
+    background: linear-gradient(90deg, #da35c4, #03b7ff, #f7cc0e);
+    background-size: 1000px 50px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    animation: animate 2s linear infinite alternate;
+    -webkit-animation: animate 2s linear infinite alternate;
+    -moz-animation: animate 2s linear infinite alternate;
+    -o-animation: animate 2s linear infinite alternate;
+    -ms-animation: animate 2s linear infinite alternate;
+    filter: drop-shadow(0 0 0.75rem #03b8ff60);
+}
+
+
+@keyframes animate {
+    0% {
+        background-position: 0;
+    }
+
+    100% {
+        background-position: 100%;
+    }
+}
+
+
+/* Path: src\component\HeroSection\Hero.js */
