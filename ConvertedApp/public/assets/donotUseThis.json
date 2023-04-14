@@ -1,0 +1,832 @@
+[
+  {
+    "question": "What is JavaScript?",
+    "answer": "JavaScript is a high-level, interpreted programming language that is commonly used for creating dynamic web pages and client-side scripting.",
+    "tag": "javascript"
+  },
+  {
+    "question": "What is JavaScript and how is it used in web development?",
+    "answer": "JavaScript is a programming language used to create interactive effects within web browsers. It can be used for front-end development to create interactive user interfaces, and also for back-end development to create server-side applications. JavaScript is one of the three core technologies used in web development, alongside HTML and CSS.",
+    "tag": "javascript"
+  },
+  {
+    "question": "What is the difference between JavaScript and other programming languages?",
+    "answer": "JavaScript is a dynamically-typed, high-level programming language that is used mainly for front-end and back-end web development. It is unique in that it is executed on the client- side, meaning that it runs within a web browser. Other programming languages may be compiled or interpreted and can be used for a wide variety of applications, such as desktop or mobile applications.",
+    "tag": "javascript"
+  },
+  {
+    "question": "What is the Document Object Model (DOM) in JavaScript?",
+    "answer": "The Document Object Model (DOM) is a programming interface for HTML and XML documents. It represents the page so that programs can change the document structure, style, and content. The DOM provides a way for programmers to access and manipulate HTML and XML documents, which makes it essential for building dynamic web pages and applications.",
+    "tag": "javascript"
+  },
+  {
+    "question": "What are the different data types in JavaScript?",
+    "answer": "JavaScript has seven different data types: undefined, null, boolean, number, string, object, and symbol.",
+    "tag": "javascript"
+  },
+  {
+    "question": "What is the typeof operator in JavaScript?",
+    "answer": "You can use the JavaScript typeof operator to find the type of a JavaScript variable. It returns the type of a variable or an expression.",
+    "tag": "javascript"
+  },
+  {
+    "question": "What is an object in JavaScript?",
+    "answer": "An object in JavaScript is a collection of properties, where each property has a name and a value. Objects can be created using object literals or using constructor functions.",
+    "tag": "javascript"
+  },
+  {
+    "question": "What are some tools or techniques to use when debugging JavaScript code?",
+    "answer": "Chrome Devtools, debugger, using console.log statements",
+    "tag": "javascript"
+  },
+  {
+    "question": "What is an array in JavaScript?",
+    "answer": "An array in JavaScript is a collection of elements, where each element has an index and a value. Arrays can be created using array literals or using the Array constructor.",
+    "tag": "javascript"
+  },
+  {
+    "question": "How do you declare variables in JavaScript?",
+    "answer": "Variables can be declared using the var, let, or const keywords in JavaScript. The var keyword is used for declaring variables with global or functional scope, while let and const are used for block-scoped variables",
+    "tag": "javascript"
+  },
+  {
+    "question": "What is hoisting in JavaScript?",
+    "answer": "Hoisting is a behavior in JavaScript where variable and function declarations are moved to the top of their respective scopes. This means that a variable or function can be used before it has been declared, although it will still be undefined until it is assigned a value",
+    "tag": "javascript"
+  },
+  {
+    "question": "What are the different types of operators in JavaScript?",
+    "answer": "JavaScript has several types of operators, including arithmetic, assignment, comparison, logical, bitwise, and string operators.",
+    "tag": "javascript"
+  },
+  {
+    "question": "What is async/await in JavaScript?",
+    "answer": "Async/await is a way to write asynchronous code that looks like synchronous code. It allows developers to write code that waits for a promise to resolve before executing the next line of code.",
+    "tag": "javascript"
+  },
+  {
+    "question": "What is a promise in JavaScript?",
+    "answer": "A promise is a JavaScript object that represents a value that may not be available yet but will be resolved in the future.",
+    "tag": "javascript"
+  },
+  {
+    "question": "What is the difference between synchronous and asynchronous programming in JavaScript?",
+    "answer": "Synchronous programming is when tasks are executed sequentially, one after the other, in a predictable order. Asynchronous programming is when tasks are executed concurrently, and the order of execution is not guaranteed.",
+    "tag": "javascript"
+  },
+  {
+    "question": "What is prototypal inheritance in JavaScript?",
+    "answer": "Prototypal inheritance is a way of creating new objects based on existing objects, by inheriting their properties and methods. In JavaScript, every object has a prototype, which is a reference to another object that it inherits properties and methods from.",
+    "tag": "javascript"
+  },
+  {
+    "question": "What is the difference between an object and an array in JavaScript?",
+    "answer": "An object is a collection of properties, where each property is a key-value pair. An array is an ordered list of values, where each value is accessed by its index number.",
+    "tag": "javascript"
+  },
+  {
+    "question": "What is a callback function in JavaScript?",
+    "answer": "A callback function in JavaScript is a function that is passed as an argument to another function and is executed when that function completes its operation. Callbacks are often used in asynchronous programming and event handling.",
+    "tag": "javascript"
+  },
+  {
+    "question": "What are closures in JavaScript?",
+    "answer": "Closures are functions that have access to variables in their outer (enclosing) functions, even after the outer function has returned. This is possible because the inner function retains a reference to the variables in the outer function, which are kept alive in memory.",
+    "tag": "javascript"
+  },
+  {
+    "question": "What is scope in JavaScript?",
+    "answer": "Scope refers to the accessibility of variables, functions, and objects in different parts of a JavaScript program. There are two types of scope in JavaScript: global scope and local scope.",
+    "tag": "javascript"
+  },
+  {
+    "question": "What is the difference between == and === in JavaScpt?",
+    "answer": "The == operator compares values for equality, whereas the === operator compares values for equality and type.",
+    "tag": "javascript"
+  },
+  {
+    "question": "What is event bubbling in JavaScript?",
+    "answer": "Event bubbling is the process by which an event propagates from the innermost element that triggered the event up to the document root, triggering all event handlers along the way.",
+    "tag": "javascript"
+  },
+  {
+    "question": "What is event delegation in JavaScript?",
+    "answer": "Event delegation is a technique in which a single event handler is added to a parent element, rather than multiple event handlers being added to multiple child elements.",
+    "tag": "javascript"
+  },
+  {
+    "question": "What is a decorator in JavaScript?",
+    "answer": "A decorator in JavaScript is a function that is used to modify the behavior of another function or object. Decorators are typically used to add functionality to an existing function or object without modifying its original source code.",
+    "tag": "javascript"
+  },
+  {
+    "question": "What is JSON and how is it used in JavaScript?",
+    "answer": "JSON (JavaScript Object Notation) is a lightweight data interchange format that is easy for humans to read and write and easy for machines to parse and generate. It is a text format that is used to represent data in a structured way and is widely used for data exchange between web servers and clients. In JavaScript, JSON is used to exchange data between a web server and a web application. The JSON format is based on a subset of the JavaScript programming language and is natively supported by most modern web browsers.",
+    "tag": "javascript"
+  },
+  {
+    "question": "What is the difference between null and undefined in JavaScript?",
+    "answer": "null is a value that represents the intentional absence of any object value. It is often used to indicate that a variable has no value assigned to it. undefined, on the other hand, is a value that represents an uninitialized variable or a missing property in an object.",
+    "tag": "javascript"
+  },
+  {
+    "question": "What is the event loop in JavaScript?",
+    "answer": "The event loop is a mechanism in JavaScript that allows for asynchronous programming. It continuously monitors the call stack and the message queue, and when the call stack is empty, it takes the first message from the queue and adds it to the call stack.",
+    "tag": "javascript"
+  },
+  {
+    "question": "What is the call stack in JavaScript?",
+    "answer": "The call stack in JavaScript is a data structure that manages the order in which function calls are executed. It keeps track of the function calls that have been made and the order in which they should be completed. When a function is called, it is added to the top of the stack and when it returns, it is removed from the top of the stack. If there is an error in the code, the call stack can be used to trace the origin of the error.",
+    "tag": "javascript"
+  },
+  {
+    "question": "What is a higher-order function in JavaScript?",
+    "answer": "A higher-order function is a function that takes another function as an argument or returns a function as a result. Examples of higher-order functions in JavaScript include map(), filter(), and reduce().",
+    "tag": "javascript"
+  },
+  {
+    "question": "What is the difference between var, let, and const in JavaScript?",
+    "answer": "var declares a variable globally or locally to a function, let declares a block-scoped variable, and const declares a read-only variable with a block scope. Variables declared with const cannot be reassigned.",
+    "tag": "javascript"
+  },
+  {
+    "question": "What is the difference between slice and splice in JavaScript?",
+    "answer": "Slice: doesn't modify original array, returns subset of original array, and used to pick elements from an array. Splice: modifies the original array, returns the deleted elements as an array, and is used to insert or delete elements to / from an array. ",
+    "tag": "javascript"
+  },
+  {
+    "question": "What is the purpose of the 'use strict' directive in JavaScript?",
+    "answer": "The 'use strict' directive is used to enable strict mode in JavaScript. Strict mode is a way to write more secure and optimized JavaScript code by enforcing stricter parsing and error handling rules.",
+    "tag": "javascript"
+  },
+  {
+    "question": "What is a generator function in JavaScript?",
+    "answer": "A generator function is a special type of function in JavaScript that can be paused and resumed during execution. It is defined using the function* syntax and uses the yield keyword to pause the function and return a value.",
+    "tag": "javascript"
+  },
+  {
+    "question": "What is the difference between synchronous and asynchronous functions in JavaScript?",
+    "answer": "Synchronous functions are blocking, meaning that the program waits for the function to complete before moving on to the next line of code. Asynchronous functions are non-blocking, meaning that the program can continue to execute while the function is running in the background.",
+    "tag": "javascript"
+  },
+  {
+    "question": "What is the difference between for..in and for..of loops in JavaScript?",
+    "answer": "for..in loops are used to iterate over the properties of an object, whereas for..of loops are used to iterate over the values of an iterable object such as an array or a string.",
+    "tag": "javascript"
+  },
+  {
+    "question": "What is the difference between a shallow copy and a deep copy in JavaScript?",
+    "answer": "A shallow copy creates a new object that references the original object's properties, whereas a deep copy creates a new object with its own properties that are copies of the original object's properties. Modifying a property of the original object will affect the shallow copy, but not the deep copy.",
+    "tag": "javascript"
+  },
+  {
+    "question": "What is a pure function in JavaScript?",
+    "answer": "A pure function is a function that always returns the same output given the same input, and has no side effects outside of its own scope. Pure functions are often used in functional programming to create predictable, composable code.",
+    "tag": "javascript"
+  },
+  {
+    "question": "What is an Event Listener in JavaScript?",
+    "answer": "An event listener in JavaScript is a function that is registered to be notified when a specific event occurs on an element. When the event occurs, the listener function is automatically executed, allowing you to respond to the event and take some action.",
+    "tag": "javascript"
+  },
+  {
+    "question": "What is the difference between call and apply in JavaScript?",
+    "answer": "Call and apply are both methods that allow you to call a function with a specific this value, and with arguments passed in as an array (apply) or as separate arguments (call).",
+    "tag": "javascript"
+  },
+  {
+    "question": "What is a module in JavaScript, and how is it used?",
+    "answer": "A module is a self-contained unit of code that can be imported and used by other parts of a program. Modules are often used to encapsulate functionality and to make code more reusable and easier to maintain.",
+    "tag": "javascript"
+  },
+  {
+    "question": "What is HTML?",
+    "answer": "HTML stands for HyperText Markup Language. It is a markup language used to create web pages.",
+    "tag": "html"
+  },
+  {
+    "question": "What is CSS?",
+    "answer": "CSS stands for Cascading Style Sheets. It is a stylesheet language used to describe the presentation of HTML or XML documents.",
+    "tag": "css"
+  },
+  {
+    "question": "Explain Null and Undefined in JavaScript.",
+    "answer": "Null: It is the intentional absence of the value. It is one of the primitive values of JavaScript. Undefined: It means the value does not exist in the compiler. It is the global object.",
+    "tag": "javascript"
+  },
+  {
+    "question": "What is the strict mode?",
+    "answer": "This strict context prevents certain actions from being taken and throws more exceptions. The statement “use strict”; instructs the browser to use the Strict mode, which is a reduced and safer feature set of JavaScript.",
+    "tag": "javascript"
+  },
+  {
+    "question": "What is a Polyfill?",
+    "answer": "A polyfill is a piece of code (usually JavaScript on the Web) used to provide modern functionality on older browsers that do not natively support it.",
+    "tag": "javascript"
+  },
+  {
+    "question": "What are the advantages of using arrow functions?",
+    "answer": "1.Arrow function reduce code and makes the mode more readable.2.Arrow function syntax automatically binds “this” to the surrounding code’s context.3.Writing the arrow => is more flexible as compared with the function keyword.",
+    "tag": "javascript"
+  },
+  {
+    "question": "What is Currying?",
+    "answer": " It is a technique in functional programming, transformation of the function of multiple arguments into several functions of a single argument in sequence.",
+    "tag": "javascript"
+  },
+  {
+    "question": "What is Coercion in JavaScript?",
+    "answer": "Type Coercion refers to the process of automatic or implicit conversion of values from one data type to another. This includes conversion from Number to String, String to Number, Boolean to Number etc. when different types of operators are applied to the values.",
+    "tag": "javascript"
+  },
+  {
+    "question": " What is IIFE?",
+    "answer": " A JavaScript immediately Invoked Function Expression is a function defined as an expression and executed immediately after creation.",
+    "tag": "javascript"
+  },
+  {
+    "question": "What object.freeze() does?",
+    "answer": "The Object.freeze() method is used to freeze an object. Freezing an object does not allow new properties to be added to the object and prevents removing or altering the existing properties. Object.freeze() preserves the enumerability, configurability, writability, and prototype of the object. It returns the passed object and does not create a frozen copy.",
+    "tag": "javascript"
+  },
+  {
+    "question": "Explain the difference between Object.freeze() vs const.",
+    "answer": "The const keyword creates a read-only reference to a value. Variables created by the const keyword are immutable. In other words, you can’t reassign them to different values. Trying to reassign a constant variable will result in a TypeError. If you want the value of the person object to be immutable, you have to freeze it by using the Object.freeze() method.",
+    "tag": "javascript"
+  },
+  {
+    "question": "What's a typical use case for anonymous functions?",
+    "answer": "They can be used in IIFEs to encapsulate some code within a local scope so that variables declared in it do not leak to the global scope.As a callback that is used once and does not need to be used anywhere else. The code will seem more self-contained and readable when handlers are defined right inside the code calling them, rather than having to search elsewhere to find the function body.",
+    "tag": "javascript"
+  },
+  {
+    "question": "How will you merge two arrays in simple steps?",
+    "answer": "We can either use the array.concat() method or the spread operator to merge two arrays. The concat() method returns a new array by merging (concatenating) the given arrays. The spread operator allows an iterable such as an array expression or string to be expanded in places where zero or more arguments (for function calls) or elements (for array literals) are expected, or an object expression to be expanded in places where zero or more key-value pairs (for object literals) are expected.",
+    "tag": "javascript"
+  },
+  {
+    "question": "What are the main differences between ES6 and older versions of JavaScript?",
+    "answer": "ES6 introduced many new features and improvements, including: block scoping with let and const, template literals for easier string concatenation, arrow functions for concise function syntax, destructuring for easier extraction of values from arrays and objects, among many other changes!",
+    "tag": "javascript"
+  },
+  {
+    "question": "What is the box model in CSS?",
+    "answer": "The box model is a way of representing the layout of elements in CSS. It consists of four parts: the content, padding, border, and margin. The content is the actual content of the element, the padding is the space between the content and the border, the border is the border around the element, and the margin is the space between the border and the surrounding elements.",
+    "tag": "css"
+  },
+  {
+    "question": "What is the difference between inline and block-level elements?",
+    "answer": "Inline elements are those that only take up as much width as necessary and do not create a new line, while block-level elements take up the full width available and create a new line. Examples of inline elements are span and a, while examples of block-level elements are div and p.",
+    "tag": "html"
+  },
+  {
+    "question": "What is the difference between class and ID selectors in CSS?",
+    "answer": "Class selectors are used to apply a style to multiple elements on a page, while ID selectors are used to apply a style to a single unique element. In CSS, class selectors are denoted with a period (.), while ID selectors are denoted with a hash symbol (#).",
+    "tag": "css"
+  },
+  {
+    "question": "What is the DOM in HTML?",
+    "answer": "The Document Object Model (DOM) is a programming interface for HTML documents. It represents the page so that programs can change the document structure, style, and content. The DOM represents the document as nodes and objects, which can be manipulated with programming languages such as JavaScript.",
+    "tag": "html"
+  },
+  {
+    "question": "What is the box model in HTML?",
+    "answer": "The box model is a layout concept in HTML that represents an HTML element as a rectangular box, comprising of four parts: content, padding, border, and margin. The content is the actual element content, padding is the space between the content and the border, border is the line around the padding, and margin is the space outside the border.",
+    "tag": "html"
+  },
+  {
+    "question": "What is semantic HTML?",
+    "answer": "Semantic HTML is the use of HTML markup to reinforce the meaning of content on a web page rather than just using markup for visual appearance. This makes the page more accessible for people using assistive technologies and also helps search engines to better understand the page content.",
+    "tag": "html"
+  },
+  {
+    "question": "What is the difference between a div and a span in HTML?",
+    "answer": "A div is a block-level element that is used to group larger sections of content together, while a span is an inline-level element that is used to group smaller sections of content together. Divs are typically used to create layout structures and apply styles, while spans are used for inline styling or to target specific pieces of text or content.",
+    "tag": "html"
+  },
+  {
+    "question": "What is the difference between the <head> and <body> tags in HTML?",
+    "answer": "The <head> tag contains meta-data about the document such as the title, keywords, and links to external files, while the <body> tag contains the visible content of the page. The <head> tag is not displayed in the browser, whereas the <body> tag is where all the visible content goes.",
+    "tag": "html"
+  },
+  {
+    "question": "What is the purpose of the alt attribute in HTML?",
+    "answer": "The alt attribute is used to provide alternative text for an image in case the image cannot be displayed. This is important for accessibility reasons as it allows screen readers to describe the image to users who are visually impaired. It also helps search engines to better understand the image content.",
+    "tag": "html"
+  },
+  {
+    "question": "What is the purpose of the alt attribute in an img tag?",
+    "answer": "The alt attribute provides alternative text for an image if the image cannot be displayed. This text is also used by screen readers for accessibility purposes.",
+    "tag": "html"
+  },
+  {
+    "question": "What is the role of the title tag in HTML?",
+    "answer": "The title tag is used to specify the title of a document or webpage. It appears in the browser's title bar and is used by search engines when displaying search results.",
+    "tag": "html"
+  },
+  {
+    "question": "What is the difference between the head and body sections of an HTML document?",
+    "answer": "The head section contains metadata about the document, such as the title and links to external resources, and is not visible on the page. The body section contains the visible content of the page.",
+    "tag": "html"
+  },
+  {
+    "question": "What are the different types of lists in HTML?",
+    "answer": "There are three types of lists in HTML: ordered lists (ol), unordered lists (ul), and definition lists (dl).",
+    "tag": "html"
+  },
+  {
+    "question": "What is the role of the form tag in HTML?",
+    "answer": "The form tag is used to create an HTML form for user input. It contains form elements such as input fields, checkboxes, and buttons.",
+    "tag": "html"
+  },
+  {
+    "question": "What is the difference between GET and POST methods in HTML forms?",
+    "answer": "The GET method submits the form data as URL parameters, visible in the URL of the resulting page. The POST method submits the form data in the body of the HTTP request, making it more secure for sensitive information.",
+    "tag": "html"
+  },
+  {
+    "question": "What is the purpose of the HTML <head> tag?",
+    "answer": "The <head> tag contains information about the HTML document, such as the title, keywords, and metadata. This information is not displayed on the page itself, but is used by the browser and search engines to understand and categorize the content of the page.",
+    "tag": "html"
+  },
+  {
+    "question": "What is the difference between the <div> and <span> tags in HTML?",
+    "answer": "The <div> tag is a block-level element that is used to group together other HTML elements and apply styles or other properties to the group as a whole. The <span> tag is an inline-level element that is used to apply styles or other properties to a specific section of text or other inline content.",
+    "tag": "html"
+  },
+  {
+    "question": "How do you create a hyperlink in HTML?",
+    "answer": "To create a hyperlink in HTML, you use the <a> tag, followed by the href attribute to specify the URL of the page you want to link to. For example, <a href='https://www.example.com'>Example</a> would create a link to the page at https://www.example.com, with the text 'Example' displayed as the link.",
+    "tag": "html"
+  },
+  {
+    "question": "What is the purpose of the alt attribute in an <img> tag?",
+    "answer": "The alt attribute provides alternative text for an image, which is displayed in place of the image if the image cannot be loaded or if the user is using a screen reader to access the content. The alt text should describe the content of the image and provide context for its use in the page.",
+    "tag": "html"
+  },
+  {
+    "question": "What is the difference between the <ul> and <ol> tags in HTML?",
+    "answer": "The <ul> tag is used to create an unordered list, where each item in the list is preceded by a bullet point. The <ol> tag is used to create an ordered list, where each item in the list is numbered. The type of bullet point or numbering can be changed using CSS.",
+    "tag": "html"
+  },
+  {
+    "question": "How do you create a table in HTML?",
+    "answer": "To create a table in HTML, you use the <table> tag, along with the <tr> tag to create each row of the table, and the <td> tag to create each cell in the table. You can also use the <th> tag to create header cells for the table.",
+    "tag": "html"
+  },
+  {
+    "question": "What is the purpose of the <form> tag in HTML?",
+    "answer": "The <form> tag is used to create an HTML form, which allows users to input data that can be sent to a server for processing. The form typically contains input fields such as text boxes, radio buttons, and checkboxes, and is submitted using a button or by pressing Enter.",
+    "tag": "html"
+  },
+  {
+    "question": "What is the purpose of the href attribute in an <a> tag?",
+    "answer": "The href attribute specifies the URL or web page that the link leads to. When a user clicks on the link, the browser navigates to the URL specified in the href attribute. The href attribute can also be used to create internal links within a web page by referencing the ID of a specific element on the page.",
+    "tag": "html"
+  },
+  {
+    "question": "What is semantic HTML, and why is it important?",
+    "answer": "Semantic HTML refers to using HTML tags that convey the meaning and structure of the content they enclose, rather than just using tags for their visual appearance. Semantic HTML makes it easier for search engines and screen readers to understand the content and context of a web page, improving accessibility and SEO. Examples of semantic HTML tags include <header>, <footer>, <nav>, and <article>.",
+    "tag": "html"
+  },
+  {
+    "question": "What is the purpose of the tabindex attribute?",
+    "answer": "The tabindex attribute specifies the order in which elements can be accessed using the keyboard's tab key. This is useful for improving accessibility for users who cannot use a mouse or touchpad. By default, only certain elements, such as links and form fields, are tabbable. The tabindex attribute can be used to make other elements, such as <div> or <span>, tabbable as well. The value of the tabindex attribute determines the order in which the elements are accessed, with lower values coming first.",
+    "tag": "html"
+  },
+  {
+    "question": "What are the different types of HTML tags?",
+    "answer": "HTML tags can be classified into two types: container tags and empty tags. Container tags have an opening tag and a closing tag, and they can contain other HTML tags and text content. Examples include <div>, <p>, and <h1>. Empty tags, also called void or self-closing tags, do not have a closing tag and are used to insert content that does not require any additional markup. Examples include <img>, <input>, and <br>.",
+    "tag": "html"
+  },
+  {
+    "question": "What is the difference between margin and padding in CSS?",
+    "answer": "Margin and padding are both CSS properties that define the space around an element, but they have different effects. Margin adds space outside the border of an element and can be used to create space between adjacent elements. Padding adds space inside the border of an element and can be used to create space between the content and the border. Both properties can be specified using shorthand syntax or individual properties for each side (top, right, bottom, left).",
+    "tag": "css"
+  },
+  {
+    "question": "What is the CSS box-sizing property?",
+    "answer": "The box-sizing property in CSS determines how the width and height of an element are calculated. By default, the width and height of an element include the content, padding, and border layers. This can make it difficult to create consistent layouts, especially when using percentages or ems for sizing. The box-sizing property can be set to border-box, which makes the width and height include the padding and border layers, or content-box, which is the default behavior.",
+    "tag": "css"
+  },
+  {
+    "question": "What is the CSS float property, and how does it work?",
+    "answer": "The float property in CSS is used to align an element to the left or right of its container. When an element is floated, it is taken out of the normal flow of the document and can overlap with other elements. This can be useful for creating multi-column layouts or wrapping text around an image. However, it can also cause layout problems if not used carefully. The clear property can be used to prevent elements from overlapping with floated elements.",
+    "tag": "css"
+  },
+  {
+    "question": "What is the difference between position: absolute and position: relative in CSS?",
+    "answer": "Position: absolute and position: relative are both CSS properties that control the positioning of an element, but they have different effects. Position: relative positions an element relative to its normal position in the document flow, while allowing other elements to flow around it. Position: absolute positions an element relative to its nearest positioned ancestor, or the document if no ancestor is positioned. Absolute positioning takes an element out of the normal flow of the document and can cause other elements to overlap with it.",
+    "tag": "css"
+  },
+  {
+    "question": "What is the difference between display: none and visibility: hidden in CSS?",
+    "answer": "The display: none property removes an element from the flow of the document, so it takes up no space and is not visible. The visibility: hidden property hides an element but still takes up space and affects the layout of the document. In other words, display: none completely removes the element from the page, while visibility: hidden hides the element but still reserves its space.",
+    "tag": "css"
+  },
+  {
+    "question": "What is the difference between inline and block elements in CSS?",
+    "answer": "Inline elements are those that only take up as much width as their content and do not start a new line. Examples of inline elements include <a>, <span>, and <strong>. Block elements, on the other hand, take up the full width available to them and start a new line. Examples of block elements include <div>, <p>, and <h1>. Inline elements can be nested inside block elements, but block elements cannot be nested inside inline elements.",
+    "tag": "css"
+  },
+  {
+    "question": "What is the purpose of the z-index property in CSS?",
+    "answer": "The z-index property determines the stacking order of elements on a web page. An element with a higher z-index value will appear on top of an element with a lower z-index value. The z-index property only applies to positioned elements (i.e., those with position: relative, position: absolute, or position: fixed).",
+    "tag": "css"
+  },
+  {
+    "question": "What is the difference between ID and class selectors in CSS?",
+    "answer": "ID selectors target a specific HTML element based on its unique ID attribute, using the # symbol. For example, #header { background-color: blue; } would target the element with an ID of 'header'. Class selectors, on the other hand, target one or more HTML elements based on their shared class attribute, using the . symbol. For example, .highlight { background-color: yellow; } would target all elements with a class of 'highlight'. An ID can only be used once on a page, while a class can be used multiple times.",
+    "tag": "css"
+  },
+  {
+    "question": "What is VH/VW (viewport height/ viewport width) in CSS?",
+    "answer": "VH and VW are CSS units used to measure viewport height and viewport width respectively in percentage form in the responsive design techniques. E.g. If the height of the browser is 1000px, then VH is 1/100 of the height of the viewport that is 1000px*(1/100) = 10px, which is the height of the browser.  The same applies to VW (viewport width).",
+    "tag": "css"
+  },
+  {
+    "question": "What are Pseudo classes?",
+    "answer": "Pseudo-classes are the type of pseudo-elements that don’t exist in a normal document tree. It allows selecting the regular elements under certain conditions especially when we try to hover over the link; the anchor tags are :link, :visited, :hover, :active, :focus",
+    "tag": "css"
+  },
+  {
+    "question": "How is opacity specified in CSS3?",
+    "answer": "Opacity is the measure of content transparency. It is measured in the range from 0 to 1. Value 1 means the content is completely opaque. It is not supportable in the internet browser. Also, the 60% of opacity is applicable in the div section where we need to apply the filter property (polyfill) to make it completely opaque.",
+    "tag": "css"
+  },
+  {
+    "question": "How does absolute positioning work?",
+    "answer": "Absolute positioning is used to place the element which is then removed from the HTML document from the normal workflow without creating any space for the element in the HTML page layout. The element can be positioned respectively to the closest positioned ancestor; otherwise, if the ancestor is not found, the element is placed with respect to the initial container box. The values provided to the top, right, left and bottom determine the final position of the element.",
+    "tag": "css"
+  },
+  {
+    "question": "How is opacity specified in CSS3?",
+    "answer": "Opacity is the measure of content transparency. It is measured in the range from 0 to 1. Value 1 means the content is completely opaque. It is not supportable in the internet browser. Also, the 60% of opacity is applicable in the div section where we need to apply the filter property (polyfill) to make it completely opaque.",
+    "tag": "css"
+  },
+  {
+    "question": "What is Fragment in React?",
+    "answer": "React Fragment is a component that allows returning multiple children elements from a component without adding an additional node to the DOM hierarchy.",
+    "tag": "react"
+  },
+  {
+    "question": "What happens if we leave useeffect dependency array empty?",
+    "answer": "The empty array indicates that the useEffect doesn't have any dependencies on any state variables. Therefore, the callback function is only called once the page renders in this case.",
+    "tag": "react"
+  },
+  {
+    "question": "In useEffect, what's the difference between providing no dependency array and an empty one?",
+    "answer": "Giving it an empty array acts like componentDidMount as in, it only runs once whereas giving it no second argument acts as both componentDidMount and componentDidUpdate, as in it runs first on mount and then on every re-render.",
+    "tag": "react"
+  },
+  {
+    "question": "How does React use Virtual DOM to improve performance?",
+    "answer": "React uses a virtual DOM to minimize the number of direct DOM manipulations. Whenever there is a change in the state of a component, React creates a new virtual DOM tree and compares it with the old one. The differences between the two are then calculated, and only those changes are made to the real DOM. This approach significantly improves the performance of the application.",
+    "tag": "react"
+  },
+  {
+    "question": "What is JSX in React and why is it used?",
+    "answer": "JSX is a syntax extension that allows developers to write HTML-like syntax within JavaScript code. It is used in React to create UI components and is a more intuitive way of representing the structure and layout of the UI.",
+    "tag": "react"
+  },
+  {
+    "question": "What is state in React and how is it used?",
+    "answer": "State in React is an object that represents the current state of a component. It is used to manage the data that changes over time and triggers the rendering of the UI when the state changes. State is mutable, and it can only be modified using the setState method.",
+    "tag": "react"
+  },
+  {
+    "question": "What is the difference between state and props in React?",
+    "answer": "State is used to manage data that can change within a component, while props are used to pass data from a parent component to a child component. State is mutable and can be updated within the component, while props are read-only.",
+    "tag": "react"
+  },
+  {
+    "question": "What is the significance of keys in React?",
+    "answer": "Keys are used to uniquely identify elements in a list of components. They help React identify which items have changed, been added, or been removed in a list, making the rendering process more efficient.",
+    "tag": "react"
+  },
+  {
+    "question": "What is the virtual DOM in React?",
+    "answer": "The virtual DOM is a lightweight copy of the actual DOM that React uses to manage and update the UI efficiently. When a component’s state or props change, React creates a new virtual DOM tree, compares it to the old one, and updates only the necessary parts of the actual DOM.",
+    "tag": "react"
+  },
+  {
+    "question": "What are the lifecycle methods in React?",
+    "answer": "Lifecycle methods are methods that are called at different stages of a component’s life cycle, such as when it is mounted, updated, or unmounted. They can be used to perform actions like fetching data, updating the state, or cleaning up resources.",
+    "tag": "react"
+  },
+  {
+    "question": "How can you optimize the performance of a React application?",
+    "answer": "Some ways to optimize the performance of a React application include using the virtual DOM, avoiding unnecessary renders, using lazy loading, and minimizing the number of HTTP requests. You can also use tools like React Profiler and DevTools to identify and fix performance issues.",
+    "tag": "react"
+  },
+  {
+    "question": "What is the difference between a functional component and a class component in React?",
+    "answer": "Functional components are stateless and use a function to render the UI. They are simpler and easier to write than class components, but cannot use state or lifecycle methods. Class components, on the other hand, use a class to define the component and can use state and lifecycle methods.",
+    "tag": "react"
+  },
+  {
+    "question": "What are the advantages of using React?",
+    "answer": "Some advantages of using React include its ability to create reusable UI components, its virtual DOM which increases performance, its ease of use with other libraries or frameworks, and its large and supportive community.",
+    "tag": "react"
+  },
+  {
+    "question": "What is Redux and how does it work with React?",
+    "answer": "Redux is a state management library for JavaScript applications. It works with React by providing a centralized store for application state, which can be accessed by any component in the application. React components can subscribe to changes in the Redux store using the connect() function, and can update the store using Redux actions.",
+    "tag": "react"
+  },
+  {
+    "question": "What is React Router and how does it work?",
+    "answer": "React Router is a library for handling routing in React applications. It allows you to define routes for different URLs and render different components depending on the current route. React Router works by using a <Router> component to wrap your application and defining different routes using <Route> components.",
+    "tag": "react"
+  },
+  {
+    "question": "What are controlled components in React?",
+    "answer": "Controlled components are React components that are controlled entirely by the state of the parent component. The state of a controlled component is passed down to the child component as props, and the child component cannot modify its state directly. Instead, it must notify the parent component of any changes, which then updates the state of the controlled component.",
+    "tag": "react"
+  },
+  {
+    "question": "What are React Hooks?",
+    "answer": "React Hooks are functions that allow developers to use state and other React features without writing a class component. Hooks were introduced in React 16.8 and include useState, useEffect, useContext, and many others. Hooks simplify the development of React components by reducing the amount of boilerplate code required and promoting code reuse.",
+    "tag": "react"
+  },
+  {
+    "question": "What is the difference between React and React Native?",
+    "answer": "React is a JavaScript library for building user interfaces, while React Native is a framework for building native mobile applications using React. React Native uses the same programming concepts as React, but it is designed specifically for mobile devices and uses native components instead of HTML and CSS. React Native allows developers to build cross-platform mobile applications that run on iOS and Android devices with a single codebase.",
+    "tag": "react"
+  },
+  {
+    "question": "What are the different types of HTML elements?",
+    "answer": "There are several types of HTML elements, including text elements, image elements, form elements, and semantic elements.",
+    "tag": "html"
+  },
+  {
+    "question": "What is the difference between the <div> and <span> tags?",
+    "answer": "The <div> tag is a block-level element that is used to group elements together and apply styles to them. The <span> tag is an inline element that is used to apply styles to small sections of text.",
+    "tag": "html"
+  },
+  {
+    "question": "What is the purpose of the alt attribute in the <img> tag?",
+    "answer": "The alt attribute is used to provide alternative text for an image in case the image cannot be displayed. It is also used by screen readers for accessibility.",
+    "tag": "html"
+  },
+  {
+    "question": "What is the difference between the <strong> and <em> tags?",
+    "answer": "The <strong> tag is used to indicate strong importance, while the <em> tag is used to indicate emphasis. The two tags are often displayed in the same way by default, but they have different semantic meanings.",
+    "tag": "html"
+  },
+  {
+    "question": "What is the difference between the <ul> and <ol> tags?",
+    "answer": "The <ul> tag is used to create an unordered list, while the <ol> tag is used to create an ordered list.",
+    "tag": "html"
+  },
+  {
+    "question": "What is a data attribute in HTML?",
+    "answer": "A data attribute is an HTML attribute that begins with the prefix 'data-'. It can be used to store custom data in an HTML element for use in JavaScript or CSS.",
+    "tag": "html"
+  },
+  {
+    "question": "What is the purpose of the <meta> tag?",
+    "answer": "The <meta> tag is used to provide metadata about an HTML document, such as the character encoding, viewport settings, or author information.",
+    "tag": "html"
+  },
+  {
+    "question": "What is the difference between HTML and XHTML?",
+    "answer": "XHTML is a stricter version of HTML that follows the rules of XML. It requires well-formed markup, such as closing all tags, using lowercase tag names, and using attribute values within quotes.",
+    "tag": "html"
+  },
+  {
+    "question": "What is the purpose of the HTML5 <video> element?",
+    "answer": "The <video> element is used to embed video content on a web page. It allows developers to specify video sources, controls, captions, and other settings.",
+    "tag": "html"
+  },
+  {
+    "question": "What is the purpose of the href attribute in the <a> tag?",
+    "answer": "The href attribute is used to specify the URL or web address of the page or resource that the <a> tag links to. It is required for the <a> tag to function as a hyperlink.",
+    "tag": "html"
+  },
+  {
+    "question": "What are the different types of CSS selectors?",
+    "answer": "There are several types of CSS selectors, including element selectors, class selectors, ID selectors, attribute selectors, and pseudo-class selectors.",
+    "tag": "css"
+  },
+  {
+    "question": "What is the difference between margin and padding?",
+    "answer": "Margin is the space between an element's border and the next element, while padding is the space between an element's content and its border.",
+    "tag": "css"
+  },
+  {
+    "question": "What is the difference between the display and visibility properties in CSS?",
+    "answer": "The display property determines how an element is displayed on the page, while the visibility property determines whether an element is visible or not.",
+    "tag": "css"
+  },
+  {
+    "question": "What is the purpose of the position property in CSS?",
+    "answer": "The position property is used to control the positioning of an element on the page. It can be set to static, relative, absolute, or fixed.",
+    "tag": "css"
+  },
+  {
+    "question": "What is a CSS preprocessor?",
+    "answer": "A CSS preprocessor is a scripting language that extends the capabilities of CSS, such as variables, mixins, functions, and loops. Examples of CSS preprocessors include Sass, Less, and Stylus.",
+    "tag": "css"
+  },
+  {
+    "question": "What is the difference between the :nth-child() and :nth-of-type() selectors?",
+    "answer": "The :nth-child() selector selects elements based on their position in the parent element, regardless of their type. The :nth-of-type() selector selects elements based on their position in the parent element and their type.",
+    "tag": "css"
+  },
+  {
+    "question": "What is a CSS framework?",
+    "answer": "A CSS framework is a collection of pre-written CSS code that provides a standardized set of styles and layout options for building websites. Examples of CSS frameworks include Bootstrap, Foundation, and Materialize.",
+    "tag": "css"
+  },
+  {
+    "question": "What is the difference between the float and clear properties in CSS?",
+    "answer": "The float property is used to position an element to the left or right of its parent container. The clear property is used to ensure that no element floats next to the specified element on the same side.",
+    "tag": "css"
+  },
+  {
+    "question": "What is the purpose of the calc() function in CSS?",
+    "answer": "The calc() function is used to perform arithmetic calculations in CSS, such as adding or subtracting values for width, height, padding, or margin. It can also be used with different units of measurement, such as pixels, ems, or percentages.",
+    "tag": "css"
+  },
+  {
+    "question": "What is the difference between the display: block and display: inline-block properties in CSS?",
+    "answer": "The display: block property makes an element a block-level element, which means it takes up the full width of its parent container and creates a new line after it. The display: inline-block property makes an element an inline-level block element, which means it takes up only as much width as necessary and does not create a new line after it. It allows other inline-level elements to be displayed on the same line next to it.",
+    "tag": "css"
+  },
+  {
+    "question": "What is a higher-order component (HOC) in React?",
+    "answer": "A higher-order component is a function that takes a component as an argument and returns a new component with enhanced functionality. HOCs are used to reuse logic between different components.",
+    "tag": "react"
+  },
+  {
+    "question": "What is the use of useRef in React Hooks?",
+    "answer": "useRef is one of the built-in React Hooks. It allows you to persist values between render. You can also use it to store a mutable value that does not cause a re-render when updated. You must pass the initial value inside the useRef, which returns a mutable ref object. The object has a property called current, where the value is persisted.",
+    "tag": "react"
+  },
+  {
+    "question": "What is the use of the useCallback hook?",
+    "answer": "useCallback is one of the react hooks used to prevent functions declared within the body of function components from being recreated on every render.",
+    "tag": "react"
+  },
+  {
+    "question": "What is the use of the useMemo hook?",
+    "answer": "The useMemo hook is used to memoise an expensive operation that we give it. The term memoise refers to remembering past values that have already been computed.",
+    "tag": "react"
+  },
+  {
+    "question": "What is the use of useContext Hook",
+    "answer": "The useContext hook removes the unusual-looking render props pattern that was required in consuming React Context before.Instead, useContext gives us a simple function to access the data we provided on the value prop of the Context Provider in any child component.",
+    "tag": "react"
+  },
+  {
+    "question": "What is the use of useReducer Hook",
+    "answer": "useReducer is an alternative to the useState Hook ,it helps users manage complex state logic. When combined with other hooks such as useContext it can be a good alternative to Redux.",
+    "tag": "react"
+  },
+  {
+    "question": "What is Next.js?",
+    "answer": "Next.js is a React-based web framework that enables server-side rendering, automatic code splitting, and easy configuration of client-side and server-side functionalities. It is designed to help developers build performant, scalable, and SEO-friendly web applications quickly and easily.",
+    "tag": "next.js"
+  },
+  {
+    "question": "What is a Higher-Order Component in React?",
+    "answer": "A Higher-Order Component is a function that takes a component as an argument and returns a new component. It is used to share common functionality between components and reduce code duplication.",
+    "tag": "react"
+  },
+  {
+    "question": "What is Context in React?",
+    "answer": "Context is a feature in React that allows you to share data between components without having to pass it down through props. It is useful for sharing global data such as user preferences or theme settings.",
+    "tag": "react"
+  },
+  {
+    "question": "What is the purpose of the ReactDOM library in React?",
+    "answer": "ReactDOM is a library that provides methods for rendering React components to the DOM. It is used to manipulate the actual DOM based on the virtual DOM updates made by React components.",
+    "tag": "react"
+  },
+  {
+    "question": "What is the difference between shallow rendering and full rendering in React?",
+    "answer": "Shallow rendering in React only renders the current component and does not render its child components. Full rendering, on the other hand, renders the entire component tree including all child components.",
+    "tag": "react"
+  },
+  {
+    "question": "What is the significance of the constructor method in React components?",
+    "answer": "The constructor method is used to initialize the state of a component and bind methods to the component instance. It is called before the component is mounted and is used to set up the initial state and other variables.",
+    "tag": "react"
+  },
+  {
+    "question": "What is the significance of the render() method in React components?",
+    "answer": "The render() method is the only required method in a React component. It is responsible for rendering the component to the DOM based on the current state and props of the component.",
+    "tag": "react"
+  },
+  {
+    "question": "What is the significance of the setState() method in React?",
+    "answer": "The setState() method is used to update the state of a component and trigger a re-render of the component. It takes an object as an argument and merges it with the current state of the component.",
+    "tag": "react"
+  },
+  {
+    "question": "What is the significance of the props.children property in React?",
+    "answer": "The props.children property in React represents the content between the opening and closing tags of a component. It allows you to pass arbitrary content to a component as children.",
+    "tag": "react"
+  },
+  {
+    "question": "What is React.memo() and how is it used?",
+    "answer": "React.memo() is a higher-order component in React that memoizes the result of a component function. It is used to optimize the performance of functional components by preventing unnecessary re-renders when the props of the component have not changed.",
+    "tag": "react"
+  },
+  {
+    "question": "What is the useReducer hook in React and how is it used?",
+    "answer": "The useReducer hook is a state management hook in React that allows you to manage state using a reducer function. It is used to handle complex state logic and allows you to update state in a predictable and immutable way.",
+    "tag": "react"
+  },
+  {
+    "question": "What are the benefits of using Next.js?",
+    "answer": "Some benefits of using Next.js include: \n- Server-side rendering for faster page load times and better SEO \n- Automatic code splitting for optimized page loading \n- Built-in support for static site generation \n- Easy configuration of client-side and server-side functionalities \n- Seamless integration with React and other front-end libraries \n- Rich set of features for building complex web applications",
+    "tag": "next.js"
+  },
+  {
+    "question": "What is server-side rendering?",
+    "answer": "Server-side rendering is the process of generating HTML content on the server and sending it to the client, instead of relying solely on client-side JavaScript to render the page. This can lead to faster page load times, improved SEO, and better accessibility.",
+    "tag": "next.js"
+  },
+  {
+    "question": "What is code splitting?",
+    "answer": "Code splitting is the process of breaking up a large JavaScript bundle into smaller, more manageable chunks that can be loaded on demand. This can improve page loading times and reduce the amount of unnecessary code that needs to be downloaded by the client.",
+    "tag": "next.js"
+  },
+  {
+    "question": "What is the difference between static site generation and server-side rendering?",
+    "answer": "Static site generation is the process of generating a set of static HTML files at build time, which can be served directly to the client without any server-side processing. Server-side rendering, on the other hand, generates HTML content on the server at runtime and sends it to the client. Static site generation is typically faster than server-side rendering, but it may not be suitable for applications that require dynamic content or user interactions.",
+    "tag": "next.js"
+  },
+  {
+    "question": "How do you configure client-side and server-side functionality in Next.js?",
+    "answer": "Next.js provides a simple configuration system that allows you to specify which code should be run on the server and which should be run on the client. You can use the getInitialProps function to fetch data on the server and pass it down to the client, or you can use the useEffect hook to fetch data on the client after the page has loaded.",
+    "tag": "next.js"
+  },
+  {
+    "question": "What is the _app.js file in Next.js?",
+    "answer": "The _app.js file is a special file in Next.js that allows you to customize the page layout and behavior for your entire application. It is used to wrap all other pages in your application and provides a common place to define global styles, third-party libraries, and other application-wide functionality.",
+    "tag": "next.js"
+  },
+  {
+    "question": "What is the getStaticProps function in Next.js?",
+    "answer": "The getStaticProps function is a built-in method in Next.js that allows you to fetch data at build time and pass it down to your pages as props. This can be useful for pre-rendering dynamic content and improving page load times.",
+    "tag": "next.js"
+  },
+  {
+    "question": "What is the getServerSideProps function in Next.js?",
+    "answer": "The getServerSideProps function is a built-in method in Next.js that allows you to fetch data on the server and pass it down to your pages as props. This can be useful for server-rendering dynamic content that changes frequently.",
+    "tag": "next.js"
+  },
+  {
+    "question": "What is the difference between getStaticProps and getServerSideProps?",
+    "answer": "getStaticProps is used for pre-rendering pages at build time, while getServerSideProps is used for server-side rendering at runtime. getStaticProps is typically faster and more efficient, but it may not be suitable for applications that require real-time data or dynamic content."
+  },
+  {
+    "question": "What are some best practices for optimizing Next.js applications?",
+    "answer": "Some best practices for optimizing Next.js applications include: \n- Using static site generation or server-side rendering to improve page load times \n- Minimizing the size of your JavaScript and CSS bundles \n- Caching data where possible to reduce the number of API requests \n- Using efficient data fetching methods such as getStaticProps or getServerSideProps \n- Compressing images and other media assets to reduce file size",
+    "tag": "next.js"
+  },
+  {
+    "question": "What is the purpose of the pages directory in Next.js?",
+    "answer": "The pages directory is where you define your application's pages and routes in Next.js. Each file in the pages directory corresponds to a different route in your application. For example, a file named index.js in the pages directory would be the home page of your application.",
+    "tag": "next.js"
+  },
+  {
+    "question": "What is the difference between a component and a page in Next.js?",
+    "answer": "A component is a reusable piece of UI code that can be used on multiple pages in your application. A page, on the other hand, is a specific route in your application that is defined in the pages directory. Each page in your application can be made up of one or more components.",
+    "tag": "next.js"
+  },
+  {
+    "question": "What is the purpose of the next/image component in Next.js?",
+    "answer": "The next/image component is a built-in component in Next.js that allows you to optimize and serve images on your pages. It automatically resizes and compresses images based on the device and viewport size, and it uses a lazy-loading technique to improve page load times.",
+    "tag": "next.js"
+  },
+  {
+    "question": "What is the purpose of the next/head component in Next.js?",
+    "answer": "The next/head component is a built-in component in Next.js that allows you to modify the head section of your HTML document. This can be used to add metadata, custom stylesheets, scripts, and other content to your pages.",
+    "tag": "next.js"
+  },
+  {
+    "question": "What is the purpose of the next/link component in Next.js?",
+    "answer": "The next/link component is a built-in component in Next.js that allows you to create links between pages in your application. It automatically prefetches pages in the background to improve page loading times and provides a seamless navigation experience for users.",
+    "tag": "next.js"
+  },
+  {
+    "question": "What is the difference between client-side and server-side routing in Next.js?",
+    "answer": "Client-side routing is the process of changing the URL and updating the page content on the client-side without making a new request to the server. Server-side routing, on the other hand, involves making a new request to the server for each new page or route in your application. Next.js supports both client-side and server-side routing, and you can configure your application to use one or the other depending on your needs.",
+    "tag": "next.js"
+  },
+
+  {
+    "question":"How does the virtual Dom in React.js work?"  ,
+    "answer": "React uses a virtual DOM (Document Object Model) to optimize updates and rendering.The virtual DOM is a lightweight in-memory representation of the actual DOM. When the state of a component changes, React compares the virtual DOM with the actual DOM and only makes changes to the actual DOM where necessary, which is much more efficient than re- rendering the entire page."  ,
+    "tag":"react"
+  },
+  {
+    "question":"What is the component lifecycle in React.js?",
+    "answer":"The component lifecycle in React.js refers to the different stages a component goes through, from its creation to its destruction.The main lifecycle methods include:1. componentDidMount: executed after the first render 2. componentDidUpdate: executed after each update.3. componentWillUnmount: executed before the component is removed from the DOM.",
+    "tag":"react"
+  }
+]

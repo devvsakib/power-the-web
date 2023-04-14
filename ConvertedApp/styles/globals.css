@@ -1,0 +1,72 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+html {
+  background: #521fa5;
+}
+
+body {
+  font-family: "Dosis";
+
+  background: #09465e;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(13deg,
+      #521fa5,
+      #b700ffb9 30%,
+      rgba(181, 10, 248, 0.4) 100%);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(90deg,
+      rgb(15, 28, 128, .3) 0%,
+      rgba(181, 10, 248, 0.4) 100%);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  display: grid;
+  place-items: center;
+}
+
+.skeleton {
+  margin: 0 auto;
+  animation: skeleton 1s infinite alternate;
+}
+
+@keyframes skeleton {
+  0% {
+    background: #421ad3;
+  }
+
+  100% {
+    background: #e912de;
+  }
+}
+
+.ptw-grad {
+  background: linear-gradient(90deg, #521fa5, #e912de) !important;
+}
+
+.ptw-grad:hover {
+  background: linear-gradient(-90deg, #521fa5, #e912de) !important;
+}
+
+.ptwa-producthunt {
+  width: 300px;
+  height: 32px !important;
+}
+
+.socialIcon {
+  @apply w-8 h-8 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main{
+  flex: 1;
+}
