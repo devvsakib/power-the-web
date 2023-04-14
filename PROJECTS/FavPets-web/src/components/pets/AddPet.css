@@ -1,0 +1,16 @@
+.mainModal {
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	display: flex;
+	justify-content: center;
+	z-index: 999;
+	background-color: hsl(var(--nf, var(--n)) / var(--tw-bg-opacity));
+	--tw-bg-opacity: 0.6;
+	transition-duration: 200ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	transition-property: transform, opacity;
+	overflow-y: hidden;
+}
