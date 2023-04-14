@@ -1,0 +1,113 @@
+.main{
+    width: 100%;
+    height: 100%;
+    min-width: 100%;
+    background-color: #FBFACD;
+}
+.outer-container{
+    width: 100%;
+    min-width: 100%;
+    /* height: 100%; */
+    display: flex;
+    padding-top: 200px;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #FBFACD;
+
+}
+.visible{
+    display: flex;
+}
+.arrow{
+    /* position: absolute;
+    top: 55px;
+    left: 50px; */
+    height: 45px;
+    width: 70px;
+    background-color: red;
+    padding: 5px 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 90px;
+}
+.arrow .MuiSvgIcon-root{
+    
+    color: white;
+    font-size: 50px;
+    
+    
+}
+.screen{
+    width:auto;
+display: flex;
+flex-wrap: wrap;
+padding: 50px;
+/* gap: 500px; */
+justify-content: space-evenly;
+/* flex-direction: column; */
+}
+.screen .old,.screen .result{
+    display: flex;
+    font-family: cursive;
+    gap: 10px;
+    padding: 30px;
+}
+.old h1,.result h1{
+    padding: 10px;
+}
+.old  .scroll,.result .scroll{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 30px;
+    width: auto;
+    max-width: 400px;
+    height: 60px;
+    padding: 10px;
+    background-color: white;
+    scroll-behavior: smooth;
+    overflow-x: auto;
+    overflow-y: hidden;
+    text-align: center;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #FBFACD; 
+    
+}
+.Success-header{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size:50px;
+    font-weight: 600;
+    color: green;
+    font-family: cursive;
+
+}
+.Success-header .MuiSvgIcon-root{
+    font-size: 80px;
+    color: white;
+    background-color: green;
+    border-radius: 50px;
+    /* display: flex; */
+    margin: 5px;
+    flex-direction: row;
+
+}
+.Success-header .right{
+    padding-top:20px;
+    padding-right: 20px;
+
+}
