@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+.home {
+  width: 100vw;
+  min-height: 100vh;
+  background-image: url(resources/pic1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  gap: 70px;
+  margin: 0 auto;
+}
+.content {
+  width: 500px;
+}
+.content h1 {
+  font-weight: 700;
+  font-size: 47px;
+}
+.content h3 {
+  font-weight: 500;
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+.btn {
+  border: none;
+  border-radius: 50px;
+  padding: 15px 25px;
+  background-color: #ff4248;
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+}
+.free {
+  padding: 20px 30px;
+  margin-top: 15px;
+}
+.free:focus {
+  outline: none;
+}
+@media (max-width: 1016px) {
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 940px) {
+  .container {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2rem;
+    gap: 20px;
+  }
+  .content {
+    width: 60%;
+    margin: 0 auto;
+  }
+  .content h1 {
+    font-size: 30px;
+  }
+  .content h3 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 596px) {
+  .home {
+    min-height: 60vh;
+  }
+}

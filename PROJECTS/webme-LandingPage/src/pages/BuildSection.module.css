@@ -1,0 +1,57 @@
+.build {
+  /* height: 100vh; */
+  font-family: "Roboto", sans-serif;
+  padding: 8rem 2rem 3rem 2rem;
+  position: relative;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 3rem;
+  margin-bottom: 1rem;
+}
+.image {
+  width: 500px;
+}
+.image img {
+  width: 100%;
+  object-fit: cover;
+}
+.content {
+  width: 500px;
+  align-self: center;
+  margin-top: -60px;
+}
+.content h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.content p {
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+.content .link {
+  font-size: 1rem;
+  /* text-decoration: underline; */
+  color: #ff3f43;
+  font-weight: 700;
+}
+.green {
+  position: absolute;
+  right: 0;
+  top: 0;
+  /* z-index: -10; */
+}
+
+.red {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  /* z-index: -10; */
+}

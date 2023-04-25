@@ -1,0 +1,43 @@
+.easy {
+  min-height: 100vh;
+  width: 100vw;
+  font-family: "Roboto", sans-serif;
+  background-image: url(resources/easy.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 20px;
+}
+.easy h2 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  text-align: center;
+  padding-top: 4rem;
+}
+.easy p {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.card {
+  width: 250px;
+}
+.card img {
+  width: 240px;
+  height: 181px;
+}
+.card h3 {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.container {
+  margin-top: 40px;
+}

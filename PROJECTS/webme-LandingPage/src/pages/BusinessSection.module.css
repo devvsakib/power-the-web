@@ -1,0 +1,49 @@
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.business {
+  background-image: url(resources/businessback.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 60vh;
+  padding-bottom: 3rem;
+}
+.business h2 {
+  color: black;
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 10vh;
+}
+.business p {
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-align: center;
+}
+.business span {
+  font-weight: 700;
+}
+.btn {
+  text-align: center;
+  margin-top: 3rem;
+}
+.button {
+  text-align: center;
+  background-color: black;
+  padding: 20px 80px;
+  border-radius: 50px;
+}
+
+.button a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.button:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+.button a:hover {
+  color: white;
+}
