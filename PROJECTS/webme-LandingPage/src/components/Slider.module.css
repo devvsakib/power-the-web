@@ -1,0 +1,16 @@
+.img-container {
+  width: 450px;
+  height: 350px;
+  border-radius: 10px;
+}
+.img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+@media (max-width: 596px) {
+  .img-container {
+    width: 300px;
+    height: 250px;
+  }
+}
