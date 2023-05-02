@@ -1,0 +1,172 @@
+.blog {
+  font-family: "Roboto", sans-serif;
+  width: 100vw;
+}
+.navbar {
+  min-height: 13vh;
+  background-color: #ffe300;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  width: 80%;
+  margin: 3rem auto;
+}
+.head {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.blog-para {
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.5;
+  width: 85%;
+  text-align: justify;
+  margin: 1.5rem 0;
+}
+.blog-para span {
+  color: rgba(29, 161, 242, 1);
+}
+.icons img {
+  width: 40px;
+  height: 40px;
+}
+.fb {
+  background-color: rgba(66, 103, 178, 1);
+}
+.insta {
+  background-color: rgba(225, 48, 108, 1);
+}
+.twit {
+  background-color: rgba(29, 161, 242, 1);
+}
+.image1 {
+  width: 90%;
+  height: 90%;
+  object-fit: cover;
+  margin: 2rem 0;
+}
+h3 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.blog-green {
+  background-color: rgba(163, 243, 162, 1);
+  width: 90%;
+  padding: 1.3rem 1.6rem;
+  line-height: 1.5;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+h4 {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.blog-para1 {
+  width: 90%;
+  font-size: 18px;
+  font-weight: 300;
+}
+.blog-para1 a {
+  color: black;
+  text-decoration: underline;
+}
+
+.blog-red li {
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 1rem;
+}
+.number {
+  border: solid 1px black;
+  border-radius: 50%;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  margin-right: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.blog-red {
+  color: rgba(255, 66, 72, 1);
+  font-weight: 700;
+}
+
+.btn {
+  background-color: #ff4248;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 20px 80px;
+  border-radius: 50px;
+  transition: all 0.3s;
+  margin: 1rem 0;
+}
+.btn:hover {
+  background-color: #f63940;
+  cursor: pointer;
+}
+.tick {
+  border: solid 1px black;
+  border-radius: 50%;
+  padding: 3px;
+  width: 30px;
+  height: 30px;
+  margin-right: 1rem;
+}
+.blog-tick li {
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 1rem;
+}
+.blog-yellow {
+  background-color: rgba(255, 231, 14, 1);
+
+  width: 90%;
+  padding: 1.3rem 1.6rem;
+  line-height: 1.5;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+.accordian {
+  margin: 3rem 0;
+}
+.greenline {
+  position: absolute;
+  top: 100px;
+  right: 0;
+  z-index: -10;
+}
+.redline {
+  position: absolute;
+  width: 130px;
+  top: 300px;
+  left: 0;
+  z-index: -10;
+}
+.image2 {
+  width: 100%;
+}
+@media (max-width: 490px) {
+  .btn {
+    padding: 15px 40px;
+  }
+}

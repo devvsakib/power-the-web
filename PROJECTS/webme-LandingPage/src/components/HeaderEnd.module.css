@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+  margin: 50px auto;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  width: 250px;
+}
+.logo {
+  width: 70px;
+  height: 70px;
+  padding: 0 10px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.45);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 596px) {
+  .container {
+    display: none;
+  }
+}

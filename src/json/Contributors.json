@@ -1,5 +1,6 @@
 {
-  "profiles": [{
+  "profiles": [
+    {
       "name": "DevvSakib",
       "avatarUrl": "https://avatars.githubusercontent.com/u/88339569?v=4",
       "github": "devvsakib",
@@ -565,6 +566,28 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/94789216?v=4",
       "github": "Srujan1527",
       "twitter": ""
+    },
+    {
+      "name": "Dian Rahmadani",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/20562116?v=4",
+      "github": "madiajijah11",
+      "twitter": "rappwalk",
+      "projects": [
+        "https://github.com/devvsakib/power-the-web/tree/main/PROJECTS/FavPets-api",
+        "https://github.com/devvsakib/power-the-web/tree/main/PROJECTS/FavPets-web"
+      ]
+    },
+    {
+      "name": "Vikas Parmar",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/36152918?s=400",
+      "github": "visparmar",
+      "twitter": ""
+    },
+    {
+      "name": "Syed Moazam Ali",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/107930498?v=4",
+      "github": "MoazamAli45",
+      "twitter": "Syed Moazam ALi"
     }
   ]
 }

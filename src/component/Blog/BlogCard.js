@@ -4,7 +4,7 @@ const BlogCard = ({card, idx}) => {
     return (
         <div
             key={idx}
-            className=" bg-white/10 backdrop-blur-[10px] text-white rounded"
+            className=" hover:scale-105 transition-all duration-200 ease-linear bg-white/10 backdrop-blur-[10px] text-white rounded"
         >
             <div className=" md:h-[400px] flex flex-col justify-between rounded overflow-hidden shadow-lg">
                 <div>

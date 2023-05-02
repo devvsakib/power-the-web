@@ -1,0 +1,29 @@
+.success {
+  min-height: 100vh;
+  background-image: url(resources/pic5.jpg);
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.success h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 4rem;
+  color: white;
+}
+.success .para {
+  color: white;
+  text-align: center;
+  font-size: 1.2rem;
+  /* margin-top: -20px; */
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+@media (max-width: 786px) {
+  .success {
+    height: 80vh;
+  }
+}

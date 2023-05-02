@@ -1,0 +1,44 @@
+.navbar {
+  min-height: 13vh;
+  background-color: #ffe300;
+  font-family: "Roboto", sans-serif;
+}
+.main {
+  margin: 3rem 2rem;
+}
+.head {
+  font-size: 3rem;
+  margin-left: 11rem;
+  margin-bottom: 2rem;
+}
+.image {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.image img {
+  max-width: 900px;
+  border-radius: 20px;
+}
+
+@media (max-width: 930px) {
+  .head {
+    margin-left: 4rem;
+    font-size: 2rem;
+  }
+  .image {
+    width: 85%;
+    margin: 0 auto;
+  }
+  .image img {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 450px) {
+  .head {
+    margin-left: 1rem;
+    font-size: 1.5rem;
+  }
+}

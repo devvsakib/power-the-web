@@ -1,0 +1,44 @@
+.-container{
+    height: 270px;
+    width: 150px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    flex-wrap: wrap;
+    border-radius: 20px;
+}
+.inner-cont{
+    background-color: white;
+    height: 200px;
+    width: 100px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.old > h1 ,.result > h1{
+    font-style: italic;
+}
+.inner-cont h2{
+    font-size: 100px;
+}
+.cross{
+    display: flex;
+    padding-left: 90px;
+    cursor: pointer;
+}
+.cross .MuiSvgIcon-root{
+    color: black;
+    font-size: 30px;
+   
+   
+
+}
+.cross .MuiSvgIcon-root:hover{
+    color: white;
+    background-color: red;
+    
+}

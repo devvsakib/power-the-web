@@ -1,0 +1,38 @@
+.faq {
+  min-height: 90vh;
+  position: relative;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.faq h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 3rem;
+}
+.faq .para1 {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-weight: 300;
+}
+.red {
+  position: absolute;
+  right: 0;
+  top: 0;
+  /* z-index: -10; */
+}
+.yellow {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  /* z-index: -10; */
+}
+.accordian {
+  width: 85%;
+  margin: 4rem auto;
+}

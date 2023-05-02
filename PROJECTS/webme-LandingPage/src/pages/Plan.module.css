@@ -1,0 +1,87 @@
+.plan {
+  min-height: 110vh;
+  width: 100vw;
+  font-family: "Roboto", sans-serif;
+  position: relative;
+}
+.plan-heading {
+  font-size: 3rem;
+  text-align: center;
+  margin: 4rem 0 3rem 0;
+}
+.plan-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  flex-basis: 33%;
+  width: 80%;
+  margin: 0 auto;
+  gap: 30px;
+}
+.card {
+  width: 300px;
+  /* height: 420px; */
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0px 12px 40px rgba(121, 107, 167, 0.25);
+  padding: 15px 20px 15px 20px;
+}
+.card p {
+  width: 70%;
+}
+.card .price {
+  font-size: 2.5rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /* margin-top: -5px; */
+}
+.light {
+  color: #5d5f66;
+  /* margin-top: -20px; */
+  margin-bottom: 10px;
+}
+.btn {
+  border: none;
+  border-radius: 50px;
+  width: 90%;
+
+  padding: 15px 25px;
+  background-color: #000000;
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+}
+ul {
+  list-style: none;
+  font-weight: 400;
+}
+li {
+  margin: 10px;
+}
+li img {
+  margin-right: 20px;
+}
+.end {
+  margin: 30px auto 20px auto;
+  margin-top: 40px;
+  text-align: center;
+}
+.endlink {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 500;
+  text-align: center;
+}
+.green {
+  position: absolute;
+  bottom: -25px;
+  z-index: -10;
+}
+@media (max-width: 672px) {
+  .plan-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
