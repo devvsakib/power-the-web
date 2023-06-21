@@ -588,6 +588,15 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/107930498?v=4",
       "github": "MoazamAli45",
       "twitter": "Syed Moazam ALi"
+    },
+    {
+      "name": "Aziz Limonu",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/106480374?v=4",
+      "github": "azizlimonu",
+      "twitter": "",
+      "projects": [
+        "https://github.com/devvsakib/power-the-web/tree/main/PROJECTS/twitter-clone"
+      ]
     }
   ]
 }
