@@ -1,0 +1,100 @@
+<!-- events.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Soccer Club - Events</title>
+  
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="Image/logo.jpg" alt="Soccer Club Logo">
+                <h1>Soccer Club</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="AddEvent.html">Add Events</a></li>
+                <li><a href="Recentevets.html">Recent Events</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="burger" onclick="toggleMenu()">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+    
+
+    <section class="container">
+        <h2>Add Events</h2>
+        <form id="eventsForm">
+            <label for="eventName">Add Name:</label>
+            <input type="text" id="eventName" name="eventName" required>
+    
+            <label for="eventDate">Event Date:</label>
+            <input type="date" id="eventDate" name="eventDate" required>
+    
+            <label for="eventType">Event Type:</label>
+            <select id="eventType" name="eventType" required>
+                <option value="tournament">Tournament</option>
+                <option value="friendly">Friendly Match</option>
+                <option value="training">Training Session</option>
+            </select>
+    
+            <div class="event-time">
+                <label>Event Time:</label>
+                <input type="radio" id="morning" name="eventTime" value="morning" required>
+                <label for="morning">Morning</label>
+    
+                <input type="radio" id="afternoon" name="eventTime" value="afternoon" required>
+                <label for="afternoon">Afternoon</label>
+            </div>
+    
+            <label for="subscribe">Subscribe for Updates:</label>
+            <input type="checkbox" id="subscribe" name="subscribe" value="subscribe">
+    
+            <label for="participants">Number of Participants:</label>
+            <input type="number" id="participants" name="participants" min="1" max="100" required>
+    
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+    
+    <section id="footer">
+
+        <div class="footer container">
+            <div class="brand"><h1><span> Non Profit Soccer Club <span></h1></div>
+              <h2>Your Complete Guide Here</h2>
+              <div class="social-icon">
+                  <div class="social-item">
+                      <a href="#"><img src="Image/fbicon.png"></a>
+                  </div>
+    
+                  <div class="social-item">
+                    <a href="#"><img src="Image/instagram-new--v1.png"></a>
+                </div>
+    
+                <div class="social-item">
+                    <a href="#"><img src="Image/linkedin-circled--v1.png"></a>
+                </div>
+    
+                <div class="social-item">
+                    <a href="#"><img src="Image/twitter--v1.png"></a>
+                </div>
+                <p>Copyright @ 2023 Soccer. All rights reserved</p>
+              </div>
+        </div>
+    </section>
+    <script src="Script.js"></script>
+      
+
+
+</body>
+</html>
