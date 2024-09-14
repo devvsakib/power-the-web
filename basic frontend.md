@@ -120,10 +120,12 @@
 
 - [Can I Use](https://caniuse.com/) - provides up-to-date browser support tables;
 - [JSON Placeholder](http://jsonplaceholder.typicode.com/) - fake online REST API for testing and prototyping;
+- [JSONing API](https://jsoning.com/api/) - mock REST API using a JSON for prototyping;
 - [JSON Editor](https://jsoneditoronline.org/) - json online editor;
 - [JSON Utils](https://jsonutils.com/) - json generate classes service;
 - [Pythontutor](http://www.pythontutor.com/) - visualize code and get live help;
 - [Regex](https://regexr.com/) - online tool to learn, build, & test regular expressions;
+- [Visual Regex](https://extendsclass.com/regex-tester.html) - online visual regex tester;
 - [CDN JS](https://cdnjs.com/) - the best front-end resource CDN for free;
 - [HTML DOM](https://htmldom.dev/) - manage HTML DOM with vanilla JavaScript;
 - [FormValidation](https://formvalidation.io/) - best validation library for JavaScript;
