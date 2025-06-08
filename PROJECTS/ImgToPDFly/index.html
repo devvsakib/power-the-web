@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image to PDF Converter</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body class="bg-gray-50 min-h-screen">
+    <div class="container mx-auto px-4 py-8">
+        <!-- Header -->
+        <header class="text-center mb-12">
+            <h1 class="text-4xl font-bold text-blue-600 mb-2">ImgToPDFly</h1>
+            <p class="text-gray-600 text-lg">Convert your images to PDF or extract text</p>
+        </header>
+
+        <!-- Main Content -->
+        <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-md overflow-hidden">
+            <!-- Tabs -->
+            <div class="flex border-b">
+                <button id="imageToPdfTab" class="tab flex-1 py-4 px-6 text-center font-medium active">
+                    Image to PDF
+                </button>
+                <button id="textExtractionTab" class="tab flex-1 py-4 px-6 text-center font-medium">
+                    Extract Text from Images
+                </button>
+            </div>
+
+            <!-- Upload Section -->
+            <div class="p-8">
+                <div id="dropzone" class="dropzone rounded-lg p-12 text-center cursor-pointer mb-8">
+                    <div class="flex flex-col items-center justify-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 text-blue-500 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12" />
+                        </svg>
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Drag & Drop your images here</h3>
+                        <p class="text-gray-500 mb-4">or click to browse files</p>
+                        <input type="file" id="fileInput" class="hidden" accept="image/*" multiple>
+                        <button id="selectFilesBtn" class="bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-6 rounded-lg transition duration-200">
+                            Select Images
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Options (Image to PDF) -->
+                <div id="imageToPdfOptions" class="flex flex-wrap justify-between items-center mb-6">
+                    <div class="flex items-center space-x-4 mb-4 sm:mb-0">
+                        <div class="flex items-center">
+                            <input type="checkbox" id="compressOption" class="h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded">
+                            <label for="compressOption" class="ml-2 text-sm text-gray-700">Compress PDF</label>
+                        </div>
+                        <div class="flex items-center">
+                            <input type="checkbox" id="grayscaleOption" class="h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded">
+                            <label for="grayscaleOption" class="ml-2 text-sm text-gray-700">Grayscale</label>
+                        </div>
+                    </div>
+                    <div class="flex items-center">
+                        <label for="pageSize" class="mr-2 text-sm text-gray-700">Page Size:</label>
+                        <select id="pageSize" class="border border-gray-300 rounded-md px-3 py-1 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500">
+                            <option value="a4">A4</option>
+                            <option value="letter">Letter</option>
+                            <option value="legal">Legal</option>
+                            <option value="a5">A5</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Options (Text Extraction) -->
+                <div id="textExtractionOptions" class="hidden mb-6">
+                    <div class="flex flex-wrap items-center space-x-6">
+                        <div class="mb-4 sm:mb-0">
+                            <label for="languageSelect" class="block text-sm font-medium text-gray-700 mb-1">OCR Language:</label>
+                            <select id="languageSelect" class="border border-gray-300 rounded-md px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500">
+                                <option value="eng">English</option>
+                                <option value="spa">Spanish</option>
+                                <option value="fra">French</option>
+                                <option value="deu">German</option>
+                                <option value="chi_sim">Chinese (Simplified)</option>
+                                <option value="jpn">Japanese</option>
+                                <option value="ara">Arabic</option>
+                                <option value="rus">Russian</option>
+                            </select>
+                        </div>
+                        <div class="flex items-center">
+                            <input type="checkbox" id="preserveFormatting" class="h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded">
+                            <label for="preserveFormatting" class="ml-2 text-sm text-gray-700">Preserve formatting</label>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Preview Section -->
+                <div id="previewSection" class="hidden">
+                    <div class="flex justify-between items-center mb-4">
+                        <h3 class="text-lg font-medium text-gray-800">Selected Images</h3>
+                        <button id="clearAllBtn" class="text-red-500 hover:text-red-700 text-sm font-medium">Clear All</button>
+                    </div>
+                    <div id="imagePreviews" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 mb-6"></div>
+                </div>
+
+                <!-- Generate Button -->
+                <div class="text-center mt-8">
+                    <button id="generateBtn" class="hidden bg-gradient-to-r from-blue-600 to-blue-500 hover:from-blue-700 hover:to-blue-600 text-white font-bold py-3 px-8 rounded-full shadow-lg transition duration-200 transform hover:scale-105">
+                        Generate PDF
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- How It Works Section -->
+        <div class="max-w-4xl mx-auto mt-16">
+            <h2 class="text-2xl font-bold text-center text-gray-800 mb-8">How It Works</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-sm text-center">
+                    <div class="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <span class="text-blue-600 text-2xl font-bold">1</span>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2">Upload Images</h3>
+                    <p class="text-gray-600">Drag & drop or select multiple images from your device</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-sm text-center">
+                    <div class="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <span class="text-blue-600 text-2xl font-bold">2</span>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2">Customize Options</h3>
+                    <p class="text-gray-600">Choose between image PDF or text extraction with OCR</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-sm text-center">
+                    <div class="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <span class="text-blue-600 text-2xl font-bold">3</span>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2">Download PDF</h3>
+                    <p class="text-gray-600">Generate and download your PDF file instantly</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Loading Modal -->
+        <div id="loadingModal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 hidden">
+            <div class="bg-white rounded-xl p-8 max-w-sm w-full text-center">
+                <div class="animate-pulse mb-6">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 text-blue-500 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21a4 4 0 01-4-4V5a4 4 0 014-4h10a4 4 0 014 4v12a4 4 0 01-4 4H7z" />
+                    </svg>
+                </div>
+                <h3 id="loadingTitle" class="text-xl font-semibold text-gray-800 mb-2">Generating PDF</h3>
+                <p id="loadingSubtitle" class="text-gray-600 mb-6">Please wait while we create your document...</p>
+                <div class="w-full bg-gray-200 rounded-full h-2.5">
+                    <div id="progressBar" class="bg-blue-600 h-2.5 rounded-full" style="width: 0%"></div>
+                </div>
+                <div id="ocrStatus" class="mt-4 text-sm text-gray-500 hidden">
+                    Processing image <span id="currentImage">1</span> of <span id="totalImages">1</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Third party scripts -->
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tesseract.js@4/dist/tesseract.min.js"></script>
+    <!-- Main script -->
+    <script src="./scripts/main.js"></script>
+</body>
+</html>

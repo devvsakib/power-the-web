@@ -1,0 +1,51 @@
+.dropzone {
+    border: 2px dashed #9CA3AF;
+    transition: all 0.3s ease;
+}
+
+.dropzone.active {
+    border-color: #3B82F6;
+    background-color: #EFF6FF;
+}
+
+.image-preview {
+    transition: transform 0.2s ease;
+}
+
+.image-preview:hover {
+    transform: scale(1.03);
+}
+
+.remove-btn {
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+.image-container:hover .remove-btn {
+    opacity: 1;
+}
+
+@keyframes pulse {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+}
+
+.animate-pulse {
+    animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.tab {
+    transition: all 0.3s ease;
+}
+
+.tab.active {
+    background-color: #3B82F6;
+    color: white;
+}
